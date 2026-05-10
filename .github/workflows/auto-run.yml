@@ -2,47 +2,39 @@ name: Auto Update Gavang M3U
 
 on:
   schedule:
-    # Chạy mỗi tiếng 1 lần
     - cron: '0 * * * *'
-  
-  # Nút bấm chạy thủ công
   workflow_dispatch: 
 
 permissions:
-  contents: write # Cấp quyền ghi file
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Lấy code từ Repo về máy chủ GitHub
+      - name: Lấy code từ Repo về
         uses: actions/checkout@v4
 
-      - name: Cài đặt Python 3.11
+      - name: Cài đặt Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Cài đặt thư viện
+      - name: Cài đặt thư viện Playwright (Trình duyệt ảo)
         run: |
           python -m pip install --upgrade pip
-          pip install curl-cffi beautifulsoup4
+          pip install playwright beautifulsoup4
+          playwright install chromium
+          playwright install-deps
 
-      - name: Chạy Script lấy link M3U
-        # Nhớ đảm bảo file code Python của bác tên là main.py
+      - name: Chạy con Robot đi gom link
         run: python main.py
 
-      - name: Lưu và Đẩy file M3U lên lại GitHub
+      - name: Lưu và Đẩy file M3U
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Dùng "git add ." để gom tất cả file thay đổi. Nếu không có file m3u được tạo ra, lệnh này vẫn chạy bình thường không báo lỗi.
           git add .
-          
-          # Commit thay đổi. Khúc "|| exit 0" là bùa hộ mệnh giúp bỏ qua lỗi nếu không có gì để commit.
-          git commit -m "Tự động cập nhật M3U Gà Vàng [skip ci]" || exit 0
-          
-          # Đẩy file lên Github
+          git commit -m "Tự động cập nhật M3U [skip ci]" || exit 0
           git push
