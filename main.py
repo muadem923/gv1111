@@ -4,68 +4,43 @@ import re
 import codecs
 from datetime import datetime
 import json
+import urllib.parse
 
 # --- CẤU HÌNH HỆ THỐNG GÀ VÀNG TV ---
 TARGET_URL = "https://xem1.gv08.live"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 def is_cloudflare(html):
-    """Kiểm tra xem HTML trả về có phải là trang chặn của Cloudflare không"""
     text = html.lower()
     return "cloudflare" in text or "just a moment" in text or "ray id" in text or "verify you are human" in text
 
-def fetch_html_bypass(url, proxy_dict=None):
-    """Hàm tải HTML, có hỗ trợ đeo mặt nạ Proxy"""
-    try:
-        kwargs = {"impersonate": "chrome120", "timeout": 15}
-        if proxy_dict: kwargs["proxies"] = proxy_dict
+def fetch_html_smart(url):
+    """Chiến thuật lách Cloudflare bằng các Cổng API trung chuyển"""
+    encoded_url = urllib.parse.quote(url, safe='/:?=&')
+    
+    # Danh sách 4 Cổng để thử lách luật
+    APIS = [
+        url,                                                 # 1. Đi cửa chính
+        f"https://api.codetabs.com/v1/proxy?quest={url}",    # 2. Cửa phụ CodeTabs
+        f"https://api.allorigins.win/raw?url={encoded_url}", # 3. Cửa phụ AllOrigins
+        f"https://corsproxy.io/?{encoded_url}"               # 4. Cửa phụ CorsProxy
+    ]
+    
+    for api in APIS:
+        name = "Cổng Trực Tiếp" if api == url else api.split('/')[2]
+        print(f"  -> Đang gọi cửa: {name} ...", end=" ")
+        try:
+            res = requests.get(api, impersonate="chrome120", timeout=20)
+            # Nếu trả về code 200, không dính Cloudflare và nội dung đủ dài thì lấy luôn
+            if res.status_code == 200 and not is_cloudflare(res.text) and len(res.text) > 1000:
+                print("✅ Lọt Khe Thành Công!")
+                return res.text
+            else:
+                print("❌ Bị chặn")
+        except Exception:
+            print("❌ Quá hạn (Timeout)")
             
-        res = requests.get(url, **kwargs)
-        # Chỉ trả về HTML nếu code = 200 và nội dung KHÔNG chứa chữ Cloudflare
-        if res.status_code == 200 and not is_cloudflare(res.text):
-            return res.text
-    except: pass
     return None
-
-def get_working_html_and_proxy(url):
-    """Tự động tìm và thử Proxy nếu bị Cloudflare chặn"""
-    print(f"🚀 Đang truy cập: {url}")
-    
-    # 1. Thử vào thẳng bằng IP của GitHub
-    html = fetch_html_bypass(url)
-    if html:
-        print("👉 Mạng ngon, vào thẳng không bị chặn!")
-        return html, None
-
-    # 2. Nếu bị chặn, kích hoạt chế độ dò Proxy
-    print("⚠️ Bị Cloudflare chặn! Đang tự động kéo Proxy Châu Á/VN để lách luật...")
-    try:
-        # Lấy danh sách Proxy miễn phí (HTTP)
-        api = "https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=5000&country=VN,SG,TH,HK&ssl=all&anonymity=all"
-        r = requests.get(api, timeout=10)
-        proxy_list = [p.strip() for p in r.text.split('\n') if p.strip() and ":" in p]
-    except:
-        proxy_list = []
-
-    if not proxy_list:
-        print("❌ Không kéo được danh sách Proxy.")
-        return None, None
-
-    print(f"👉 Kéo được {len(proxy_list)} cái mặt nạ (Proxy). Đang thử từng cái...")
-    
-    # Thử tối đa 15 cái proxy đầu tiên, cái nào sống thì dùng
-    for p in proxy_list[:15]:
-        print(f"  Đang thử Proxy: {p} ...", end=" ")
-        p_dict = {"http": f"http://{p}", "https": f"http://{p}"}
-        
-        html = fetch_html_bypass(url, proxy_dict=p_dict)
-        if html:
-            print("✅ VƯỢT RÀO THÀNH CÔNG!")
-            return html, p_dict
-        else:
-            print("❌ Xịt")
-            
-    return None, None
 
 def extract_match_info_from_html(html):
     soup = BeautifulSoup(html, 'html.parser')
@@ -85,10 +60,9 @@ def extract_match_info_from_html(html):
         except: pass
     return logo_url, time_str, time_sort
 
-def extract_all_m3u8(url, proxy_dict):
-    """Mổ xẻ trang con để lấy link video, dùng lại proxy đã vượt rào thành công"""
-    print(f"  Mổ xẻ luồng: {url}")
-    html = fetch_html_bypass(url, proxy_dict)
+def extract_all_m3u8(url):
+    print(f"\nMổ xẻ trận: {url}")
+    html = fetch_html_smart(url)
     if not html: return [], ""
     
     streams, seen = [], set()
@@ -127,18 +101,18 @@ def extract_all_m3u8(url, proxy_dict):
     return streams, html
 
 def get_matches():
-    # Gọi hàm bẻ khóa proxy cho trang chủ
-    html, proxy_dict = get_working_html_and_proxy(TARGET_URL)
+    print(f"🚀 Đang đột nhập trang chủ: {TARGET_URL}")
+    html = fetch_html_smart(TARGET_URL)
     
     if not html:
-        print("❌ Lỗi: Cả Proxy cũng bị chặn hoặc không tìm được Proxy sống!")
-        return [], None
+        print("❌ Lỗi: Toàn bộ Cổng trung chuyển đều bị Cloudflare chặn đứng!")
+        return []
         
     soup = BeautifulSoup(html, 'html.parser')
     matches = []
     
     all_links = soup.find_all('a', href=True)
-    print(f"👉 Đã luồn qua khiên, quét được {len(all_links)} link HTML thô.")
+    print(f"👉 Quét được {len(all_links)} link HTML thô.")
     
     for a_tag in all_links:
         href = a_tag['href']
@@ -158,11 +132,11 @@ def get_matches():
                     'time': '', 'logo': '', 'sort': datetime.now() 
                 })
     
-    print(f"👉 Lọc ra được {len(matches)} trận bóng.")
-    return matches, proxy_dict
+    print(f"👉 Lọc ra được {len(matches)} trận bóng hợp lệ.")
+    return matches
 
 def main():
-    matches, proxy_dict = get_matches()
+    matches = get_matches()
     if not matches: 
         print("❌ KHÔNG TÌM THẤY TRẬN NÀO! Dừng chương trình.")
         return
@@ -171,9 +145,7 @@ def main():
     count = 0
     
     for m in matches:
-        print(f"-> Đang mổ xẻ trận: {m['title']}")
-        # Truyền luôn cái proxy xài được vào hàm lấy m3u8 để không bị block giữa chừng
-        links, match_html = extract_all_m3u8(m['url'], proxy_dict)
+        links, match_html = extract_all_m3u8(m['url'])
         
         if links and match_html:
             logo, time_str, time_sort = extract_match_info_from_html(match_html)
