@@ -2,15 +2,14 @@ name: Auto Update Gavang M3U
 
 on:
   schedule:
-    # Cấu hình Cron chạy mỗi 1 tiếng 1 lần (vào phút thứ 0 của mỗi giờ)
-    # Lưu ý: Giờ của GitHub là giờ UTC.
+    # Chạy mỗi tiếng 1 lần
     - cron: '0 * * * *'
   
-  # Dòng này cho phép bác có một nút "Run workflow" để bấm chạy thử bằng tay lúc cần
+  # Nút bấm chạy thủ công
   workflow_dispatch: 
 
 permissions:
-  contents: write # Đảm bảo quyền ghi file
+  contents: write # Cấp quyền ghi file
 
 jobs:
   build:
@@ -20,30 +19,30 @@ jobs:
       - name: Lấy code từ Repo về máy chủ GitHub
         uses: actions/checkout@v4
 
-      - name: Cài đặt Python
+      - name: Cài đặt Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11' # Dùng bản Python mới để curl_cffi chạy mượt
+          python-version: '3.11'
 
-      - name: Cài đặt thư viện (Requirements)
+      - name: Cài đặt thư viện
         run: |
           python -m pip install --upgrade pip
           pip install curl-cffi beautifulsoup4
 
       - name: Chạy Script lấy link M3U
+        # Nhớ đảm bảo file code Python của bác tên là main.py
         run: python main.py
-        # Đổi chữ 'main.py' thành tên file code của bác nếu bác đặt tên khác
 
       - name: Lưu và Đẩy file M3U lên lại GitHub
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Add file m3u vừa được script tạo ra
-          git add gavang_live.m3u 
+          # Dùng "git add ." để gom tất cả file thay đổi. Nếu không có file m3u được tạo ra, lệnh này vẫn chạy bình thường không báo lỗi.
+          git add .
           
-          # Commit thay đổi. Lệnh || exit 0 giúp bỏ qua lỗi nếu 1 tiếng trôi qua mà file m3u không có gì mới
+          # Commit thay đổi. Khúc "|| exit 0" là bùa hộ mệnh giúp bỏ qua lỗi nếu không có gì để commit.
           git commit -m "Tự động cập nhật M3U Gà Vàng [skip ci]" || exit 0
           
-          # Đẩy file mới lên Repo
+          # Đẩy file lên Github
           git push
