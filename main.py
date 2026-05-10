@@ -1,57 +1,76 @@
 from playwright.sync_api import sync_playwright
 import json
+import time
 
-TARGET_URL = "https://xem1.gv08.live"
-# Có thể đổi lại thành xem1.gv03.live nếu gv08 bị sập
+# Có thể linh hoạt đổi sang xem1.gv03.live nếu gv08 bị khóa
+TARGET_URL = "https://xem1.gv08.live" 
 
 def handle_response(response):
-    """Máy nghe lén: Bắt toàn bộ các gói tin API và JSON trả về"""
     try:
-        # Lọc ra các gói tin có chứa dữ liệu JSON hoặc API
-        content_type = response.headers.get("content-type", "")
         url = response.url
-        
-        if "application/json" in content_type or ".json" in url or "api" in url.lower():
-            print(f"\n🎯 BẮT ĐƯỢC LINK API: {url}")
+        # Lọc bỏ các API rác của Google, Facebook để log cho sạch
+        if "google" in url or "facebook" in url or "cloudflare" in url:
+            return
             
-            # Cố gắng đọc thử 150 ký tự đầu tiên của cục dữ liệu xem có chữ "Gà Vàng", "Azzurri" hay tên đội bóng không
+        if "rapid-api" in url or "api" in url.lower() or ".json" in url:
+            print(f"\n🎯 TÓM ĐƯỢC API BÍ MẬT: {url}")
             try:
                 data = response.json()
-                data_str = json.dumps(data, ensure_ascii=False)
-                if len(data_str) > 20:
-                    print(f"   => Dữ liệu bên trong: {data_str[:150]}...")
-            except:
+                print(f"   => Dữ liệu (150 ký tự đầu): {json.dumps(data, ensure_ascii=False)[:150]}...")
+            except: 
                 pass
-                
-        # Nếu vô tình bắt được luôn link M3U8 thì báo ngay
-        if ".m3u8" in url:
-            print(f"\n🎬 QUÁ NGON! BẮT ĐƯỢC LINK VIDEO TRỰC TIẾP: {url}")
-    except:
+    except: 
         pass
 
 def main():
-    print("🕵️ ĐANG KÍCH HOẠT RADAR NGHE LÉN MẠNG (NETWORK INTERCEPTOR)...")
+    print("🕵️ ĐANG KÍCH HOẠT LỚP TÀNG HÌNH CHO ROBOT...")
     with sync_playwright() as p:
-        # Bật trình duyệt ẩn, gắn khiên chống phát hiện bot
-        browser = p.chromium.launch(headless=True, args=['--disable-blink-features=AutomationControlled'])
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                '--disable-blink-features=AutomationControlled',
+                '--disable-infobars',
+                '--no-sandbox',
+                '--window-size=1920,1080',
+            ]
         )
+        
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            viewport={'width': 1920, 'height': 1080},
+            locale="vi-VN",
+            timezone_id="Asia/Ho_Chi_Minh"
+        )
+        
         page = context.new_page()
         
-        # Gắn "máy nghe lén" vào trang web
+        # TIÊM MÃ ĐỘC: Xóa mọi dấu vết Robot trong lõi trình duyệt
+        page.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+            window.navigator.chrome = { runtime: {} };
+            Object.defineProperty(navigator, 'languages', { get: () => ['vi-VN', 'vi', 'en-US', 'en'] });
+            Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
+        """)
+        
+        # Gắn radar nghe lén
         page.on("response", handle_response)
         
-        print(f"👉 Đang cho Robot thâm nhập: {TARGET_URL}")
+        print(f"👉 Đang đột nhập lại vào: {TARGET_URL}")
         try:
-            page.goto(TARGET_URL, wait_until="networkidle", timeout=30000)
-            print("⏳ Đang nằm vùng đợi dữ liệu tải về (10 giây)...")
-            page.wait_for_timeout(10000)
+            page.goto(TARGET_URL, wait_until="domcontentloaded", timeout=30000)
+            
+            # Giả lập thao tác lướt web của người thật (Cuộn chuột)
+            print("⏳ Đang giả lập lướt web đánh lừa hệ thống (chờ 10 giây)...")
+            for i in range(5):
+                page.mouse.wheel(0, 600)
+                time.sleep(1)
+            
+            page.wait_for_timeout(5000)
         except Exception as e:
-            print(f"❌ Lỗi mạng: {e}")
+            print(f"❌ Lỗi truy cập: {e}")
         finally:
             browser.close()
-            print("\n✅ Kết thúc phiên nghe lén!")
+            print("\n✅ Rút quân. Kết thúc phiên nghe lén!")
 
 if __name__ == "__main__":
     main()
