@@ -6,7 +6,7 @@ from datetime import datetime
 import json
 
 # --- CẤU HÌNH HỆ THỐNG GÀ VÀNG TV ---
-TARGET_URL = "https://xem1.gv08.live"
+TARGET_URL = "hhttps://xem1.gv08.live/trang-chu"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 def parse_json_safely(text):
