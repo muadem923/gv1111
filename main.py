@@ -1,74 +1,82 @@
 import requests
+import re
 
-# Link M3U gốc của kho t23-02
 SOURCE_URL = "https://raw.githubusercontent.com/t23-02/bongda/refs/heads/main/bongda.m3u"
-
-# Chế bộ Header "Giấy thông hành" giả danh đang xem trên trình duyệt
-REFERER = "https://xem1.gv08.live/"
-ORIGIN = "https://xem1.gv08.live"
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+# Giữ User Agent dính liền để Tivi không bị cắt link
+USER_AGENT = "Mozilla/5.0_Windows_NT_10.0" 
 
 def main():
-    print("🚀 Đang đi chôm file M3U từ kho t23-02...")
+    print("🚀 Đang soi kính lúp kéo file M3U từ kho t23-02...")
     try:
         res = requests.get(SOURCE_URL, timeout=15)
         res.encoding = 'utf-8'
-        lines = res.text.splitlines()
+        content = res.text
     except Exception as e:
         print(f"❌ Lỗi mạng khi tải file gốc: {e}")
         return
 
-    print("🔪 Đang xào nấu, cắt riêng thịt Gà Vàng và bơm Header...")
+    # CHIÊU MỚI: Bổ toàn bộ file thành từng cục (mỗi cục là 1 trận đấu)
+    # Không đọc từng dòng nữa để tránh loạn nhịp
+    blocks = content.split("#EXTINF")
     
     out_lines = ["#EXTM3U"]
-    current_info = ""
     gavang_count = 0
     
-    for line in lines:
-        line = line.strip()
-        if not line: continue
+    # Bỏ qua cục đầu tiên vì nó chỉ là chữ #EXTM3U
+    for block in blocks[1:]:
+        block_lower = block.lower()
         
-        # Đọc thông tin trận đấu (thẻ EXTINF)
-        if line.startswith("#EXTINF"):
-            current_info = line
-            continue
+        # RADAR TẦM RỘNG: Quét có chữ gà, gavang, hoặc gv (bao gồm gv08, gv1111...)
+        if "gà" in block_lower or "gv" in block_lower or "gavang" in block_lower:
             
-        # Lọc bỏ mấy cái code cũ rác rưởi của file gốc
-        if line.startswith("#EXTVLCOPT"):
-            continue
+            # Tách cục này ra thành các dòng để lấy thông tin
+            lines = block.strip().splitlines()
+            first_line = lines[0] 
             
-        # Xử lý khi gặp link video
-        if line.startswith("http"):
-            if current_info:
-                # Dùng radar soi xem có phải họ nhà Gà Vàng không
-                info_lower = current_info.lower()
-                if "gà vàng" in info_lower or "gavang" in info_lower or "gà " in info_lower or "gv0" in line.lower():
-                    
-                    # 1. Cắt bỏ râu ria lộn xộn của link gốc (nếu có)
-                    clean_url = line.split("|")[0]
-                    
-                    # 2. XÀO NẤU: Ép cứng Header vào đuôi link bằng dấu |
-                    # App OTT nhìn thấy cái này bắt buộc phải ngoan ngoãn giả dạng trình duyệt
-                    fixed_url = f"{clean_url}|Referer={REFERER}&Origin={ORIGIN}&User-Agent={USER_AGENT}"
-                    
-                    # Đóng gói lại thành block mới xịn xò hơn
-                    out_lines.append(current_info)
-                    out_lines.append(f'#EXTVLCOPT:http-referer={REFERER}')
-                    out_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
-                    out_lines.append(fixed_url)
-                    
-                    gavang_count += 1
-                    
-            # Dọn dẹp để đón trận tiếp theo
-            current_info = ""
+            # 1. Bắt Logo và Tên trận
+            logo_match = re.search(r'tvg-logo="([^"]+)"', first_line)
+            logo_url = logo_match.group(1) if logo_match else "https://gavangtv.com/logo.png"
+            display_name = first_line.split(",")[-1].strip()
+            
+            # 2. KHÔNG DÙNG TÊN MIỀN CŨ NỮA - TÌM TÊN MIỀN ĐỘNG TỪ FILE GỐC
+            dynamic_referer = "https://gavang.tv/" # Dự phòng
+            clean_url = ""
+            
+            for line in lines:
+                # Soi xem thằng tay to kia đang dùng Referer gì (gv1111 hay gv08) thì chôm y hệt
+                if "http-referer=" in line.lower():
+                    ref_match = re.search(r'http-referer=(https?://[^\s]+)', line, re.I)
+                    if ref_match:
+                        dynamic_referer = ref_match.group(1)
+                        
+                # Lấy link stream video
+                if line.startswith("http"):
+                    # Gọt sạch sẽ cái đuôi | cũ đi để ép đuôi mới của mình vào
+                    clean_url = line.split("|")[0].strip()
+            
+            # 3. Ép gia vị chuẩn chỉ lên Tivi
+            if clean_url:
+                origin = dynamic_referer.rstrip('/')
+                # Cú pháp ép đuôi bất tử cho TiviMate / OTT Navigator
+                fixed_url = f"{clean_url}|Referer={dynamic_referer}&Origin={origin}&User-Agent={USER_AGENT}"
+                
+                out_lines.append(f'#EXTINF:-1 tvg-logo="{logo_url}", {display_name}')
+                out_lines.append(f'#EXTVLCOPT:http-referer={dynamic_referer}')
+                out_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
+                out_lines.append(fixed_url)
+                
+                gavang_count += 1
 
-    # Xuất thành phẩm
+    # CHỐT SỔ
     if gavang_count > 0:
         with open("gavang_live.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(out_lines))
-        print(f"🎉 Nấu xong! Trích xuất thành công {gavang_count} trận Gà Vàng đã fix lỗi chạy.")
+        print(f"🎉 Vét sạch! Trích xuất thành công {gavang_count} trận Gà Vàng.")
     else:
-        print("❌ Không tìm thấy Gà Vàng trong file gốc, hoặc nó đổi cấu trúc.")
+        error_m3u = "#EXTM3U\n#EXTINF:-1 tvg-logo=\"https://gavangtv.com/logo.png\", ❌ Lỗi: File gốc trắng trơn không có Gà Vàng\nhttps://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8"
+        with open("gavang_live.m3u", "w", encoding="utf-8") as f:
+            f.write(error_m3u)
+        print("❌ Radar không quét được trận nào, đã ép file cảnh báo.")
 
 if __name__ == "__main__":
     main()
