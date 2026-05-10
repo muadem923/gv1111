@@ -18,12 +18,11 @@ def fetch_html_smart(url):
     """Chiến thuật lách Cloudflare bằng các Cổng API trung chuyển"""
     encoded_url = urllib.parse.quote(url, safe='/:?=&')
     
-    # Danh sách 4 Cổng để thử lách luật
     APIS = [
-        url,                                                 # 1. Đi cửa chính
-        f"https://api.codetabs.com/v1/proxy?quest={url}",    # 2. Cửa phụ CodeTabs
-        f"https://api.allorigins.win/raw?url={encoded_url}", # 3. Cửa phụ AllOrigins
-        f"https://corsproxy.io/?{encoded_url}"               # 4. Cửa phụ CorsProxy
+        url,                                                 
+        f"https://api.codetabs.com/v1/proxy?quest={url}",    
+        f"https://api.allorigins.win/raw?url={encoded_url}", 
+        f"https://corsproxy.io/?{encoded_url}"               
     ]
     
     for api in APIS:
@@ -31,7 +30,6 @@ def fetch_html_smart(url):
         print(f"  -> Đang gọi cửa: {name} ...", end=" ")
         try:
             res = requests.get(api, impersonate="chrome120", timeout=20)
-            # Nếu trả về code 200, không dính Cloudflare và nội dung đủ dài thì lấy luôn
             if res.status_code == 200 and not is_cloudflare(res.text) and len(res.text) > 1000:
                 print("✅ Lọt Khe Thành Công!")
                 return res.text
@@ -110,10 +108,10 @@ def get_matches():
         
     soup = BeautifulSoup(html, 'html.parser')
     matches = []
+    seen_urls = set()
     
+    # CHIẾN THUẬT 1: Tìm theo thẻ <a> truyền thống
     all_links = soup.find_all('a', href=True)
-    print(f"👉 Quét được {len(all_links)} link HTML thô.")
-    
     for a_tag in all_links:
         href = a_tag['href']
         if '/truc-tiep/' in href or '/truoc-tran/' in href:
@@ -126,13 +124,33 @@ def get_matches():
                 raw_name = slug_name.replace('-', ' ').title()
 
             clean_name = re.sub(r'\s+', ' ', raw_name).strip()
-            if not any(m['url'] == full_link for m in matches):
-                matches.append({
-                    'url': full_link, 'title': clean_name,
-                    'time': '', 'logo': '', 'sort': datetime.now() 
-                })
+            if full_link not in seen_urls:
+                matches.append({'url': full_link, 'title': clean_name, 'time': '', 'logo': '', 'sort': datetime.now()})
+                seen_urls.add(full_link)
     
+    # CHIẾN THUẬT 2: Vét cạn bằng Regex nếu thẻ <a> bị giấu
+    if not matches:
+        print("⚠️ Không tìm thấy thẻ <a>! Đang kích hoạt máy quét tia X vào tệp JSON ngầm...")
+        hidden_links = re.findall(r'(/truc-tiep/[a-zA-Z0-9\-]+)', html)
+        hidden_links = list(set(hidden_links)) 
+        
+        for href in hidden_links:
+            full_link = href if href.startswith('http') else f"{TARGET_URL.rstrip('/')}{href}"
+            if full_link not in seen_urls:
+                slug = href.split('/')[-1]
+                slug_name = re.sub(r'-[a-z0-9]{10,}$', '', slug)
+                clean_name = slug_name.replace('-', ' ').title()
+                matches.append({'url': full_link, 'title': clean_name, 'time': '', 'logo': '', 'sort': datetime.now()})
+                seen_urls.add(full_link)
+
     print(f"👉 Lọc ra được {len(matches)} trận bóng hợp lệ.")
+    
+    # DEBUG: Nếu quét sạch sành sanh mà vẫn = 0, in HTML ra để chẩn bệnh!
+    if len(matches) == 0:
+        print("\n--- MÃ HTML NHẬN ĐƯỢC TỪ MÁY CHỦ (1000 KÝ TỰ ĐẦU) ---")
+        print(html[:1000])
+        print("------------------------------------------------------")
+
     return matches
 
 def main():
