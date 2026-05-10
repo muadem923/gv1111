@@ -1,0 +1,49 @@
+name: Auto Update Gavang M3U
+
+on:
+  schedule:
+    # Cấu hình Cron chạy mỗi 1 tiếng 1 lần (vào phút thứ 0 của mỗi giờ)
+    # Lưu ý: Giờ của GitHub là giờ UTC.
+    - cron: '0 * * * *'
+  
+  # Dòng này cho phép bác có một nút "Run workflow" để bấm chạy thử bằng tay lúc cần
+  workflow_dispatch: 
+
+permissions:
+  contents: write # Đảm bảo quyền ghi file
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Lấy code từ Repo về máy chủ GitHub
+        uses: actions/checkout@v4
+
+      - name: Cài đặt Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # Dùng bản Python mới để curl_cffi chạy mượt
+
+      - name: Cài đặt thư viện (Requirements)
+        run: |
+          python -m pip install --upgrade pip
+          pip install curl-cffi beautifulsoup4
+
+      - name: Chạy Script lấy link M3U
+        run: python main.py
+        # Đổi chữ 'main.py' thành tên file code của bác nếu bác đặt tên khác
+
+      - name: Lưu và Đẩy file M3U lên lại GitHub
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Add file m3u vừa được script tạo ra
+          git add gavang_live.m3u 
+          
+          # Commit thay đổi. Lệnh || exit 0 giúp bỏ qua lỗi nếu 1 tiếng trôi qua mà file m3u không có gì mới
+          git commit -m "Tự động cập nhật M3U Gà Vàng [skip ci]" || exit 0
+          
+          # Đẩy file mới lên Repo
+          git push
