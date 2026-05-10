@@ -1,76 +1,74 @@
-from playwright.sync_api import sync_playwright
-import json
-import time
+import requests
 
-# Có thể linh hoạt đổi sang xem1.gv03.live nếu gv08 bị khóa
-TARGET_URL = "https://xem1.gv08.live" 
+# Link M3U gốc của kho t23-02
+SOURCE_URL = "https://raw.githubusercontent.com/t23-02/bongda/refs/heads/main/bongda.m3u"
 
-def handle_response(response):
-    try:
-        url = response.url
-        # Lọc bỏ các API rác của Google, Facebook để log cho sạch
-        if "google" in url or "facebook" in url or "cloudflare" in url:
-            return
-            
-        if "rapid-api" in url or "api" in url.lower() or ".json" in url:
-            print(f"\n🎯 TÓM ĐƯỢC API BÍ MẬT: {url}")
-            try:
-                data = response.json()
-                print(f"   => Dữ liệu (150 ký tự đầu): {json.dumps(data, ensure_ascii=False)[:150]}...")
-            except: 
-                pass
-    except: 
-        pass
+# Chế bộ Header "Giấy thông hành" giả danh đang xem trên trình duyệt
+REFERER = "https://xem1.gv08.live/"
+ORIGIN = "https://xem1.gv08.live"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 def main():
-    print("🕵️ ĐANG KÍCH HOẠT LỚP TÀNG HÌNH CHO ROBOT...")
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=[
-                '--disable-blink-features=AutomationControlled',
-                '--disable-infobars',
-                '--no-sandbox',
-                '--window-size=1920,1080',
-            ]
-        )
+    print("🚀 Đang đi chôm file M3U từ kho t23-02...")
+    try:
+        res = requests.get(SOURCE_URL, timeout=15)
+        res.encoding = 'utf-8'
+        lines = res.text.splitlines()
+    except Exception as e:
+        print(f"❌ Lỗi mạng khi tải file gốc: {e}")
+        return
+
+    print("🔪 Đang xào nấu, cắt riêng thịt Gà Vàng và bơm Header...")
+    
+    out_lines = ["#EXTM3U"]
+    current_info = ""
+    gavang_count = 0
+    
+    for line in lines:
+        line = line.strip()
+        if not line: continue
         
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            viewport={'width': 1920, 'height': 1080},
-            locale="vi-VN",
-            timezone_id="Asia/Ho_Chi_Minh"
-        )
-        
-        page = context.new_page()
-        
-        # TIÊM MÃ ĐỘC: Xóa mọi dấu vết Robot trong lõi trình duyệt
-        page.add_init_script("""
-            Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-            window.navigator.chrome = { runtime: {} };
-            Object.defineProperty(navigator, 'languages', { get: () => ['vi-VN', 'vi', 'en-US', 'en'] });
-            Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
-        """)
-        
-        # Gắn radar nghe lén
-        page.on("response", handle_response)
-        
-        print(f"👉 Đang đột nhập lại vào: {TARGET_URL}")
-        try:
-            page.goto(TARGET_URL, wait_until="domcontentloaded", timeout=30000)
+        # Đọc thông tin trận đấu (thẻ EXTINF)
+        if line.startswith("#EXTINF"):
+            current_info = line
+            continue
             
-            # Giả lập thao tác lướt web của người thật (Cuộn chuột)
-            print("⏳ Đang giả lập lướt web đánh lừa hệ thống (chờ 10 giây)...")
-            for i in range(5):
-                page.mouse.wheel(0, 600)
-                time.sleep(1)
+        # Lọc bỏ mấy cái code cũ rác rưởi của file gốc
+        if line.startswith("#EXTVLCOPT"):
+            continue
             
-            page.wait_for_timeout(5000)
-        except Exception as e:
-            print(f"❌ Lỗi truy cập: {e}")
-        finally:
-            browser.close()
-            print("\n✅ Rút quân. Kết thúc phiên nghe lén!")
+        # Xử lý khi gặp link video
+        if line.startswith("http"):
+            if current_info:
+                # Dùng radar soi xem có phải họ nhà Gà Vàng không
+                info_lower = current_info.lower()
+                if "gà vàng" in info_lower or "gavang" in info_lower or "gà " in info_lower or "gv0" in line.lower():
+                    
+                    # 1. Cắt bỏ râu ria lộn xộn của link gốc (nếu có)
+                    clean_url = line.split("|")[0]
+                    
+                    # 2. XÀO NẤU: Ép cứng Header vào đuôi link bằng dấu |
+                    # App OTT nhìn thấy cái này bắt buộc phải ngoan ngoãn giả dạng trình duyệt
+                    fixed_url = f"{clean_url}|Referer={REFERER}&Origin={ORIGIN}&User-Agent={USER_AGENT}"
+                    
+                    # Đóng gói lại thành block mới xịn xò hơn
+                    out_lines.append(current_info)
+                    out_lines.append(f'#EXTVLCOPT:http-referer={REFERER}')
+                    out_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
+                    out_lines.append(fixed_url)
+                    
+                    gavang_count += 1
+                    
+            # Dọn dẹp để đón trận tiếp theo
+            current_info = ""
+
+    # Xuất thành phẩm
+    if gavang_count > 0:
+        with open("gavang_live.m3u", "w", encoding="utf-8") as f:
+            f.write("\n".join(out_lines))
+        print(f"🎉 Nấu xong! Trích xuất thành công {gavang_count} trận Gà Vàng đã fix lỗi chạy.")
+    else:
+        print("❌ Không tìm thấy Gà Vàng trong file gốc, hoặc nó đổi cấu trúc.")
 
 if __name__ == "__main__":
     main()
