@@ -16,7 +16,7 @@ from typing import Any
 
 import requests
 
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 HOME = os.getenv("LIVEXTV_HOME", "https://livextv.pro/")
 API_BASE = os.getenv("LIVEXTV_API_BASE", "https://livextv-backend.onrender.com/api").rstrip("/")
 UA = os.getenv(
@@ -202,9 +202,15 @@ def ffprobe_verify(url: str) -> tuple[bool, list[str], str]:
 
 def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, str], list[str], list[dict[str, Any]]]:
     events: list[dict[str, Any]] = []
-    observed: list[tuple[str, dict[str, str], int]] = []
+    # Keep media URLs from REQUEST time, not only successful browser responses.
+    # GitHub runners can emit the secure M3U8 request but never surface a
+    # response event even though ffprobe can fetch the same URL directly.
+    observed: dict[str, dict[str, Any]] = {}
     page = browser.new_page()
     main_status: int | None = None
+    result_url: str | None = None
+    result_headers: dict[str, str] = {}
+    result_codecs: list[str] = []
 
     def on_request(req):
         u = req.url
@@ -215,6 +221,15 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, s
                 "url": redact_url(u),
                 "resource_type": req.resource_type,
             })
+        if MEDIA_RE.search(u):
+            try:
+                headers = {str(k).lower(): str(v) for k, v in dict(req.headers).items()}
+            except Exception:
+                headers = {}
+            row = observed.setdefault(u, {"headers": {}, "status": None, "request_seen": False, "response_seen": False})
+            row["request_seen"] = True
+            if headers:
+                row["headers"] = headers
 
     def on_request_failed(req):
         u = req.url
@@ -240,7 +255,11 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, s
             headers = {str(k).lower(): str(v) for k, v in dict(resp.request.headers).items()}
         except Exception:
             headers = {}
-        observed.append((url, headers, status))
+        row = observed.setdefault(url, {"headers": {}, "status": None, "request_seen": False, "response_seen": False})
+        row["status"] = status
+        row["response_seen"] = True
+        if headers:
+            row["headers"] = headers
         events.append({"response": "media", "status": status, "url": redact_url(url), "referer": headers.get("referer", "")})
 
     page.on("request", on_request)
@@ -253,10 +272,13 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, s
             main_status = int(resp.status)
         deadline = time.time() + BROWSER_WAIT_SECONDS
         while time.time() < deadline:
-            if any(s in {200, 206} and "/secure/" in u for u, _h, s in observed):
+            if any("/secure/" in u for u in observed):
+                # Give the browser request a brief head start, but do not wait
+                # for Playwright to emit a response event.
+                page.wait_for_timeout(750)
                 break
             page.wait_for_timeout(250)
-        if not any(s in {200, 206} and "/secure/" in u for u, _h, s in observed):
+        if not any("/secure/" in u for u in observed):
             for selector in ["video", "button", "[class*=play]", "[aria-label*=play i]"]:
                 try:
                     loc = page.locator(selector).first
@@ -292,6 +314,31 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, s
                 "browser": sig,
             }
         })
+
+        # Verify while the browser context is still alive. The secure URL is
+        # eligible as soon as its REQUEST is observed; a browser response
+        # event is diagnostic only and is no longer a gate.
+        for url, meta in observed.items():
+            if "/secure/" not in url:
+                continue
+            headers = meta.get("headers") if isinstance(meta.get("headers"), dict) else {}
+            status = meta.get("status")
+            ok, codecs, err = ffprobe_verify(url)
+            events.append({
+                "ffprobe": ok,
+                "url": redact_url(url),
+                "codecs": codecs,
+                "error": err[:300],
+                "browser_status": status,
+                "request_seen": bool(meta.get("request_seen")),
+                "response_seen": bool(meta.get("response_seen")),
+                "trigger": "request" if meta.get("request_seen") else "response",
+            })
+            if ok:
+                result_url = url
+                result_headers = headers
+                result_codecs = codecs
+                break
     except Exception as exc:
         events.append({"error": f"{type(exc).__name__}: {exc}"})
     finally:
@@ -300,15 +347,8 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, s
         except Exception:
             pass
 
-    seen: set[str] = set()
-    for url, headers, status in observed:
-        if url in seen or status not in {200, 206} or "/secure/" not in url:
-            continue
-        seen.add(url)
-        ok, codecs, err = ffprobe_verify(url)
-        events.append({"ffprobe": ok, "url": redact_url(url), "codecs": codecs, "error": err[:300]})
-        if ok:
-            return url, headers, codecs, events
+    if result_url:
+        return result_url, result_headers, result_codecs, events
     return None, {}, [], events
 
 def discover_matches(session: requests.Session) -> tuple[list[dict[str, Any]], bool, list[str]]:

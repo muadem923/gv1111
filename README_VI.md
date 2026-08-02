@@ -1,5 +1,13 @@
-# LiveXTV GitHub Scanner v0.1.1 — bản thử nghiệm
+# LiveXTV GitHub Scanner v0.1.2 — bản thử nghiệm
 
+
+
+## Thay đổi v0.1.2
+
+- Vá lỗi GitHub runner đã phát sinh request secure `.m3u8` nhưng Playwright không nhận được response event, khiến v0.1.1 bỏ URL trước khi chạy `ffprobe`.
+- Từ bản này, hễ browser **phát sinh request secure M3U8** là URL được đưa sang `ffprobe` ngay; không còn bắt buộc browser phải báo HTTP 200/206.
+- `scan_report.json` ghi thêm `browser_status`, `request_seen`, `response_seen` và `trigger` cho từng lượt `ffprobe` để audit rõ URL được lấy từ request hay response.
+- Browser dừng chờ sớm ngay khi đã thấy secure M3U8 request, giúp workflow nhẹ hơn.
 
 ## Thay đổi v0.1.1
 
@@ -32,7 +40,7 @@ Sau khi file đã được commit, raw URL có dạng:
 
 ## Cơ chế
 
-`/api/matches/live` → `/api/stream/{source}/{id}` → `embedUrl` → Chromium bắt secure M3U8 → `ffprobe` với Referer + UA → ghi M3U.
+`/api/matches/live` → `/api/stream/{source}/{id}` → `embedUrl` → Chromium phát sinh secure M3U8 request → `ffprobe` trực tiếp URL đó với Referer + UA → ghi M3U.
 
 M3U có thêm:
 

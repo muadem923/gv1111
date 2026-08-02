@@ -3,6 +3,7 @@ import os
 import tempfile
 import time
 import unittest
+from unittest.mock import patch
 import sys
 from pathlib import Path
 
@@ -68,6 +69,58 @@ class TestScanner(unittest.TestCase):
             self.assertNotIn("channel", scan.browser_launch_kwargs())
         finally:
             scan.BROWSER_CHANNEL = old
+
+
+    def test_capture_ffprobes_secure_request_without_response(self):
+        secure = "https://lb.test/secure/TOKEN/live/playlist.m3u8"
+
+        class FakeRequest:
+            url = secure
+            method = "GET"
+            resource_type = "media"
+            headers = {"referer": scan.REFERER, "user-agent": scan.UA}
+
+        class FakeNavResponse:
+            status = 200
+
+        class FakeLocator:
+            def count(self): return 0
+            def is_visible(self): return False
+
+        class FakePage:
+            def __init__(self): self.handlers = {}
+            def on(self, name, fn): self.handlers[name] = fn
+            def goto(self, *_a, **_kw):
+                # Reproduce the GitHub v0.1.1 case: secure M3U8 REQUEST is seen,
+                # but Playwright never emits a matching response event.
+                self.handlers["request"](FakeRequest())
+                return FakeNavResponse()
+            def wait_for_timeout(self, _ms): pass
+            def locator(self, _selector):
+                class First:
+                    first = FakeLocator()
+                return First()
+            def title(self): return "embed"
+            def content(self): return "<html></html>"
+            def evaluate(self, _js): return {"ua": scan.UA, "webdriver": False, "platform": "Linux"}
+            @property
+            def url(self): return "https://embed.st/embed/test"
+            def close(self): pass
+
+        class FakeBrowser:
+            def new_page(self): return FakePage()
+
+        c = scan.Candidate("k", "m", "T", "football", "admin", "x", 1, "", True, "https://embed.st/embed/test")
+        with patch.object(scan, "ffprobe_verify", return_value=(True, ["h264", "aac"], "")) as fp:
+            url, headers, codecs, events = scan.capture_m3u8(c, FakeBrowser())
+        self.assertEqual(url, secure)
+        self.assertEqual(codecs, ["h264", "aac"])
+        fp.assert_called_once_with(secure)
+        ff = [e for e in events if "ffprobe" in e][-1]
+        self.assertTrue(ff["request_seen"])
+        self.assertFalse(ff["response_seen"])
+        self.assertIsNone(ff["browser_status"])
+        self.assertEqual(ff["trigger"], "request")
 
     def test_redact_secure_url(self):
         s = scan.redact_url("https://x/secure/SECRET/abc/playlist.m3u8")
