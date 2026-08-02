@@ -22,6 +22,11 @@ jobs:
       LIVEXTV_MAX_EMBEDS: '45'
       LIVEXTV_BROWSER_WAIT_SECONDS: '7'
       LIVEXTV_LAST_GOOD_TTL_SECONDS: '900'
+      LIVEXTV_NEARBY_FALLBACK: '1'
+      LIVEXTV_MIN_SOURCE_PAIRS: '6'
+      LIVEXTV_NEARBY_MAX_MATCHES: '8'
+      LIVEXTV_NEARBY_WINDOW_BEFORE_SECONDS: '10800'
+      LIVEXTV_NEARBY_WINDOW_AFTER_SECONDS: '14400'
 
     steps:
       - name: Checkout
@@ -76,7 +81,8 @@ jobs:
           import json
           r=json.load(open('scan_report.json',encoding='utf-8'))
           print('browser_channel=',r.get('browser_channel'))
-          print('matches=',r.get('matches'),'embeds=',r.get('embed_candidates'),'verified=',r.get('verified_current'),'published=',r.get('published_entries'))
+          print('live_matches=',r.get('live_matches'),'nearby=',r.get('nearby_fallback_matches'),'embeds=',r.get('embed_candidates'),'verified=',r.get('verified_current'),'published=',r.get('published_entries'))
+          print('classifications=',r.get('classification_counts'))
           for b in r.get('browser_events',[])[:5]:
               print('\n',b.get('title'),b.get('embed'))
               for e in b.get('events',[])[:20]: print(e)
