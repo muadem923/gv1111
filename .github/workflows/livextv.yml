@@ -1,0 +1,91 @@
+name: LiveXTV M3U Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2-57/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: livextv-m3u-refresh
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    env:
+      LIVEXTV_MAX_MATCHES: '30'
+      LIVEXTV_MAX_SOURCES_PER_MATCH: '3'
+      LIVEXTV_MAX_EMBEDS: '45'
+      LIVEXTV_BROWSER_WAIT_SECONDS: '7'
+      LIVEXTV_LAST_GOOD_TTL_SECONDS: '900'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Cache Playwright Chromium
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-1.57.0-chromium
+
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Install Chromium system dependencies
+        run: python -m playwright install-deps chromium
+
+      - name: Install Chromium
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: python -m playwright install chromium
+
+      - name: Ensure Chromium exists after cache restore
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: python -m playwright install chromium
+
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Scan LiveXTV
+        run: python livextv_scanner.py
+
+      - name: Upload scan diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: livextv-scan-${{ github.run_number }}
+          path: |
+            livextv.m3u
+            scan_report.json
+            state/livextv_last_good.json
+          if-no-files-found: warn
+          retention-days: 3
+
+      - name: Commit refreshed M3U
+        if: success()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add livextv.m3u scan_report.json state/livextv_last_good.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh LiveXTV M3U"
+          git push
