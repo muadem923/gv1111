@@ -59,6 +59,16 @@ class TestScanner(unittest.TestCase):
         self.assertEqual(reused, 1)
         self.assertEqual(len(merged), 1)
 
+    def test_browser_launch_kwargs(self):
+        old = scan.BROWSER_CHANNEL
+        try:
+            scan.BROWSER_CHANNEL = "chrome"
+            self.assertEqual(scan.browser_launch_kwargs().get("channel"), "chrome")
+            scan.BROWSER_CHANNEL = "chromium"
+            self.assertNotIn("channel", scan.browser_launch_kwargs())
+        finally:
+            scan.BROWSER_CHANNEL = old
+
     def test_redact_secure_url(self):
         s = scan.redact_url("https://x/secure/SECRET/abc/playlist.m3u8")
         self.assertNotIn("SECRET", s)

@@ -1,4 +1,13 @@
-# LiveXTV GitHub Scanner v0.1.0 — bản thử nghiệm
+# LiveXTV GitHub Scanner v0.1.1 — bản thử nghiệm
+
+
+## Thay đổi v0.1.1
+
+- GitHub Actions ưu tiên Chrome Stable đã có sẵn trên runner thay vì Chromium Playwright tải riêng.
+- Cấu hình browser được căn lại giống probe VPS đã bắt được secure M3U8: headless Chrome, viewport 1280x900, không thêm autoplay launch flag.
+- `scan_report.json` ghi thêm browser channel, trạng thái trang embed, `/fetch`, request M3U8, request failed và console warning/error.
+- Workflow in tóm tắt browser diagnostics trực tiếp vào log Actions để không cần tải artifact mới biết player dừng ở đâu.
+- Nếu runner không có Chrome Stable, workflow tự fallback sang bundled Chromium.
 
 Mục tiêu: tạo `livextv.m3u` trên GitHub Actions. API được dùng để lấy trận/source; Chromium chỉ mở các `embedUrl` thật để quan sát M3U8 công khai. Mỗi M3U8 chỉ được xuất nếu `ffprobe` bên ngoài Chromium đọc được bằng `Referer: https://embed.st/` + User-Agent Chrome.
 

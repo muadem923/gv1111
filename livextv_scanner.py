@@ -16,7 +16,7 @@ from typing import Any
 
 import requests
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 HOME = os.getenv("LIVEXTV_HOME", "https://livextv.pro/")
 API_BASE = os.getenv("LIVEXTV_API_BASE", "https://livextv-backend.onrender.com/api").rstrip("/")
 UA = os.getenv(
@@ -32,6 +32,7 @@ MAX_MATCHES = int(os.getenv("LIVEXTV_MAX_MATCHES", "30"))
 MAX_SOURCES_PER_MATCH = int(os.getenv("LIVEXTV_MAX_SOURCES_PER_MATCH", "3"))
 MAX_EMBEDS = int(os.getenv("LIVEXTV_MAX_EMBEDS", "45"))
 BROWSER_WAIT_SECONDS = float(os.getenv("LIVEXTV_BROWSER_WAIT_SECONDS", "7"))
+BROWSER_CHANNEL = os.getenv("LIVEXTV_BROWSER_CHANNEL", "").strip().lower()
 BROWSER_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_BROWSER_TIMEOUT_SECONDS", "15"))
 HTTP_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_HTTP_TIMEOUT_SECONDS", "15"))
 FFPROBE_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_FFPROBE_TIMEOUT_SECONDS", "18"))
@@ -156,6 +157,13 @@ def candidate_from_row(pair: dict[str, str], row: dict[str, Any]) -> Candidate |
     )
 
 
+def browser_launch_kwargs() -> dict[str, Any]:
+    kw: dict[str, Any] = {"headless": True}
+    if BROWSER_CHANNEL and BROWSER_CHANNEL not in {"chromium", "bundled"}:
+        kw["channel"] = BROWSER_CHANNEL
+    return kw
+
+
 def ffprobe_verify(url: str) -> tuple[bool, list[str], str]:
     exe = shutil.which("ffprobe")
     if not exe:
@@ -196,38 +204,94 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, s
     events: list[dict[str, Any]] = []
     observed: list[tuple[str, dict[str, str], int]] = []
     page = browser.new_page()
+    main_status: int | None = None
+
+    def on_request(req):
+        u = req.url
+        if "/fetch" in u or MEDIA_RE.search(u):
+            events.append({
+                "request": "fetch" if "/fetch" in u else "media",
+                "method": req.method,
+                "url": redact_url(u),
+                "resource_type": req.resource_type,
+            })
+
+    def on_request_failed(req):
+        u = req.url
+        if "/fetch" in u or MEDIA_RE.search(u) or "embed.st" in u or "strmd" in u:
+            try:
+                failure = req.failure
+            except Exception:
+                failure = None
+            events.append({"request_failed": redact_url(u), "failure": str(failure or "")[:300]})
+
+    def on_console(msg):
+        if msg.type in {"error", "warning"}:
+            events.append({"console": msg.type, "text": str(msg.text)[:500]})
 
     def on_response(resp):
         url = resp.url
+        status = int(resp.status)
+        if "/fetch" in url:
+            events.append({"response": "fetch", "status": status, "url": redact_url(url)})
         if not MEDIA_RE.search(url):
             return
         try:
             headers = {str(k).lower(): str(v) for k, v in dict(resp.request.headers).items()}
         except Exception:
             headers = {}
-        status = int(resp.status)
         observed.append((url, headers, status))
-        events.append({"status": status, "url": redact_url(url), "referer": headers.get("referer", "")})
+        events.append({"response": "media", "status": status, "url": redact_url(url), "referer": headers.get("referer", "")})
 
+    page.on("request", on_request)
+    page.on("requestfailed", on_request_failed)
+    page.on("console", on_console)
     page.on("response", on_response)
     try:
-        page.goto(candidate.embed_url, wait_until="domcontentloaded", timeout=BROWSER_TIMEOUT_SECONDS * 1000)
+        resp = page.goto(candidate.embed_url, wait_until="domcontentloaded", timeout=BROWSER_TIMEOUT_SECONDS * 1000)
+        if resp is not None:
+            main_status = int(resp.status)
         deadline = time.time() + BROWSER_WAIT_SECONDS
         while time.time() < deadline:
             if any(s in {200, 206} and "/secure/" in u for u, _h, s in observed):
                 break
             page.wait_for_timeout(250)
         if not any(s in {200, 206} and "/secure/" in u for u, _h, s in observed):
-            # Light click fallback for players that wait for user gesture.
-            for selector in ["button", "[class*=play]", "[aria-label*=play i]"]:
+            for selector in ["video", "button", "[class*=play]", "[aria-label*=play i]"]:
                 try:
                     loc = page.locator(selector).first
                     if loc.count() and loc.is_visible():
-                        loc.click(timeout=1000)
+                        loc.click(timeout=1200)
                         page.wait_for_timeout(1800)
+                        events.append({"clicked": selector})
                         break
                 except Exception:
                     pass
+        try:
+            title = page.title()
+        except Exception:
+            title = ""
+        try:
+            html = page.content()
+            script_hosts = sorted(set(re.findall(r'https?://([^/"\'<> ]+)', html)))[:20]
+            html_len = len(html)
+        except Exception:
+            script_hosts = []
+            html_len = 0
+        try:
+            sig = page.evaluate("() => ({ua:navigator.userAgent, webdriver:navigator.webdriver, platform:navigator.platform})")
+        except Exception:
+            sig = {}
+        events.append({
+            "page": {
+                "status": main_status,
+                "url": page.url,
+                "title": title[:200],
+                "html_length": html_len,
+                "script_hosts": script_hosts,
+                "browser": sig,
+            }
+        })
     except Exception as exc:
         events.append({"error": f"{type(exc).__name__}: {exc}"})
     finally:
@@ -236,7 +300,6 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, s
         except Exception:
             pass
 
-    # Prefer secure browser-successful manifests. Test each outside Chromium with ffprobe.
     seen: set[str] = set()
     for url, headers, status in observed:
         if url in seen or status not in {200, 206} or "/secure/" not in url:
@@ -247,7 +310,6 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, s
         if ok:
             return url, headers, codecs, events
     return None, {}, [], events
-
 
 def discover_matches(session: requests.Session) -> tuple[list[dict[str, Any]], bool, list[str]]:
     errors: list[str] = []
@@ -365,8 +427,8 @@ def main() -> int:
         try:
             from playwright.sync_api import sync_playwright
             with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True, args=["--autoplay-policy=no-user-gesture-required"])
-                context = browser.new_context(user_agent=UA, viewport={"width": 1280, "height": 800}, ignore_https_errors=False)
+                browser = p.chromium.launch(**browser_launch_kwargs())
+                context = browser.new_context(user_agent=UA, viewport={"width": 1280, "height": 900}, ignore_https_errors=False)
                 for idx, c in enumerate(candidates, 1):
                     print(f"[{idx}/{len(candidates)}] {c.title} | {c.source} S{c.stream_no}")
                     url, _headers, codecs, events = capture_m3u8(c, context)
@@ -396,6 +458,7 @@ def main() -> int:
     }
     report = {
         "version": VERSION,
+        "browser_channel": BROWSER_CHANNEL or "bundled-chromium",
         "started_at": int(started),
         "elapsed_seconds": round(time.time() - started, 2),
         "api_ok": api_ok,
