@@ -127,5 +127,50 @@ class TestScanner(unittest.TestCase):
         self.assertNotIn("SECRET", s)
         self.assertIn("/secure/<", s)
 
+    def test_match_epoch_seconds_ms(self):
+        self.assertEqual(scan.match_epoch_seconds({"date": 1700000000000}), 1700000000)
+
+    def test_select_nearby_matches(self):
+        at = 1700000000
+        old_before = scan.NEARBY_WINDOW_BEFORE_SECONDS
+        old_after = scan.NEARBY_WINDOW_AFTER_SECONDS
+        old_max = scan.NEARBY_MAX_MATCHES
+        try:
+            scan.NEARBY_WINDOW_BEFORE_SECONDS = 3600
+            scan.NEARBY_WINDOW_AFTER_SECONDS = 3600
+            scan.NEARBY_MAX_MATCHES = 5
+            rows = [
+                {"id":"live","date":at*1000,"sources":[{"source":"a","id":"1"}]},
+                {"id":"near-past","date":(at-300)*1000,"sources":[{"source":"a","id":"2"}]},
+                {"id":"near-future","date":(at+120)*1000,"sources":[{"source":"a","id":"3"}]},
+                {"id":"far","date":(at+7200)*1000,"sources":[{"source":"a","id":"4"}]},
+            ]
+            picked = scan.select_nearby_matches(rows, {"live"}, at=at)
+            self.assertEqual([x["id"] for x in picked], ["near-past", "near-future"])
+            self.assertTrue(all(x.get("_discovery") == "nearby_all" for x in picked))
+        finally:
+            scan.NEARBY_WINDOW_BEFORE_SECONDS = old_before
+            scan.NEARBY_WINDOW_AFTER_SECONDS = old_after
+            scan.NEARBY_MAX_MATCHES = old_max
+
+    def test_source_pairs_preserves_discovery(self):
+        rows = [{"id":"m1","title":"A","_discovery":"nearby_all","sources":[{"source":"delta","id":"s1"}]}]
+        self.assertEqual(scan.source_pairs(rows)[0]["discovery"], "nearby_all")
+
+    def test_classify_upstream_dead_404(self):
+        events = [{"ffprobe": False, "error": "Server returned 404 Not Found", "browser_status": 404}]
+        self.assertEqual(scan.classify_probe(events, False), "upstream_dead")
+
+    def test_classify_client_restricted_403(self):
+        events = [{"ffprobe": False, "error": "Server returned 403 Forbidden", "browser_status": 200}]
+        self.assertEqual(scan.classify_probe(events, False), "client_restricted")
+
+    def test_classify_player_no_media(self):
+        events = [{"response":"fetch", "status":200}]
+        self.assertEqual(scan.classify_probe(events, False), "player_no_media")
+
+    def test_classify_verified(self):
+        self.assertEqual(scan.classify_probe([], True), "verified")
+
 if __name__ == "__main__":
     unittest.main()

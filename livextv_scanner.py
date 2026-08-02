@@ -10,13 +10,14 @@ import subprocess
 import sys
 import time
 import urllib.parse
+from datetime import datetime, timezone
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Any
 
 import requests
 
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 HOME = os.getenv("LIVEXTV_HOME", "https://livextv.pro/")
 API_BASE = os.getenv("LIVEXTV_API_BASE", "https://livextv-backend.onrender.com/api").rstrip("/")
 UA = os.getenv(
@@ -39,6 +40,11 @@ FFPROBE_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_FFPROBE_TIMEOUT_SECONDS", "18")
 FFPROBE_ANALYZE_US = int(os.getenv("LIVEXTV_FFPROBE_ANALYZE_US", "1500000"))
 LAST_GOOD_TTL_SECONDS = int(os.getenv("LIVEXTV_LAST_GOOD_TTL_SECONDS", "900"))
 FALLBACK_ALL = os.getenv("LIVEXTV_FALLBACK_ALL", "0").lower() in {"1", "true", "yes"}
+NEARBY_FALLBACK = os.getenv("LIVEXTV_NEARBY_FALLBACK", "1").lower() in {"1", "true", "yes"}
+MIN_SOURCE_PAIRS = int(os.getenv("LIVEXTV_MIN_SOURCE_PAIRS", "6"))
+NEARBY_MAX_MATCHES = int(os.getenv("LIVEXTV_NEARBY_MAX_MATCHES", "8"))
+NEARBY_WINDOW_BEFORE_SECONDS = int(os.getenv("LIVEXTV_NEARBY_WINDOW_BEFORE_SECONDS", "10800"))
+NEARBY_WINDOW_AFTER_SECONDS = int(os.getenv("LIVEXTV_NEARBY_WINDOW_AFTER_SECONDS", "14400"))
 GROUP_TITLE = os.getenv("LIVEXTV_GROUP_TITLE", "LiveXTV")
 
 SECURE_RE = re.compile(r"(/secure/)([^/]+)(/)", re.I)
@@ -99,12 +105,98 @@ def source_pairs(matches: list[dict[str, Any]]) -> list[dict[str, str]]:
             key = (mid, source, sid)
             if source and sid and key not in seen:
                 seen.add(key)
-                out.append({"match_id": mid, "title": title, "category": category, "source": source, "source_id": sid})
+                out.append({"match_id": mid, "title": title, "category": category, "source": source, "source_id": sid, "discovery": str(m.get("_discovery") or "live")})
     return out
 
 
 def build_stream_url(source: str, source_id: str) -> str:
     return f"{API_BASE}/stream/{urllib.parse.quote(source, safe='')}/{urllib.parse.quote(source_id, safe='')}"
+
+
+def match_epoch_seconds(row: dict[str, Any]) -> int | None:
+    """Best-effort parse of a match start time; LiveXTV currently uses epoch ms."""
+    for key in ("date", "startTime", "start_time", "timestamp", "time"):
+        raw = row.get(key)
+        if raw in (None, ""):
+            continue
+        if isinstance(raw, (int, float)):
+            value = float(raw)
+            if value > 10_000_000_000:
+                value /= 1000.0
+            if value > 0:
+                return int(value)
+        text = str(raw).strip()
+        try:
+            value = float(text)
+            if value > 10_000_000_000:
+                value /= 1000.0
+            if value > 0:
+                return int(value)
+        except ValueError:
+            pass
+        try:
+            dt = datetime.fromisoformat(text.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return int(dt.timestamp())
+        except ValueError:
+            continue
+    return None
+
+
+def select_nearby_matches(all_rows: list[dict[str, Any]], live_match_ids: set[str], at: int | None = None) -> list[dict[str, Any]]:
+    """Pick non-live-list matches closest to now, within a conservative time window."""
+    at = now_ts() if at is None else int(at)
+    selected: list[tuple[int, int, dict[str, Any]]] = []
+    for row in all_rows:
+        mid = str(row.get("id") or "").strip()
+        if not mid or mid in live_match_ids:
+            continue
+        sources = row.get("sources") if isinstance(row.get("sources"), list) else []
+        if not sources:
+            continue
+        ts = match_epoch_seconds(row)
+        if ts is None:
+            continue
+        delta = ts - at
+        if delta < -NEARBY_WINDOW_BEFORE_SECONDS or delta > NEARBY_WINDOW_AFTER_SECONDS:
+            continue
+        clone = dict(row)
+        clone["_discovery"] = "nearby_all"
+        # Prefer already-started/recent matches, then closest upcoming matches.
+        started_bias = 0 if delta <= 0 else 1
+        selected.append((started_bias, abs(delta), clone))
+    selected.sort(key=lambda x: (x[0], x[1]))
+    return [x[2] for x in selected[:NEARBY_MAX_MATCHES]]
+
+
+def classify_probe(events: list[dict[str, Any]], verified: bool) -> str:
+    if verified:
+        return "verified"
+    saw_media = False
+    statuses: list[int] = []
+    errors: list[str] = []
+    for event in events:
+        if event.get("request") == "media" or event.get("response") == "media" or "ffprobe" in event:
+            saw_media = True
+        for key in ("status", "browser_status"):
+            val = event.get(key)
+            if isinstance(val, int):
+                statuses.append(val)
+        if event.get("error"):
+            errors.append(str(event.get("error")))
+        if event.get("failure"):
+            errors.append(str(event.get("failure")))
+    text = " ".join(errors).lower()
+    if 404 in statuses or 410 in statuses or re.search(r"\b(404|410)\b", text):
+        return "upstream_dead"
+    if any(x in statuses for x in (401, 403, 429)) or re.search(r"\b(401|403|429)\b", text):
+        return "client_restricted"
+    if "timeout" in text or "timed out" in text:
+        return "transport_timeout"
+    if saw_media:
+        return "media_unverified"
+    return "player_no_media"
 
 
 @dataclass
@@ -119,6 +211,7 @@ class Candidate:
     language: str
     hd: bool
     embed_url: str
+    discovery: str = "live"
 
 
 @dataclass
@@ -154,6 +247,7 @@ def candidate_from_row(pair: dict[str, str], row: dict[str, Any]) -> Candidate |
         match_id=pair["match_id"], title=pair["title"], category=pair["category"],
         source=pair["source"], source_id=pair["source_id"], stream_no=stream_no,
         language=clean_title(str(row.get("language") or "")), hd=bool(row.get("hd")), embed_url=embed,
+        discovery=str(pair.get("discovery") or "live"),
     )
 
 
@@ -351,24 +445,32 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, s
         return result_url, result_headers, result_codecs, events
     return None, {}, [], events
 
+def fetch_match_rows(session: requests.Session, endpoint: str) -> tuple[list[dict[str, Any]], bool, str | None]:
+    url = f"{API_BASE}/{endpoint}"
+    try:
+        r = session.get(url, timeout=HTTP_TIMEOUT_SECONDS)
+        r.raise_for_status()
+        return api_rows(r.json()), True, None
+    except Exception as exc:
+        return [], False, f"{endpoint}: {type(exc).__name__}: {exc}"
+
+
 def discover_matches(session: requests.Session) -> tuple[list[dict[str, Any]], bool, list[str]]:
-    errors: list[str] = []
-    endpoints = ["matches/live"] + (["matches/all"] if FALLBACK_ALL else [])
-    api_ok = False
-    for ep in endpoints:
-        url = f"{API_BASE}/{ep}"
-        try:
-            r = session.get(url, timeout=HTTP_TIMEOUT_SECONDS)
-            r.raise_for_status()
-            rows = api_rows(r.json())
-            api_ok = True
-            if rows:
-                return rows, api_ok, errors
-            if ep == "matches/live":
-                return [], api_ok, errors
-        except Exception as exc:
-            errors.append(f"{ep}: {type(exc).__name__}: {exc}")
-    return [], api_ok, errors
+    rows, ok, err = fetch_match_rows(session, "matches/live")
+    errors = [err] if err else []
+    for row in rows:
+        row.setdefault("_discovery", "live")
+    # Backward-compatible emergency mode: if live endpoint itself fails and the
+    # operator explicitly enabled LIVEXTV_FALLBACK_ALL, use all rows directly.
+    if not ok and FALLBACK_ALL:
+        all_rows, all_ok, all_err = fetch_match_rows(session, "matches/all")
+        if all_err:
+            errors.append(all_err)
+        if all_ok:
+            for row in all_rows:
+                row.setdefault("_discovery", "fallback_all")
+            return all_rows, True, errors
+    return rows, ok, errors
 
 
 def discover_candidates(session: requests.Session, pairs: list[dict[str, str]]) -> tuple[list[Candidate], list[str]]:
@@ -452,14 +554,29 @@ def main() -> int:
     started = time.time()
     session = requests.Session()
     session.headers.update({"User-Agent": UA, "Accept": "application/json,text/plain,*/*", "Referer": HOME})
-    matches, api_ok, errors = discover_matches(session)
-    live_match_ids = {str(m.get("id") or "") for m in matches if m.get("id")}
-    pairs = source_pairs(matches)
+    live_matches, api_ok, errors = discover_matches(session)
+    live_match_ids = {str(m.get("id") or "") for m in live_matches if m.get("id")}
+    probe_matches = list(live_matches)
+    nearby_matches: list[dict[str, Any]] = []
+    live_pairs = source_pairs(live_matches)
+
+    if NEARBY_FALLBACK and api_ok and len(live_pairs) < MIN_SOURCE_PAIRS:
+        all_rows, all_ok, all_err = fetch_match_rows(session, "matches/all")
+        if all_err:
+            errors.append(all_err)
+        if all_ok:
+            nearby_matches = select_nearby_matches(all_rows, live_match_ids)
+            probe_matches.extend(nearby_matches)
+
+    pairs = source_pairs(probe_matches)
     candidates, stream_errors = discover_candidates(session, pairs)
     errors.extend(stream_errors)
 
     print(f"LiveXTV GitHub Scanner v{VERSION}")
-    print(f"matches={len(matches)} source_pairs={len(pairs)} embeds={len(candidates)}")
+    print(
+        f"live_matches={len(live_matches)} nearby={len(nearby_matches)} "
+        f"source_pairs={len(pairs)} embeds={len(candidates)}"
+    )
 
     current: list[Entry] = []
     browser_events: list[dict[str, Any]] = []
@@ -472,8 +589,13 @@ def main() -> int:
                 for idx, c in enumerate(candidates, 1):
                     print(f"[{idx}/{len(candidates)}] {c.title} | {c.source} S{c.stream_no}")
                     url, _headers, codecs, events = capture_m3u8(c, context)
-                    browser_events.append({"key": c.key, "title": c.title, "embed": c.embed_url, "events": events})
+                    classification = classify_probe(events, bool(url))
+                    browser_events.append({
+                        "key": c.key, "title": c.title, "embed": c.embed_url,
+                        "discovery": c.discovery, "classification": classification, "events": events,
+                    })
                     if not url:
+                        print(f"  {classification.upper()}")
                         continue
                     current.append(Entry(
                         key=c.key, match_id=c.match_id, title=c.title, category=c.category,
@@ -496,18 +618,27 @@ def main() -> int:
         "ttl_seconds": LAST_GOOD_TTL_SECONDS,
         "entries": [asdict(e) for e in final_entries],
     }
+    classification_counts: dict[str, int] = {}
+    for row in browser_events:
+        name = str(row.get("classification") or "unknown")
+        classification_counts[name] = classification_counts.get(name, 0) + 1
+
     report = {
         "version": VERSION,
         "browser_channel": BROWSER_CHANNEL or "bundled-chromium",
         "started_at": int(started),
         "elapsed_seconds": round(time.time() - started, 2),
         "api_ok": api_ok,
-        "matches": len(matches),
+        "matches": len(probe_matches),
+        "live_matches": len(live_matches),
+        "nearby_fallback_matches": len(nearby_matches),
+        "nearby_fallback_used": bool(nearby_matches),
         "source_pairs": len(pairs),
         "embed_candidates": len(candidates),
         "verified_current": len(current),
         "reused_last_good": reused,
         "published_entries": len(final_entries),
+        "classification_counts": classification_counts,
         "entries": [public_entry(e) for e in final_entries],
         "browser_events": browser_events,
         "errors": errors,
@@ -517,6 +648,8 @@ def main() -> int:
     atomic_write(REPORT_FILE, json.dumps(report, ensure_ascii=False, indent=2) + "\n")
 
     print(f"verified_current={len(current)} reused={reused} published={len(final_entries)}")
+    if classification_counts:
+        print("classifications=" + json.dumps(classification_counts, ensure_ascii=False, sort_keys=True))
     if errors:
         print(f"warnings/errors={len(errors)}")
         for e in errors[:10]:
