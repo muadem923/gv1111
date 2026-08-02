@@ -33,35 +33,55 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
-      - name: Cache Playwright Chromium
-        id: playwright-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-1.57.0-chromium
-
       - name: Install Python dependencies
         run: python -m pip install --upgrade pip && pip install -r requirements.txt
 
-      - name: Install Chromium system dependencies
-        run: python -m playwright install-deps chromium
-
-      - name: Install Chromium
-        if: steps.playwright-cache.outputs.cache-hit != 'true'
-        run: python -m playwright install chromium
-
-      - name: Ensure Chromium exists after cache restore
-        if: steps.playwright-cache.outputs.cache-hit == 'true'
-        run: python -m playwright install chromium
+      - name: Select browser
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "LIVEXTV_BROWSER_CHANNEL=chrome" >> "$GITHUB_ENV"
+            google-chrome --version
+          elif command -v google-chrome-stable >/dev/null 2>&1; then
+            echo "LIVEXTV_BROWSER_CHANNEL=chrome" >> "$GITHUB_ENV"
+            google-chrome-stable --version
+          else
+            echo "System Chrome not found; installing bundled Chromium"
+            python -m playwright install --with-deps chromium
+            echo "LIVEXTV_BROWSER_CHANNEL=chromium" >> "$GITHUB_ENV"
+          fi
 
       - name: Install ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg
+        run: |
+          if command -v ffprobe >/dev/null 2>&1 && command -v ffmpeg >/dev/null 2>&1; then
+            ffprobe -version | head -n 1
+          else
+            sudo apt-get update -qq
+            sudo apt-get install -y --no-install-recommends ffmpeg
+          fi
 
       - name: Unit tests
         run: python -m unittest discover -s tests -v
 
       - name: Scan LiveXTV
         run: python livextv_scanner.py
+
+      - name: Print scan summary
+        if: always()
+        shell: bash
+        run: |
+          if [ -f scan_report.json ]; then
+            python - <<'PY'
+          import json
+          r=json.load(open('scan_report.json',encoding='utf-8'))
+          print('browser_channel=',r.get('browser_channel'))
+          print('matches=',r.get('matches'),'embeds=',r.get('embed_candidates'),'verified=',r.get('verified_current'),'published=',r.get('published_entries'))
+          for b in r.get('browser_events',[])[:5]:
+              print('\n',b.get('title'),b.get('embed'))
+              for e in b.get('events',[])[:20]: print(e)
+          PY
+          fi
 
       - name: Upload scan diagnostics
         if: always()
