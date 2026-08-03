@@ -1,20 +1,20 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1785791902,
-  "elapsed_seconds": 39.57,
+  "started_at": 1785796178,
+  "elapsed_seconds": 55.3,
   "api_ok": true,
-  "matches": 12,
-  "live_matches": 4,
+  "matches": 13,
+  "live_matches": 5,
   "nearby_fallback_matches": 8,
   "nearby_fallback_used": true,
-  "source_pairs": 18,
-  "embed_candidates": 9,
+  "source_pairs": 21,
+  "embed_candidates": 17,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 9
+    "upstream_dead": 17
   },
   "entries": [],
   "browser_events": [
@@ -43,15 +43,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<2c2a335bfc>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<b15ec0c7e9>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/BMLIEEJGbGPnHEAyIiYlBqoKcIminRMT/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/pMFqdKgSxKDVCnXJEiANysLSLraQcrHZ/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb8.strmd.st/secure/<2c2a335bfc>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<b15ec0c7e9>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -65,15 +65,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<2c2a335bfc>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<b15ec0c7e9>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/BMLIEEJGbGPnHEAyIiYlBqoKcIminRMT/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/pMFqdKgSxKDVCnXJEiANysLSLraQcrHZ/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb8.strmd.st/secure/<2c2a335bfc>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<b15ec0c7e9>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -85,12 +85,13 @@
             "status": 200,
             "url": "https://embed.st/embed/delta/live_premiership_celtic-dundee-live-streaming-598622832/1",
             "title": "",
-            "html_length": 753331,
+            "html_length": 753531,
             "script_hosts": [
-              "awbmazjysekvt.online",
               "cdn.jsdelivr.net",
               "embed.st",
+              "llmkghvhttoki.online",
               "strmd.b-cdn.net",
+              "www.gstatic.com",
               "www.w3.org"
             ],
             "browser": {
@@ -102,13 +103,17 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<2c2a335bfc>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<b15ec0c7e9>/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb8.strmd.st/secure/BMLIEEJGbGPnHEAyIiYlBqoKcIminRMT/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb13.strmd.st/secure/pMFqdKgSxKDVCnXJEiANysLSLraQcrHZ/delta/stream/live_premiership_celtic-dundee-live-streaming-598622832/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
         },
         {
           "console": "warning",
@@ -124,8 +129,8 @@
       "classification": "upstream_dead",
       "events": [
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "request": "fetch",
@@ -141,15 +146,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<ce1b726bfb>/rtmp/stream/CwxSBqYVqflcykZ8TMozHRulN0rP912ImVqRpWUmFqTBxgARzoGKscTaLFCVLcUqMP26gJOE-DrWght5ECKc79g8Xn7U8Q/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<5e182d9cd0>/rtmp/stream/IajOfWHryG--WLmRcG_8D433uVh_VB1-s5ZJ7C7bsCsOHLHSemddEBAZbFVpF-4bBeUaPNr_oEUzADN0QB09_XL7VRhicQ/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb10.strmd.st/secure/pOQrfYDmdKzrqklPlRtBHyrzFijNebLK/rtmp/stream/CwxSBqYVqflcykZ8TMozHRulN0rP912ImVqRpWUmFqTBxgARzoGKscTaLFCVLcUqMP26gJOE-DrWght5ECKc79g8Xn7U8Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/XtezjWCFjAxblktIrtpdFoPXOTukAxnL/rtmp/stream/IajOfWHryG--WLmRcG_8D433uVh_VB1-s5ZJ7C7bsCsOHLHSemddEBAZbFVpF-4bBeUaPNr_oEUzADN0QB09_XL7VRhicQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<ce1b726bfb>/rtmp/stream/CwxSBqYVqflcykZ8TMozHRulN0rP912ImVqRpWUmFqTBxgARzoGKscTaLFCVLcUqMP26gJOE-DrWght5ECKc79g8Xn7U8Q/1/playlist.m3u8",
+          "request_failed": "https://lb11.strmd.st/secure/<5e182d9cd0>/rtmp/stream/IajOfWHryG--WLmRcG_8D433uVh_VB1-s5ZJ7C7bsCsOHLHSemddEBAZbFVpF-4bBeUaPNr_oEUzADN0QB09_XL7VRhicQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -163,15 +168,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<ce1b726bfb>/rtmp/stream/CwxSBqYVqflcykZ8TMozHRulN0rP912ImVqRpWUmFqTBxgARzoGKscTaLFCVLcUqMP26gJOE-DrWght5ECKc79g8Xn7U8Q/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<5e182d9cd0>/rtmp/stream/IajOfWHryG--WLmRcG_8D433uVh_VB1-s5ZJ7C7bsCsOHLHSemddEBAZbFVpF-4bBeUaPNr_oEUzADN0QB09_XL7VRhicQ/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/pOQrfYDmdKzrqklPlRtBHyrzFijNebLK/rtmp/stream/CwxSBqYVqflcykZ8TMozHRulN0rP912ImVqRpWUmFqTBxgARzoGKscTaLFCVLcUqMP26gJOE-DrWght5ECKc79g8Xn7U8Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/XtezjWCFjAxblktIrtpdFoPXOTukAxnL/rtmp/stream/IajOfWHryG--WLmRcG_8D433uVh_VB1-s5ZJ7C7bsCsOHLHSemddEBAZbFVpF-4bBeUaPNr_oEUzADN0QB09_XL7VRhicQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<ce1b726bfb>/rtmp/stream/CwxSBqYVqflcykZ8TMozHRulN0rP912ImVqRpWUmFqTBxgARzoGKscTaLFCVLcUqMP26gJOE-DrWght5ECKc79g8Xn7U8Q/1/playlist.m3u8",
+          "request_failed": "https://lb11.strmd.st/secure/<5e182d9cd0>/rtmp/stream/IajOfWHryG--WLmRcG_8D433uVh_VB1-s5ZJ7C7bsCsOHLHSemddEBAZbFVpF-4bBeUaPNr_oEUzADN0QB09_XL7VRhicQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -179,16 +184,20 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-washington-nationals-vs-philadelphia-phillies/1",
             "title": "",
-            "html_length": 132155,
+            "html_length": 753531,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "llmkghvhttoki.online",
               "strmd.b-cdn.net",
-              "therocketlanguages.com",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -201,9 +210,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb10.strmd.st/secure/<ce1b726bfb>/rtmp/stream/CwxSBqYVqflcykZ8TMozHRulN0rP912ImVqRpWUmFqTBxgARzoGKscTaLFCVLcUqMP26gJOE-DrWght5ECKc79g8Xn7U8Q/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<5e182d9cd0>/rtmp/stream/IajOfWHryG--WLmRcG_8D433uVh_VB1-s5ZJ7C7bsCsOHLHSemddEBAZbFVpF-4bBeUaPNr_oEUzADN0QB09_XL7VRhicQ/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb10.strmd.st/secure/pOQrfYDmdKzrqklPlRtBHyrzFijNebLK/rtmp/stream/CwxSBqYVqflcykZ8TMozHRulN0rP912ImVqRpWUmFqTBxgARzoGKscTaLFCVLcUqMP26gJOE-DrWght5ECKc79g8Xn7U8Q/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb11.strmd.st/secure/XtezjWCFjAxblktIrtpdFoPXOTukAxnL/rtmp/stream/IajOfWHryG--WLmRcG_8D433uVh_VB1-s5ZJ7C7bsCsOHLHSemddEBAZbFVpF-4bBeUaPNr_oEUzADN0QB09_XL7VRhicQ/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -212,6 +221,26 @@
         {
           "console": "warning",
           "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796192873&cv=11&fst=1785796192873&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119896803~120125305&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D7331606341123317855%26sub6%3Dd9ohcnpj5s8c73dijgv0&top=https%3A%2F%2Fembed.st&rcb=5&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D7331606341123317855%26sub6%3Dd9ohcnpj5s8c73dijgv0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=231472691.1785796193&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119896803~120125305&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796192902&tfd=1109&fmt=8",
+          "failure": "net::ERR_ABORTED"
         },
         {
           "console": "warning",
@@ -243,6 +272,242 @@
       "classification": "upstream_dead",
       "events": [
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb10.strmd.st/secure/<86e677a05b>/rtmp/stream/tMTFc-Em_CzllZg6jKi4b0N3Dx6Ya5I-zhKcE0UAJZdOSqWdePrZG7FAH1Km_q5kotw_io2wgf8r-aRfh1K6fNs08fQedlklPcg/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/FYWpqYKvLMItRIdQsrWcdJToVJKzCenu/rtmp/stream/tMTFc-Em_CzllZg6jKi4b0N3Dx6Ya5I-zhKcE0UAJZdOSqWdePrZG7FAH1Km_q5kotw_io2wgf8r-aRfh1K6fNs08fQedlklPcg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<86e677a05b>/rtmp/stream/tMTFc-Em_CzllZg6jKi4b0N3Dx6Ya5I-zhKcE0UAJZdOSqWdePrZG7FAH1Km_q5kotw_io2wgf8r-aRfh1K6fNs08fQedlklPcg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb10.strmd.st/secure/<86e677a05b>/rtmp/stream/tMTFc-Em_CzllZg6jKi4b0N3Dx6Ya5I-zhKcE0UAJZdOSqWdePrZG7FAH1Km_q5kotw_io2wgf8r-aRfh1K6fNs08fQedlklPcg/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-washington-nationals-vs-philadelphia-phillies/2",
+            "title": "",
+            "html_length": 645033,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "llmkghvhttoki.online",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb10.strmd.st/secure/<86e677a05b>/rtmp/stream/tMTFc-Em_CzllZg6jKi4b0N3Dx6Ya5I-zhKcE0UAJZdOSqWdePrZG7FAH1Km_q5kotw_io2wgf8r-aRfh1K6fNs08fQedlklPcg/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb10.strmd.st/secure/FYWpqYKvLMItRIdQsrWcdJToVJKzCenu/rtmp/stream/tMTFc-Em_CzllZg6jKi4b0N3Dx6Ya5I-zhKcE0UAJZdOSqWdePrZG7FAH1Km_q5kotw_io2wgf8r-aRfh1K6fNs08fQedlklPcg/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/FYWpqYKvLMItRIdQsrWcdJToVJKzCenu/rtmp/stream/tMTFc-Em_CzllZg6jKi4b0N3Dx6Ya5I-zhKcE0UAJZdOSqWdePrZG7FAH1Km_q5kotw_io2wgf8r-aRfh1K6fNs08fQedlklPcg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<86e677a05b>/rtmp/stream/tMTFc-Em_CzllZg6jKi4b0N3Dx6Ya5I-zhKcE0UAJZdOSqWdePrZG7FAH1Km_q5kotw_io2wgf8r-aRfh1K6fNs08fQedlklPcg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D7905758026604101111%26sub6%3Dd9ohcohj5s8c73dijka0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1881516586.1785796196&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~119793972~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796195949&tfd=1011&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796195930&cv=11&fst=1785796195930&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~119793972~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D7905758026604101111%26sub6%3Dd9ohcohj5s8c73dijka0&top=https%3A%2F%2Fembed.st&rcb=6&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&apvc=1&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&tid=AW-10851061528&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D1614911796917924160%26sub6%3Dd9ohcopj5s8c73dijkag&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1847119581.1785796196&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118395335~118897920~118897930~119896803~120222309&tft=1785796196087&tfd=1132&tids=AW-10851061528&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196077&cv=11&fst=1785796196077&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118395335~118897920~118897930~119896803~120222309&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D1614911796917924160%26sub6%3Dd9ohcopj5s8c73dijkag&top=https%3A%2F%2Fembed.st&rcb=2&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D5211666311851042092%26sub6%3Dd9ohcopj5s8c73dijkdg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=270812039.1785796196&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196414&tfd=1438&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196404&cv=11&fst=1785796196404&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D5211666311851042092%26sub6%3Dd9ohcopj5s8c73dijkdg&top=https%3A%2F%2Fembed.st&rcb=15&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D3786509346758558324%26sub6%3Dd9ohcopj5s8c73dijkeg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=269318345.1785796196&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119896803~120222307&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196439&tfd=1460&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196426&cv=11&fst=1785796196426&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119896803~120222307&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D3786509346758558324%26sub6%3Dd9ohcopj5s8c73dijkeg&top=https%3A%2F%2Fembed.st&rcb=6&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D4227438225110018546%26sub6%3Dd9ohcopj5s8c73dijke0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1290431170.1785796197&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196622&tfd=1645&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196614&cv=11&fst=1785796196614&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D4227438225110018546%26sub6%3Dd9ohcopj5s8c73dijke0&top=https%3A%2F%2Fembed.st&rcb=7&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D5630434441860421164%26sub6%3Dd9ohcopj5s8c73dijkg0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=887289168.1785796197&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118395333~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196643&tfd=1656&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196634&cv=11&fst=1785796196634&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118395333~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D5630434441860421164%26sub6%3Dd9ohcopj5s8c73dijkg0&top=https%3A%2F%2Fembed.st&rcb=6&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=11&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D3136403050319452005%26sub6%3Dd9ohcopj5s8c73dijkf0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1326919711.1785796197&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196671&tfd=1692&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196660&cv=11&fst=1785796196660&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D3136403050319452005%26sub6%3Dd9ohcopj5s8c73dijkf0&top=https%3A%2F%2Fembed.st&rcb=11&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D4353918496237372135%26sub6%3Dd9ohcopj5s8c73dijkgg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=918115218.1785796197&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196726&tfd=1691&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196715&cv=11&fst=1785796196715&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D4353918496237372135%26sub6%3Dd9ohcopj5s8c73dijkgg&top=https%3A%2F%2Fembed.st&rcb=7&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196753&cv=11&fst=1785796196753&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119381664~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D8347412301123272928%26sub6%3Dd9ohcopj5s8c73dijkh0&top=https%3A%2F%2Fembed.st&rcb=19&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D8347412301123272928%26sub6%3Dd9ohcopj5s8c73dijkh0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=594013372.1785796197&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119381664~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196772&tfd=1694&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D4184409381067202967%26sub6%3Dd9ohcopj5s8c73dijkig&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=172206205.1785796197&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118395335~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196830&tfd=1729&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196821&cv=11&fst=1785796196821&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118395335~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D4184409381067202967%26sub6%3Dd9ohcopj5s8c73dijkig&top=https%3A%2F%2Fembed.st&rcb=17&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D258415839055334815%26sub6%3Dd9ohcopj5s8c73dijkqg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1821320056.1785796197&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196864&tfd=1716&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196855&cv=11&fst=1785796196855&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D258415839055334815%26sub6%3Dd9ohcopj5s8c73dijkqg&top=https%3A%2F%2Fembed.st&rcb=5&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=9&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D2628312356262343620%26sub6%3Dd9ohcopj5s8c73dijkr0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1556155107.1785796197&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796196891&tfd=1738&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796196880&cv=11&fst=1785796196880&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D2628312356262343620%26sub6%3Dd9ohcopj5s8c73dijkr0&top=https%3A%2F%2Fembed.st&rcb=9&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "key": "philadelphia-phillies-vs-washington-nationals-2388566|delta|live_mlb_phillies-nationals-live-streaming-591319440|1",
+      "title": "Philadelphia Phillies vs Washington Nationals",
+      "embed": "https://embed.st/embed/delta/live_mlb_phillies-nationals-live-streaming-591319440/1",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 403 ()"
         },
@@ -260,15 +525,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<22053c8ef7>/rtmp/stream/vKwD7LUiQ7tinOuqJpYfTdwcPl30iKxrAJPKUiwxQLaDtR5meyNxTwPlXp_ScrdJpC9JOfxuGSxWinmsesrBbS_63kF9Ul-nEgw/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<6da6fdd7da>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb10.strmd.st/secure/NXCHvBiyEntSNlnjCndFFrrAXWlBNBBn/rtmp/stream/vKwD7LUiQ7tinOuqJpYfTdwcPl30iKxrAJPKUiwxQLaDtR5meyNxTwPlXp_ScrdJpC9JOfxuGSxWinmsesrBbS_63kF9Ul-nEgw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/ZgGtcPDvvXGXYrRmmYMsPnbqfwbfBsUs/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<22053c8ef7>/rtmp/stream/vKwD7LUiQ7tinOuqJpYfTdwcPl30iKxrAJPKUiwxQLaDtR5meyNxTwPlXp_ScrdJpC9JOfxuGSxWinmsesrBbS_63kF9Ul-nEgw/1/playlist.m3u8",
+          "request_failed": "https://lb10.strmd.st/secure/<6da6fdd7da>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -282,15 +547,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<22053c8ef7>/rtmp/stream/vKwD7LUiQ7tinOuqJpYfTdwcPl30iKxrAJPKUiwxQLaDtR5meyNxTwPlXp_ScrdJpC9JOfxuGSxWinmsesrBbS_63kF9Ul-nEgw/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<6da6fdd7da>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/NXCHvBiyEntSNlnjCndFFrrAXWlBNBBn/rtmp/stream/vKwD7LUiQ7tinOuqJpYfTdwcPl30iKxrAJPKUiwxQLaDtR5meyNxTwPlXp_ScrdJpC9JOfxuGSxWinmsesrBbS_63kF9Ul-nEgw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/ZgGtcPDvvXGXYrRmmYMsPnbqfwbfBsUs/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<22053c8ef7>/rtmp/stream/vKwD7LUiQ7tinOuqJpYfTdwcPl30iKxrAJPKUiwxQLaDtR5meyNxTwPlXp_ScrdJpC9JOfxuGSxWinmsesrBbS_63kF9Ul-nEgw/1/playlist.m3u8",
+          "request_failed": "https://lb10.strmd.st/secure/<6da6fdd7da>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -300,7 +565,7 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-washington-nationals-vs-philadelphia-phillies/2",
+            "url": "https://embed.st/embed/delta/live_mlb_phillies-nationals-live-streaming-591319440/1",
             "title": "",
             "html_length": 132155,
             "script_hosts": [
@@ -320,13 +585,272 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb10.strmd.st/secure/<22053c8ef7>/rtmp/stream/vKwD7LUiQ7tinOuqJpYfTdwcPl30iKxrAJPKUiwxQLaDtR5meyNxTwPlXp_ScrdJpC9JOfxuGSxWinmsesrBbS_63kF9Ul-nEgw/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<6da6fdd7da>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb10.strmd.st/secure/NXCHvBiyEntSNlnjCndFFrrAXWlBNBBn/rtmp/stream/vKwD7LUiQ7tinOuqJpYfTdwcPl30iKxrAJPKUiwxQLaDtR5meyNxTwPlXp_ScrdJpC9JOfxuGSxWinmsesrBbS_63kF9Ul-nEgw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb10.strmd.st/secure/ZgGtcPDvvXGXYrRmmYMsPnbqfwbfBsUs/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D7963391741861687529%26sub6%3Dd9ohcp9j5s8c73dijmo0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1967528305.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802~120222307&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796198890&tfd=1120&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796198871&cv=11&fst=1785796198871&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802~120222307&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D7963391741861687529%26sub6%3Dd9ohcp9j5s8c73dijmo0&top=https%3A%2F%2Fembed.st&rcb=19&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=18&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D4067562296675569543%26sub6%3Dd9ohcp9j5s8c73dijmog&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1041076337.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796199300&tfd=1523&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199291&cv=11&fst=1785796199291&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D4067562296675569543%26sub6%3Dd9ohcp9j5s8c73dijmog&top=https%3A%2F%2Fembed.st&rcb=18&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D645765937743497198%26sub6%3Dd9ohcp9j5s8c73dijmpg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=681779875.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796199319&tfd=1475&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199311&cv=11&fst=1785796199311&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D645765937743497198%26sub6%3Dd9ohcp9j5s8c73dijmpg&top=https%3A%2F%2Fembed.st&rcb=5&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199331&cv=11&fst=1785796199331&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119527020~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D8871504771134677475%26sub6%3Dd9ohcp9j5s8c73dijmp0&top=https%3A%2F%2Fembed.st&rcb=1&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=1&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D8871504771134677475%26sub6%3Dd9ohcp9j5s8c73dijmp0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=409539565.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119527020~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796199340&tfd=1497&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199353&cv=11&fst=1785796199353&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119527020~119896803~120222309&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D803293957724876831%26sub6%3Dd9ohcp9j5s8c73dijmq0&top=https%3A%2F%2Fembed.st&rcb=4&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&tid=AW-10851061528&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D803293957724876831%26sub6%3Dd9ohcp9j5s8c73dijmq0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=499035095.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119527020~119896803~120222309&tft=1785796199362&tfd=1517&tids=AW-10851061528&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=1&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D4797522988310170951%26sub6%3Dd9ohcp9j5s8c73dijmqg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=67400420.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119896803~120222308&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796199401&tfd=1539&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199388&cv=11&fst=1785796199388&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119896803~120222308&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D4797522988310170951%26sub6%3Dd9ohcp9j5s8c73dijmqg&top=https%3A%2F%2Fembed.st&rcb=1&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&tid=AW-10851061528&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D6555457075957474350%26sub6%3Dd9ohcp9j5s8c73dijmrg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1446219087.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119896803~120222309&tft=1785796199423&tfd=1549&tids=AW-10851061528&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199413&cv=11&fst=1785796199413&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119896803~120222309&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D6555457075957474350%26sub6%3Dd9ohcp9j5s8c73dijmrg&top=https%3A%2F%2Fembed.st&rcb=4&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&tid=AW-10851061528&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D5142608149244736350%26sub6%3Dd9ohcp9j5s8c73dijmr0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1400370987.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119896802~120222309&tft=1785796199443&tfd=1570&tids=AW-10851061528&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199434&cv=11&fst=1785796199434&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119896802~120222309&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D5142608149244736350%26sub6%3Dd9ohcp9j5s8c73dijmr0&top=https%3A%2F%2Fembed.st&rcb=0&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D1968842957578215619%26sub6%3Dd9ohcp9j5s8c73dijms0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1611506138.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119896802~120222308&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796199477&tfd=1602&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199467&cv=11&fst=1785796199467&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119896802~120222308&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D1968842957578215619%26sub6%3Dd9ohcp9j5s8c73dijms0&top=https%3A%2F%2Fembed.st&rcb=5&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D2587155125178265853%26sub6%3Dd9ohcp9j5s8c73dijmsg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2019587459.1785796199&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118395335~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796199503&tfd=1626&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199493&cv=11&fst=1785796199493&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118395335~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D2587155125178265853%26sub6%3Dd9ohcp9j5s8c73dijmsg&top=https%3A%2F%2Fembed.st&rcb=19&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D8171625858325773034%26sub6%3Dd9ohcp9j5s8c73dijmt0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=850982337.1785796200&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395334~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796199528&tfd=1618&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199517&cv=11&fst=1785796199517&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395334~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D8171625858325773034%26sub6%3Dd9ohcp9j5s8c73dijmt0&top=https%3A%2F%2Fembed.st&rcb=7&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D2321532002720509377%26sub6%3Dd9ohcp9j5s8c73dijmtg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=445561212.1785796200&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118395334~118897920~118897930~119337770~119527020~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796199550&tfd=1639&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796199540&cv=11&fst=1785796199540&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118395334~118897920~118897930~119337770~119527020~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D2321532002720509377%26sub6%3Dd9ohcp9j5s8c73dijmtg&top=https%3A%2F%2Fembed.st&rcb=17&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "key": "philadelphia-phillies-vs-washington-nationals-2388566|delta|live_mlb_phillies-nationals-live-streaming-591319440|2",
+      "title": "Philadelphia Phillies vs Washington Nationals",
+      "embed": "https://embed.st/embed/delta/live_mlb_phillies-nationals-live-streaming-591319440/2",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb5.strmd.st/secure/<cbc942fb91>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/2/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb5.strmd.st/secure/RnwVaUlpIiEVHjHPmINWtuVTIkdRajYR/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb5.strmd.st/secure/<cbc942fb91>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb5.strmd.st/secure/<cbc942fb91>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/2/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/RnwVaUlpIiEVHjHPmINWtuVTIkdRajYR/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb5.strmd.st/secure/<cbc942fb91>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_phillies-nationals-live-streaming-591319440/2",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb5.strmd.st/secure/<cbc942fb91>/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/2/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb5.strmd.st/secure/RnwVaUlpIiEVHjHPmINWtuVTIkdRajYR/delta/stream/live_mlb_phillies-nationals-live-streaming-591319440/2/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796201443&cv=11&fst=1785796201443&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119527020~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D3674801436903769505%26sub6%3Dd9ohcq1j5s8c73dijorg&top=https%3A%2F%2Fembed.st&rcb=15&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D3674801436903769505%26sub6%3Dd9ohcq1j5s8c73dijorg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1592591795.1785796201&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119527020~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796201462&tfd=1080&fmt=8",
+          "failure": "net::ERR_ABORTED"
         },
         {
           "console": "warning",
@@ -359,15 +883,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<8213d0f7d1>/rtmp/stream/ZLbPFJv8jYDJWbSdVrBzNr4TO1SywHxEjruh6jiMLZKGdsZLcFm5sucEcHa0cqBR7Tj90iVlJgWs-rKFrxFNAg/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<fb02d6298c>/rtmp/stream/m4Gu52Um7jW2zvi2yzVhUyCqnUt0MjO8aEsZzuB96JdjR9YNceaj8UNk_tnS_pmBBEhVOHjQRqXAOeMr4Baf1w/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb2.strmd.st/secure/jrGWeVBRHgjUCbkKSxUtxrrGUhXqyxud/rtmp/stream/ZLbPFJv8jYDJWbSdVrBzNr4TO1SywHxEjruh6jiMLZKGdsZLcFm5sucEcHa0cqBR7Tj90iVlJgWs-rKFrxFNAg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb5.strmd.st/secure/odtNxgVPbxpuRIrDDrFCkDBLXuSZfkYr/rtmp/stream/m4Gu52Um7jW2zvi2yzVhUyCqnUt0MjO8aEsZzuB96JdjR9YNceaj8UNk_tnS_pmBBEhVOHjQRqXAOeMr4Baf1w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<8213d0f7d1>/rtmp/stream/ZLbPFJv8jYDJWbSdVrBzNr4TO1SywHxEjruh6jiMLZKGdsZLcFm5sucEcHa0cqBR7Tj90iVlJgWs-rKFrxFNAg/1/playlist.m3u8",
+          "request_failed": "https://lb5.strmd.st/secure/<fb02d6298c>/rtmp/stream/m4Gu52Um7jW2zvi2yzVhUyCqnUt0MjO8aEsZzuB96JdjR9YNceaj8UNk_tnS_pmBBEhVOHjQRqXAOeMr4Baf1w/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -381,15 +905,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<8213d0f7d1>/rtmp/stream/ZLbPFJv8jYDJWbSdVrBzNr4TO1SywHxEjruh6jiMLZKGdsZLcFm5sucEcHa0cqBR7Tj90iVlJgWs-rKFrxFNAg/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<fb02d6298c>/rtmp/stream/m4Gu52Um7jW2zvi2yzVhUyCqnUt0MjO8aEsZzuB96JdjR9YNceaj8UNk_tnS_pmBBEhVOHjQRqXAOeMr4Baf1w/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/jrGWeVBRHgjUCbkKSxUtxrrGUhXqyxud/rtmp/stream/ZLbPFJv8jYDJWbSdVrBzNr4TO1SywHxEjruh6jiMLZKGdsZLcFm5sucEcHa0cqBR7Tj90iVlJgWs-rKFrxFNAg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/odtNxgVPbxpuRIrDDrFCkDBLXuSZfkYr/rtmp/stream/m4Gu52Um7jW2zvi2yzVhUyCqnUt0MjO8aEsZzuB96JdjR9YNceaj8UNk_tnS_pmBBEhVOHjQRqXAOeMr4Baf1w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<8213d0f7d1>/rtmp/stream/ZLbPFJv8jYDJWbSdVrBzNr4TO1SywHxEjruh6jiMLZKGdsZLcFm5sucEcHa0cqBR7Tj90iVlJgWs-rKFrxFNAg/1/playlist.m3u8",
+          "request_failed": "https://lb5.strmd.st/secure/<fb02d6298c>/rtmp/stream/m4Gu52Um7jW2zvi2yzVhUyCqnUt0MjO8aEsZzuB96JdjR9YNceaj8UNk_tnS_pmBBEhVOHjQRqXAOeMr4Baf1w/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -419,9 +943,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb2.strmd.st/secure/<8213d0f7d1>/rtmp/stream/ZLbPFJv8jYDJWbSdVrBzNr4TO1SywHxEjruh6jiMLZKGdsZLcFm5sucEcHa0cqBR7Tj90iVlJgWs-rKFrxFNAg/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<fb02d6298c>/rtmp/stream/m4Gu52Um7jW2zvi2yzVhUyCqnUt0MjO8aEsZzuB96JdjR9YNceaj8UNk_tnS_pmBBEhVOHjQRqXAOeMr4Baf1w/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb2.strmd.st/secure/jrGWeVBRHgjUCbkKSxUtxrrGUhXqyxud/rtmp/stream/ZLbPFJv8jYDJWbSdVrBzNr4TO1SywHxEjruh6jiMLZKGdsZLcFm5sucEcHa0cqBR7Tj90iVlJgWs-rKFrxFNAg/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb5.strmd.st/secure/odtNxgVPbxpuRIrDDrFCkDBLXuSZfkYr/rtmp/stream/m4Gu52Um7jW2zvi2yzVhUyCqnUt0MjO8aEsZzuB96JdjR9YNceaj8UNk_tnS_pmBBEhVOHjQRqXAOeMr4Baf1w/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -440,11 +964,31 @@
           "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D5912555092878181890%26sub6%3Dd9ogbd9j5s8c73deb5c0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=637279467.1785791927&navt=n&npa=0&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785791926945&tfd=1099&fmt=8",
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=11&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D3435826430442948327%26sub6%3Dd9ohcqpj5s8c73dijqj0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=233096852.1785796204&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204122&tfd=1169&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785791926921&cv=11&fst=1785791926921&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D5912555092878181890%26sub6%3Dd9ogbd9j5s8c73deb5c0&top=https%3A%2F%2Fembed.st&rcb=12&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204102&cv=11&fst=1785796204102&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D3435826430442948327%26sub6%3Dd9ohcqpj5s8c73dijqj0&top=https%3A%2F%2Fembed.st&rcb=11&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204176&cv=11&fst=1785796204176&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118012008~118897920~118897930~119896802~120222309&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D4981476075796763031%26sub6%3Dd9ohcqhj5s8c73dijqig&top=https%3A%2F%2Fembed.st&rcb=13&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&tid=AW-10851061528&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D4981476075796763031%26sub6%3Dd9ohcqhj5s8c73dijqig&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1029307444.1785796204&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118012008~118897920~118897930~119896802~120222309&tft=1785796204185&tfd=1236&tids=AW-10851061528&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
@@ -458,6 +1002,197 @@
         {
           "console": "warning",
           "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D2321678952969775884%26sub6%3Dd9ohcqpj5s8c73dijqjg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1375189491.1785796204&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204412&tfd=1454&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204403&cv=11&fst=1785796204403&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D2321678952969775884%26sub6%3Dd9ohcqpj5s8c73dijqjg&top=https%3A%2F%2Fembed.st&rcb=15&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D4517513062583953808%26sub6%3Dd9ohcqpj5s8c73dijqk0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1628948534.1785796204&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896802~120222307&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204438&tfd=1469&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204428&cv=11&fst=1785796204428&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896802~120222307&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D4517513062583953808%26sub6%3Dd9ohcqpj5s8c73dijqk0&top=https%3A%2F%2Fembed.st&rcb=2&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D4668943084106148687%26sub6%3Dd9ohcqpj5s8c73dijqkg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1422232461.1785796204&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118395334~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204508&tfd=1522&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204495&cv=11&fst=1785796204495&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118395334~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1230072_-1%26sub2%3Dbinom_postback%26sub5%3D4668943084106148687%26sub6%3Dd9ohcqpj5s8c73dijqkg&top=https%3A%2F%2Fembed.st&rcb=16&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=14&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D6590752589774808644%26sub6%3Dd9ohcqpj5s8c73dijql0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1603671885.1785796205&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204547&tfd=1559&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204537&cv=11&fst=1785796204537&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1197232_-1%26sub2%3Dbinom_postback%26sub5%3D6590752589774808644%26sub6%3Dd9ohcqpj5s8c73dijql0&top=https%3A%2F%2Fembed.st&rcb=14&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D6384014207795404109%26sub6%3Dd9ohcqpj5s8c73dijqm0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=385127652.1785796205&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118395335~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204580&tfd=1560&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204570&cv=11&fst=1785796204570&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118395335~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D6384014207795404109%26sub6%3Dd9ohcqpj5s8c73dijqm0&top=https%3A%2F%2Fembed.st&rcb=17&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D6231703174517434699%26sub6%3Dd9ohcqpj5s8c73dijqlg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1869279436.1785796205&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118395333~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204602&tfd=1605&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204592&cv=11&fst=1785796204592&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118395333~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D6231703174517434699%26sub6%3Dd9ohcqpj5s8c73dijqlg&top=https%3A%2F%2Fembed.st&rcb=19&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&tid=AW-10851061528&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D4137906910118703352%26sub6%3Dd9ohcqpj5s8c73dijqng&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=90503951.1785796205&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119527020~119896802~120222309&tft=1785796204629&tfd=1599&tids=AW-10851061528&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204618&cv=11&fst=1785796204618&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119527020~119896802~120222309&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D4137906910118703352%26sub6%3Dd9ohcqpj5s8c73dijqng&top=https%3A%2F%2Fembed.st&rcb=5&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D1690334053720301045%26sub6%3Dd9ohcqpj5s8c73dijqog&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=797595778.1785796205&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118395335~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204650&tfd=1619&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204641&cv=11&fst=1785796204641&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118395335~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1045621_-1%26sub2%3Dbinom_postback%26sub5%3D1690334053720301045%26sub6%3Dd9ohcqpj5s8c73dijqog&top=https%3A%2F%2Fembed.st&rcb=2&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D3045278771730624232%26sub6%3Dd9ohcqpj5s8c73dijqpg&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1967992742.1785796205&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204702&tfd=1641&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204693&cv=11&fst=1785796204693&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D988540_-1%26sub2%3Dbinom_postback%26sub5%3D3045278771730624232%26sub6%3Dd9ohcqpj5s8c73dijqpg&top=https%3A%2F%2Fembed.st&rcb=16&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D6395419652530654383%26sub6%3Dd9ohcqpj5s8c73dijqq0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1042593678.1785796205&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119896802&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796204724&tfd=1662&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796204715&cv=11&fst=1785796204715&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119896802&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1232153_-1%26sub2%3Dbinom_postback%26sub5%3D6395419652530654383%26sub6%3Dd9ohcqpj5s8c73dijqq0&top=https%3A%2F%2Fembed.st&rcb=5&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ]
+    },
+    {
+      "key": "new-york-liberty-vs-seattle-storm-2449144|admin|ppv-seattle-storm-vs-new-york-liberty|2",
+      "title": "New York Liberty vs Seattle Storm",
+      "embed": "https://embed.st/embed/admin/ppv-seattle-storm-vs-new-york-liberty/2",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<5c45a74011>/rtmp/stream/PtE10olFaKTlcHdDT_y5eQiqZXLM-3J86C44bS5m7k7nV7OXc8xsMEGZ32fmZyX_fQGxB7ciAZcnjTfDTgoe5Jn-q2c/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/sIltLMPeeGsrYUcfPCHWFRctaVfpgupt/rtmp/stream/PtE10olFaKTlcHdDT_y5eQiqZXLM-3J86C44bS5m7k7nV7OXc8xsMEGZ32fmZyX_fQGxB7ciAZcnjTfDTgoe5Jn-q2c/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<5c45a74011>/rtmp/stream/PtE10olFaKTlcHdDT_y5eQiqZXLM-3J86C44bS5m7k7nV7OXc8xsMEGZ32fmZyX_fQGxB7ciAZcnjTfDTgoe5Jn-q2c/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<5c45a74011>/rtmp/stream/PtE10olFaKTlcHdDT_y5eQiqZXLM-3J86C44bS5m7k7nV7OXc8xsMEGZ32fmZyX_fQGxB7ciAZcnjTfDTgoe5Jn-q2c/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-seattle-storm-vs-new-york-liberty/2",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb12.strmd.st/secure/<5c45a74011>/rtmp/stream/PtE10olFaKTlcHdDT_y5eQiqZXLM-3J86C44bS5m7k7nV7OXc8xsMEGZ32fmZyX_fQGxB7ciAZcnjTfDTgoe5Jn-q2c/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb12.strmd.st/secure/sIltLMPeeGsrYUcfPCHWFRctaVfpgupt/rtmp/stream/PtE10olFaKTlcHdDT_y5eQiqZXLM-3J86C44bS5m7k7nV7OXc8xsMEGZ32fmZyX_fQGxB7ciAZcnjTfDTgoe5Jn-q2c/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/sIltLMPeeGsrYUcfPCHWFRctaVfpgupt/rtmp/stream/PtE10olFaKTlcHdDT_y5eQiqZXLM-3J86C44bS5m7k7nV7OXc8xsMEGZ32fmZyX_fQGxB7ciAZcnjTfDTgoe5Jn-q2c/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<5c45a74011>/rtmp/stream/PtE10olFaKTlcHdDT_y5eQiqZXLM-3J86C44bS5m7k7nV7OXc8xsMEGZ32fmZyX_fQGxB7ciAZcnjTfDTgoe5Jn-q2c/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "console": "warning",
@@ -470,9 +1205,9 @@
       ]
     },
     {
-      "key": "new-york-liberty-vs-seattle-storm-2449144|admin|ppv-seattle-storm-vs-new-york-liberty|2",
+      "key": "new-york-liberty-vs-seattle-storm-2449144|delta|live_wnba_liberty-storm-live-streaming-524065680|1",
       "title": "New York Liberty vs Seattle Storm",
-      "embed": "https://embed.st/embed/admin/ppv-seattle-storm-vs-new-york-liberty/2",
+      "embed": "https://embed.st/embed/delta/live_wnba_liberty-storm-live-streaming-524065680/1",
       "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
@@ -494,15 +1229,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<29119e0294>/rtmp/stream/_oe2FKt2pClnwDK9Sl3JsPAGEdrMaWfaD8cGKw76DQ-PKQecYHl2KkENMe-n9HbwMQKVMINioX497YVNHv8qQz6mgxQ/1/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<e601288847>/delta/stream/live_wnba_liberty-storm-live-streaming-524065680/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb2.strmd.st/secure/UQqVtvVyhFbrDEVehhpzylhPbWWAspvo/rtmp/stream/_oe2FKt2pClnwDK9Sl3JsPAGEdrMaWfaD8cGKw76DQ-PKQecYHl2KkENMe-n9HbwMQKVMINioX497YVNHv8qQz6mgxQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/kSxuFFPGxMCaaFNGthlrvRnWKVRJKvUo/delta/stream/live_wnba_liberty-storm-live-streaming-524065680/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<29119e0294>/rtmp/stream/_oe2FKt2pClnwDK9Sl3JsPAGEdrMaWfaD8cGKw76DQ-PKQecYHl2KkENMe-n9HbwMQKVMINioX497YVNHv8qQz6mgxQ/1/playlist.m3u8",
+          "request_failed": "https://lb12.strmd.st/secure/<e601288847>/delta/stream/live_wnba_liberty-storm-live-streaming-524065680/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -516,15 +1251,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<29119e0294>/rtmp/stream/_oe2FKt2pClnwDK9Sl3JsPAGEdrMaWfaD8cGKw76DQ-PKQecYHl2KkENMe-n9HbwMQKVMINioX497YVNHv8qQz6mgxQ/1/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<e601288847>/delta/stream/live_wnba_liberty-storm-live-streaming-524065680/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/UQqVtvVyhFbrDEVehhpzylhPbWWAspvo/rtmp/stream/_oe2FKt2pClnwDK9Sl3JsPAGEdrMaWfaD8cGKw76DQ-PKQecYHl2KkENMe-n9HbwMQKVMINioX497YVNHv8qQz6mgxQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/kSxuFFPGxMCaaFNGthlrvRnWKVRJKvUo/delta/stream/live_wnba_liberty-storm-live-streaming-524065680/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<29119e0294>/rtmp/stream/_oe2FKt2pClnwDK9Sl3JsPAGEdrMaWfaD8cGKw76DQ-PKQecYHl2KkENMe-n9HbwMQKVMINioX497YVNHv8qQz6mgxQ/1/playlist.m3u8",
+          "request_failed": "https://lb12.strmd.st/secure/<e601288847>/delta/stream/live_wnba_liberty-storm-live-streaming-524065680/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -534,13 +1269,13 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-seattle-storm-vs-new-york-liberty/2",
+            "url": "https://embed.st/embed/delta/live_wnba_liberty-storm-live-streaming-524065680/1",
             "title": "",
             "html_length": 753531,
             "script_hosts": [
-              "awbmazjysekvt.online",
               "cdn.jsdelivr.net",
               "embed.st",
+              "llmkghvhttoki.online",
               "strmd.b-cdn.net",
               "www.gstatic.com",
               "www.w3.org"
@@ -554,9 +1289,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb2.strmd.st/secure/<29119e0294>/rtmp/stream/_oe2FKt2pClnwDK9Sl3JsPAGEdrMaWfaD8cGKw76DQ-PKQecYHl2KkENMe-n9HbwMQKVMINioX497YVNHv8qQz6mgxQ/1/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<e601288847>/delta/stream/live_wnba_liberty-storm-live-streaming-524065680/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb2.strmd.st/secure/UQqVtvVyhFbrDEVehhpzylhPbWWAspvo/rtmp/stream/_oe2FKt2pClnwDK9Sl3JsPAGEdrMaWfaD8cGKw76DQ-PKQecYHl2KkENMe-n9HbwMQKVMINioX497YVNHv8qQz6mgxQ/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb12.strmd.st/secure/kSxuFFPGxMCaaFNGthlrvRnWKVRJKvUo/delta/stream/live_wnba_liberty-storm-live-streaming-524065680/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -573,18 +1308,6 @@
         {
           "console": "warning",
           "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
-        },
-        {
-          "console": "warning",
-          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&apvc=1&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&tid=AW-10851061528&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D6788642482244543780%26sub6%3Dd9ogbe1j5s8c73deb800&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=736929422.1785791930&navt=n&npa=0&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119896803~120222309&tft=1785791929753&tfd=1259&tids=AW-10851061528&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785791929720&cv=11&fst=1785791929720&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119896803~120222309&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D6788642482244543780%26sub6%3Dd9ogbe1j5s8c73deb800&top=https%3A%2F%2Fembed.st&rcb=6&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
         },
         {
           "console": "warning",
@@ -617,15 +1340,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<035abd9a11>/rtmp/stream/gacPSYkTvEu7DeGhZDqrUf8G2T5oFyNKbMz9U62oQqGV1825YpP_3i8hyWOt7y_pPX0G2IMii4LQsZYrMYA/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<520fec2253>/rtmp/stream/byDmlkhvkxXNXwS1OAlqu09XlbHiEQv6svupcExqt3eM8ZAWbGO95-DaeJf0QMpsFbEmqoiKEeWieq9HFu4/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/DlotzafpxxwEbsjKXtaPIUSYtEwwESIG/rtmp/stream/gacPSYkTvEu7DeGhZDqrUf8G2T5oFyNKbMz9U62oQqGV1825YpP_3i8hyWOt7y_pPX0G2IMii4LQsZYrMYA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/IDHqanMdUgCOmBeqXhmMvDmOnpYMQAqd/rtmp/stream/byDmlkhvkxXNXwS1OAlqu09XlbHiEQv6svupcExqt3eM8ZAWbGO95-DaeJf0QMpsFbEmqoiKEeWieq9HFu4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb8.strmd.st/secure/<035abd9a11>/rtmp/stream/gacPSYkTvEu7DeGhZDqrUf8G2T5oFyNKbMz9U62oQqGV1825YpP_3i8hyWOt7y_pPX0G2IMii4LQsZYrMYA/1/playlist.m3u8",
+          "request_failed": "https://lb11.strmd.st/secure/<520fec2253>/rtmp/stream/byDmlkhvkxXNXwS1OAlqu09XlbHiEQv6svupcExqt3eM8ZAWbGO95-DaeJf0QMpsFbEmqoiKEeWieq9HFu4/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -639,20 +1362,24 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<035abd9a11>/rtmp/stream/gacPSYkTvEu7DeGhZDqrUf8G2T5oFyNKbMz9U62oQqGV1825YpP_3i8hyWOt7y_pPX0G2IMii4LQsZYrMYA/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<520fec2253>/rtmp/stream/byDmlkhvkxXNXwS1OAlqu09XlbHiEQv6svupcExqt3eM8ZAWbGO95-DaeJf0QMpsFbEmqoiKEeWieq9HFu4/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/DlotzafpxxwEbsjKXtaPIUSYtEwwESIG/rtmp/stream/gacPSYkTvEu7DeGhZDqrUf8G2T5oFyNKbMz9U62oQqGV1825YpP_3i8hyWOt7y_pPX0G2IMii4LQsZYrMYA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/IDHqanMdUgCOmBeqXhmMvDmOnpYMQAqd/rtmp/stream/byDmlkhvkxXNXwS1OAlqu09XlbHiEQv6svupcExqt3eM8ZAWbGO95-DaeJf0QMpsFbEmqoiKEeWieq9HFu4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb8.strmd.st/secure/<035abd9a11>/rtmp/stream/gacPSYkTvEu7DeGhZDqrUf8G2T5oFyNKbMz9U62oQqGV1825YpP_3i8hyWOt7y_pPX0G2IMii4LQsZYrMYA/1/playlist.m3u8",
+          "request_failed": "https://lb11.strmd.st/secure/<520fec2253>/rtmp/stream/byDmlkhvkxXNXwS1OAlqu09XlbHiEQv6svupcExqt3eM8ZAWbGO95-DaeJf0QMpsFbEmqoiKEeWieq9HFu4/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
         },
         {
           "page": {
@@ -661,9 +1388,9 @@
             "title": "",
             "html_length": 753531,
             "script_hosts": [
-              "awbmazjysekvt.online",
               "cdn.jsdelivr.net",
               "embed.st",
+              "llmkghvhttoki.online",
               "strmd.b-cdn.net",
               "www.gstatic.com",
               "www.w3.org"
@@ -677,9 +1404,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<035abd9a11>/rtmp/stream/gacPSYkTvEu7DeGhZDqrUf8G2T5oFyNKbMz9U62oQqGV1825YpP_3i8hyWOt7y_pPX0G2IMii4LQsZYrMYA/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<520fec2253>/rtmp/stream/byDmlkhvkxXNXwS1OAlqu09XlbHiEQv6svupcExqt3eM8ZAWbGO95-DaeJf0QMpsFbEmqoiKEeWieq9HFu4/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb8.strmd.st/secure/DlotzafpxxwEbsjKXtaPIUSYtEwwESIG/rtmp/stream/gacPSYkTvEu7DeGhZDqrUf8G2T5oFyNKbMz9U62oQqGV1825YpP_3i8hyWOt7y_pPX0G2IMii4LQsZYrMYA/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb11.strmd.st/secure/IDHqanMdUgCOmBeqXhmMvDmOnpYMQAqd/rtmp/stream/byDmlkhvkxXNXwS1OAlqu09XlbHiEQv6svupcExqt3eM8ZAWbGO95-DaeJf0QMpsFbEmqoiKEeWieq9HFu4/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -698,32 +1425,12 @@
           "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
         },
         {
-          "console": "warning",
-          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=10&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D4364700009543074054%26sub6%3Dd9ogbepj5s8c73debbk0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=559408766.1785791933&navt=n&npa=0&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803~120222308&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785791932951&tfd=1177&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D5542164687505424623%26sub6%3Dd9ohcspj5s8c73dik610&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2108027938.1785796213&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796212996&tfd=1076&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785791932929&cv=11&fst=1785791932929&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803~120222308&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D4364700009543074054%26sub6%3Dd9ogbepj5s8c73debbk0&top=https%3A%2F%2Fembed.st&rcb=10&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796212977&cv=11&fst=1785796212977&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D5542164687505424623%26sub6%3Dd9ohcspj5s8c73dik610&top=https%3A%2F%2Fembed.st&rcb=7&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
           "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "warning",
-          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
-        },
-        {
-          "console": "warning",
-          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
-        },
-        {
-          "console": "warning",
-          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
-        },
-        {
-          "console": "warning",
-          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
         },
         {
           "console": "warning",
@@ -756,15 +1463,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<fb2521247f>/rtmp/stream/LmbbPetk703D1sQgUyry4CvpQwUJHvfW0w00lbFkQnWVbJePUI0jRlx6Nh6UrS9WFnIUzQfXt6tnPYoWgeq66fvn/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<26924b8086>/rtmp/stream/mZ4bvy0yksytLZK4X6VKH0R7bzoT5J82zawzAR7TOAvGJqs-mfY8SQvfbHT2luJ8aqVeu4268exZWYdP121s193M/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/YlMulLBnkLwQsVEdzcQqUxJHgfAaXzHB/rtmp/stream/LmbbPetk703D1sQgUyry4CvpQwUJHvfW0w00lbFkQnWVbJePUI0jRlx6Nh6UrS9WFnIUzQfXt6tnPYoWgeq66fvn/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/XHnigBdXmHneaXCPsfFniiRYBvtcgCBJ/rtmp/stream/mZ4bvy0yksytLZK4X6VKH0R7bzoT5J82zawzAR7TOAvGJqs-mfY8SQvfbHT2luJ8aqVeu4268exZWYdP121s193M/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<fb2521247f>/rtmp/stream/LmbbPetk703D1sQgUyry4CvpQwUJHvfW0w00lbFkQnWVbJePUI0jRlx6Nh6UrS9WFnIUzQfXt6tnPYoWgeq66fvn/1/playlist.m3u8",
+          "request_failed": "https://lb10.strmd.st/secure/<26924b8086>/rtmp/stream/mZ4bvy0yksytLZK4X6VKH0R7bzoT5J82zawzAR7TOAvGJqs-mfY8SQvfbHT2luJ8aqVeu4268exZWYdP121s193M/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -778,15 +1485,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<fb2521247f>/rtmp/stream/LmbbPetk703D1sQgUyry4CvpQwUJHvfW0w00lbFkQnWVbJePUI0jRlx6Nh6UrS9WFnIUzQfXt6tnPYoWgeq66fvn/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<26924b8086>/rtmp/stream/mZ4bvy0yksytLZK4X6VKH0R7bzoT5J82zawzAR7TOAvGJqs-mfY8SQvfbHT2luJ8aqVeu4268exZWYdP121s193M/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/YlMulLBnkLwQsVEdzcQqUxJHgfAaXzHB/rtmp/stream/LmbbPetk703D1sQgUyry4CvpQwUJHvfW0w00lbFkQnWVbJePUI0jRlx6Nh6UrS9WFnIUzQfXt6tnPYoWgeq66fvn/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/XHnigBdXmHneaXCPsfFniiRYBvtcgCBJ/rtmp/stream/mZ4bvy0yksytLZK4X6VKH0R7bzoT5J82zawzAR7TOAvGJqs-mfY8SQvfbHT2luJ8aqVeu4268exZWYdP121s193M/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<fb2521247f>/rtmp/stream/LmbbPetk703D1sQgUyry4CvpQwUJHvfW0w00lbFkQnWVbJePUI0jRlx6Nh6UrS9WFnIUzQfXt6tnPYoWgeq66fvn/1/playlist.m3u8",
+          "request_failed": "https://lb10.strmd.st/secure/<26924b8086>/rtmp/stream/mZ4bvy0yksytLZK4X6VKH0R7bzoT5J82zawzAR7TOAvGJqs-mfY8SQvfbHT2luJ8aqVeu4268exZWYdP121s193M/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -800,9 +1507,9 @@
             "title": "",
             "html_length": 753531,
             "script_hosts": [
-              "awbmazjysekvt.online",
               "cdn.jsdelivr.net",
               "embed.st",
+              "llmkghvhttoki.online",
               "strmd.b-cdn.net",
               "www.gstatic.com",
               "www.w3.org"
@@ -816,13 +1523,128 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<fb2521247f>/rtmp/stream/LmbbPetk703D1sQgUyry4CvpQwUJHvfW0w00lbFkQnWVbJePUI0jRlx6Nh6UrS9WFnIUzQfXt6tnPYoWgeq66fvn/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<26924b8086>/rtmp/stream/mZ4bvy0yksytLZK4X6VKH0R7bzoT5J82zawzAR7TOAvGJqs-mfY8SQvfbHT2luJ8aqVeu4268exZWYdP121s193M/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/YlMulLBnkLwQsVEdzcQqUxJHgfAaXzHB/rtmp/stream/LmbbPetk703D1sQgUyry4CvpQwUJHvfW0w00lbFkQnWVbJePUI0jRlx6Nh6UrS9WFnIUzQfXt6tnPYoWgeq66fvn/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb10.strmd.st/secure/XHnigBdXmHneaXCPsfFniiRYBvtcgCBJ/rtmp/stream/mZ4bvy0yksytLZK4X6VKH0R7bzoT5J82zawzAR7TOAvGJqs-mfY8SQvfbHT2luJ8aqVeu4268exZWYdP121s193M/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        }
+      ]
+    },
+    {
+      "key": "atlanta-dream-vs-las-vegas-aces-2449142|delta|live_wnba_dream-aces-live-streaming-524064816|1",
+      "title": "Atlanta Dream vs Las Vegas Aces",
+      "embed": "https://embed.st/embed/delta/live_wnba_dream-aces-live-streaming-524064816/1",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb10.strmd.st/secure/<be48e9c661>/delta/stream/live_wnba_dream-aces-live-streaming-524064816/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/UrRhaTEjUKqACDuxKEtxgiZfdYDqwafo/delta/stream/live_wnba_dream-aces-live-streaming-524064816/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<be48e9c661>/delta/stream/live_wnba_dream-aces-live-streaming-524064816/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb10.strmd.st/secure/<be48e9c661>/delta/stream/live_wnba_dream-aces-live-streaming-524064816/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/UrRhaTEjUKqACDuxKEtxgiZfdYDqwafo/delta/stream/live_wnba_dream-aces-live-streaming-524064816/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<be48e9c661>/delta/stream/live_wnba_dream-aces-live-streaming-524064816/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_wnba_dream-aces-live-streaming-524064816/1",
+            "title": "",
+            "html_length": 753531,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llmkghvhttoki.online",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb10.strmd.st/secure/<be48e9c661>/delta/stream/live_wnba_dream-aces-live-streaming-524064816/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb10.strmd.st/secure/UrRhaTEjUKqACDuxKEtxgiZfdYDqwafo/delta/stream/live_wnba_dream-aces-live-streaming-524064816/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
         },
         {
           "console": "warning",
@@ -850,8 +1672,8 @@
       "classification": "upstream_dead",
       "events": [
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
         },
         {
           "request": "fetch",
@@ -867,15 +1689,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<19e314be78>/rtmp/stream/Rnd_fBWkzRQRhMR2lg1wd5a6fza1QlQvxjG7LIEmptq5_nDeJP_6zYuwVlc53ii2aUm7u9FeC7i0hQD-PoWSWw/1/playlist.m3u8",
+          "url": "https://lb6.strmd.st/secure/<db1705feed>/rtmp/stream/rj1RyEynkGvTW5YdEip3emwvORZu5ay44U5OZmiMR2beLp8E2D7k1zl4ob_vt-fm-5zC5wTNOfRjfICNKWnGRg/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/hxApMCobPTTzQUGvCrOsBqRsCVQCCFUk/rtmp/stream/Rnd_fBWkzRQRhMR2lg1wd5a6fza1QlQvxjG7LIEmptq5_nDeJP_6zYuwVlc53ii2aUm7u9FeC7i0hQD-PoWSWw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb6.strmd.st/secure/giaoydpGKBVXjkIcMIaIxOWnfaJVUpTN/rtmp/stream/rj1RyEynkGvTW5YdEip3emwvORZu5ay44U5OZmiMR2beLp8E2D7k1zl4ob_vt-fm-5zC5wTNOfRjfICNKWnGRg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<19e314be78>/rtmp/stream/Rnd_fBWkzRQRhMR2lg1wd5a6fza1QlQvxjG7LIEmptq5_nDeJP_6zYuwVlc53ii2aUm7u9FeC7i0hQD-PoWSWw/1/playlist.m3u8",
+          "request_failed": "https://lb6.strmd.st/secure/<db1705feed>/rtmp/stream/rj1RyEynkGvTW5YdEip3emwvORZu5ay44U5OZmiMR2beLp8E2D7k1zl4ob_vt-fm-5zC5wTNOfRjfICNKWnGRg/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -889,32 +1711,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<19e314be78>/rtmp/stream/Rnd_fBWkzRQRhMR2lg1wd5a6fza1QlQvxjG7LIEmptq5_nDeJP_6zYuwVlc53ii2aUm7u9FeC7i0hQD-PoWSWw/1/playlist.m3u8",
+          "url": "https://lb6.strmd.st/secure/<db1705feed>/rtmp/stream/rj1RyEynkGvTW5YdEip3emwvORZu5ay44U5OZmiMR2beLp8E2D7k1zl4ob_vt-fm-5zC5wTNOfRjfICNKWnGRg/1/playlist.m3u8",
           "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/hxApMCobPTTzQUGvCrOsBqRsCVQCCFUk/rtmp/stream/Rnd_fBWkzRQRhMR2lg1wd5a6fza1QlQvxjG7LIEmptq5_nDeJP_6zYuwVlc53ii2aUm7u9FeC7i0hQD-PoWSWw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<19e314be78>/rtmp/stream/Rnd_fBWkzRQRhMR2lg1wd5a6fza1QlQvxjG7LIEmptq5_nDeJP_6zYuwVlc53ii2aUm7u9FeC7i0hQD-PoWSWw/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-st-louis-cardinals-vs-new-york-yankees/1",
             "title": "",
-            "html_length": 753531,
+            "html_length": 132155,
             "script_hosts": [
-              "awbmazjysekvt.online",
               "cdn.jsdelivr.net",
               "embed.st",
               "strmd.b-cdn.net",
+              "therocketlanguages.com",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -927,9 +1737,156 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<19e314be78>/rtmp/stream/Rnd_fBWkzRQRhMR2lg1wd5a6fza1QlQvxjG7LIEmptq5_nDeJP_6zYuwVlc53ii2aUm7u9FeC7i0hQD-PoWSWw/1/playlist.m3u8",
+          "url": "https://lb6.strmd.st/secure/<db1705feed>/rtmp/stream/rj1RyEynkGvTW5YdEip3emwvORZu5ay44U5OZmiMR2beLp8E2D7k1zl4ob_vt-fm-5zC5wTNOfRjfICNKWnGRg/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/hxApMCobPTTzQUGvCrOsBqRsCVQCCFUk/rtmp/stream/Rnd_fBWkzRQRhMR2lg1wd5a6fza1QlQvxjG7LIEmptq5_nDeJP_6zYuwVlc53ii2aUm7u9FeC7i0hQD-PoWSWw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb6.strmd.st/secure/giaoydpGKBVXjkIcMIaIxOWnfaJVUpTN/rtmp/stream/rj1RyEynkGvTW5YdEip3emwvORZu5ay44U5OZmiMR2beLp8E2D7k1zl4ob_vt-fm-5zC5wTNOfRjfICNKWnGRg/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/giaoydpGKBVXjkIcMIaIxOWnfaJVUpTN/rtmp/stream/rj1RyEynkGvTW5YdEip3emwvORZu5ay44U5OZmiMR2beLp8E2D7k1zl4ob_vt-fm-5zC5wTNOfRjfICNKWnGRg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<db1705feed>/rtmp/stream/rj1RyEynkGvTW5YdEip3emwvORZu5ay44U5OZmiMR2beLp8E2D7k1zl4ob_vt-fm-5zC5wTNOfRjfICNKWnGRg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=9&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D9175212247680510888%26sub6%3Dd9ohcv1j5s8c73dikdh0&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=208778558.1785796221&navt=n&npa=0&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118395335~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785796221449&tfd=979&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785796221426&cv=11&fst=1785796221426&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67v1v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118395335~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D9175212247680510888%26sub6%3Dd9ohcv1j5s8c73dikdh0&top=https%3A%2F%2Fembed.st&rcb=9&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        }
+      ]
+    },
+    {
+      "key": "new-york-yankees-vs-st--louis-cardinals-2388567|admin|ppv-st-louis-cardinals-vs-new-york-yankees|2",
+      "title": "New York Yankees vs St. Louis Cardinals",
+      "embed": "https://embed.st/embed/admin/ppv-st-louis-cardinals-vs-new-york-yankees/2",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<3d451b1b68>/rtmp/stream/8HWdxRiGgW-yfaoWykSRd8WYLBji4whVm5WFk9w9KhPkpu89UgrrqhPTK8hb21Ov27cr879wdRiQmrjwMAsm9aYFiQ4/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb6.strmd.st/secure/qmcFsyzHiFRdTIYFapOyVyZMtCnneuCW/rtmp/stream/8HWdxRiGgW-yfaoWykSRd8WYLBji4whVm5WFk9w9KhPkpu89UgrrqhPTK8hb21Ov27cr879wdRiQmrjwMAsm9aYFiQ4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<3d451b1b68>/rtmp/stream/8HWdxRiGgW-yfaoWykSRd8WYLBji4whVm5WFk9w9KhPkpu89UgrrqhPTK8hb21Ov27cr879wdRiQmrjwMAsm9aYFiQ4/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<3d451b1b68>/rtmp/stream/8HWdxRiGgW-yfaoWykSRd8WYLBji4whVm5WFk9w9KhPkpu89UgrrqhPTK8hb21Ov27cr879wdRiQmrjwMAsm9aYFiQ4/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/qmcFsyzHiFRdTIYFapOyVyZMtCnneuCW/rtmp/stream/8HWdxRiGgW-yfaoWykSRd8WYLBji4whVm5WFk9w9KhPkpu89UgrrqhPTK8hb21Ov27cr879wdRiQmrjwMAsm9aYFiQ4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<3d451b1b68>/rtmp/stream/8HWdxRiGgW-yfaoWykSRd8WYLBji4whVm5WFk9w9KhPkpu89UgrrqhPTK8hb21Ov27cr879wdRiQmrjwMAsm9aYFiQ4/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-st-louis-cardinals-vs-new-york-yankees/2",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb6.strmd.st/secure/<3d451b1b68>/rtmp/stream/8HWdxRiGgW-yfaoWykSRd8WYLBji4whVm5WFk9w9KhPkpu89UgrrqhPTK8hb21Ov27cr879wdRiQmrjwMAsm9aYFiQ4/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb6.strmd.st/secure/qmcFsyzHiFRdTIYFapOyVyZMtCnneuCW/rtmp/stream/8HWdxRiGgW-yfaoWykSRd8WYLBji4whVm5WFk9w9KhPkpu89UgrrqhPTK8hb21Ov27cr879wdRiQmrjwMAsm9aYFiQ4/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -946,25 +1903,223 @@
         {
           "console": "warning",
           "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        }
+      ]
+    },
+    {
+      "key": "new-york-yankees-vs-st--louis-cardinals-2388567|delta|live_mlb_yankees-cardinals-live-streaming-591319872|1",
+      "title": "New York Yankees vs St. Louis Cardinals",
+      "embed": "https://embed.st/embed/delta/live_mlb_yankees-cardinals-live-streaming-591319872/1",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb2.strmd.st/secure/<1e372a1a2c>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb2.strmd.st/secure/hMbSfQsZHipFKYNeViOKtACHNMJYLMyH/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb2.strmd.st/secure/<1e372a1a2c>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb2.strmd.st/secure/<1e372a1a2c>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/hMbSfQsZHipFKYNeViOKtACHNMJYLMyH/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb2.strmd.st/secure/<1e372a1a2c>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_yankees-cardinals-live-streaming-591319872/1",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb2.strmd.st/secure/<1e372a1a2c>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb2.strmd.st/secure/hMbSfQsZHipFKYNeViOKtACHNMJYLMyH/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
         },
         {
           "console": "warning",
           "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D2786067694154490822%26sub6%3Dd9ogbghj5s8c73debi70&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1759578893.1785791939&navt=n&npa=0&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119896802~120222308&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785791939175&tfd=1092&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
         },
         {
-          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785791939153&cv=11&fst=1785791939153&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119896802~120222308&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D2786067694154490822%26sub6%3Dd9ogbghj5s8c73debi70&top=https%3A%2F%2Fembed.st&rcb=5&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
         }
       ]
     },
     {
-      "key": "new-york-yankees-vs-st--louis-cardinals-2388567|admin|ppv-st-louis-cardinals-vs-new-york-yankees|2",
+      "key": "new-york-yankees-vs-st--louis-cardinals-2388567|delta|live_mlb_yankees-cardinals-live-streaming-591319872|2",
       "title": "New York Yankees vs St. Louis Cardinals",
-      "embed": "https://embed.st/embed/admin/ppv-st-louis-cardinals-vs-new-york-yankees/2",
+      "embed": "https://embed.st/embed/delta/live_mlb_yankees-cardinals-live-streaming-591319872/2",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb2.strmd.st/secure/<1bf9a14022>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/2/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb2.strmd.st/secure/PotTsfciHWSaPdbeKBPCSxXytLLxNNHH/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb2.strmd.st/secure/<1bf9a14022>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb2.strmd.st/secure/<1bf9a14022>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/2/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/PotTsfciHWSaPdbeKBPCSxXytLLxNNHH/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb2.strmd.st/secure/<1bf9a14022>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_yankees-cardinals-live-streaming-591319872/2",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb2.strmd.st/secure/<1bf9a14022>/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/2/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb2.strmd.st/secure/PotTsfciHWSaPdbeKBPCSxXytLLxNNHH/delta/stream/live_mlb_yankees-cardinals-live-streaming-591319872/2/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        }
+      ]
+    },
+    {
+      "key": "milwaukee-brewers-vs-pittsburgh-pirates-2388569|admin|ppv-pittsburgh-pirates-vs-milwaukee-brewers|1",
+      "title": "Milwaukee Brewers vs Pittsburgh Pirates",
+      "embed": "https://embed.st/embed/admin/ppv-pittsburgh-pirates-vs-milwaukee-brewers/1",
       "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
@@ -982,7 +2137,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<610b9f6139>/rtmp/stream/oEBM3JugbHNkbdQ8hkjBy_OsbY2O1W-z1Y0qqnXVMODfkVFn-6-0ovHQWXF5HHny0Tl_XTL65gSvblZILH-XvOIjtJQ/1/playlist.m3u8",
+          "url": "https://lb3.strmd.st/secure/<f4910f0d7a>/rtmp/stream/_m-LwkTNdmcSKWaBRqVq9cIenihNauf8Ueq_--NQ2v7k-Q0XNpfvECTexBK0OEkUuszWE4THVv9dYeakyZYQ0m3H/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -994,20 +2149,20 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb10.strmd.st/secure/gidhRPwkIlGJDwcOVsMhAYXKBdIQlbPY/rtmp/stream/oEBM3JugbHNkbdQ8hkjBy_OsbY2O1W-z1Y0qqnXVMODfkVFn-6-0ovHQWXF5HHny0Tl_XTL65gSvblZILH-XvOIjtJQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<610b9f6139>/rtmp/stream/oEBM3JugbHNkbdQ8hkjBy_OsbY2O1W-z1Y0qqnXVMODfkVFn-6-0ovHQWXF5HHny0Tl_XTL65gSvblZILH-XvOIjtJQ/1/playlist.m3u8",
+          "console": "error",
+          "text": "Access to fetch at 'https://lb3.strmd.st/secure/TODfNDpwmkPDlLUiQsNxYnubJUwWQiuq/rtmp/stream/_m-LwkTNdmcSKWaBRqVq9cIenihNauf8Ueq_--NQ2v7k-Q0XNpfvECTexBK0OEkUuszWE4THVv9dYeakyZYQ0m3H/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<f4910f0d7a>/rtmp/stream/_m-LwkTNdmcSKWaBRqVq9cIenihNauf8Ueq_--NQ2v7k-Q0XNpfvECTexBK0OEkUuszWE4THVv9dYeakyZYQ0m3H/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "console": "error",
@@ -1016,15 +2171,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<610b9f6139>/rtmp/stream/oEBM3JugbHNkbdQ8hkjBy_OsbY2O1W-z1Y0qqnXVMODfkVFn-6-0ovHQWXF5HHny0Tl_XTL65gSvblZILH-XvOIjtJQ/1/playlist.m3u8",
+          "url": "https://lb3.strmd.st/secure/<f4910f0d7a>/rtmp/stream/_m-LwkTNdmcSKWaBRqVq9cIenihNauf8Ueq_--NQ2v7k-Q0XNpfvECTexBK0OEkUuszWE4THVv9dYeakyZYQ0m3H/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/gidhRPwkIlGJDwcOVsMhAYXKBdIQlbPY/rtmp/stream/oEBM3JugbHNkbdQ8hkjBy_OsbY2O1W-z1Y0qqnXVMODfkVFn-6-0ovHQWXF5HHny0Tl_XTL65gSvblZILH-XvOIjtJQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/TODfNDpwmkPDlLUiQsNxYnubJUwWQiuq/rtmp/stream/_m-LwkTNdmcSKWaBRqVq9cIenihNauf8Ueq_--NQ2v7k-Q0XNpfvECTexBK0OEkUuszWE4THVv9dYeakyZYQ0m3H/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<610b9f6139>/rtmp/stream/oEBM3JugbHNkbdQ8hkjBy_OsbY2O1W-z1Y0qqnXVMODfkVFn-6-0ovHQWXF5HHny0Tl_XTL65gSvblZILH-XvOIjtJQ/1/playlist.m3u8",
+          "request_failed": "https://lb3.strmd.st/secure/<f4910f0d7a>/rtmp/stream/_m-LwkTNdmcSKWaBRqVq9cIenihNauf8Ueq_--NQ2v7k-Q0XNpfvECTexBK0OEkUuszWE4THVv9dYeakyZYQ0m3H/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1034,9 +2189,9 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-st-louis-cardinals-vs-new-york-yankees/2",
+            "url": "https://embed.st/embed/admin/ppv-pittsburgh-pirates-vs-milwaukee-brewers/1",
             "title": "",
-            "html_length": 132350,
+            "html_length": 132351,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
@@ -1054,9 +2209,116 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb10.strmd.st/secure/<610b9f6139>/rtmp/stream/oEBM3JugbHNkbdQ8hkjBy_OsbY2O1W-z1Y0qqnXVMODfkVFn-6-0ovHQWXF5HHny0Tl_XTL65gSvblZILH-XvOIjtJQ/1/playlist.m3u8",
+          "url": "https://lb3.strmd.st/secure/<f4910f0d7a>/rtmp/stream/_m-LwkTNdmcSKWaBRqVq9cIenihNauf8Ueq_--NQ2v7k-Q0XNpfvECTexBK0OEkUuszWE4THVv9dYeakyZYQ0m3H/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb10.strmd.st/secure/gidhRPwkIlGJDwcOVsMhAYXKBdIQlbPY/rtmp/stream/oEBM3JugbHNkbdQ8hkjBy_OsbY2O1W-z1Y0qqnXVMODfkVFn-6-0ovHQWXF5HHny0Tl_XTL65gSvblZILH-XvOIjtJQ/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb3.strmd.st/secure/TODfNDpwmkPDlLUiQsNxYnubJUwWQiuq/rtmp/stream/_m-LwkTNdmcSKWaBRqVq9cIenihNauf8Ueq_--NQ2v7k-Q0XNpfvECTexBK0OEkUuszWE4THVv9dYeakyZYQ0m3H/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
+        }
+      ]
+    },
+    {
+      "key": "milwaukee-brewers-vs-pittsburgh-pirates-2388569|admin|ppv-pittsburgh-pirates-vs-milwaukee-brewers|2",
+      "title": "Milwaukee Brewers vs Pittsburgh Pirates",
+      "embed": "https://embed.st/embed/admin/ppv-pittsburgh-pirates-vs-milwaukee-brewers/2",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<710a2f6b6b>/rtmp/stream/-PzxS5cWiDyq9gH-6MBg5FxW95xCz2oJD6l2TZKLKc07UjbVp_IzWYxifCOx2MDvP8dFvyAwXng8GNBDIcfe0cBINMVHbw/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb3.strmd.st/secure/XdGGNGicpOvISIyOUzntKKEbaraIXvWd/rtmp/stream/-PzxS5cWiDyq9gH-6MBg5FxW95xCz2oJD6l2TZKLKc07UjbVp_IzWYxifCOx2MDvP8dFvyAwXng8GNBDIcfe0cBINMVHbw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<710a2f6b6b>/rtmp/stream/-PzxS5cWiDyq9gH-6MBg5FxW95xCz2oJD6l2TZKLKc07UjbVp_IzWYxifCOx2MDvP8dFvyAwXng8GNBDIcfe0cBINMVHbw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<710a2f6b6b>/rtmp/stream/-PzxS5cWiDyq9gH-6MBg5FxW95xCz2oJD6l2TZKLKc07UjbVp_IzWYxifCOx2MDvP8dFvyAwXng8GNBDIcfe0cBINMVHbw/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/XdGGNGicpOvISIyOUzntKKEbaraIXvWd/rtmp/stream/-PzxS5cWiDyq9gH-6MBg5FxW95xCz2oJD6l2TZKLKc07UjbVp_IzWYxifCOx2MDvP8dFvyAwXng8GNBDIcfe0cBINMVHbw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<710a2f6b6b>/rtmp/stream/-PzxS5cWiDyq9gH-6MBg5FxW95xCz2oJD6l2TZKLKc07UjbVp_IzWYxifCOx2MDvP8dFvyAwXng8GNBDIcfe0cBINMVHbw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-pittsburgh-pirates-vs-milwaukee-brewers/2",
+            "title": "",
+            "html_length": 132351,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llvpn.com",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb3.strmd.st/secure/<710a2f6b6b>/rtmp/stream/-PzxS5cWiDyq9gH-6MBg5FxW95xCz2oJD6l2TZKLKc07UjbVp_IzWYxifCOx2MDvP8dFvyAwXng8GNBDIcfe0cBINMVHbw/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb3.strmd.st/secure/XdGGNGicpOvISIyOUzntKKEbaraIXvWd/rtmp/stream/-PzxS5cWiDyq9gH-6MBg5FxW95xCz2oJD6l2TZKLKc07UjbVp_IzWYxifCOx2MDvP8dFvyAwXng8GNBDIcfe0cBINMVHbw/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -1069,18 +2331,6 @@
         {
           "console": "warning",
           "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
-        },
-        {
-          "console": "warning",
-          "text": "[Meta Pixel] - Removed URL query parameters due to potential violations."
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&dt=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&en=page_view&dl=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D5544110238765038066%26sub6%3Dd9ogbh1j5s8c73debk50&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1506049695.1785791942&navt=n&npa=0&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119896803&apvc=1&tids=AW-10851061528&tid=AW-10851061528&tft=1785791941618&tfd=1225&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/rmkt/collect/10851061528/?random=1785791941594&cv=11&fst=1785791941594&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67u0v869669615za200zd869669615xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fpixelsee.app%2Fdesktop%2F%3Fr%3DPix_Ad-Maven_VT_WW_03_08_2026%26sub1%3D1229910_-1%26sub2%3Dbinom_postback%26sub5%3D5544110238765038066%26sub6%3Dd9ogbh1j5s8c73debk50&top=https%3A%2F%2Fembed.st&rcb=17&frm=2&tiba=PixelSee%20Video%20Player%20for%20Windows%20%E2%80%94%20Download&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.128%7CGoogle%2520Chrome%3B150.0.7871.128&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
         }
       ]
     }
