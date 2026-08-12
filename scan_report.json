@@ -1,8 +1,8 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1786515687,
-  "elapsed_seconds": 15.22,
+  "started_at": 1786521447,
+  "elapsed_seconds": 11.88,
   "api_ok": true,
   "matches": 5,
   "live_matches": 5,
@@ -26,18 +26,6 @@
       "classification": "upstream_dead",
       "events": [
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
           "request": "fetch",
           "method": "POST",
           "url": "https://embed.st/fetch",
@@ -51,15 +39,27 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<770352adb7>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<e274963660>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb9.strmd.st/secure/VTPXuAgulaogmwSyVPltyanbDICzXwQY/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "request_failed": "https://lb9.strmd.st/secure/<770352adb7>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/EyaaLXgUdKYcEmUuzsOfkInCQKiIjlVS/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<e274963660>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -71,7 +71,7 @@
             "status": 200,
             "url": "https://embed.st/embed/delta/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1",
             "title": "",
-            "html_length": 23342,
+            "html_length": 23433,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "llvpn.com",
@@ -86,41 +86,29 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb9.strmd.st/secure/<770352adb7>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<e274963660>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb9.strmd.st/secure/VTPXuAgulaogmwSyVPltyanbDICzXwQY/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb1.strmd.st/secure/EyaaLXgUdKYcEmUuzsOfkInCQKiIjlVS/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4170868684506971497%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=464747400.1786521458&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68a1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527020~119896803~120315584&tft=1786521457631&tfd=836&fmt=8",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5723040085641568652%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2085482583.1786521458&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68a1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119527020~119896802~120315583&tft=1786521457644&tfd=925&fmt=8",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3117339151935496861%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=779795556.1786521458&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68a1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119527019~119896803&tft=1786521457659&tfd=860&fmt=8",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8981188881955044039%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2096305338.1786521458&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68a1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119404703~119527019~119896803&tft=1786521457678&tfd=773&fmt=8",
+          "failure": "net::ERR_ABORTED"
         },
         {
           "console": "error",
@@ -131,6 +119,54 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
           "console": "warning",
           "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
@@ -139,14 +175,6 @@
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7163784999886780461%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2114707811.1786515701&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68a1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119527020~119896802&tft=1786515701432&tfd=772&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "console": "warning",
           "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
@@ -161,64 +189,28 @@
         {
           "console": "warning",
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D287269317510364276%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=857307083.1786515702&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68a1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119404700~119527020~119896802~120315584&tft=1786515701768&tfd=1111&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3413566189451281608%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=318550511.1786515702&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68a1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527019~119793974~119896803~120315584~120385422&tft=1786515701803&tfd=1235&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<770352adb7>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<e274963660>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/VTPXuAgulaogmwSyVPltyanbDICzXwQY/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/EyaaLXgUdKYcEmUuzsOfkInCQKiIjlVS/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb9.strmd.st/secure/<770352adb7>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
+          "request_failed": "https://lb1.strmd.st/secure/<e274963660>/delta/stream/live_leagues-cup-group-stage_tigres-vancouver-live-streaming-538610256/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         }
       ]
     }
