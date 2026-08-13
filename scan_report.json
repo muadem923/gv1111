@@ -1,13 +1,13 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1786611446,
-  "elapsed_seconds": 10.83,
+  "started_at": 1786615465,
+  "elapsed_seconds": 10.51,
   "api_ok": true,
   "matches": 3,
-  "live_matches": 2,
-  "nearby_fallback_matches": 1,
-  "nearby_fallback_used": true,
+  "live_matches": 3,
+  "nearby_fallback_matches": 0,
+  "nearby_fallback_used": false,
   "source_pairs": 3,
   "embed_candidates": 2,
   "verified_current": 0,
@@ -22,7 +22,7 @@
       "key": "penrith-panthers-vs-sydney-roosters-2417344|admin|ppv-panthers-vs-roosters|1",
       "title": "Penrith Panthers vs Sydney Roosters",
       "embed": "https://embed.st/embed/admin/ppv-panthers-vs-roosters/1",
-      "discovery": "nearby_all",
+      "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
@@ -47,7 +47,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<16e07849c7>/rtmp/stream/mHpCc5FshRCZ0Tv-5tR0XksJJZcPkOfYcrQYC4d7sg22DNW2anWR6Y7dhhzoki34RHqZWQfqNfKaWak/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<95471de4ee>/rtmp/stream/SNzoty_LleA05lU_FWXMNYxzmV2WbqWkhefyd8wJ-ECrLDHjwdM2zfj7TUgJmWNGnt3_eVCZs2Eu6Tg/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -55,27 +55,11 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-panthers-vs-roosters/1",
             "title": "",
-            "html_length": 23342,
+            "html_length": 23343,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "llvpn.com",
@@ -90,9 +74,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb13.strmd.st/secure/<16e07849c7>/rtmp/stream/mHpCc5FshRCZ0Tv-5tR0XksJJZcPkOfYcrQYC4d7sg22DNW2anWR6Y7dhhzoki34RHqZWQfqNfKaWak/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<95471de4ee>/rtmp/stream/SNzoty_LleA05lU_FWXMNYxzmV2WbqWkhefyd8wJ-ECrLDHjwdM2zfj7TUgJmWNGnt3_eVCZs2Eu6Tg/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb13.strmd.st/secure/YzwRjDBCKQzqOinLSErzvQZwkpXGxgZz/rtmp/stream/mHpCc5FshRCZ0Tv-5tR0XksJJZcPkOfYcrQYC4d7sg22DNW2anWR6Y7dhhzoki34RHqZWQfqNfKaWak/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb9.strmd.st/secure/UkUGCwdDggFQJGcAklWTqxMClRqIdwcf/rtmp/stream/SNzoty_LleA05lU_FWXMNYxzmV2WbqWkhefyd8wJ-ECrLDHjwdM2zfj7TUgJmWNGnt3_eVCZs2Eu6Tg/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -115,35 +99,11 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
           "console": "error",
-          "text": "Access to fetch at 'https://lb13.strmd.st/secure/YzwRjDBCKQzqOinLSErzvQZwkpXGxgZz/rtmp/stream/mHpCc5FshRCZ0Tv-5tR0XksJJZcPkOfYcrQYC4d7sg22DNW2anWR6Y7dhhzoki34RHqZWQfqNfKaWak/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb9.strmd.st/secure/UkUGCwdDggFQJGcAklWTqxMClRqIdwcf/rtmp/stream/SNzoty_LleA05lU_FWXMNYxzmV2WbqWkhefyd8wJ-ECrLDHjwdM2zfj7TUgJmWNGnt3_eVCZs2Eu6Tg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb13.strmd.st/secure/<16e07849c7>/rtmp/stream/mHpCc5FshRCZ0Tv-5tR0XksJJZcPkOfYcrQYC4d7sg22DNW2anWR6Y7dhhzoki34RHqZWQfqNfKaWak/1/playlist.m3u8",
+          "request_failed": "https://lb9.strmd.st/secure/<95471de4ee>/rtmp/stream/SNzoty_LleA05lU_FWXMNYxzmV2WbqWkhefyd8wJ-ECrLDHjwdM2zfj7TUgJmWNGnt3_eVCZs2Eu6Tg/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -152,15 +112,39 @@
         },
         {
           "console": "error",
-          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "error",
           "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "error",
@@ -177,15 +161,31 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<16e07849c7>/rtmp/stream/mHpCc5FshRCZ0Tv-5tR0XksJJZcPkOfYcrQYC4d7sg22DNW2anWR6Y7dhhzoki34RHqZWQfqNfKaWak/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<95471de4ee>/rtmp/stream/SNzoty_LleA05lU_FWXMNYxzmV2WbqWkhefyd8wJ-ECrLDHjwdM2zfj7TUgJmWNGnt3_eVCZs2Eu6Tg/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/YzwRjDBCKQzqOinLSErzvQZwkpXGxgZz/rtmp/stream/mHpCc5FshRCZ0Tv-5tR0XksJJZcPkOfYcrQYC4d7sg22DNW2anWR6Y7dhhzoki34RHqZWQfqNfKaWak/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
         },
         {
-          "request_failed": "https://lb13.strmd.st/secure/<16e07849c7>/rtmp/stream/mHpCc5FshRCZ0Tv-5tR0XksJJZcPkOfYcrQYC4d7sg22DNW2anWR6Y7dhhzoki34RHqZWQfqNfKaWak/1/playlist.m3u8",
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/UkUGCwdDggFQJGcAklWTqxMClRqIdwcf/rtmp/stream/SNzoty_LleA05lU_FWXMNYxzmV2WbqWkhefyd8wJ-ECrLDHjwdM2zfj7TUgJmWNGnt3_eVCZs2Eu6Tg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb9.strmd.st/secure/<95471de4ee>/rtmp/stream/SNzoty_LleA05lU_FWXMNYxzmV2WbqWkhefyd8wJ-ECrLDHjwdM2zfj7TUgJmWNGnt3_eVCZs2Eu6Tg/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -198,7 +198,7 @@
       "key": "penrith-panthers-vs-sydney-roosters-2417344|admin|ppv-panthers-vs-roosters|2",
       "title": "Penrith Panthers vs Sydney Roosters",
       "embed": "https://embed.st/embed/admin/ppv-panthers-vs-roosters/2",
-      "discovery": "nearby_all",
+      "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
@@ -227,23 +227,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<e89a4a4a5b>/rtmp/stream/7QAoLYKnTvZBKXSeAHJ3pE9b4CMov9C1IeJ9N4TDJdZdBTNkeEMe4FSfU2TaWttIuZ4DHaS6sJLA_CXhV1Eb/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<bd5e82cb92>/rtmp/stream/bC38PhnpS5E6zCKHrArdclivKOG_cwocggJjnAEBbTApIyBF8SzBXNsvFiR3SZP5RZxyY6cfl7hYsAYYdGbg/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "text": "Access to fetch at 'https://lb9.strmd.st/secure/JRiqLdWnXvsYTteXxwLJsWVRzMlJyucn/rtmp/stream/bC38PhnpS5E6zCKHrArdclivKOG_cwocggJjnAEBbTApIyBF8SzBXNsvFiR3SZP5RZxyY6cfl7hYsAYYdGbg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb13.strmd.st/secure/ErEcXdAhdrMwnfGtpKsvUFoKHVrPGQHG/rtmp/stream/7QAoLYKnTvZBKXSeAHJ3pE9b4CMov9C1IeJ9N4TDJdZdBTNkeEMe4FSfU2TaWttIuZ4DHaS6sJLA_CXhV1Eb/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb13.strmd.st/secure/<e89a4a4a5b>/rtmp/stream/7QAoLYKnTvZBKXSeAHJ3pE9b4CMov9C1IeJ9N4TDJdZdBTNkeEMe4FSfU2TaWttIuZ4DHaS6sJLA_CXhV1Eb/1/playlist.m3u8",
+          "request_failed": "https://lb9.strmd.st/secure/<bd5e82cb92>/rtmp/stream/bC38PhnpS5E6zCKHrArdclivKOG_cwocggJjnAEBbTApIyBF8SzBXNsvFiR3SZP5RZxyY6cfl7hYsAYYdGbg/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -277,74 +269,6 @@
         {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "warning",
@@ -375,46 +299,6 @@
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
           "console": "error",
           "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
         },
@@ -429,7 +313,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<e89a4a4a5b>/rtmp/stream/7QAoLYKnTvZBKXSeAHJ3pE9b4CMov9C1IeJ9N4TDJdZdBTNkeEMe4FSfU2TaWttIuZ4DHaS6sJLA_CXhV1Eb/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<bd5e82cb92>/rtmp/stream/bC38PhnpS5E6zCKHrArdclivKOG_cwocggJjnAEBbTApIyBF8SzBXNsvFiR3SZP5RZxyY6cfl7hYsAYYdGbg/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
@@ -438,15 +322,35 @@
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/ErEcXdAhdrMwnfGtpKsvUFoKHVrPGQHG/rtmp/stream/7QAoLYKnTvZBKXSeAHJ3pE9b4CMov9C1IeJ9N4TDJdZdBTNkeEMe4FSfU2TaWttIuZ4DHaS6sJLA_CXhV1Eb/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
         },
         {
-          "request_failed": "https://lb13.strmd.st/secure/<e89a4a4a5b>/rtmp/stream/7QAoLYKnTvZBKXSeAHJ3pE9b4CMov9C1IeJ9N4TDJdZdBTNkeEMe4FSfU2TaWttIuZ4DHaS6sJLA_CXhV1Eb/1/playlist.m3u8",
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/JRiqLdWnXvsYTteXxwLJsWVRzMlJyucn/rtmp/stream/bC38PhnpS5E6zCKHrArdclivKOG_cwocggJjnAEBbTApIyBF8SzBXNsvFiR3SZP5RZxyY6cfl7hYsAYYdGbg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb9.strmd.st/secure/<bd5e82cb92>/rtmp/stream/bC38PhnpS5E6zCKHrArdclivKOG_cwocggJjnAEBbTApIyBF8SzBXNsvFiR3SZP5RZxyY6cfl7hYsAYYdGbg/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
         },
         {
           "page": {
@@ -471,9 +375,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb13.strmd.st/secure/<e89a4a4a5b>/rtmp/stream/7QAoLYKnTvZBKXSeAHJ3pE9b4CMov9C1IeJ9N4TDJdZdBTNkeEMe4FSfU2TaWttIuZ4DHaS6sJLA_CXhV1Eb/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<bd5e82cb92>/rtmp/stream/bC38PhnpS5E6zCKHrArdclivKOG_cwocggJjnAEBbTApIyBF8SzBXNsvFiR3SZP5RZxyY6cfl7hYsAYYdGbg/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb13.strmd.st/secure/ErEcXdAhdrMwnfGtpKsvUFoKHVrPGQHG/rtmp/stream/7QAoLYKnTvZBKXSeAHJ3pE9b4CMov9C1IeJ9N4TDJdZdBTNkeEMe4FSfU2TaWttIuZ4DHaS6sJLA_CXhV1Eb/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb9.strmd.st/secure/JRiqLdWnXvsYTteXxwLJsWVRzMlJyucn/rtmp/stream/bC38PhnpS5E6zCKHrArdclivKOG_cwocggJjnAEBbTApIyBF8SzBXNsvFiR3SZP5RZxyY6cfl7hYsAYYdGbg/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
