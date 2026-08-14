@@ -1,12 +1,12 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1786686961,
-  "elapsed_seconds": 50.74,
+  "started_at": 1786691973,
+  "elapsed_seconds": 47.06,
   "api_ok": true,
   "matches": 9,
-  "live_matches": 4,
-  "nearby_fallback_matches": 5,
+  "live_matches": 3,
+  "nearby_fallback_matches": 6,
   "nearby_fallback_used": true,
   "source_pairs": 9,
   "embed_candidates": 5,
@@ -19,12 +19,20 @@
   "entries": [],
   "browser_events": [
     {
-      "key": "los-angeles-dodgers-vs-milwaukee-brewers-2388701|golf|248|1",
-      "title": "Los Angeles Dodgers vs Milwaukee Brewers",
-      "embed": "https://embed.st/embed/golf/248/1",
-      "discovery": "live",
+      "key": "manly-sea-eagles-vs-dolphins-2417345|admin|ppv-sea-eagles-vs-dolphins|1",
+      "title": "Manly Sea Eagles vs Dolphins",
+      "embed": "https://embed.st/embed/admin/ppv-sea-eagles-vs-dolphins/1",
+      "discovery": "nearby_all",
       "classification": "player_no_media",
       "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
         {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
@@ -52,8 +60,28 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3048101868670649646%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=35960787.1786686974&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118395334~118897920~118897930~119527019~120385423&tft=1786686974352&tfd=816&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "warning",
@@ -69,15 +97,15 @@
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
           "console": "error",
@@ -93,473 +121,15 @@
         },
         {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/248/1",
-            "title": "",
-            "html_length": 643666,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "icsmaiztgpvgn.space",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "los-angeles-angels-vs-texas-rangers-2388703|golf|247|1",
-      "title": "Los Angeles Angels vs Texas Rangers",
-      "embed": "https://embed.st/embed/golf/247/1",
-      "discovery": "live",
-      "classification": "player_no_media",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4021985131322079790%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1278021142.1786686982&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118395333~118897920~118897930~119527019~120385422&tft=1786686982241&tfd=700&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5842466104615847506%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=792211911.1786686982&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120125305~120385422~120420416&tft=1786686982271&tfd=680&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3657380517496892058%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1975601892.1786686982&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527020~120125305~120385422&tft=1786686982331&tfd=734&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5271492839578262576%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=644252009.1786686982&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527019~120385422&tft=1786686982348&tfd=689&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D742453681977778998%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=66049830.1786686982&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527020~120385422&tft=1786686982355&tfd=643&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4319348142874935326%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=915143434.1786686982&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118395335~118897920~118897930~119527019~120385422&tft=1786686982370&tfd=625&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/247/1",
-            "title": "",
-            "html_length": 643666,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "icsmaiztgpvgn.space",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "manly-sea-eagles-vs-dolphins-2417345|admin|ppv-sea-eagles-vs-dolphins|1",
-      "title": "Manly Sea Eagles vs Dolphins",
-      "embed": "https://embed.st/embed/admin/ppv-sea-eagles-vs-dolphins/1",
-      "discovery": "nearby_all",
-      "classification": "player_no_media",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6148935175620434594%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=670116185.1786686990&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527019~120125304~120385423&tft=1786686990242&tfd=727&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5489409813948082938%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1368435586.1786686990&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~120385423&tft=1786686990252&tfd=613&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6138041915650124979%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1193851900.1786686990&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527019~120125304~120385422&tft=1786686990263&tfd=585&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4863435629695305572%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=976089097.1786686990&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527020~120385422&tft=1786686990290&tfd=608&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2225898585238569784%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1045800555.1786686990&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527019~120125304~120385422&tft=1786686990332&tfd=589&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4359617673909738243%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=391728107.1786686990&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119381663~119527020~120385422&tft=1786686990348&tfd=568&fmt=8",
-          "failure": "net::ERR_ABORTED"
         },
         {
           "page": {
@@ -603,22 +173,6 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
@@ -639,6 +193,30 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
           "console": "warning",
           "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
@@ -661,6 +239,162 @@
         {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "warning",
@@ -691,6 +425,62 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
           "console": "warning",
           "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
@@ -719,6 +509,86 @@
           "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
         },
         {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
@@ -743,6 +613,30 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
           "console": "warning",
           "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
@@ -759,28 +653,16 @@
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3327023214678128166%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1884975596.1786686998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118395333~118897920~118897930~119527019~120385423&tft=1786686997624&tfd=701&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4701415935950676800%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=612580961.1786686998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120385422&tft=1786686997635&tfd=614&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3833534987492806664%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1709758751.1786686998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118395335~118897920~118897930~119527019~120385423&tft=1786686997655&tfd=588&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D451636930417932802%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1397027141.1786686998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119259605~119527020~120385423&tft=1786686997680&tfd=610&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=1&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D148289597119608613%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1003610656.1786686998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118395334~118897920~118897930~119527019~120385422&tft=1786686997700&tfd=545&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4761449034787243746%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=645462215.1786686998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527019~120385423&tft=1786686997719&tfd=554&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "page": {
@@ -841,7 +723,71 @@
         },
         {
           "console": "error",
-          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "error",
@@ -865,11 +811,55 @@
         },
         {
           "console": "error",
-          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "warning",
@@ -908,28 +898,212 @@
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=14&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5054765041531542504%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1580171543.1786687005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119527019~120385422&tft=1786687005375&tfd=629&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D245234257288888574%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1706583029.1786687005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119259606~119527019~119793972~120385422&tft=1786687005463&tfd=648&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=18&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1743934294344193327%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1119110008.1786687005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119527020~120385422&tft=1786687005477&tfd=599&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6322253323613778441%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=547976199.1786687005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119527020~120385423&tft=1786687005492&tfd=603&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8341228233190980708%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1463986039.1786687006&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~119791748~119793974~120385423&tft=1786687005542&tfd=570&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6557769598101339513%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1891832304.1786687006&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119259606~119527020~120385422&tft=1786687005553&tfd=584&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
         },
         {
           "page": {
@@ -940,6 +1114,944 @@
             "script_hosts": [
               "cdn.jsdelivr.net",
               "llvpn.com",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "canterbury-bankstown-bulldogs-vs-south-sydney-rabbitohs-2417346|admin|ppv-bulldogs-vs-rabbitohs|1",
+      "title": "Canterbury Bankstown Bulldogs vs South Sydney Rabbitohs",
+      "embed": "https://embed.st/embed/admin/ppv-bulldogs-vs-rabbitohs/1",
+      "discovery": "nearby_all",
+      "classification": "player_no_media",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-bulldogs-vs-rabbitohs/1",
+            "title": "",
+            "html_length": 23343,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "llvpn.com",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "canterbury-bankstown-bulldogs-vs-south-sydney-rabbitohs-2417346|admin|ppv-bulldogs-vs-rabbitohs|2",
+      "title": "Canterbury Bankstown Bulldogs vs South Sydney Rabbitohs",
+      "embed": "https://embed.st/embed/admin/ppv-bulldogs-vs-rabbitohs/2",
+      "discovery": "nearby_all",
+      "classification": "player_no_media",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://duckduckgo.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://html.duckduckgo.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-bulldogs-vs-rabbitohs/2",
+            "title": "",
+            "html_length": 643670,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "dwppouflpwfxo.website",
               "strmd.b-cdn.net"
             ],
             "browser": {
