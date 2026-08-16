@@ -1,14 +1,14 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1786876979,
-  "elapsed_seconds": 15.61,
+  "started_at": 1786878018,
+  "elapsed_seconds": 11.17,
   "api_ok": true,
-  "matches": 7,
-  "live_matches": 7,
+  "matches": 6,
+  "live_matches": 6,
   "nearby_fallback_matches": 0,
   "nearby_fallback_used": false,
-  "source_pairs": 7,
+  "source_pairs": 6,
   "embed_candidates": 2,
   "verified_current": 0,
   "reused_last_good": 0,
@@ -26,22 +26,14 @@
       "classification": "upstream_dead",
       "events": [
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
         },
         {
           "request": "fetch",
           "method": "POST",
           "url": "https://embed.st/fetch",
           "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "response": "fetch",
@@ -51,106 +43,86 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<16398f5eb2>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<bce6bee201>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "text": "Refused to display 'https://www.youtube.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "text": "Access to fetch at 'https://lb5.strmd.st/secure/srzLaYukaNjwnVosynDMBQchKoOweruz/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/fZezLALHvAnHnZoUeLsoZIsSypwRDPoq/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<16398f5eb2>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
+          "request_failed": "https://lb5.strmd.st/secure/<bce6bee201>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "error",
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<16398f5eb2>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<bce6bee201>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
@@ -158,80 +130,51 @@
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/fZezLALHvAnHnZoUeLsoZIsSypwRDPoq/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://lb5.strmd.st/secure/<16398f5eb2>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-wests-tigers-vs-dragons/1",
             "title": "",
-            "html_length": 132171,
+            "html_length": 131955,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
-              "llvpn.com",
               "strmd.b-cdn.net",
-              "www.gstatic.com",
+              "therocketlanguages.com",
               "www.w3.org"
             ],
             "browser": {
@@ -243,9 +186,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<16398f5eb2>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<bce6bee201>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb5.strmd.st/secure/fZezLALHvAnHnZoUeLsoZIsSypwRDPoq/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb5.strmd.st/secure/srzLaYukaNjwnVosynDMBQchKoOweruz/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -253,7 +196,47 @@
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/srzLaYukaNjwnVosynDMBQchKoOweruz/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb5.strmd.st/secure/<bce6bee201>/rtmp/stream/9hWOvaTbV3zfAsoC-z99hDnwUZm6FSBlbBpCqn81HJ5DNTn5wsZGvfvef4ALJeHh4PVQ318DEiB6OfU/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         }
       ]
     },
@@ -265,102 +248,14 @@
       "classification": "upstream_dead",
       "events": [
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
           "request": "fetch",
           "method": "POST",
           "url": "https://embed.st/fetch",
           "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "response": "fetch",
@@ -368,80 +263,12 @@
           "url": "https://embed.st/fetch"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<bf349cbad2>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<b052e85714>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
@@ -455,102 +282,10 @@
         },
         {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "text": "Access to fetch at 'https://lb5.strmd.st/secure/CgWiQXYvUqqURfHhYrWCCttfhcFxYoiT/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/TyPOlHIMlPuaRYOjXXVjJdwvjfZFbWRr/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<bf349cbad2>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
+          "request_failed": "https://lb5.strmd.st/secure/<b052e85714>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -574,26 +309,6 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
@@ -606,20 +321,12 @@
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "error",
@@ -652,6 +359,58 @@
         {
           "console": "warning",
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
@@ -674,6 +433,42 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
           "console": "warning",
           "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
@@ -690,6 +485,30 @@
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
           "console": "warning",
           "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
@@ -698,25 +517,201 @@
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
           "console": "warning",
           "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
         {
           "console": "warning",
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<bf349cbad2>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<b052e85714>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/TyPOlHIMlPuaRYOjXXVjJdwvjfZFbWRr/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://lb5.strmd.st/secure/<bf349cbad2>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/CgWiQXYvUqqURfHhYrWCCttfhcFxYoiT/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb5.strmd.st/secure/<b052e85714>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -724,16 +719,192 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-wests-tigers-vs-dragons/2",
             "title": "",
-            "html_length": 132351,
+            "html_length": 132155,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
-              "llvpn.com",
               "strmd.b-cdn.net",
+              "therocketlanguages.com",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -746,9 +917,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<bf349cbad2>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<b052e85714>/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb5.strmd.st/secure/TyPOlHIMlPuaRYOjXXVjJdwvjfZFbWRr/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb5.strmd.st/secure/CgWiQXYvUqqURfHhYrWCCttfhcFxYoiT/rtmp/stream/gveDvdRiYzBPtXbyxVMJIpQ0zxsWCiM06SYuKo0thCV-PkbvPO7vOOOhocgv9e8hLy23PW97P1i06Al37EC8/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
