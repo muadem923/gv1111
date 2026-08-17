@@ -1,8 +1,8 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1786945464,
-  "elapsed_seconds": 6.96,
+  "started_at": 1786947659,
+  "elapsed_seconds": 12.98,
   "api_ok": true,
   "matches": 5,
   "live_matches": 5,
@@ -26,32 +26,9 @@
       "classification": "upstream_dead",
       "events": [
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
           "request": "fetch",
           "method": "POST",
           "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<d24791b9b2>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -60,10 +37,65 @@
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb3.strmd.st/secure/CkRkPQcjUNuaAyrYEjcCEpuHwSxQHNpU/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Refused to display 'https://www.youtube.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
-          "request_failed": "https://lb3.strmd.st/secure/<d24791b9b2>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
+          "console": "error",
+          "text": "Refused to display 'https://www.youtube.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.youtube.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.youtube.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.youtube.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb14.strmd.st/secure/<c566aecb05>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8185640242176073214%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2029125590.1786947671&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119527019~120125304~120385422&tft=1786947670933&tfd=745&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=10&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D9076065877639682099%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1367572321.1786947671&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118012007~118897920~118897930~119527019~120125304~120385422&tft=1786947670920&tfd=779&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6570349031704763658%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1542677490.1786947671&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527019~120385422&tft=1786947670906&tfd=721&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/aOOyCREaeCAbaxqlermTBAkellPpkvuA/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<c566aecb05>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -71,35 +103,64 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3148207866186434715%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1872287955.1786945470&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120125305~120385423&tft=1786945470259&tfd=544&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2458466540791902870%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1657869540.1786945470&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395334~118897920~118897930~119527019~120385423&tft=1786945470300&tfd=482&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2800154357347420098%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1505467523.1786945470&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527020~120385422&tft=1786945470310&tfd=370&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
           "console": "error",
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4625259735942498822%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1900314913.1786945470&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527020~120385423&tft=1786945470431&tfd=152&fmt=8",
-          "failure": "net::ERR_ABORTED"
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb14.strmd.st/secure/<c566aecb05>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/aOOyCREaeCAbaxqlermTBAkellPpkvuA/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<c566aecb05>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/delta/live_mls_seattle-vancouver-live-streaming-538707888/1",
             "title": "",
-            "html_length": 23343,
+            "html_length": 132351,
             "script_hosts": [
               "cdn.jsdelivr.net",
+              "embed.st",
               "llvpn.com",
-              "strmd.b-cdn.net"
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -110,55 +171,13 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb3.strmd.st/secure/<d24791b9b2>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<c566aecb05>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb3.strmd.st/secure/CkRkPQcjUNuaAyrYEjcCEpuHwSxQHNpU/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb14.strmd.st/secure/aOOyCREaeCAbaxqlermTBAkellPpkvuA/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<d24791b9b2>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/CkRkPQcjUNuaAyrYEjcCEpuHwSxQHNpU/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<d24791b9b2>/delta/stream/live_mls_seattle-vancouver-live-streaming-538707888/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
