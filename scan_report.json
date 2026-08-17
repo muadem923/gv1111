@@ -1,20 +1,20 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1786928988,
-  "elapsed_seconds": 42.74,
+  "started_at": 1786934056,
+  "elapsed_seconds": 49.73,
   "api_ok": true,
   "matches": 10,
   "live_matches": 10,
   "nearby_fallback_matches": 0,
   "nearby_fallback_used": false,
-  "source_pairs": 15,
-  "embed_candidates": 13,
+  "source_pairs": 14,
+  "embed_candidates": 10,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 13
+    "upstream_dead": 10
   },
   "entries": [],
   "browser_events": [
@@ -26,22 +26,22 @@
       "classification": "upstream_dead",
       "events": [
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
           "request": "fetch",
           "method": "POST",
           "url": "https://embed.st/fetch",
           "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "response": "fetch",
@@ -51,7 +51,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<7cf01af08c>/rtmp/stream/G8sQgf3y7lq5mRp-mr0aJuwpOzQMRBiQ9_kvTSgejCFaAmQP6RQeVQkhmKpPxM7Rib3BB0MzoFs/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<c13d8995ab>/rtmp/stream/K1KQFFuIEvY-Hl3Kkr3UeMm0R3bum1YRzITq1wmhIr66CXj9fEa2s42SM1XzmLSBRav3HCTEeLI/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -67,23 +67,23 @@
           "text": "Refused to display 'https://www.youtube.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=1&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D507690655805698375%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=144276300.1786928996&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118395334~118897920~118897930~119527020~120385422&tft=1786928995897&tfd=525&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5892676452408434846%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1721827920.1786934071&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118395333~118897920~118897930~119527019~120385423&tft=1786934071366&tfd=714&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6713131034441395604%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=702072653.1786928996&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120385422&tft=1786928995911&tfd=586&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=14&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3689577807246876621%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1092993114.1786934071&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119527019~120385422&tft=1786934071352&tfd=704&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4913204679249065953%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=198603860.1786928996&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118395335~118897920~118897930~119527019~120385423&tft=1786928995904&tfd=533&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7638133785786811628%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1062406213.1786934071&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527020~119793974~120385423~120474863&tft=1786934071376&tfd=831&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb2.strmd.st/secure/GBblTBgKvGqIlXdjztcvzPYbXvApbskq/rtmp/stream/G8sQgf3y7lq5mRp-mr0aJuwpOzQMRBiQ9_kvTSgejCFaAmQP6RQeVQkhmKpPxM7Rib3BB0MzoFs/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb7.strmd.st/secure/pHOFKOhjGqcgopniiLPclUwlLTeDQjfH/rtmp/stream/K1KQFFuIEvY-Hl3Kkr3UeMm0R3bum1YRzITq1wmhIr66CXj9fEa2s42SM1XzmLSBRav3HCTEeLI/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<7cf01af08c>/rtmp/stream/G8sQgf3y7lq5mRp-mr0aJuwpOzQMRBiQ9_kvTSgejCFaAmQP6RQeVQkhmKpPxM7Rib3BB0MzoFs/1/playlist.m3u8",
+          "request_failed": "https://lb7.strmd.st/secure/<c13d8995ab>/rtmp/stream/K1KQFFuIEvY-Hl3Kkr3UeMm0R3bum1YRzITq1wmhIr66CXj9fEa2s42SM1XzmLSBRav3HCTEeLI/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -110,9 +110,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb2.strmd.st/secure/<7cf01af08c>/rtmp/stream/G8sQgf3y7lq5mRp-mr0aJuwpOzQMRBiQ9_kvTSgejCFaAmQP6RQeVQkhmKpPxM7Rib3BB0MzoFs/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<c13d8995ab>/rtmp/stream/K1KQFFuIEvY-Hl3Kkr3UeMm0R3bum1YRzITq1wmhIr66CXj9fEa2s42SM1XzmLSBRav3HCTEeLI/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb2.strmd.st/secure/GBblTBgKvGqIlXdjztcvzPYbXvApbskq/rtmp/stream/G8sQgf3y7lq5mRp-mr0aJuwpOzQMRBiQ9_kvTSgejCFaAmQP6RQeVQkhmKpPxM7Rib3BB0MzoFs/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb7.strmd.st/secure/pHOFKOhjGqcgopniiLPclUwlLTeDQjfH/rtmp/stream/K1KQFFuIEvY-Hl3Kkr3UeMm0R3bum1YRzITq1wmhIr66CXj9fEa2s42SM1XzmLSBRav3HCTEeLI/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -147,21 +147,21 @@
           "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<7cf01af08c>/rtmp/stream/G8sQgf3y7lq5mRp-mr0aJuwpOzQMRBiQ9_kvTSgejCFaAmQP6RQeVQkhmKpPxM7Rib3BB0MzoFs/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
           "console": "error",
           "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/GBblTBgKvGqIlXdjztcvzPYbXvApbskq/rtmp/stream/G8sQgf3y7lq5mRp-mr0aJuwpOzQMRBiQ9_kvTSgejCFaAmQP6RQeVQkhmKpPxM7Rib3BB0MzoFs/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb7.strmd.st/secure/<c13d8995ab>/rtmp/stream/K1KQFFuIEvY-Hl3Kkr3UeMm0R3bum1YRzITq1wmhIr66CXj9fEa2s42SM1XzmLSBRav3HCTEeLI/1/playlist.m3u8",
+          "resource_type": "xhr"
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<7cf01af08c>/rtmp/stream/G8sQgf3y7lq5mRp-mr0aJuwpOzQMRBiQ9_kvTSgejCFaAmQP6RQeVQkhmKpPxM7Rib3BB0MzoFs/1/playlist.m3u8",
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/pHOFKOhjGqcgopniiLPclUwlLTeDQjfH/rtmp/stream/K1KQFFuIEvY-Hl3Kkr3UeMm0R3bum1YRzITq1wmhIr66CXj9fEa2s42SM1XzmLSBRav3HCTEeLI/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<c13d8995ab>/rtmp/stream/K1KQFFuIEvY-Hl3Kkr3UeMm0R3bum1YRzITq1wmhIr66CXj9fEa2s42SM1XzmLSBRav3HCTEeLI/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -182,6 +182,241 @@
       "classification": "upstream_dead",
       "events": [
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<e6a4f10c91>/rtmp/stream/aRNPhuAOTHJ39SJZqBmoXvguiFn36J-5CW6pggKn9Fmj2VaLe3ybvzdm-jfRaJo1qsJrH1K_HNKVcVAr/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=1&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3222716012369392464%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=914934148.1786934075&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527020~120385423&tft=1786934074806&tfd=386&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=18&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5431397330412220562%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1541576427.1786934075&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118395334~118897920~118897930~119381662~119527019~120385423&tft=1786934074937&tfd=452&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5627931331717918834%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=978091901.1786934075&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118395334~118897920~118897930~119527019~120385422&tft=1786934074946&tfd=462&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3779099025144085146%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1794226198.1786934075&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119259606~119527019~120125304~120385422&tft=1786934074955&tfd=461&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5900566071092884843%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=843645879.1786934075&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119527019~120385423&tft=1786934074978&tfd=376&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1380673268958574785%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1307972428.1786934075&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118395333~118897920~118897930~119527019~120385423~120476659&tft=1786934074991&tfd=389&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb6.strmd.st/secure/NieOVCchfzmjNRGaVoYNWwBUQLGXMLyn/rtmp/stream/aRNPhuAOTHJ39SJZqBmoXvguiFn36J-5CW6pggKn9Fmj2VaLe3ybvzdm-jfRaJo1qsJrH1K_HNKVcVAr/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<e6a4f10c91>/rtmp/stream/aRNPhuAOTHJ39SJZqBmoXvguiFn36J-5CW6pggKn9Fmj2VaLe3ybvzdm-jfRaJo1qsJrH1K_HNKVcVAr/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-santos-vs-guadalajara/2",
+            "title": "",
+            "html_length": 644370,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "lpjxlnldaryvk.online",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb6.strmd.st/secure/<e6a4f10c91>/rtmp/stream/aRNPhuAOTHJ39SJZqBmoXvguiFn36J-5CW6pggKn9Fmj2VaLe3ybvzdm-jfRaJo1qsJrH1K_HNKVcVAr/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb6.strmd.st/secure/NieOVCchfzmjNRGaVoYNWwBUQLGXMLyn/rtmp/stream/aRNPhuAOTHJ39SJZqBmoXvguiFn36J-5CW6pggKn9Fmj2VaLe3ybvzdm-jfRaJo1qsJrH1K_HNKVcVAr/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<e6a4f10c91>/rtmp/stream/aRNPhuAOTHJ39SJZqBmoXvguiFn36J-5CW6pggKn9Fmj2VaLe3ybvzdm-jfRaJo1qsJrH1K_HNKVcVAr/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/NieOVCchfzmjNRGaVoYNWwBUQLGXMLyn/rtmp/stream/aRNPhuAOTHJ39SJZqBmoXvguiFn36J-5CW6pggKn9Fmj2VaLe3ybvzdm-jfRaJo1qsJrH1K_HNKVcVAr/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<e6a4f10c91>/rtmp/stream/aRNPhuAOTHJ39SJZqBmoXvguiFn36J-5CW6pggKn9Fmj2VaLe3ybvzdm-jfRaJo1qsJrH1K_HNKVcVAr/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "austin-fc-vs-fc-dallas-2406985|admin|ppv-austin-fc-vs-fc-dallas|1",
+      "title": "Austin FC vs FC Dallas",
+      "embed": "https://embed.st/embed/admin/ppv-austin-fc-vs-fc-dallas/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<6411987d7c>/rtmp/stream/2Km3-1Monq5hRiDEuszlHyrESaNrlQudt3FZ_vuwr5Niy5XrzvwwDZPM_4Jwjyetrif-Hbhadtxw/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb6.strmd.st/secure/GikIGGoaoSyEQGtTDntRJPyxIyXUCkVd/rtmp/stream/2Km3-1Monq5hRiDEuszlHyrESaNrlQudt3FZ_vuwr5Niy5XrzvwwDZPM_4Jwjyetrif-Hbhadtxw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<6411987d7c>/rtmp/stream/2Km3-1Monq5hRiDEuszlHyrESaNrlQudt3FZ_vuwr5Niy5XrzvwwDZPM_4Jwjyetrif-Hbhadtxw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6551181594095279548%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=415075288.1786934079&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119527019~120125305~120385422&tft=1786934079069&tfd=451&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D947338899920855119%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=781455542.1786934079&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118395334~118897920~118897930~119527020~120385422&tft=1786934079089&tfd=412&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3814339552215059018%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2092127640.1786934079&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119527019~120385422&tft=1786934079107&tfd=395&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D748617146038628806%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2108562187.1786934079&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118395335~118897920~118897930~119527020~120125305~120385423&tft=1786934079156&tfd=384&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3594321488370586348%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=881837370.1786934079&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527019~120385422&tft=1786934079167&tfd=346&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5127099790629128265%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=300687415.1786934079&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395333~118897920~118897930~119527020~120385423&tft=1786934079178&tfd=333&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<6411987d7c>/rtmp/stream/2Km3-1Monq5hRiDEuszlHyrESaNrlQudt3FZ_vuwr5Niy5XrzvwwDZPM_4Jwjyetrif-Hbhadtxw/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/GikIGGoaoSyEQGtTDntRJPyxIyXUCkVd/rtmp/stream/2Km3-1Monq5hRiDEuszlHyrESaNrlQudt3FZ_vuwr5Niy5XrzvwwDZPM_4Jwjyetrif-Hbhadtxw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<6411987d7c>/rtmp/stream/2Km3-1Monq5hRiDEuszlHyrESaNrlQudt3FZ_vuwr5Niy5XrzvwwDZPM_4Jwjyetrif-Hbhadtxw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-austin-fc-vs-fc-dallas/1",
+            "title": "",
+            "html_length": 753378,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "lpjxlnldaryvk.online",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb6.strmd.st/secure/<6411987d7c>/rtmp/stream/2Km3-1Monq5hRiDEuszlHyrESaNrlQudt3FZ_vuwr5Niy5XrzvwwDZPM_4Jwjyetrif-Hbhadtxw/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb6.strmd.st/secure/GikIGGoaoSyEQGtTDntRJPyxIyXUCkVd/rtmp/stream/2Km3-1Monq5hRiDEuszlHyrESaNrlQudt3FZ_vuwr5Niy5XrzvwwDZPM_4Jwjyetrif-Hbhadtxw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "austin-fc-vs-fc-dallas-2406985|admin|ppv-austin-fc-vs-fc-dallas|2",
+      "title": "Austin FC vs FC Dallas",
+      "embed": "https://embed.st/embed/admin/ppv-austin-fc-vs-fc-dallas/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
           "request": "fetch",
           "method": "POST",
           "url": "https://embed.st/fetch",
@@ -207,61 +442,39 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<5326596090>/rtmp/stream/_3VdThHnnhSltHc2VfIVK2Gn3KOzdpl-NkZBzbqjDLgy3jVQUbLTpzK63XM-ZNAO_vC5EJ2IhAeJFczF/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<d6e8749e04>/rtmp/stream/is8P_C-xsjXGEbrG5bJBenQpRNnHVJWLxWRiA1nKRdsK47UVMsfhnEFQCgs9BmXaThfwhvPRVKANQMpKgw/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb2.strmd.st/secure/ZalRZbDKSDGcwPsRNxDmZpEPiHVuNMoN/rtmp/stream/_3VdThHnnhSltHc2VfIVK2Gn3KOzdpl-NkZBzbqjDLgy3jVQUbLTpzK63XM-ZNAO_vC5EJ2IhAeJFczF/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb2.strmd.st/secure/<5326596090>/rtmp/stream/_3VdThHnnhSltHc2VfIVK2Gn3KOzdpl-NkZBzbqjDLgy3jVQUbLTpzK63XM-ZNAO_vC5EJ2IhAeJFczF/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=10&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2322672675582177810%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=661026097.1786928998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395334~118897920~118897930~119527019~120385422&tft=1786928998117&tfd=329&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6648551385264629089%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1376723274.1786934082&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120385422&tft=1786934082322&tfd=458&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2418162448213198083%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=349087388.1786928998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527019~120385422~120476658&tft=1786928998204&tfd=373&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=11&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6794847991734417530%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=790969088.1786934082&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~120385422&tft=1786934082418&tfd=497&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=9&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D88512070005240653%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2002382908.1786928998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395334~118897920~118897930~119527019~120125304~120385422&tft=1786928998210&tfd=380&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8837705730753772995%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1177658045.1786934082&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119527020~120385423&tft=1786934082451&tfd=396&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7455812696414870618%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1324101163.1786928998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118395335~118897920~118897930~119527019~120385423&tft=1786928998216&tfd=285&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D107459473261699767%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1179686339.1786934082&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118395335~118897920~118897930~119527019~120385422&tft=1786934082459&tfd=401&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1910228239189333341%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=717597730.1786928998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527020~120385423&tft=1786928998222&tfd=367&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5360731399699671390%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=333401890.1786934082&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395335~118897920~118897930~119527019~120385422&tft=1786934082470&tfd=407&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7176770961089784131%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1706778985.1786928998&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118395334~118897920~118897930~119527019~120125304~120385423&tft=1786928998242&tfd=290&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4090652434575057935%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2099377532.1786934082&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527020~120385422&tft=1786934082478&tfd=335&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
           "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/qWPqQvCWBZBlLhYiTobEXKcsDFxBxigd/rtmp/stream/is8P_C-xsjXGEbrG5bJBenQpRNnHVJWLxWRiA1nKRdsK47UVMsfhnEFQCgs9BmXaThfwhvPRVKANQMpKgw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<5326596090>/rtmp/stream/_3VdThHnnhSltHc2VfIVK2Gn3KOzdpl-NkZBzbqjDLgy3jVQUbLTpzK63XM-ZNAO_vC5EJ2IhAeJFczF/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/ZalRZbDKSDGcwPsRNxDmZpEPiHVuNMoN/rtmp/stream/_3VdThHnnhSltHc2VfIVK2Gn3KOzdpl-NkZBzbqjDLgy3jVQUbLTpzK63XM-ZNAO_vC5EJ2IhAeJFczF/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb2.strmd.st/secure/<5326596090>/rtmp/stream/_3VdThHnnhSltHc2VfIVK2Gn3KOzdpl-NkZBzbqjDLgy3jVQUbLTpzK63XM-ZNAO_vC5EJ2IhAeJFczF/1/playlist.m3u8",
+          "request_failed": "https://lb11.strmd.st/secure/<d6e8749e04>/rtmp/stream/is8P_C-xsjXGEbrG5bJBenQpRNnHVJWLxWRiA1nKRdsK47UVMsfhnEFQCgs9BmXaThfwhvPRVKANQMpKgw/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -271,7 +484,280 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-santos-vs-guadalajara/2",
+            "url": "https://embed.st/embed/admin/ppv-austin-fc-vs-fc-dallas/2",
+            "title": "",
+            "html_length": 23344,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "llvpn.com",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb11.strmd.st/secure/<d6e8749e04>/rtmp/stream/is8P_C-xsjXGEbrG5bJBenQpRNnHVJWLxWRiA1nKRdsK47UVMsfhnEFQCgs9BmXaThfwhvPRVKANQMpKgw/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb11.strmd.st/secure/qWPqQvCWBZBlLhYiTobEXKcsDFxBxigd/rtmp/stream/is8P_C-xsjXGEbrG5bJBenQpRNnHVJWLxWRiA1nKRdsK47UVMsfhnEFQCgs9BmXaThfwhvPRVKANQMpKgw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<d6e8749e04>/rtmp/stream/is8P_C-xsjXGEbrG5bJBenQpRNnHVJWLxWRiA1nKRdsK47UVMsfhnEFQCgs9BmXaThfwhvPRVKANQMpKgw/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/qWPqQvCWBZBlLhYiTobEXKcsDFxBxigd/rtmp/stream/is8P_C-xsjXGEbrG5bJBenQpRNnHVJWLxWRiA1nKRdsK47UVMsfhnEFQCgs9BmXaThfwhvPRVKANQMpKgw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<d6e8749e04>/rtmp/stream/is8P_C-xsjXGEbrG5bJBenQpRNnHVJWLxWRiA1nKRdsK47UVMsfhnEFQCgs9BmXaThfwhvPRVKANQMpKgw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "austin-fc-vs-fc-dallas-2406985|delta|live_mls_austin-dallas-live-streaming-538644384|1",
+      "title": "Austin FC vs FC Dallas",
+      "embed": "https://embed.st/embed/delta/live_mls_austin-dallas-live-streaming-538644384/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb9.strmd.st/secure/<7e8a51798a>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1586442726769022610%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=391840049.1786934086&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~120385422&tft=1786934085604&tfd=511&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1868213850525315529%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=415273294.1786934086&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~120385423&tft=1786934085612&tfd=471&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2452163064964957547%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1265440355.1786934086&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527020~120385422&tft=1786934085646&tfd=484&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7956421675060043734%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1509671391.1786934086&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118395335~118897920~118897930~119527019~119791749~120385423&tft=1786934085659&tfd=473&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6878677649807372199%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=581690649.1786934086&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118395333~118897920~118897930~119527020~120385422&tft=1786934085668&tfd=397&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1210460590648230547%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2131541073.1786934086&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119527020~120385422&tft=1786934085678&tfd=394&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb9.strmd.st/secure/GOkhkbKSrDbnrdFMeBqAempKqernNVtM/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb9.strmd.st/secure/<7e8a51798a>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb9.strmd.st/secure/<7e8a51798a>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mls_austin-dallas-live-streaming-538644384/1",
+            "title": "",
+            "html_length": 132327,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llvpn.com",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb9.strmd.st/secure/<7e8a51798a>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb9.strmd.st/secure/GOkhkbKSrDbnrdFMeBqAempKqernNVtM/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/GOkhkbKSrDbnrdFMeBqAempKqernNVtM/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb9.strmd.st/secure/<7e8a51798a>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "houston-astros-vs-seattle-mariners-2388750|admin|ppv-seattle-mariners-vs-houston-astros|1",
+      "title": "Houston Astros vs Seattle Mariners",
+      "embed": "https://embed.st/embed/admin/ppv-seattle-mariners-vs-houston-astros/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb9.strmd.st/secure/<2bf6bb8109>/rtmp/stream/FSjwTqIiQo3BufgZVI6mStaX_NQNGR57UoHR1RZ2P8l_BrF6He8U7thD8u7g7Pre_WC9cpuvSACVDQdto5o8/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb9.strmd.st/secure/wUvDpQNjsWLbGhdwiqyCKzdLgzZHBCfF/rtmp/stream/FSjwTqIiQo3BufgZVI6mStaX_NQNGR57UoHR1RZ2P8l_BrF6He8U7thD8u7g7Pre_WC9cpuvSACVDQdto5o8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb9.strmd.st/secure/<2bf6bb8109>/rtmp/stream/FSjwTqIiQo3BufgZVI6mStaX_NQNGR57UoHR1RZ2P8l_BrF6He8U7thD8u7g7Pre_WC9cpuvSACVDQdto5o8/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2512024759140192164%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=626482008.1786934089&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119527020~120385423&tft=1786934088666&tfd=604&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2290542351121653178%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1052346.1786934089&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120385423&tft=1786934088679&tfd=570&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3992526765633496513%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=801716425.1786934089&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~118395334~118897920~118897930~119527019~120385422&tft=1786934088693&tfd=585&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2229556018026395083%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1746420991.1786934089&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118395335~118897920~118897930~119527019~120385423&tft=1786934088710&tfd=534&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D790803839961031908%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=956852819.1786934089&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118395334~118897920~118897930~119527020~120385423&tft=1786934088751&tfd=474&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6824782440520163684%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=95357134.1786934089&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395333~118897920~118897930~119527020~119793972~120385422&tft=1786934088759&tfd=515&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb9.strmd.st/secure/<2bf6bb8109>/rtmp/stream/FSjwTqIiQo3BufgZVI6mStaX_NQNGR57UoHR1RZ2P8l_BrF6He8U7thD8u7g7Pre_WC9cpuvSACVDQdto5o8/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/wUvDpQNjsWLbGhdwiqyCKzdLgzZHBCfF/rtmp/stream/FSjwTqIiQo3BufgZVI6mStaX_NQNGR57UoHR1RZ2P8l_BrF6He8U7thD8u7g7Pre_WC9cpuvSACVDQdto5o8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb9.strmd.st/secure/<2bf6bb8109>/rtmp/stream/FSjwTqIiQo3BufgZVI6mStaX_NQNGR57UoHR1RZ2P8l_BrF6He8U7thD8u7g7Pre_WC9cpuvSACVDQdto5o8/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-seattle-mariners-vs-houston-astros/1",
             "title": "",
             "html_length": 132351,
             "script_hosts": [
@@ -291,487 +777,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb2.strmd.st/secure/<5326596090>/rtmp/stream/_3VdThHnnhSltHc2VfIVK2Gn3KOzdpl-NkZBzbqjDLgy3jVQUbLTpzK63XM-ZNAO_vC5EJ2IhAeJFczF/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<2bf6bb8109>/rtmp/stream/FSjwTqIiQo3BufgZVI6mStaX_NQNGR57UoHR1RZ2P8l_BrF6He8U7thD8u7g7Pre_WC9cpuvSACVDQdto5o8/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb2.strmd.st/secure/ZalRZbDKSDGcwPsRNxDmZpEPiHVuNMoN/rtmp/stream/_3VdThHnnhSltHc2VfIVK2Gn3KOzdpl-NkZBzbqjDLgy3jVQUbLTpzK63XM-ZNAO_vC5EJ2IhAeJFczF/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "austin-fc-vs-fc-dallas-2406985|admin|ppv-austin-fc-vs-fc-dallas|1",
-      "title": "Austin FC vs FC Dallas",
-      "embed": "https://embed.st/embed/admin/ppv-austin-fc-vs-fc-dallas/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<1edb7569e4>/rtmp/stream/vRWyF1MY9LZosPt8RyMwYQGLDuT0sE2bgguX1GNMoYA_Y5oOEomdG_fKq0a5hvrT5ru98M4_0Jk9/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1944001451154801836%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=579058982.1786929001&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119527019~120385423&tft=1786929000943&tfd=392&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D551775425172465089%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1341738369.1786929001&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~119793973~120385423&tft=1786929000954&tfd=334&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5249205674911616972%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1072633505.1786929001&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~120385422&tft=1786929000988&tfd=339&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2262179657744884479%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1444183972.1786929001&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120385422&tft=1786929000999&tfd=302&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2648321543230599274%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=221878945.1786929001&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119527019~120385422&tft=1786929001026&tfd=258&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=18&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3189710882428024750%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1007530856.1786929001&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~119793974~120385422&tft=1786929001033&tfd=244&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb15.strmd.st/secure/BTsKncptEOXRKfrAXdMUHEmekVkRWmDe/rtmp/stream/vRWyF1MY9LZosPt8RyMwYQGLDuT0sE2bgguX1GNMoYA_Y5oOEomdG_fKq0a5hvrT5ru98M4_0Jk9/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<1edb7569e4>/rtmp/stream/vRWyF1MY9LZosPt8RyMwYQGLDuT0sE2bgguX1GNMoYA_Y5oOEomdG_fKq0a5hvrT5ru98M4_0Jk9/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-austin-fc-vs-fc-dallas/1",
-            "title": "",
-            "html_length": 23343,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "llvpn.com",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb15.strmd.st/secure/<1edb7569e4>/rtmp/stream/vRWyF1MY9LZosPt8RyMwYQGLDuT0sE2bgguX1GNMoYA_Y5oOEomdG_fKq0a5hvrT5ru98M4_0Jk9/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb15.strmd.st/secure/BTsKncptEOXRKfrAXdMUHEmekVkRWmDe/rtmp/stream/vRWyF1MY9LZosPt8RyMwYQGLDuT0sE2bgguX1GNMoYA_Y5oOEomdG_fKq0a5hvrT5ru98M4_0Jk9/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<1edb7569e4>/rtmp/stream/vRWyF1MY9LZosPt8RyMwYQGLDuT0sE2bgguX1GNMoYA_Y5oOEomdG_fKq0a5hvrT5ru98M4_0Jk9/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb15.strmd.st/secure/BTsKncptEOXRKfrAXdMUHEmekVkRWmDe/rtmp/stream/vRWyF1MY9LZosPt8RyMwYQGLDuT0sE2bgguX1GNMoYA_Y5oOEomdG_fKq0a5hvrT5ru98M4_0Jk9/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<1edb7569e4>/rtmp/stream/vRWyF1MY9LZosPt8RyMwYQGLDuT0sE2bgguX1GNMoYA_Y5oOEomdG_fKq0a5hvrT5ru98M4_0Jk9/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "austin-fc-vs-fc-dallas-2406985|admin|ppv-austin-fc-vs-fc-dallas|2",
-      "title": "Austin FC vs FC Dallas",
-      "embed": "https://embed.st/embed/admin/ppv-austin-fc-vs-fc-dallas/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<caaf98a421>/rtmp/stream/NENjBD99EW7XOQ0FbmVJWOb7a73isb20Hwd2sqs8NrdeNOPOv2KHqi3nLo3RKHcnoWb_0uKSDB2auGwJ6Q/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1037304943187429477%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1242730438.1786929005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119527019~120385422&tft=1786929004764&tfd=350&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4109054487938854652%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=694312861.1786929005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119527020~120385423&tft=1786929004794&tfd=326&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=14&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3500162921576264311%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1017478204.1786929005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~119793974~120385422&tft=1786929004809&tfd=335&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D865349444577447169%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1257750858.1786929005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118395334~118897920~118897930~119527019~120125305~120385422&tft=1786929004840&tfd=287&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7095595741876107611%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=436109279.1786929005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527019~120385423&tft=1786929004874&tfd=244&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=11&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D695034850615523171%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=229241427.1786929005&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118395335~118897920~118897930~119527020~120385423&tft=1786929004880&tfd=217&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb1.strmd.st/secure/pPPPyOScAnESJuczbSiPfBqVXKPtTVsq/rtmp/stream/NENjBD99EW7XOQ0FbmVJWOb7a73isb20Hwd2sqs8NrdeNOPOv2KHqi3nLo3RKHcnoWb_0uKSDB2auGwJ6Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<caaf98a421>/rtmp/stream/NENjBD99EW7XOQ0FbmVJWOb7a73isb20Hwd2sqs8NrdeNOPOv2KHqi3nLo3RKHcnoWb_0uKSDB2auGwJ6Q/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-austin-fc-vs-fc-dallas/2",
-            "title": "",
-            "html_length": 644370,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "cjhmjxvbycvxv.online",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb1.strmd.st/secure/<caaf98a421>/rtmp/stream/NENjBD99EW7XOQ0FbmVJWOb7a73isb20Hwd2sqs8NrdeNOPOv2KHqi3nLo3RKHcnoWb_0uKSDB2auGwJ6Q/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb1.strmd.st/secure/pPPPyOScAnESJuczbSiPfBqVXKPtTVsq/rtmp/stream/NENjBD99EW7XOQ0FbmVJWOb7a73isb20Hwd2sqs8NrdeNOPOv2KHqi3nLo3RKHcnoWb_0uKSDB2auGwJ6Q/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<caaf98a421>/rtmp/stream/NENjBD99EW7XOQ0FbmVJWOb7a73isb20Hwd2sqs8NrdeNOPOv2KHqi3nLo3RKHcnoWb_0uKSDB2auGwJ6Q/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/pPPPyOScAnESJuczbSiPfBqVXKPtTVsq/rtmp/stream/NENjBD99EW7XOQ0FbmVJWOb7a73isb20Hwd2sqs8NrdeNOPOv2KHqi3nLo3RKHcnoWb_0uKSDB2auGwJ6Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<caaf98a421>/rtmp/stream/NENjBD99EW7XOQ0FbmVJWOb7a73isb20Hwd2sqs8NrdeNOPOv2KHqi3nLo3RKHcnoWb_0uKSDB2auGwJ6Q/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "austin-fc-vs-fc-dallas-2406985|delta|live_mls_austin-dallas-live-streaming-538644384|1",
-      "title": "Austin FC vs FC Dallas",
-      "embed": "https://embed.st/embed/delta/live_mls_austin-dallas-live-streaming-538644384/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<14d028c185>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb1.strmd.st/secure/vYczZJjeqLeUrrKHSaicrNaBXWnqQWlv/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<14d028c185>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8925064994221938678%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2072280708.1786929008&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118395334~118897920~118897930~119527020~120385422&tft=1786929008425&tfd=221&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5819005349120139775%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=65964669.1786929008&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527019~120125305~120385423&tft=1786929008499&tfd=248&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8365590492830594860%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1299984942.1786929009&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118012007~118897920~118897930~119527020~120032690~120385422&tft=1786929008506&tfd=233&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=11&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5352910497310523454%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=404536490.1786929009&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119527020~120385422&tft=1786929008524&tfd=204&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5583819421408253689%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=20722652.1786929009&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527020~120125304~120385422&tft=1786929008586&tfd=158&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3764998353115167496%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1508010143.1786929009&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119527019~120385422&tft=1786929008591&tfd=149&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<14d028c185>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/vYczZJjeqLeUrrKHSaicrNaBXWnqQWlv/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<14d028c185>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_mls_austin-dallas-live-streaming-538644384/1",
-            "title": "",
-            "html_length": 753378,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "cjhmjxvbycvxv.online",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb1.strmd.st/secure/<14d028c185>/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb1.strmd.st/secure/vYczZJjeqLeUrrKHSaicrNaBXWnqQWlv/delta/stream/live_mls_austin-dallas-live-streaming-538644384/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "houston-astros-vs-seattle-mariners-2388750|admin|ppv-seattle-mariners-vs-houston-astros|1",
-      "title": "Houston Astros vs Seattle Mariners",
-      "embed": "https://embed.st/embed/admin/ppv-seattle-mariners-vs-houston-astros/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<5da6770989>/rtmp/stream/o44FV0ybsyhwPQgwmVQzAzy_mTPHRoz1kT0W7Ssh2TOSEkfX6D4-E08mcKGlXeH00kigTHEXak1qBgbGRrrK/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4321910251990541280%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1065722866.1786929012&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527019~120125304~120385423&tft=1786929012127&tfd=375&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5744917486419736032%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1504122756.1786929012&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118395335~118897920~118897930~119527020~120125304~120385422&tft=1786929012151&tfd=439&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8335976364853013694%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1484770449.1786929012&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119527020~120385423&tft=1786929012157&tfd=398&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6426606268229934041%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1578422772.1786929012&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118395335~118897920~118897930~119527020~120385422&tft=1786929012185&tfd=393&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3971796114692156802%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1470672582.1786929012&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527020~120385423&tft=1786929012193&tfd=331&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1771361416384186375%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1329814680.1786929012&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118395335~118897920~118897930~119527020~119793974~120385422&tft=1786929012199&tfd=264&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/dBPhVbMyfPgxrKwIQafyFhmNSzYmubRD/rtmp/stream/o44FV0ybsyhwPQgwmVQzAzy_mTPHRoz1kT0W7Ssh2TOSEkfX6D4-E08mcKGlXeH00kigTHEXak1qBgbGRrrK/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<5da6770989>/rtmp/stream/o44FV0ybsyhwPQgwmVQzAzy_mTPHRoz1kT0W7Ssh2TOSEkfX6D4-E08mcKGlXeH00kigTHEXak1qBgbGRrrK/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<5da6770989>/rtmp/stream/o44FV0ybsyhwPQgwmVQzAzy_mTPHRoz1kT0W7Ssh2TOSEkfX6D4-E08mcKGlXeH00kigTHEXak1qBgbGRrrK/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/dBPhVbMyfPgxrKwIQafyFhmNSzYmubRD/rtmp/stream/o44FV0ybsyhwPQgwmVQzAzy_mTPHRoz1kT0W7Ssh2TOSEkfX6D4-E08mcKGlXeH00kigTHEXak1qBgbGRrrK/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<5da6770989>/rtmp/stream/o44FV0ybsyhwPQgwmVQzAzy_mTPHRoz1kT0W7Ssh2TOSEkfX6D4-E08mcKGlXeH00kigTHEXak1qBgbGRrrK/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-seattle-mariners-vs-houston-astros/1",
-            "title": "",
-            "html_length": 753378,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "cjhmjxvbycvxv.online",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<5da6770989>/rtmp/stream/o44FV0ybsyhwPQgwmVQzAzy_mTPHRoz1kT0W7Ssh2TOSEkfX6D4-E08mcKGlXeH00kigTHEXak1qBgbGRrrK/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb5.strmd.st/secure/dBPhVbMyfPgxrKwIQafyFhmNSzYmubRD/rtmp/stream/o44FV0ybsyhwPQgwmVQzAzy_mTPHRoz1kT0W7Ssh2TOSEkfX6D4-E08mcKGlXeH00kigTHEXak1qBgbGRrrK/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb9.strmd.st/secure/wUvDpQNjsWLbGhdwiqyCKzdLgzZHBCfF/rtmp/stream/FSjwTqIiQo3BufgZVI6mStaX_NQNGR57UoHR1RZ2P8l_BrF6He8U7thD8u7g7Pre_WC9cpuvSACVDQdto5o8/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -812,39 +820,39 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<5f47113511>/rtmp/stream/jGOgECCsb9hJ2vxx__NcIOVoRUkDFn5HdlFRBNkVPxu6Bx00ZJQHuNYyXa9PRmZSNQgjmKe8ScSUlD4JLX81uQ2LVQ/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<dbfc6b45d6>/rtmp/stream/4zGZI5Kt4gxOpHG9qKrplVoYPPVlyQL3DqV6BlFdUP7cPAF33ZhzBvwqksLortMm47EV7fU-LB_96fdweECi8MdlFw/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D429296450674863218%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=884321918.1786929015&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119527019~120385422&tft=1786929014554&tfd=329&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D571387409761979424%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1095813618.1786934091&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527019~120125304~120385423&tft=1786934091380&tfd=460&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D603737056439319459%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2106958281.1786929015&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~120385423&tft=1786929014582&tfd=318&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D9117428133905584417%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1679727959.1786934091&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119527019~120385422&tft=1786934091405&tfd=397&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4492375503048895123%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1034500270.1786929015&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395333~118897920~118897930~119527019~120385422&tft=1786929014616&tfd=330&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3380886614188634264%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=155484737.1786934091&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118395334~118897920~118897930~119527019~120385423&tft=1786934091435&tfd=387&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1604142082073371361%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1872104399.1786929015&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118395334~118897920~118897930~119527020~119793973~120385422&tft=1786929014639&tfd=325&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2842109445580438662%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=256761056.1786934091&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~119793972~120385423&tft=1786934091452&tfd=401&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3686233293607188327%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1338964825.1786929015&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119527020~120385423&tft=1786929014673&tfd=202&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6016072987221489095%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=569416628.1786934091&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118395335~118897920~118897930~119527019~120385422&tft=1786934091495&tfd=362&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=11&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8771358480893837352%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1776902014.1786929015&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118395335~118897920~118897930~119527019~120125305~120385423&tft=1786929014680&tfd=210&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=18&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3197702193263262432%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=862122308.1786934092&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527020~120385423&tft=1786934091503&tfd=297&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb12.strmd.st/secure/uhtgRHomvLKEJWahwQgQJGKVgkpRCPfb/rtmp/stream/jGOgECCsb9hJ2vxx__NcIOVoRUkDFn5HdlFRBNkVPxu6Bx00ZJQHuNYyXa9PRmZSNQgjmKe8ScSUlD4JLX81uQ2LVQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/iltTSHOTSuOpOzEmqhqPZOTxcWYUfHgR/rtmp/stream/4zGZI5Kt4gxOpHG9qKrplVoYPPVlyQL3DqV6BlFdUP7cPAF33ZhzBvwqksLortMm47EV7fU-LB_96fdweECi8MdlFw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb12.strmd.st/secure/<5f47113511>/rtmp/stream/jGOgECCsb9hJ2vxx__NcIOVoRUkDFn5HdlFRBNkVPxu6Bx00ZJQHuNYyXa9PRmZSNQgjmKe8ScSUlD4JLX81uQ2LVQ/1/playlist.m3u8",
+          "request_failed": "https://lb10.strmd.st/secure/<dbfc6b45d6>/rtmp/stream/4zGZI5Kt4gxOpHG9qKrplVoYPPVlyQL3DqV6BlFdUP7cPAF33ZhzBvwqksLortMm47EV7fU-LB_96fdweECi8MdlFw/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -858,152 +866,13 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<5f47113511>/rtmp/stream/jGOgECCsb9hJ2vxx__NcIOVoRUkDFn5HdlFRBNkVPxu6Bx00ZJQHuNYyXa9PRmZSNQgjmKe8ScSUlD4JLX81uQ2LVQ/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<dbfc6b45d6>/rtmp/stream/4zGZI5Kt4gxOpHG9qKrplVoYPPVlyQL3DqV6BlFdUP7cPAF33ZhzBvwqksLortMm47EV7fU-LB_96fdweECi8MdlFw/1/playlist.m3u8",
           "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/uhtgRHomvLKEJWahwQgQJGKVgkpRCPfb/rtmp/stream/jGOgECCsb9hJ2vxx__NcIOVoRUkDFn5HdlFRBNkVPxu6Bx00ZJQHuNYyXa9PRmZSNQgjmKe8ScSUlD4JLX81uQ2LVQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb12.strmd.st/secure/<5f47113511>/rtmp/stream/jGOgECCsb9hJ2vxx__NcIOVoRUkDFn5HdlFRBNkVPxu6Bx00ZJQHuNYyXa9PRmZSNQgjmKe8ScSUlD4JLX81uQ2LVQ/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-seattle-mariners-vs-houston-astros/2",
-            "title": "",
-            "html_length": 132350,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb12.strmd.st/secure/<5f47113511>/rtmp/stream/jGOgECCsb9hJ2vxx__NcIOVoRUkDFn5HdlFRBNkVPxu6Bx00ZJQHuNYyXa9PRmZSNQgjmKe8ScSUlD4JLX81uQ2LVQ/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb12.strmd.st/secure/uhtgRHomvLKEJWahwQgQJGKVgkpRCPfb/rtmp/stream/jGOgECCsb9hJ2vxx__NcIOVoRUkDFn5HdlFRBNkVPxu6Bx00ZJQHuNYyXa9PRmZSNQgjmKe8ScSUlD4JLX81uQ2LVQ/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "houston-astros-vs-seattle-mariners-2388750|delta|live_mlb_astros-mariners-live-streaming-593469072|1",
-      "title": "Houston Astros vs Seattle Mariners",
-      "embed": "https://embed.st/embed/delta/live_mlb_astros-mariners-live-streaming-593469072/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<14e87ae41a>/delta/stream/live_mlb_astros-mariners-live-streaming-593469072/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb12.strmd.st/secure/YcUmGQVdToytrnccxxIMFNrFbuFUZOmT/delta/stream/live_mlb_astros-mariners-live-streaming-593469072/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb12.strmd.st/secure/<14e87ae41a>/delta/stream/live_mlb_astros-mariners-live-streaming-593469072/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=10&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2441148539411647011%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=312575853.1786929017&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119527019~120385422&tft=1786929017079&tfd=376&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7619641451977026099%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1403685685.1786929017&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119527020~120385422&tft=1786929017094&tfd=332&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=10&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D271680597963282889%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=239701246.1786929017&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527020~120032689~120385423&tft=1786929017100&tfd=337&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1659120512994511563%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1562741608.1786929017&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119527020~120385422&tft=1786929017121&tfd=324&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4375382199041394549%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2133062770.1786929017&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527020~120385423&tft=1786929017139&tfd=286&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=11&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8393598397430376078%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2117164892.1786929017&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118395334~118897920~118897930~119527019~120385423&tft=1786929017147&tfd=236&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<14e87ae41a>/delta/stream/live_mlb_astros-mariners-live-streaming-593469072/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/YcUmGQVdToytrnccxxIMFNrFbuFUZOmT/delta/stream/live_mlb_astros-mariners-live-streaming-593469072/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb12.strmd.st/secure/<14e87ae41a>/delta/stream/live_mlb_astros-mariners-live-streaming-593469072/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_mlb_astros-mariners-live-streaming-593469072/1",
             "title": "",
             "html_length": 132351,
             "script_hosts": [
@@ -1023,13 +892,125 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb12.strmd.st/secure/<14e87ae41a>/delta/stream/live_mlb_astros-mariners-live-streaming-593469072/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<dbfc6b45d6>/rtmp/stream/4zGZI5Kt4gxOpHG9qKrplVoYPPVlyQL3DqV6BlFdUP7cPAF33ZhzBvwqksLortMm47EV7fU-LB_96fdweECi8MdlFw/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb12.strmd.st/secure/YcUmGQVdToytrnccxxIMFNrFbuFUZOmT/delta/stream/live_mlb_astros-mariners-live-streaming-593469072/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb10.strmd.st/secure/iltTSHOTSuOpOzEmqhqPZOTxcWYUfHgR/rtmp/stream/4zGZI5Kt4gxOpHG9qKrplVoYPPVlyQL3DqV6BlFdUP7cPAF33ZhzBvwqksLortMm47EV7fU-LB_96fdweECi8MdlFw/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/iltTSHOTSuOpOzEmqhqPZOTxcWYUfHgR/rtmp/stream/4zGZI5Kt4gxOpHG9qKrplVoYPPVlyQL3DqV6BlFdUP7cPAF33ZhzBvwqksLortMm47EV7fU-LB_96fdweECi8MdlFw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<dbfc6b45d6>/rtmp/stream/4zGZI5Kt4gxOpHG9qKrplVoYPPVlyQL3DqV6BlFdUP7cPAF33ZhzBvwqksLortMm47EV7fU-LB_96fdweECi8MdlFw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "houston-astros-vs-seattle-mariners-2388750|golf|395|1",
+      "title": "Houston Astros vs Seattle Mariners",
+      "embed": "https://embed.st/embed/golf/395/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5338380396571024828%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2095673459.1786934094&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120125305~120385423&tft=1786934094182&tfd=433&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D952703213167401971%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1901835326.1786934094&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118012008~118395334~118897920~118897930~119527020~120385423&tft=1786934094197&tfd=459&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2996039888562477644%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=659247478.1786934094&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119527020~120385422&tft=1786934094205&tfd=409&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D637113687518856201%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=557008585.1786934094&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527020~120385422&tft=1786934094213&tfd=403&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8762498410513866943%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1210488867.1786934094&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120125304~120385423&tft=1786934094222&tfd=368&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "request_failed": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4632536934786607360%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1490136029.1786934094&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119527019~120385422&tft=1786934094261&tfd=300&fmt=8",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://cdn14.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=-3Zf9abylXM5abYyv7VmFQ&expires=1786941294",
+          "resource_type": "xhr"
+        },
+        {
+          "response": "media",
+          "status": 404,
+          "url": "https://cdn14.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=-3Zf9abylXM5abYyv7VmFQ&expires=1786941294",
+          "referer": "https://exposestrat.com/"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/golf/395/1",
+            "title": "",
+            "html_length": 2104,
+            "script_hosts": [
+              "a.cdn-lab.shop",
+              "ann.cdn-lab.shop",
+              "embedhd.st",
+              "llvpn.com"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
         }
       ]
     },
@@ -1066,61 +1047,39 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<326af2545a>/rtmp/stream/5BaqzjubzvhgwH9R6yOzIuM99YMpb2KiuSya0pEDHJpUnq2joaQzRs973cwFkvBsMbQvkcNYck0_A6waVb3NoA/1/playlist.m3u8",
+          "url": "https://lb4.strmd.st/secure/<1849fe53c4>/rtmp/stream/tFkAuLPGfg_IBKTNAKEPSrSlb3tUTwqT5ZPCkv4nJERMmvcK8rg7eMlBlI-jn8Gvej3KxAT6sawwud2L4KGIsA/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=18&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6989472158446817244%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1362404544.1786929020&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119527019~120385422&tft=1786929019559&tfd=368&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8462549327331890835%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1012693870.1786934102&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527020~120385423&tft=1786934101810&tfd=476&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D448007965625249988%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=593794452.1786929020&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395335~118897920~118897930~119527019~120385423&tft=1786929019566&tfd=308&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7253473388944203688%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1922015929.1786934102&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118395335~118897920~118897930~119527019~120385422&tft=1786934101822&tfd=439&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7088780096219312488%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2064891405.1786929020&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119527019~120385422&tft=1786929019588&tfd=331&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2305306322907705914%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1291753873.1786934102&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395335~118897920~118897930~119527019~120385423&tft=1786934101836&tfd=444&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7721506230578656918%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=494877070.1786929020&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118012007~118897920~118897930~119527019~120385423&tft=1786929019596&tfd=323&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=9&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2906551454365814589%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=446965249.1786934102&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119527020~120385423&tft=1786934101849&tfd=434&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=9&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D754592469677844121%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1249010218.1786929020&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395335~118897920~118897930~119527019~120385423&tft=1786929019632&tfd=278&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2484056540013384441%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=713292943.1786934102&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118395333~118897920~118897930~119527020~120385422&tft=1786934101889&tfd=394&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=1&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D703465940671853309%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1830992726.1786929020&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119527019~120125305~120385422&tft=1786929019639&tfd=232&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=1&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7981888592234116079%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=433223240.1786934102&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118395334~118897920~118897930~119527020~120385422&tft=1786934101898&tfd=392&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/PcLdSMwTdoNAfTeGIWZWqZDOiieasjYZ/rtmp/stream/5BaqzjubzvhgwH9R6yOzIuM99YMpb2KiuSya0pEDHJpUnq2joaQzRs973cwFkvBsMbQvkcNYck0_A6waVb3NoA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb4.strmd.st/secure/BpzfrjWQnUxhsOPSNLJxnGahfzGOInrR/rtmp/stream/tFkAuLPGfg_IBKTNAKEPSrSlb3tUTwqT5ZPCkv4nJERMmvcK8rg7eMlBlI-jn8Gvej3KxAT6sawwud2L4KGIsA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb8.strmd.st/secure/<326af2545a>/rtmp/stream/5BaqzjubzvhgwH9R6yOzIuM99YMpb2KiuSya0pEDHJpUnq2joaQzRs973cwFkvBsMbQvkcNYck0_A6waVb3NoA/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<326af2545a>/rtmp/stream/5BaqzjubzvhgwH9R6yOzIuM99YMpb2KiuSya0pEDHJpUnq2joaQzRs973cwFkvBsMbQvkcNYck0_A6waVb3NoA/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/PcLdSMwTdoNAfTeGIWZWqZDOiieasjYZ/rtmp/stream/5BaqzjubzvhgwH9R6yOzIuM99YMpb2KiuSya0pEDHJpUnq2joaQzRs973cwFkvBsMbQvkcNYck0_A6waVb3NoA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<326af2545a>/rtmp/stream/5BaqzjubzvhgwH9R6yOzIuM99YMpb2KiuSya0pEDHJpUnq2joaQzRs973cwFkvBsMbQvkcNYck0_A6waVb3NoA/1/playlist.m3u8",
+          "request_failed": "https://lb4.strmd.st/secure/<1849fe53c4>/rtmp/stream/tFkAuLPGfg_IBKTNAKEPSrSlb3tUTwqT5ZPCkv4nJERMmvcK8rg7eMlBlI-jn8Gvej3KxAT6sawwud2L4KGIsA/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1132,14 +1091,11 @@
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-portland-fire-vs-phoenix-mercury/1",
             "title": "",
-            "html_length": 132351,
+            "html_length": 23343,
             "script_hosts": [
               "cdn.jsdelivr.net",
-              "embed.st",
               "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
+              "strmd.b-cdn.net"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -1150,13 +1106,35 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<326af2545a>/rtmp/stream/5BaqzjubzvhgwH9R6yOzIuM99YMpb2KiuSya0pEDHJpUnq2joaQzRs973cwFkvBsMbQvkcNYck0_A6waVb3NoA/1/playlist.m3u8",
+          "url": "https://lb4.strmd.st/secure/<1849fe53c4>/rtmp/stream/tFkAuLPGfg_IBKTNAKEPSrSlb3tUTwqT5ZPCkv4nJERMmvcK8rg7eMlBlI-jn8Gvej3KxAT6sawwud2L4KGIsA/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb8.strmd.st/secure/PcLdSMwTdoNAfTeGIWZWqZDOiieasjYZ/rtmp/stream/5BaqzjubzvhgwH9R6yOzIuM99YMpb2KiuSya0pEDHJpUnq2joaQzRs973cwFkvBsMbQvkcNYck0_A6waVb3NoA/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb4.strmd.st/secure/BpzfrjWQnUxhsOPSNLJxnGahfzGOInrR/rtmp/stream/tFkAuLPGfg_IBKTNAKEPSrSlb3tUTwqT5ZPCkv4nJERMmvcK8rg7eMlBlI-jn8Gvej3KxAT6sawwud2L4KGIsA/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<1849fe53c4>/rtmp/stream/tFkAuLPGfg_IBKTNAKEPSrSlb3tUTwqT5ZPCkv4nJERMmvcK8rg7eMlBlI-jn8Gvej3KxAT6sawwud2L4KGIsA/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/BpzfrjWQnUxhsOPSNLJxnGahfzGOInrR/rtmp/stream/tFkAuLPGfg_IBKTNAKEPSrSlb3tUTwqT5ZPCkv4nJERMmvcK8rg7eMlBlI-jn8Gvej3KxAT6sawwud2L4KGIsA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<1849fe53c4>/rtmp/stream/tFkAuLPGfg_IBKTNAKEPSrSlb3tUTwqT5ZPCkv4nJERMmvcK8rg7eMlBlI-jn8Gvej3KxAT6sawwud2L4KGIsA/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         }
       ]
     },
@@ -1193,15 +1171,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<eb447e24a6>/rtmp/stream/ex40aBIP8K2-Ce3NavkvUW_FRguzoYnx5FNvf17RME3YaAdFRJjKMQwRujv_wPWxasoVkiVAVjcfGk-1Xdj5cylQ9_M/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<82818cb933>/rtmp/stream/X6LE2-4RSk2qFuL_sAdl2rwN1QblF8UhK-4TljhTmTbEUi4Tl13dxYwR8lS37RiKlKTG6i5y0vW_fEhknj4PwR1HfsQ/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/dIuacYBIOXjfQoCNXpRlLSBethPvDkpf/rtmp/stream/ex40aBIP8K2-Ce3NavkvUW_FRguzoYnx5FNvf17RME3YaAdFRJjKMQwRujv_wPWxasoVkiVAVjcfGk-1Xdj5cylQ9_M/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb7.strmd.st/secure/TFbLHIWIhBGLibOFFDOkucHYBCJOhdqa/rtmp/stream/X6LE2-4RSk2qFuL_sAdl2rwN1QblF8UhK-4TljhTmTbEUi4Tl13dxYwR8lS37RiKlKTG6i5y0vW_fEhknj4PwR1HfsQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb8.strmd.st/secure/<eb447e24a6>/rtmp/stream/ex40aBIP8K2-Ce3NavkvUW_FRguzoYnx5FNvf17RME3YaAdFRJjKMQwRujv_wPWxasoVkiVAVjcfGk-1Xdj5cylQ9_M/1/playlist.m3u8",
+          "request_failed": "https://lb7.strmd.st/secure/<82818cb933>/rtmp/stream/X6LE2-4RSk2qFuL_sAdl2rwN1QblF8UhK-4TljhTmTbEUi4Tl13dxYwR8lS37RiKlKTG6i5y0vW_fEhknj4PwR1HfsQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1209,27 +1187,27 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7316814247422676313%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1453913489.1786929022&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527019~120385423&tft=1786929022012&tfd=364&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2090357548504231245%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=536276066.1786934105&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119527019~119791748~120385422&tft=1786934104871&tfd=535&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=10&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D150655099461401894%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1236613109.1786929022&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118395335~118897920~118897930~119527019~120125305~120385422&tft=1786929022025&tfd=326&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D625587742447910158%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2042373708.1786934105&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395333~118897920~118897930~119527019~120385423~120476658&tft=1786934104880&tfd=484&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1767814811656911467%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=790588809.1786929022&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118012009~118897920~118897930~119527020~120385423&tft=1786929022086&tfd=293&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8552914984850830786%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1028684413.1786934105&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119381664~119527019~120385422&tft=1786934104889&tfd=544&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D9202767435577704077%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1237837187.1786929022&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119527020~120385423~120476658&tft=1786929022092&tfd=290&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3867140785074054082%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1738237534.1786934105&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527020~120385423&tft=1786934104904&tfd=561&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=16&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2845122655563000148%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=897866928.1786929022&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118395335~118897920~118897930~119527019~120385423&tft=1786929022108&tfd=271&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=11&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5220216427400727793%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2111130324.1786934105&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118395334~118897920~118897930~119527019~120385422&tft=1786934104912&tfd=493&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D8495695565755925726%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1442717255.1786929022&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118395335~118897920~118897930~119527020~120385422&tft=1786929022116&tfd=198&fmt=8",
+          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1175750690655143297%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1382483757.1786934105&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119527019~120125305~120385422&tft=1786934104920&tfd=484&fmt=8",
           "failure": "net::ERR_ABORTED"
         },
         {
@@ -1239,15 +1217,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<eb447e24a6>/rtmp/stream/ex40aBIP8K2-Ce3NavkvUW_FRguzoYnx5FNvf17RME3YaAdFRJjKMQwRujv_wPWxasoVkiVAVjcfGk-1Xdj5cylQ9_M/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<82818cb933>/rtmp/stream/X6LE2-4RSk2qFuL_sAdl2rwN1QblF8UhK-4TljhTmTbEUi4Tl13dxYwR8lS37RiKlKTG6i5y0vW_fEhknj4PwR1HfsQ/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/dIuacYBIOXjfQoCNXpRlLSBethPvDkpf/rtmp/stream/ex40aBIP8K2-Ce3NavkvUW_FRguzoYnx5FNvf17RME3YaAdFRJjKMQwRujv_wPWxasoVkiVAVjcfGk-1Xdj5cylQ9_M/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/TFbLHIWIhBGLibOFFDOkucHYBCJOhdqa/rtmp/stream/X6LE2-4RSk2qFuL_sAdl2rwN1QblF8UhK-4TljhTmTbEUi4Tl13dxYwR8lS37RiKlKTG6i5y0vW_fEhknj4PwR1HfsQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb8.strmd.st/secure/<eb447e24a6>/rtmp/stream/ex40aBIP8K2-Ce3NavkvUW_FRguzoYnx5FNvf17RME3YaAdFRJjKMQwRujv_wPWxasoVkiVAVjcfGk-1Xdj5cylQ9_M/1/playlist.m3u8",
+          "request_failed": "https://lb7.strmd.st/secure/<82818cb933>/rtmp/stream/X6LE2-4RSk2qFuL_sAdl2rwN1QblF8UhK-4TljhTmTbEUi4Tl13dxYwR8lS37RiKlKTG6i5y0vW_fEhknj4PwR1HfsQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1277,366 +1255,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<eb447e24a6>/rtmp/stream/ex40aBIP8K2-Ce3NavkvUW_FRguzoYnx5FNvf17RME3YaAdFRJjKMQwRujv_wPWxasoVkiVAVjcfGk-1Xdj5cylQ9_M/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<82818cb933>/rtmp/stream/X6LE2-4RSk2qFuL_sAdl2rwN1QblF8UhK-4TljhTmTbEUi4Tl13dxYwR8lS37RiKlKTG6i5y0vW_fEhknj4PwR1HfsQ/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb8.strmd.st/secure/dIuacYBIOXjfQoCNXpRlLSBethPvDkpf/rtmp/stream/ex40aBIP8K2-Ce3NavkvUW_FRguzoYnx5FNvf17RME3YaAdFRJjKMQwRujv_wPWxasoVkiVAVjcfGk-1Xdj5cylQ9_M/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "phoenix-mercury-vs-portland-fire-2469385|delta|live_wnba_mercury-fire-live-streaming-524082096|1",
-      "title": "Phoenix Mercury vs Portland Fire",
-      "embed": "https://embed.st/embed/delta/live_wnba_mercury-fire-live-streaming-524082096/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<a6c6be9230>/delta/stream/live_wnba_mercury-fire-live-streaming-524082096/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=1&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D6245835935343885913%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=139568687.1786929025&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527019~120385422&tft=1786929024757&tfd=388&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1153921400164508813%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1361229818.1786929025&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120385422&tft=1786929024764&tfd=417&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5321674615097683152%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=57356020.1786929025&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119527020~120385422&tft=1786929024777&tfd=383&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3780722644430861667%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1730706221.1786929025&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119527020~120125305~120385423&tft=1786929024798&tfd=361&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7932568288730229246%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=937633553.1786929025&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527020~120385422&tft=1786929024805&tfd=348&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2500413393616072079%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1548950625.1786929025&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119527020~120385422&tft=1786929024819&tfd=301&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb9.strmd.st/secure/mVLVrEHEGkHlaMLuFHuzyrdWnZrFBAdW/delta/stream/live_wnba_mercury-fire-live-streaming-524082096/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb9.strmd.st/secure/<a6c6be9230>/delta/stream/live_wnba_mercury-fire-live-streaming-524082096/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<a6c6be9230>/delta/stream/live_wnba_mercury-fire-live-streaming-524082096/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/mVLVrEHEGkHlaMLuFHuzyrdWnZrFBAdW/delta/stream/live_wnba_mercury-fire-live-streaming-524082096/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb9.strmd.st/secure/<a6c6be9230>/delta/stream/live_wnba_mercury-fire-live-streaming-524082096/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_wnba_mercury-fire-live-streaming-524082096/1",
-            "title": "",
-            "html_length": 132155,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "therocketlanguages.com",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb9.strmd.st/secure/<a6c6be9230>/delta/stream/live_wnba_mercury-fire-live-streaming-524082096/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb9.strmd.st/secure/mVLVrEHEGkHlaMLuFHuzyrdWnZrFBAdW/delta/stream/live_wnba_mercury-fire-live-streaming-524082096/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "am-rica-vs-atl-tico-de-san-luis-2487483|admin|ppv-am-rica-vs-atl-tico-de-san-luis|1",
-      "title": "América vs Atlético de San Luis",
-      "embed": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<3bb41e2ad2>/rtmp/stream/fR7hx1UlFteHczMBbHSSN2BQNp6_qi6r2QeP_-Ifu3jT5qNYIOCOBP04shf4mv6kDTeBuAqjE40/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb9.strmd.st/secure/VSPYkTOaEpQdrNxTBfdhwJDaJamUTOFE/rtmp/stream/fR7hx1UlFteHczMBbHSSN2BQNp6_qi6r2QeP_-Ifu3jT5qNYIOCOBP04shf4mv6kDTeBuAqjE40/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb9.strmd.st/secure/<3bb41e2ad2>/rtmp/stream/fR7hx1UlFteHczMBbHSSN2BQNp6_qi6r2QeP_-Ifu3jT5qNYIOCOBP04shf4mv6kDTeBuAqjE40/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3716283586571781500%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=378813478.1786929027&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118395334~118897920~118897930~119527020~120125305~120385422&tft=1786929027250&tfd=367&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5668393546461444971%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=226285752.1786929027&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119527019~120385423&tft=1786929027257&tfd=326&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D7045753512676318888%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1151687828.1786929027&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119527020~120125305~120385423&tft=1786929027280&tfd=325&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=17&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D926437083373835193%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1848264509.1786929027&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527019~120125304~120385423&tft=1786929027287&tfd=319&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1180727509065090736%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1259877788.1786929027&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527020~120385422&tft=1786929027324&tfd=274&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4874765413687752961%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=600126538.1786929027&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119527019~120385423&tft=1786929027330&tfd=238&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<3bb41e2ad2>/rtmp/stream/fR7hx1UlFteHczMBbHSSN2BQNp6_qi6r2QeP_-Ifu3jT5qNYIOCOBP04shf4mv6kDTeBuAqjE40/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/VSPYkTOaEpQdrNxTBfdhwJDaJamUTOFE/rtmp/stream/fR7hx1UlFteHczMBbHSSN2BQNp6_qi6r2QeP_-Ifu3jT5qNYIOCOBP04shf4mv6kDTeBuAqjE40/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb9.strmd.st/secure/<3bb41e2ad2>/rtmp/stream/fR7hx1UlFteHczMBbHSSN2BQNp6_qi6r2QeP_-Ifu3jT5qNYIOCOBP04shf4mv6kDTeBuAqjE40/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/1",
-            "title": "",
-            "html_length": 132155,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "therocketlanguages.com",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb9.strmd.st/secure/<3bb41e2ad2>/rtmp/stream/fR7hx1UlFteHczMBbHSSN2BQNp6_qi6r2QeP_-Ifu3jT5qNYIOCOBP04shf4mv6kDTeBuAqjE40/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb9.strmd.st/secure/VSPYkTOaEpQdrNxTBfdhwJDaJamUTOFE/rtmp/stream/fR7hx1UlFteHczMBbHSSN2BQNp6_qi6r2QeP_-Ifu3jT5qNYIOCOBP04shf4mv6kDTeBuAqjE40/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "am-rica-vs-atl-tico-de-san-luis-2487483|admin|ppv-am-rica-vs-atl-tico-de-san-luis|2",
-      "title": "América vs Atlético de San Luis",
-      "embed": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<1b552ca161>/rtmp/stream/GzfqYsRCfxNgRl39hDqJV7mGNA3zlF1inQ6KU0xTIGsll1iAU3ZzKQwzsfOvn7Q95euAAxiRTseM8kM4/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=10&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D2663137698331909632%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2121177170.1786929030&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118395334~118897920~118897930~119527020~120385423&tft=1786929030034&tfd=381&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D4321073083306511025%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=609065454.1786929030&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~119527020~120385422&tft=1786929030046&tfd=331&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D5757781945780118219%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=2010874073.1786929030&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119527020~120125305~120385423&tft=1786929030053&tfd=325&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=12&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D3428353958900831693%26utm_source%3Dadmaven%26utm_term%3D1197232%26campaign_id%3DAM_1197232&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1943444466.1786929030&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118012009~118897920~118897930~119527020~120385422&tft=1786929030069&tfd=338&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D1533213057917183735%26utm_source%3Dadmaven%26utm_term%3D1045621%26campaign_id%3DAM_1045621&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=106021625.1786929030&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118012007~118897920~118897930~119381664~119527020~120125304~120385422&tft=1786929030100&tfd=291&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=Add%20to%20Chrome%20%7C%20FlyForLess&en=page_view&dl=https%3A%2F%2Fwww.flyforlessapp.com%2Fadd-to-chrome%2F%3Fclickid%3D484570005053893767%26utm_source%3Dadmaven%26utm_term%3D988540%26campaign_id%3DAM_988540&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=405476658.1786929030&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68c1v9236582683za200zd9236582683xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119527020~120385423&tft=1786929030106&tfd=267&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb1.strmd.st/secure/CdTPGxMzUNZTQWNsxsLsHDlEjGMTJQPU/rtmp/stream/GzfqYsRCfxNgRl39hDqJV7mGNA3zlF1inQ6KU0xTIGsll1iAU3ZzKQwzsfOvn7Q95euAAxiRTseM8kM4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<1b552ca161>/rtmp/stream/GzfqYsRCfxNgRl39hDqJV7mGNA3zlF1inQ6KU0xTIGsll1iAU3ZzKQwzsfOvn7Q95euAAxiRTseM8kM4/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<1b552ca161>/rtmp/stream/GzfqYsRCfxNgRl39hDqJV7mGNA3zlF1inQ6KU0xTIGsll1iAU3ZzKQwzsfOvn7Q95euAAxiRTseM8kM4/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/CdTPGxMzUNZTQWNsxsLsHDlEjGMTJQPU/rtmp/stream/GzfqYsRCfxNgRl39hDqJV7mGNA3zlF1inQ6KU0xTIGsll1iAU3ZzKQwzsfOvn7Q95euAAxiRTseM8kM4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<1b552ca161>/rtmp/stream/GzfqYsRCfxNgRl39hDqJV7mGNA3zlF1inQ6KU0xTIGsll1iAU3ZzKQwzsfOvn7Q95euAAxiRTseM8kM4/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/2",
-            "title": "",
-            "html_length": 132155,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "therocketlanguages.com",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb1.strmd.st/secure/<1b552ca161>/rtmp/stream/GzfqYsRCfxNgRl39hDqJV7mGNA3zlF1inQ6KU0xTIGsll1iAU3ZzKQwzsfOvn7Q95euAAxiRTseM8kM4/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb1.strmd.st/secure/CdTPGxMzUNZTQWNsxsLsHDlEjGMTJQPU/rtmp/stream/GzfqYsRCfxNgRl39hDqJV7mGNA3zlF1inQ6KU0xTIGsll1iAU3ZzKQwzsfOvn7Q95euAAxiRTseM8kM4/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb7.strmd.st/secure/TFbLHIWIhBGLibOFFDOkucHYBCJOhdqa/rtmp/stream/X6LE2-4RSk2qFuL_sAdl2rwN1QblF8UhK-4TljhTmTbEUi4Tl13dxYwR8lS37RiKlKTG6i5y0vW_fEhknj4PwR1HfsQ/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
