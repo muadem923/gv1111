@@ -1,20 +1,20 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1787116022,
-  "elapsed_seconds": 55.06,
+  "started_at": 1787118134,
+  "elapsed_seconds": 21.93,
   "api_ok": true,
-  "matches": 7,
-  "live_matches": 7,
-  "nearby_fallback_matches": 0,
-  "nearby_fallback_used": false,
-  "source_pairs": 7,
-  "embed_candidates": 5,
+  "matches": 8,
+  "live_matches": 5,
+  "nearby_fallback_matches": 3,
+  "nearby_fallback_used": true,
+  "source_pairs": 8,
+  "embed_candidates": 4,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 5
+    "upstream_dead": 4
   },
   "entries": [],
   "browser_events": [
@@ -25,10 +25,6 @@
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
         {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
@@ -47,15 +43,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<282f8abd68>/rtmp/stream/M3XQnexJXXurxv6pGKst-1lHKW4idaWcQpjAMPttE5Vi8t4QyqbjzS2UHOMxrz6uvoR1aEitRu9Ctg/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<640e631d4e>/rtmp/stream/zPMAqMEm9hq2A4D00tRCV3fmbXXwhvqA9EsKbGKSGSUrvwhkBVlk3lF0k4PZBUEDbqhxVb31G6gxnQ/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb7.strmd.st/secure/lFJYRrdlIDeIXZRuYFSZMQahDdnWtchG/rtmp/stream/M3XQnexJXXurxv6pGKst-1lHKW4idaWcQpjAMPttE5Vi8t4QyqbjzS2UHOMxrz6uvoR1aEitRu9Ctg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/EtUaDSwPAjmPWodLbrjoUbDjCeByOufy/rtmp/stream/zPMAqMEm9hq2A4D00tRCV3fmbXXwhvqA9EsKbGKSGSUrvwhkBVlk3lF0k4PZBUEDbqhxVb31G6gxnQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb7.strmd.st/secure/<282f8abd68>/rtmp/stream/M3XQnexJXXurxv6pGKst-1lHKW4idaWcQpjAMPttE5Vi8t4QyqbjzS2UHOMxrz6uvoR1aEitRu9Ctg/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<640e631d4e>/rtmp/stream/zPMAqMEm9hq2A4D00tRCV3fmbXXwhvqA9EsKbGKSGSUrvwhkBVlk3lF0k4PZBUEDbqhxVb31G6gxnQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -63,28 +59,26 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "warning",
-          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<640e631d4e>/rtmp/stream/zPMAqMEm9hq2A4D00tRCV3fmbXXwhvqA9EsKbGKSGSUrvwhkBVlk3lF0k4PZBUEDbqhxVb31G6gxnQ/1/playlist.m3u8",
+          "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.oncehuman.game/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/EtUaDSwPAjmPWodLbrjoUbDjCeByOufy/rtmp/stream/zPMAqMEm9hq2A4D00tRCV3fmbXXwhvqA9EsKbGKSGSUrvwhkBVlk3lF0k4PZBUEDbqhxVb31G6gxnQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<640e631d4e>/rtmp/stream/zPMAqMEm9hq2A4D00tRCV3fmbXXwhvqA9EsKbGKSGSUrvwhkBVlk3lF0k4PZBUEDbqhxVb31G6gxnQ/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.oncehuman.game/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.oncehuman.game/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "console": "error",
@@ -97,45 +91,20 @@
         {
           "console": "error",
           "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "warning",
-          "text": "MicroModal: ❗Please specify at least one %c'micromodal-trigger'%c data attribute.\n\n%cExample:%c <a href=\"#\" data-micromodal-trigger=\"my-modal\">Open modal</a> background-color: #f8f9fa;color: #50596c;font-weight: bold;  background-color: #f8f9fa;color: #50596c;font-weight: bold; "
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-india-vs-sri-lanka-1-st-test/1",
             "title": "",
-            "html_length": 644370,
+            "html_length": 753378,
             "script_hosts": [
               "apansudigytcy.online",
               "cdn.jsdelivr.net",
-              "strmd.b-cdn.net"
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -146,9 +115,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb7.strmd.st/secure/<282f8abd68>/rtmp/stream/M3XQnexJXXurxv6pGKst-1lHKW4idaWcQpjAMPttE5Vi8t4QyqbjzS2UHOMxrz6uvoR1aEitRu9Ctg/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<640e631d4e>/rtmp/stream/zPMAqMEm9hq2A4D00tRCV3fmbXXwhvqA9EsKbGKSGSUrvwhkBVlk3lF0k4PZBUEDbqhxVb31G6gxnQ/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb7.strmd.st/secure/lFJYRrdlIDeIXZRuYFSZMQahDdnWtchG/rtmp/stream/M3XQnexJXXurxv6pGKst-1lHKW4idaWcQpjAMPttE5Vi8t4QyqbjzS2UHOMxrz6uvoR1aEitRu9Ctg/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb13.strmd.st/secure/EtUaDSwPAjmPWodLbrjoUbDjCeByOufy/rtmp/stream/zPMAqMEm9hq2A4D00tRCV3fmbXXwhvqA9EsKbGKSGSUrvwhkBVlk3lF0k4PZBUEDbqhxVb31G6gxnQ/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -156,33 +125,43 @@
         },
         {
           "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<282f8abd68>/rtmp/stream/M3XQnexJXXurxv6pGKst-1lHKW4idaWcQpjAMPttE5Vi8t4QyqbjzS2UHOMxrz6uvoR1aEitRu9Ctg/1/playlist.m3u8",
-          "resource_type": "xhr"
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.crocs.de/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/lFJYRrdlIDeIXZRuYFSZMQahDdnWtchG/rtmp/stream/M3XQnexJXXurxv6pGKst-1lHKW4idaWcQpjAMPttE5Vi8t4QyqbjzS2UHOMxrz6uvoR1aEitRu9Ctg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<282f8abd68>/rtmp/stream/M3XQnexJXXurxv6pGKst-1lHKW4idaWcQpjAMPttE5Vi8t4QyqbjzS2UHOMxrz6uvoR1aEitRu9Ctg/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
+          "text": "Refused to display 'https://www.avast.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
           "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
+          "text": "Refused to display 'https://www.avast.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.avast.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.avast.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.avast.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.avast.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         }
       ]
     },
@@ -207,7 +186,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<753c2f2d81>/rtmp/stream/FT8WMnI-kEsUtp-Qud-Yop3eM0K0gVmJo4T5yikMZSd06vT3zyzi22DvdobEUUIrBG5003gJIJxjoHK6SaA/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<47ca537a98>/rtmp/stream/gK2vuRvkOfSkZIkrhY7-0gSTuUonFAxwoH3JZxsWWq3i2nKizONC8JEBvbqCuhCiTyCYlP_WYp5zKlf1VPY/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -219,55 +198,237 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb11.strmd.st/secure/eIpEVnNiwiPJOCNllfNyXrGhJTppIEws/rtmp/stream/FT8WMnI-kEsUtp-Qud-Yop3eM0K0gVmJo4T5yikMZSd06vT3zyzi22DvdobEUUIrBG5003gJIJxjoHK6SaA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://lb11.strmd.st/secure/<753c2f2d81>/rtmp/stream/FT8WMnI-kEsUtp-Qud-Yop3eM0K0gVmJo4T5yikMZSd06vT3zyzi22DvdobEUUIrBG5003gJIJxjoHK6SaA/1/playlist.m3u8",
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/QSeusfxiuPRIAVqyzUYfuFzpCyFaduCi/rtmp/stream/gK2vuRvkOfSkZIkrhY7-0gSTuUonFAxwoH3JZxsWWq3i2nKizONC8JEBvbqCuhCiTyCYlP_WYp5zKlf1VPY/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<47ca537a98>/rtmp/stream/gK2vuRvkOfSkZIkrhY7-0gSTuUonFAxwoH3JZxsWWq3i2nKizONC8JEBvbqCuhCiTyCYlP_WYp5zKlf1VPY/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb14.strmd.st/secure/<47ca537a98>/rtmp/stream/gK2vuRvkOfSkZIkrhY7-0gSTuUonFAxwoH3JZxsWWq3i2nKizONC8JEBvbqCuhCiTyCYlP_WYp5zKlf1VPY/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/QSeusfxiuPRIAVqyzUYfuFzpCyFaduCi/rtmp/stream/gK2vuRvkOfSkZIkrhY7-0gSTuUonFAxwoH3JZxsWWq3i2nKizONC8JEBvbqCuhCiTyCYlP_WYp5zKlf1VPY/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<47ca537a98>/rtmp/stream/gK2vuRvkOfSkZIkrhY7-0gSTuUonFAxwoH3JZxsWWq3i2nKizONC8JEBvbqCuhCiTyCYlP_WYp5zKlf1VPY/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -276,18 +437,21 @@
         },
         {
           "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-india-vs-sri-lanka-1-st-test/2",
             "title": "",
-            "html_length": 23342,
+            "html_length": 132351,
             "script_hosts": [
               "cdn.jsdelivr.net",
+              "embed.st",
               "llvpn.com",
-              "strmd.b-cdn.net"
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -298,35 +462,13 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb11.strmd.st/secure/<753c2f2d81>/rtmp/stream/FT8WMnI-kEsUtp-Qud-Yop3eM0K0gVmJo4T5yikMZSd06vT3zyzi22DvdobEUUIrBG5003gJIJxjoHK6SaA/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<47ca537a98>/rtmp/stream/gK2vuRvkOfSkZIkrhY7-0gSTuUonFAxwoH3JZxsWWq3i2nKizONC8JEBvbqCuhCiTyCYlP_WYp5zKlf1VPY/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb11.strmd.st/secure/eIpEVnNiwiPJOCNllfNyXrGhJTppIEws/rtmp/stream/FT8WMnI-kEsUtp-Qud-Yop3eM0K0gVmJo4T5yikMZSd06vT3zyzi22DvdobEUUIrBG5003gJIJxjoHK6SaA/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb14.strmd.st/secure/QSeusfxiuPRIAVqyzUYfuFzpCyFaduCi/rtmp/stream/gK2vuRvkOfSkZIkrhY7-0gSTuUonFAxwoH3JZxsWWq3i2nKizONC8JEBvbqCuhCiTyCYlP_WYp5zKlf1VPY/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<753c2f2d81>/rtmp/stream/FT8WMnI-kEsUtp-Qud-Yop3eM0K0gVmJo4T5yikMZSd06vT3zyzi22DvdobEUUIrBG5003gJIJxjoHK6SaA/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/eIpEVnNiwiPJOCNllfNyXrGhJTppIEws/rtmp/stream/FT8WMnI-kEsUtp-Qud-Yop3eM0K0gVmJo4T5yikMZSd06vT3zyzi22DvdobEUUIrBG5003gJIJxjoHK6SaA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<753c2f2d81>/rtmp/stream/FT8WMnI-kEsUtp-Qud-Yop3eM0K0gVmJo4T5yikMZSd06vT3zyzi22DvdobEUUIrBG5003gJIJxjoHK6SaA/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=1&ae=g&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1011673363.1787116058&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He68i0h2v9132849862za200zd9132849862xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119793972~120315470~120385422&tft=1787116057694&tfd=1484&fmt=8",
-          "failure": "net::ERR_ABORTED"
         }
       ]
     },
@@ -363,106 +505,230 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<9f9996af2d>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<56eea5acb3>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb11.strmd.st/secure/JUvWHILwyRHGAnEUpuAzEpqUysLDeWEZ/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/uqhxCiWkkVqQViYquAEiVqbzHpamuRMA/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb11.strmd.st/secure/<9f9996af2d>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
+          "request_failed": "https://lb14.strmd.st/secure/<56eea5acb3>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<9f9996af2d>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<56eea5acb3>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/JUvWHILwyRHGAnEUpuAzEpqUysLDeWEZ/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/uqhxCiWkkVqQViYquAEiVqbzHpamuRMA/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb11.strmd.st/secure/<9f9996af2d>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
+          "request_failed": "https://lb14.strmd.st/secure/<56eea5acb3>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "page": {
@@ -487,193 +753,13 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb11.strmd.st/secure/<9f9996af2d>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<56eea5acb3>/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb11.strmd.st/secure/JUvWHILwyRHGAnEUpuAzEpqUysLDeWEZ/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb14.strmd.st/secure/uqhxCiWkkVqQViYquAEiVqbzHpamuRMA/delta/stream/live_concacaf-central-american-cup-group-d_cartagines-verdes-live-streaming-605730528/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.lulus.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=1&ae=g&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1680440746.1787116060&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He68i0h2v9132849862za200zd9132849862xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120315471~120385423&tft=1787116060279&tfd=1014&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.nurturelife.com/' in a frame because it set 'X-Frame-Options' to 'deny'."
-        }
-      ]
-    },
-    {
-      "key": "colorado-rockies-vs-los-angeles-dodgers-2388770|golf|468|1",
-      "title": "Colorado Rockies vs Los Angeles Dodgers",
-      "embed": "https://embed.st/embed/golf/468/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.oncehuman.game/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.oncehuman.game/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.oncehuman.game/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=18&frm=2&apvc=1&ae=g&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=743676591.1787116063&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He68i0h2v9132849862za200zd9132849862xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~120385423&tft=1787116062867&tfd=468&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=18&frm=2&apvc=0&ae=g&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=743676591.1787116063&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He68i0h2v9132849862za200zd9132849862xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~120385423&tft=1787116063068&tfd=669&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.avast.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://cdn11.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=m4iSIPXDwibf7orTsiTTag&expires=1787123262",
-          "resource_type": "xhr"
-        },
-        {
-          "response": "media",
-          "status": 404,
-          "url": "https://cdn11.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=m4iSIPXDwibf7orTsiTTag&expires=1787123262",
-          "referer": "https://exposestrat.com/"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 ()"
-        },
-        {
-          "request_failed": "https://www.google.com/rmkt/collect/10780400551/?random=1787116063311&cv=11&fst=1787116063311&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68i0h2z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422&u_w=800&u_h=600&url=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&rcb=15&frm=2&tiba=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=0&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&tid=AW-10780400551&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=743676591.1787116063&navt=n&npa=0&gtm=45be68i0h2z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422&tft=1787116063336&tfd=937&tids=AW-10780400551&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=0&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&tid=DC-15097543&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=743676591.1787116063&navt=n&npa=0&gtm=45fe68i0h2v9201242302z89132849862za20gzb9132849862zd9132849862xec&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385423&tft=1787116063444&tfd=1046&tids=DC-15097543&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/measurement/conversion?random=1787116063533&cv=11&tid=G-WK9K0RXQJL&fst=1787116063533&fmt=8&en=page_view&gtm=45je68i0h2v878270110z89132849862za20gzb9132849862zd9132849862xec&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385423&u_w=800&u_h=600&url=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&gacid=1900593642.1787116064&ibt=1&frm=2&tiba=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/measurement/conversion?random=1787116063533&cv=11&tid=G-WK9K0RXQJL&fst=1787116063533&fmt=8&en=first_visit&gtm=45je68i0h2v878270110z89132849862za20gzb9132849862zd9132849862xec&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385423&u_w=800&u_h=600&url=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&gacid=1900593642.1787116064&ibt=1&frm=2&tiba=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=13&frm=2&apvc=0&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&tid=AW-10816358542&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=743676591.1787116063&navt=n&npa=0&gtm=45be68i0h2v896236647z89132849862za20gzb9132849862zd9132849862xec&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120213116~120385423&tft=1787116063975&tfd=1577&tids=AW-10816358542&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/rmkt/collect/10816358542/?random=1787116063931&cv=11&fst=1787116063931&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68i0h2v896236647z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120213116~120385423&u_w=800&u_h=600&url=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&rcb=13&frm=2&tiba=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=0&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&tid=DC-12111303&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=743676591.1787116063&navt=n&npa=0&gtm=45fe68i0h2v9181812459z89132849862za20gzb9132849862zd9132849862xec&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938466~115938468~118012009~118897920~118897930~119367802~119367810~120213116~120385422&tft=1787116064072&tfd=1673&tids=DC-12111303&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=1&ae=g&dt=World%20of%20Sea%20Battle%20%E2%80%94%20The%20best%20pirate%20game%20with%20original%20sail%20ships%20%7C%20The%20new%20MMO%20about%20marine%20fleet%20and%20battles&en=page_view&dl=https%3A%2F%2Fwww.worldofseabattle.com%2Fen%2Faction%3Faffise_user_id%3D6a853a1ffb37520001b3268c%26utm%3D11%26f%3Dcpa_11_4__261082%26utm_source%3Daffise_11%26utm_medium%3Dcpa%26utm_campaign%3Doffer_4&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1393735822.1787116065&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68h1v9230845315za200zd9230845315xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423&tft=1787116065069&tfd=3143&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=2&frm=2&apvc=1&ae=g&dt=World%20of%20Sea%20Battle%20%E2%80%94%20The%20best%20pirate%20game%20with%20original%20sail%20ships%20%7C%20The%20new%20MMO%20about%20marine%20fleet%20and%20battles&en=page_view&dl=https%3A%2F%2Fwww.worldofseabattle.com%2Fen%2Faction%3Faffise_user_id%3D6a853a1f376c860001a3e248%26utm%3D11%26f%3Dcpa_11_4__261082%26utm_source%3Daffise_11%26utm_medium%3Dcpa%26utm_campaign%3Doffer_4&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1528436951.1787116065&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68h1v9230845315za200zd9230845315xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385423&tft=1787116065110&tfd=3331&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=4&frm=2&apvc=1&ae=g&dt=World%20of%20Sea%20Battle%20%E2%80%94%20The%20best%20pirate%20game%20with%20original%20sail%20ships%20%7C%20The%20new%20MMO%20about%20marine%20fleet%20and%20battles&en=page_view&dl=https%3A%2F%2Fwww.worldofseabattle.com%2Fen%2Faction%3Faffise_user_id%3D6a853a1eaa5bc2000186643c%26utm%3D11%26f%3Dcpa_11_4__261082%26utm_source%3Daffise_11%26utm_medium%3Dcpa%26utm_campaign%3Doffer_4&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1297256321.1787116065&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He68h1v9230845315za200zd9230845315xea&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120385423&tft=1787116065153&tfd=3384&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=6&frm=2&apvc=0&dt=World%20of%20Sea%20Battle%20%E2%80%94%20The%20best%20pirate%20game%20with%20original%20sail%20ships%20%7C%20The%20new%20MMO%20about%20marine%20fleet%20and%20battles&tid=AW-17793847566&en=page_view&dl=https%3A%2F%2Fwww.worldofseabattle.com%2Fen%2Faction%3Faffise_user_id%3D6a853a1ffb37520001b3268c%26utm%3D11%26f%3Dcpa_11_4__261082%26utm_source%3Daffise_11%26utm_medium%3Dcpa%26utm_campaign%3Doffer_4&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1393735822.1787116065&navt=n&npa=0&_tu=CA&gtm=45je68h1v9125941740z89230845315za20gzb9230845315zd9230845315xec&gcs=G111&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385422&tft=1787116065404&tfd=3478&tids=AW-17793847566&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/rmkt/collect/17793847566/?random=1787116065376&cv=11&fst=1787116065376&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je68h1v9125941740z89230845315za20gzb9230845315zd9230845315xec&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385422&u_w=800&u_h=600&url=https%3A%2F%2Fwww.worldofseabattle.com%2Fen%2Faction%3Faffise_user_id%3D6a853a1ffb37520001b3268c%26utm%3D11%26f%3Dcpa_11_4__261082%26utm_source%3Daffise_11%26utm_medium%3Dcpa%26utm_campaign%3Doffer_4&top=https%3A%2F%2Fembed.st&rcb=6&frm=2&tiba=World%20of%20Sea%20Battle%20%E2%80%94%20The%20best%20pirate%20game%20with%20original%20sail%20ships%20%7C%20The%20new%20MMO%20about%20marine%20fleet%20and%20battles&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=8&frm=2&apvc=0&dt=World%20of%20Sea%20Battle%20%E2%80%94%20The%20best%20pirate%20game%20with%20original%20sail%20ships%20%7C%20The%20new%20MMO%20about%20marine%20fleet%20and%20battles&tid=AW-17793847566&en=page_view&dl=https%3A%2F%2Fwww.worldofseabattle.com%2Fen%2Faction%3Faffise_user_id%3D6a853a1f376c860001a3e248%26utm%3D11%26f%3Dcpa_11_4__261082%26utm_source%3Daffise_11%26utm_medium%3Dcpa%26utm_campaign%3Doffer_4&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1528436951.1787116065&navt=n&npa=0&_tu=CA&gtm=45je68h1v9125941740z89230845315za20gzb9230845315zd9230845315xec&gcs=G111&gcd=13v3v3v3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385423&tft=1787116065443&tfd=3664&tids=AW-17793847566&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/rmkt/collect/17793847566/?random=1787116065424&cv=11&fst=1787116065424&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je68h1v9125941740z89230845315za20gzb9230845315zd9230845315xec&gcd=13v3v3v3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385423&u_w=800&u_h=600&url=https%3A%2F%2Fwww.worldofseabattle.com%2Fen%2Faction%3Faffise_user_id%3D6a853a1f376c860001a3e248%26utm%3D11%26f%3Dcpa_11_4__261082%26utm_source%3Daffise_11%26utm_medium%3Dcpa%26utm_campaign%3Doffer_4&top=https%3A%2F%2Fembed.st&rcb=8&frm=2&tiba=World%20of%20Sea%20Battle%20%E2%80%94%20The%20best%20pirate%20game%20with%20original%20sail%20ships%20%7C%20The%20new%20MMO%20about%20marine%20fleet%20and%20battles&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=5&frm=2&apvc=0&dt=World%20of%20Sea%20Battle%20%E2%80%94%20The%20best%20pirate%20game%20with%20original%20sail%20ships%20%7C%20The%20new%20MMO%20about%20marine%20fleet%20and%20battles&tid=AW-17793847566&en=page_view&dl=https%3A%2F%2Fwww.worldofseabattle.com%2Fen%2Faction%3Faffise_user_id%3D6a853a1eaa5bc2000186643c%26utm%3D11%26f%3Dcpa_11_4__261082%26utm_source%3Daffise_11%26utm_medium%3Dcpa%26utm_campaign%3Doffer_4&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=1297256321.1787116065&navt=n&npa=0&_tu=CA&gtm=45je68h1v9125941740z89230845315za20gzb9230845315zd9230845315xec&gcs=G111&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120213116~120385422&tft=1787116065524&tfd=3754&tids=AW-17793847566&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/rmkt/collect/17793847566/?random=1787116065505&cv=11&fst=1787116065505&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je68h1v9125941740z89230845315za20gzb9230845315zd9230845315xec&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120213116~120385422&u_w=800&u_h=600&url=https%3A%2F%2Fwww.worldofseabattle.com%2Fen%2Faction%3Faffise_user_id%3D6a853a1eaa5bc2000186643c%26utm%3D11%26f%3Dcpa_11_4__261082%26utm_source%3Daffise_11%26utm_medium%3Dcpa%26utm_campaign%3Doffer_4&top=https%3A%2F%2Fembed.st&rcb=5&frm=2&tiba=World%20of%20Sea%20Battle%20%E2%80%94%20The%20best%20pirate%20game%20with%20original%20sail%20ships%20%7C%20The%20new%20MMO%20about%20marine%20fleet%20and%20battles&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/468/1",
-            "title": "",
-            "html_length": 2104,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "embedhd.st",
-              "llvpn.com"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
         }
       ]
     },
@@ -693,6 +779,254 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
@@ -705,19 +1039,15 @@
           "text": "document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://cdn14.zohanayaan.com:1686/hls/mevent1.m3u8?md5=AJe2fC6mYmbFkpjkXG9c8g&expires=1787123269",
+          "url": "https://cdn13.zohanayaan.com:1686/hls/mevent1.m3u8?md5=FBAyAtO8NHoaiXhyZuUQzg&expires=1787125349",
           "resource_type": "xhr"
         },
         {
           "response": "media",
           "status": 404,
-          "url": "https://cdn14.zohanayaan.com:1686/hls/mevent1.m3u8?md5=AJe2fC6mYmbFkpjkXG9c8g&expires=1787123269",
+          "url": "https://cdn13.zohanayaan.com:1686/hls/mevent1.m3u8?md5=FBAyAtO8NHoaiXhyZuUQzg&expires=1787125349",
           "referer": "https://exposestrat.com/"
         },
         {
@@ -725,52 +1055,16 @@
           "text": "Failed to load resource: the server responded with a status of 404 ()"
         },
         {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=15&frm=2&apvc=1&ae=g&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=936738394.1787116071&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He68i0h2v9132849862za200zd9132849862xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120385422&tft=1787116071336&tfd=899&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/rmkt/collect/10780400551/?random=1787116071567&cv=11&fst=1787116071567&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68i0h2z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120385422&u_w=800&u_h=600&url=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&rcb=7&frm=2&tiba=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=7&frm=2&apvc=0&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&tid=AW-10780400551&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=936738394.1787116071&navt=n&npa=0&gtm=45be68i0h2z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120385422&tft=1787116071592&tfd=1156&tids=AW-10780400551&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/measurement/conversion?random=1787116071658&cv=11&tid=G-WK9K0RXQJL&fst=1787116071658&fmt=8&en=page_view&gtm=45je68i0h2v878270110z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422&u_w=800&u_h=600&url=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&gacid=146150249.1787116072&ibt=1&frm=2&tiba=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=1",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/measurement/conversion?random=1787116071658&cv=11&tid=G-WK9K0RXQJL&fst=1787116071658&fmt=8&en=first_visit&gtm=45je68i0h2v878270110z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422&u_w=800&u_h=600&url=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&gacid=146150249.1787116072&ibt=1&frm=2&tiba=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=1",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=0&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&tid=AW-10816358542&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=936738394.1787116071&navt=n&npa=0&gtm=45be68i0h2v896236647z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~119791748~120213116~120385423~120420415&tft=1787116071760&tfd=1323&tids=AW-10816358542&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/rmkt/collect/10816358542/?random=1787116071733&cv=11&fst=1787116071733&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68i0h2v896236647z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~119791748~120213116~120385423~120420415&u_w=800&u_h=600&url=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&rcb=19&frm=2&tiba=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=0&frm=2&apvc=0&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&tid=DC-12111303&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=936738394.1787116071&navt=n&npa=0&gtm=45fe68i0h2v9181812459z89132849862za20gzb9132849862zd9132849862xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120385422&tft=1787116071812&tfd=1375&tids=DC-12111303&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "request_failed": "https://www.google.com/ccm/collect?rcb=19&frm=2&apvc=0&dt=NARAKA%3A%20BLADEPOINT%20Official%20Website%20%7C%20New%20Hero%20Ye%20Xiu%20Now%20Available&tid=DC-15097543&en=page_view&dl=https%3A%2F%2Fwww.narakathegame.com%2Fbuy%2Ffab-1%2F&top=https%3A%2F%2Fembed.st&scrsrc=www.googletagmanager.com&rnd=936738394.1787116071&navt=n&npa=0&gtm=45fe68i0h2v9201242302z89132849862za20gzb9132849862zd9132849862xec&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120213116~120385422&tft=1787116071977&tfd=1540&tids=DC-15097543&fmt=8",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/golf/280/1",
             "title": "",
-            "html_length": 623131,
+            "html_length": 2104,
             "script_hosts": [
               "a.cdn-lab.shop",
               "ann.cdn-lab.shop",
-              "apansudigytcy.online",
-              "embedhd.st"
+              "embedhd.st",
+              "llvpn.com"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
