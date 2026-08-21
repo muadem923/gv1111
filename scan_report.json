@@ -1,20 +1,20 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1787331298,
-  "elapsed_seconds": 40.22,
+  "started_at": 1787332916,
+  "elapsed_seconds": 48.75,
   "api_ok": true,
   "matches": 13,
   "live_matches": 13,
   "nearby_fallback_matches": 0,
   "nearby_fallback_used": false,
-  "source_pairs": 16,
-  "embed_candidates": 9,
+  "source_pairs": 15,
+  "embed_candidates": 7,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 8,
+    "upstream_dead": 6,
     "media_unverified": 1
   },
   "entries": [],
@@ -27,14 +27,14 @@
       "classification": "upstream_dead",
       "events": [
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
           "request": "fetch",
           "method": "POST",
           "url": "https://embed.st/fetch",
           "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "response": "fetch",
@@ -42,17 +42,9 @@
           "url": "https://embed.st/fetch"
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<44c0a35934>/rtmp/stream/iNk6y1DZvbqwSAYRHGuSqEj0aro6QFIN3Hs582gltup-iK1NPkB98WlLLkZAeRWkGyOgGl6VLTo9/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<ed80ded0ca>/rtmp/stream/Y0zQKA-5NSpRbgGxFQ_i9IAnaOnAomAFx2w5LY8ITy2h1XbZnNIGeprs43m7ydNtpAXZT18eZjWt/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -70,34 +62,6 @@
         {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-al-riyadh-vs-al-nassr/1",
-            "title": "",
-            "html_length": 23343,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "llvpn.com",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb10.strmd.st/secure/<44c0a35934>/rtmp/stream/iNk6y1DZvbqwSAYRHGuSqEj0aro6QFIN3Hs582gltup-iK1NPkB98WlLLkZAeRWkGyOgGl6VLTo9/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb10.strmd.st/secure/MPLgjXxLKdvKNkrxoGxuFATJfVbnrAUM/rtmp/stream/iNk6y1DZvbqwSAYRHGuSqEj0aro6QFIN3Hs582gltup-iK1NPkB98WlLLkZAeRWkGyOgGl6VLTo9/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
         },
         {
           "console": "warning",
@@ -109,10 +73,62 @@
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb10.strmd.st/secure/MPLgjXxLKdvKNkrxoGxuFATJfVbnrAUM/rtmp/stream/iNk6y1DZvbqwSAYRHGuSqEj0aro6QFIN3Hs582gltup-iK1NPkB98WlLLkZAeRWkGyOgGl6VLTo9/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<44c0a35934>/rtmp/stream/iNk6y1DZvbqwSAYRHGuSqEj0aro6QFIN3Hs582gltup-iK1NPkB98WlLLkZAeRWkGyOgGl6VLTo9/1/playlist.m3u8",
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-al-riyadh-vs-al-nassr/1",
+            "title": "",
+            "html_length": 644360,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "ewyvzyykjlpcu.site",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb14.strmd.st/secure/<ed80ded0ca>/rtmp/stream/Y0zQKA-5NSpRbgGxFQ_i9IAnaOnAomAFx2w5LY8ITy2h1XbZnNIGeprs43m7ydNtpAXZT18eZjWt/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb14.strmd.st/secure/MzdJKxsoONGaIPEGIMejaIIJLpJDEUGm/rtmp/stream/Y0zQKA-5NSpRbgGxFQ_i9IAnaOnAomAFx2w5LY8ITy2h1XbZnNIGeprs43m7ydNtpAXZT18eZjWt/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/MzdJKxsoONGaIPEGIMejaIIJLpJDEUGm/rtmp/stream/Y0zQKA-5NSpRbgGxFQ_i9IAnaOnAomAFx2w5LY8ITy2h1XbZnNIGeprs43m7ydNtpAXZT18eZjWt/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<ed80ded0ca>/rtmp/stream/Y0zQKA-5NSpRbgGxFQ_i9IAnaOnAomAFx2w5LY8ITy2h1XbZnNIGeprs43m7ydNtpAXZT18eZjWt/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -125,31 +141,15 @@
         },
         {
           "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
           "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
           "console": "error",
@@ -172,22 +172,30 @@
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<44c0a35934>/rtmp/stream/iNk6y1DZvbqwSAYRHGuSqEj0aro6QFIN3Hs582gltup-iK1NPkB98WlLLkZAeRWkGyOgGl6VLTo9/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<ed80ded0ca>/rtmp/stream/Y0zQKA-5NSpRbgGxFQ_i9IAnaOnAomAFx2w5LY8ITy2h1XbZnNIGeprs43m7ydNtpAXZT18eZjWt/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/MPLgjXxLKdvKNkrxoGxuFATJfVbnrAUM/rtmp/stream/iNk6y1DZvbqwSAYRHGuSqEj0aro6QFIN3Hs582gltup-iK1NPkB98WlLLkZAeRWkGyOgGl6VLTo9/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/MzdJKxsoONGaIPEGIMejaIIJLpJDEUGm/rtmp/stream/Y0zQKA-5NSpRbgGxFQ_i9IAnaOnAomAFx2w5LY8ITy2h1XbZnNIGeprs43m7ydNtpAXZT18eZjWt/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<44c0a35934>/rtmp/stream/iNk6y1DZvbqwSAYRHGuSqEj0aro6QFIN3Hs582gltup-iK1NPkB98WlLLkZAeRWkGyOgGl6VLTo9/1/playlist.m3u8",
+          "request_failed": "https://lb14.strmd.st/secure/<ed80ded0ca>/rtmp/stream/Y0zQKA-5NSpRbgGxFQ_i9IAnaOnAomAFx2w5LY8ITy2h1XbZnNIGeprs43m7ydNtpAXZT18eZjWt/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         }
       ]
     },
@@ -205,18 +213,6 @@
           "resource_type": "fetch"
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
           "response": "fetch",
           "status": 200,
           "url": "https://embed.st/fetch"
@@ -224,7 +220,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<33b46a8af6>/rtmp/stream/b2dcV7D-uS458Hm6niaPbahNXhzpzrJdnJUPKZDsURimpQbMZIhbbXvH5UV_App40UiD3R2fOWw_kjen_w/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<a0809632df>/rtmp/stream/0GjtLNXE9ybS3FMy0-wrDlKI-hUDcnqjao6WfSJ6GK-QVswPgsRibtCkPJIF0MPmV8ZwOQ0t93CQEbzmmg/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -244,12 +240,20 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "warning",
@@ -261,10 +265,74 @@
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb9.strmd.st/secure/UKJpmZMjybTLrVIHPsuEGyrlLIGIJpqD/rtmp/stream/b2dcV7D-uS458Hm6niaPbahNXhzpzrJdnJUPKZDsURimpQbMZIhbbXvH5UV_App40UiD3R2fOWw_kjen_w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://lb9.strmd.st/secure/<33b46a8af6>/rtmp/stream/b2dcV7D-uS458Hm6niaPbahNXhzpzrJdnJUPKZDsURimpQbMZIhbbXvH5UV_App40UiD3R2fOWw_kjen_w/1/playlist.m3u8",
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-al-riyadh-vs-al-nassr/2",
+            "title": "",
+            "html_length": 23343,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "llvpn.com",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb13.strmd.st/secure/<a0809632df>/rtmp/stream/0GjtLNXE9ybS3FMy0-wrDlKI-hUDcnqjao6WfSJ6GK-QVswPgsRibtCkPJIF0MPmV8ZwOQ0t93CQEbzmmg/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb13.strmd.st/secure/NxhmHzICKfqvigvFqnfJlIrnTBlezKTn/rtmp/stream/0GjtLNXE9ybS3FMy0-wrDlKI-hUDcnqjao6WfSJ6GK-QVswPgsRibtCkPJIF0MPmV8ZwOQ0t93CQEbzmmg/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/NxhmHzICKfqvigvFqnfJlIrnTBlezKTn/rtmp/stream/0GjtLNXE9ybS3FMy0-wrDlKI-hUDcnqjao6WfSJ6GK-QVswPgsRibtCkPJIF0MPmV8ZwOQ0t93CQEbzmmg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<a0809632df>/rtmp/stream/0GjtLNXE9ybS3FMy0-wrDlKI-hUDcnqjao6WfSJ6GK-QVswPgsRibtCkPJIF0MPmV8ZwOQ0t93CQEbzmmg/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -278,55 +346,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<33b46a8af6>/rtmp/stream/b2dcV7D-uS458Hm6niaPbahNXhzpzrJdnJUPKZDsURimpQbMZIhbbXvH5UV_App40UiD3R2fOWw_kjen_w/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<a0809632df>/rtmp/stream/0GjtLNXE9ybS3FMy0-wrDlKI-hUDcnqjao6WfSJ6GK-QVswPgsRibtCkPJIF0MPmV8ZwOQ0t93CQEbzmmg/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/UKJpmZMjybTLrVIHPsuEGyrlLIGIJpqD/rtmp/stream/b2dcV7D-uS458Hm6niaPbahNXhzpzrJdnJUPKZDsURimpQbMZIhbbXvH5UV_App40UiD3R2fOWw_kjen_w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/NxhmHzICKfqvigvFqnfJlIrnTBlezKTn/rtmp/stream/0GjtLNXE9ybS3FMy0-wrDlKI-hUDcnqjao6WfSJ6GK-QVswPgsRibtCkPJIF0MPmV8ZwOQ0t93CQEbzmmg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb9.strmd.st/secure/<33b46a8af6>/rtmp/stream/b2dcV7D-uS458Hm6niaPbahNXhzpzrJdnJUPKZDsURimpQbMZIhbbXvH5UV_App40UiD3R2fOWw_kjen_w/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<a0809632df>/rtmp/stream/0GjtLNXE9ybS3FMy0-wrDlKI-hUDcnqjao6WfSJ6GK-QVswPgsRibtCkPJIF0MPmV8ZwOQ0t93CQEbzmmg/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-al-riyadh-vs-al-nassr/2",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb9.strmd.st/secure/<33b46a8af6>/rtmp/stream/b2dcV7D-uS458Hm6niaPbahNXhzpzrJdnJUPKZDsURimpQbMZIhbbXvH5UV_App40UiD3R2fOWw_kjen_w/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb9.strmd.st/secure/UKJpmZMjybTLrVIHPsuEGyrlLIGIJpqD/rtmp/stream/b2dcV7D-uS458Hm6niaPbahNXhzpzrJdnJUPKZDsURimpQbMZIhbbXvH5UV_App40UiD3R2fOWw_kjen_w/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         }
       ]
     },
@@ -344,6 +377,202 @@
           "resource_type": "fetch"
         },
         {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb7.strmd.st/secure/<f75e86e55c>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1",
+            "title": "",
+            "html_length": 23342,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "llvpn.com",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb7.strmd.st/secure/<f75e86e55c>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb7.strmd.st/secure/NRGvjiQTHiANHsbHdXwtaynsCgtiPpic/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb7.strmd.st/secure/NRGvjiQTHiANHsbHdXwtaynsCgtiPpic/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<f75e86e55c>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb7.strmd.st/secure/<f75e86e55c>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/NRGvjiQTHiANHsbHdXwtaynsCgtiPpic/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<f75e86e55c>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "live-event_little-league-baseball-world-series-live-stream|delta|live-event_little-league-baseball-world-series-live-stream|1",
+      "title": "Little League Baseball World Series",
+      "embed": "https://embed.st/embed/delta/live-event_little-league-baseball-world-series-live-stream/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
@@ -363,15 +592,59 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<de9063853b>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<3eeb13547a>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb9.strmd.st/secure/RJJeYQntEoxrjhxuYabdpsjWVZOxYPwg/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://lb9.strmd.st/secure/<de9063853b>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb7.strmd.st/secure/sEwTyDOHyMwnEtsVFjImVgILUNcThYtq/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<3eeb13547a>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -380,52 +653,20 @@
         },
         {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<de9063853b>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<3eeb13547a>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/RJJeYQntEoxrjhxuYabdpsjWVZOxYPwg/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/sEwTyDOHyMwnEtsVFjImVgILUNcThYtq/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb9.strmd.st/secure/<de9063853b>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "request_failed": "https://lb7.strmd.st/secure/<3eeb13547a>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -435,9 +676,9 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1",
+            "url": "https://embed.st/embed/delta/live-event_little-league-baseball-world-series-live-stream/1",
             "title": "",
-            "html_length": 132351,
+            "html_length": 132350,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
@@ -455,180 +696,13 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb9.strmd.st/secure/<de9063853b>/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<3eeb13547a>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb9.strmd.st/secure/RJJeYQntEoxrjhxuYabdpsjWVZOxYPwg/delta/stream/live_saudi-pro-league_al-riyadh-al-nassr-live-streaming-607252464/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb7.strmd.st/secure/sEwTyDOHyMwnEtsVFjImVgILUNcThYtq/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "live-event_little-league-baseball-world-series-live-stream|delta|live-event_little-league-baseball-world-series-live-stream|1",
-      "title": "Little League Baseball World Series",
-      "embed": "https://embed.st/embed/delta/live-event_little-league-baseball-world-series-live-stream/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<6338ea253c>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb7.strmd.st/secure/JpKvAHObvzudtgFdpoXpqgxfedfbkJwl/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<6338ea253c>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<6338ea253c>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live-event_little-league-baseball-world-series-live-stream/1",
-            "title": "",
-            "html_length": 753368,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "ewyvzyykjlpcu.site",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb7.strmd.st/secure/<6338ea253c>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb7.strmd.st/secure/JpKvAHObvzudtgFdpoXpqgxfedfbkJwl/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/JpKvAHObvzudtgFdpoXpqgxfedfbkJwl/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<6338ea253c>/delta/stream/live-event_little-league-baseball-world-series-live-stream/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         }
       ]
     },
@@ -644,6 +718,18 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
@@ -654,6 +740,14 @@
         {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "error",
@@ -681,11 +775,7 @@
         },
         {
           "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "console": "warning",
@@ -696,19 +786,15 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://cdn13.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=Z11Yva7Gft_H5Xre-zS-vg&expires=1787338519",
+          "url": "https://cdn11.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=08oaGQJMh2NhB_7FegAOyg&expires=1787340151",
           "resource_type": "xhr"
         },
         {
           "response": "media",
           "status": 200,
-          "url": "https://cdn13.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=Z11Yva7Gft_H5Xre-zS-vg&expires=1787338519",
+          "url": "https://cdn11.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=08oaGQJMh2NhB_7FegAOyg&expires=1787340151",
           "referer": "https://exposestrat.com/"
         },
         {
@@ -716,12 +802,12 @@
             "status": 200,
             "url": "https://embed.st/embed/golf/33/1",
             "title": "",
-            "html_length": 623120,
+            "html_length": 2103,
             "script_hosts": [
               "a.cdn-lab.shop",
               "ann.cdn-lab.shop",
               "embedhd.st",
-              "ewyvzyykjlpcu.site"
+              "llvpn.com"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -757,7 +843,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<8afdb40ba9>/rtmp/stream/aoEtRN-Tq3kwn1JCM32sMtIiGAI032__yawwl2pT6QCpWaQEQ7YuLQBkDHMXG4wIDEr3YOP85wwOdA/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<36bf9af3d2>/rtmp/stream/INKZ1943UmR2I7WwlK8wRmdikPaoiA93kHlto_I7IMU4NJZStNRVzTS7YElGrybxSQxJr47DpRgjNg/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -789,18 +875,6 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
           "console": "warning",
           "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
         },
@@ -833,51 +907,11 @@
           "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/xFAnCyINsojncZbLXQrKIFTmqINBCyPw/rtmp/stream/INKZ1943UmR2I7WwlK8wRmdikPaoiA93kHlto_I7IMU4NJZStNRVzTS7YElGrybxSQxJr47DpRgjNg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb12.strmd.st/secure/YTBpuWsMaHfPPyDMcrydOeYqaKJqsHiM/rtmp/stream/aoEtRN-Tq3kwn1JCM32sMtIiGAI032__yawwl2pT6QCpWaQEQ7YuLQBkDHMXG4wIDEr3YOP85wwOdA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb12.strmd.st/secure/<8afdb40ba9>/rtmp/stream/aoEtRN-Tq3kwn1JCM32sMtIiGAI032__yawwl2pT6QCpWaQEQ7YuLQBkDHMXG4wIDEr3YOP85wwOdA/1/playlist.m3u8",
+          "request_failed": "https://lb14.strmd.st/secure/<36bf9af3d2>/rtmp/stream/INKZ1943UmR2I7WwlK8wRmdikPaoiA93kHlto_I7IMU4NJZStNRVzTS7YElGrybxSQxJr47DpRgjNg/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -891,27 +925,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<8afdb40ba9>/rtmp/stream/aoEtRN-Tq3kwn1JCM32sMtIiGAI032__yawwl2pT6QCpWaQEQ7YuLQBkDHMXG4wIDEr3YOP85wwOdA/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<36bf9af3d2>/rtmp/stream/INKZ1943UmR2I7WwlK8wRmdikPaoiA93kHlto_I7IMU4NJZStNRVzTS7YElGrybxSQxJr47DpRgjNg/1/playlist.m3u8",
           "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/YTBpuWsMaHfPPyDMcrydOeYqaKJqsHiM/rtmp/stream/aoEtRN-Tq3kwn1JCM32sMtIiGAI032__yawwl2pT6QCpWaQEQ7YuLQBkDHMXG4wIDEr3YOP85wwOdA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb12.strmd.st/secure/<8afdb40ba9>/rtmp/stream/aoEtRN-Tq3kwn1JCM32sMtIiGAI032__yawwl2pT6QCpWaQEQ7YuLQBkDHMXG4wIDEr3YOP85wwOdA/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-england-vs-pakistan-1-st-test/1",
             "title": "",
-            "html_length": 753368,
+            "html_length": 753188,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
@@ -929,13 +951,25 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb12.strmd.st/secure/<8afdb40ba9>/rtmp/stream/aoEtRN-Tq3kwn1JCM32sMtIiGAI032__yawwl2pT6QCpWaQEQ7YuLQBkDHMXG4wIDEr3YOP85wwOdA/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<36bf9af3d2>/rtmp/stream/INKZ1943UmR2I7WwlK8wRmdikPaoiA93kHlto_I7IMU4NJZStNRVzTS7YElGrybxSQxJr47DpRgjNg/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb12.strmd.st/secure/YTBpuWsMaHfPPyDMcrydOeYqaKJqsHiM/rtmp/stream/aoEtRN-Tq3kwn1JCM32sMtIiGAI032__yawwl2pT6QCpWaQEQ7YuLQBkDHMXG4wIDEr3YOP85wwOdA/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb14.strmd.st/secure/xFAnCyINsojncZbLXQrKIFTmqINBCyPw/rtmp/stream/INKZ1943UmR2I7WwlK8wRmdikPaoiA93kHlto_I7IMU4NJZStNRVzTS7YElGrybxSQxJr47DpRgjNg/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/xFAnCyINsojncZbLXQrKIFTmqINBCyPw/rtmp/stream/INKZ1943UmR2I7WwlK8wRmdikPaoiA93kHlto_I7IMU4NJZStNRVzTS7YElGrybxSQxJr47DpRgjNg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<36bf9af3d2>/rtmp/stream/INKZ1943UmR2I7WwlK8wRmdikPaoiA93kHlto_I7IMU4NJZStNRVzTS7YElGrybxSQxJr47DpRgjNg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         }
       ]
     },
@@ -964,7 +998,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<f03e5f00ec>/rtmp/stream/BT-oHYhB4W-oKPro5Adfnl9jAavkP_oCcQ2n-0Fic8y3J_vKUmJOdAbBcOTQW4_CiGVaP7zeVUTjgzRzRr0/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<384944a745>/rtmp/stream/Yoso6PYxCmBC_MIrHz6GKK2KGHcliakBP4I2p4-t8X5YzMKd5be6l7I1ABlzgIKeXRD7vi2ahWMKRqNu3oE/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -984,12 +1018,16 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
           "console": "warning",
@@ -1001,10 +1039,34 @@
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb4.strmd.st/secure/DNiJsDTBSSOYYOlSRPIJJxsQXOqcCCQN/rtmp/stream/BT-oHYhB4W-oKPro5Adfnl9jAavkP_oCcQ2n-0Fic8y3J_vKUmJOdAbBcOTQW4_CiGVaP7zeVUTjgzRzRr0/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://lb4.strmd.st/secure/<f03e5f00ec>/rtmp/stream/BT-oHYhB4W-oKPro5Adfnl9jAavkP_oCcQ2n-0Fic8y3J_vKUmJOdAbBcOTQW4_CiGVaP7zeVUTjgzRzRr0/1/playlist.m3u8",
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/jEtTSvixJriUdcevTGiyUrXbfckzQSeM/rtmp/stream/Yoso6PYxCmBC_MIrHz6GKK2KGHcliakBP4I2p4-t8X5YzMKd5be6l7I1ABlzgIKeXRD7vi2ahWMKRqNu3oE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<384944a745>/rtmp/stream/Yoso6PYxCmBC_MIrHz6GKK2KGHcliakBP4I2p4-t8X5YzMKd5be6l7I1ABlzgIKeXRD7vi2ahWMKRqNu3oE/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1018,15 +1080,27 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<f03e5f00ec>/rtmp/stream/BT-oHYhB4W-oKPro5Adfnl9jAavkP_oCcQ2n-0Fic8y3J_vKUmJOdAbBcOTQW4_CiGVaP7zeVUTjgzRzRr0/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<384944a745>/rtmp/stream/Yoso6PYxCmBC_MIrHz6GKK2KGHcliakBP4I2p4-t8X5YzMKd5be6l7I1ABlzgIKeXRD7vi2ahWMKRqNu3oE/1/playlist.m3u8",
           "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/jEtTSvixJriUdcevTGiyUrXbfckzQSeM/rtmp/stream/Yoso6PYxCmBC_MIrHz6GKK2KGHcliakBP4I2p4-t8X5YzMKd5be6l7I1ABlzgIKeXRD7vi2ahWMKRqNu3oE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<384944a745>/rtmp/stream/Yoso6PYxCmBC_MIrHz6GKK2KGHcliakBP4I2p4-t8X5YzMKd5be6l7I1ABlzgIKeXRD7vi2ahWMKRqNu3oE/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-england-vs-pakistan-1-st-test/2",
             "title": "",
-            "html_length": 753188,
+            "html_length": 753368,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
@@ -1044,352 +1118,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb4.strmd.st/secure/<f03e5f00ec>/rtmp/stream/BT-oHYhB4W-oKPro5Adfnl9jAavkP_oCcQ2n-0Fic8y3J_vKUmJOdAbBcOTQW4_CiGVaP7zeVUTjgzRzRr0/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<384944a745>/rtmp/stream/Yoso6PYxCmBC_MIrHz6GKK2KGHcliakBP4I2p4-t8X5YzMKd5be6l7I1ABlzgIKeXRD7vi2ahWMKRqNu3oE/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb4.strmd.st/secure/DNiJsDTBSSOYYOlSRPIJJxsQXOqcCCQN/rtmp/stream/BT-oHYhB4W-oKPro5Adfnl9jAavkP_oCcQ2n-0Fic8y3J_vKUmJOdAbBcOTQW4_CiGVaP7zeVUTjgzRzRr0/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/DNiJsDTBSSOYYOlSRPIJJxsQXOqcCCQN/rtmp/stream/BT-oHYhB4W-oKPro5Adfnl9jAavkP_oCcQ2n-0Fic8y3J_vKUmJOdAbBcOTQW4_CiGVaP7zeVUTjgzRzRr0/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<f03e5f00ec>/rtmp/stream/BT-oHYhB4W-oKPro5Adfnl9jAavkP_oCcQ2n-0Fic8y3J_vKUmJOdAbBcOTQW4_CiGVaP7zeVUTjgzRzRr0/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "live-event_formula-1-2026-netherlands-gp-live-stream|delta|live-event_formula-1-2026-netherlands-gp-live-stream|1",
-      "title": "Formula 1 2026 - Netherlands GP",
-      "embed": "https://embed.st/embed/delta/live-event_formula-1-2026-netherlands-gp-live-stream/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<b3c37d5445>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/xcjcPmoYQzmhwWCviVMCtdkzPUuQpirm/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<b3c37d5445>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live-event_formula-1-2026-netherlands-gp-live-stream/1",
-            "title": "",
-            "html_length": 644360,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "ewyvzyykjlpcu.site",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<b3c37d5445>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb8.strmd.st/secure/xcjcPmoYQzmhwWCviVMCtdkzPUuQpirm/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<b3c37d5445>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/xcjcPmoYQzmhwWCviVMCtdkzPUuQpirm/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<b3c37d5445>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "live-event_formula-1-2026-netherlands-gp-live-stream|delta|live-event_formula-1-2026-netherlands-gp-live-stream|2",
-      "title": "Formula 1 2026 - Netherlands GP",
-      "embed": "https://embed.st/embed/delta/live-event_formula-1-2026-netherlands-gp-live-stream/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<9cb31ab237>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/2/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/LSsorBYGducOLmmlLFAiCpNBbActCDLZ/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<9cb31ab237>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/2/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<9cb31ab237>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/2/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/LSsorBYGducOLmmlLFAiCpNBbActCDLZ/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<9cb31ab237>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/2/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live-event_formula-1-2026-netherlands-gp-live-stream/2",
-            "title": "",
-            "html_length": 132350,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<9cb31ab237>/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/2/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb8.strmd.st/secure/LSsorBYGducOLmmlLFAiCpNBbActCDLZ/delta/stream/live-event_formula-1-2026-netherlands-gp-live-stream/2/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb14.strmd.st/secure/jEtTSvixJriUdcevTGiyUrXbfckzQSeM/rtmp/stream/Yoso6PYxCmBC_MIrHz6GKK2KGHcliakBP4I2p4-t8X5YzMKd5be6l7I1ABlzgIKeXRD7vi2ahWMKRqNu3oE/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
