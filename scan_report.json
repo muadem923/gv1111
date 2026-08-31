@@ -1,14 +1,14 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1788155409,
-  "elapsed_seconds": 17.57,
+  "started_at": 1788177215,
+  "elapsed_seconds": 27.09,
   "api_ok": true,
-  "matches": 5,
-  "live_matches": 5,
-  "nearby_fallback_matches": 0,
-  "nearby_fallback_used": false,
-  "source_pairs": 5,
+  "matches": 4,
+  "live_matches": 1,
+  "nearby_fallback_matches": 3,
+  "nearby_fallback_used": true,
+  "source_pairs": 4,
   "embed_candidates": 2,
   "verified_current": 0,
   "reused_last_good": 0,
@@ -19,12 +19,20 @@
   "entries": [],
   "browser_events": [
     {
-      "key": "dallas-wings-vs-connecticut-sun-2449201|admin|ppv-connecticut-sun-vs-dallas-wings|1",
-      "title": "Dallas Wings vs Connecticut Sun",
-      "embed": "https://embed.st/embed/admin/ppv-connecticut-sun-vs-dallas-wings/1",
-      "discovery": "live",
+      "key": "forest-green-rovers-vs-altrincham-2528209|admin|ppv-forest-green-rovers-vs-altrincham|1",
+      "title": "Forest Green Rovers vs Altrincham",
+      "embed": "https://embed.st/embed/admin/ppv-forest-green-rovers-vs-altrincham/1",
+      "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
         {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
@@ -43,15 +51,19 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<0831dcfbf8>/rtmp/stream/LKIwD9y-S9G8wRNcwtJ8_ETayAvKG4jYhByjtwcc3ZeJv4dLu_IxkB8l3X9l9I7yE1faw3hhdhmE7oerDw/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<7b818a457d>/rtmp/stream/qddeLMagns-b19orXxIz3cWTHpqzNbn41FGo7eFjhYcSeCCTZxLylFPhdYOMstqNJ4tdzzsfd8z3/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/jzeKDxhDwPDKFqRGljqMkKJDynLHGbZU/rtmp/stream/LKIwD9y-S9G8wRNcwtJ8_ETayAvKG4jYhByjtwcc3ZeJv4dLu_IxkB8l3X9l9I7yE1faw3hhdhmE7oerDw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://lb8.strmd.st/secure/<0831dcfbf8>/rtmp/stream/LKIwD9y-S9G8wRNcwtJ8_ETayAvKG4jYhByjtwcc3ZeJv4dLu_IxkB8l3X9l9I7yE1faw3hhdhmE7oerDw/1/playlist.m3u8",
+          "console": "error",
+          "text": "Access to fetch at 'https://lb5.strmd.st/secure/yitYcvuEisIMWNHjWodGPsZEIFAuVHQw/rtmp/stream/qddeLMagns-b19orXxIz3cWTHpqzNbn41FGo7eFjhYcSeCCTZxLylFPhdYOMstqNJ4tdzzsfd8z3/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb5.strmd.st/secure/<7b818a457d>/rtmp/stream/qddeLMagns-b19orXxIz3cWTHpqzNbn41FGo7eFjhYcSeCCTZxLylFPhdYOMstqNJ4tdzzsfd8z3/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -69,235 +81,11 @@
         {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-connecticut-sun-vs-dallas-wings/1",
-            "title": "",
-            "html_length": 659418,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "myrqqcpjiaabh.space",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<0831dcfbf8>/rtmp/stream/LKIwD9y-S9G8wRNcwtJ8_ETayAvKG4jYhByjtwcc3ZeJv4dLu_IxkB8l3X9l9I7yE1faw3hhdhmE7oerDw/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb8.strmd.st/secure/jzeKDxhDwPDKFqRGljqMkKJDynLHGbZU/rtmp/stream/LKIwD9y-S9G8wRNcwtJ8_ETayAvKG4jYhByjtwcc3ZeJv4dLu_IxkB8l3X9l9I7yE1faw3hhdhmE7oerDw/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<0831dcfbf8>/rtmp/stream/LKIwD9y-S9G8wRNcwtJ8_ETayAvKG4jYhByjtwcc3ZeJv4dLu_IxkB8l3X9l9I7yE1faw3hhdhmE7oerDw/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://www.walmart.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' *.wal.co *.walmart-customcards.com *.walmart.com:* *.walmart.net *.walmartimages.com\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/jzeKDxhDwPDKFqRGljqMkKJDynLHGbZU/rtmp/stream/LKIwD9y-S9G8wRNcwtJ8_ETayAvKG4jYhByjtwcc3ZeJv4dLu_IxkB8l3X9l9I7yE1faw3hhdhmE7oerDw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<0831dcfbf8>/rtmp/stream/LKIwD9y-S9G8wRNcwtJ8_ETayAvKG4jYhByjtwcc3ZeJv4dLu_IxkB8l3X9l9I7yE1faw3hhdhmE7oerDw/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 422 ()"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        }
-      ]
-    },
-    {
-      "key": "dallas-wings-vs-connecticut-sun-2449201|admin|ppv-connecticut-sun-vs-dallas-wings|2",
-      "title": "Dallas Wings vs Connecticut Sun",
-      "embed": "https://embed.st/embed/admin/ppv-connecticut-sun-vs-dallas-wings/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<621fe3a07d>/rtmp/stream/y5HFVZ20i8LoDex6M_ytRyFcyVO-j2MWJhsL6xFIwu9YCKsn6Y4CA1HdYN65Ox64wPhzVnN81jCer-Sv6L6MUMY/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://www.walmart.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' *.wal.co *.walmart-customcards.com *.walmart.com:* *.walmart.net *.walmartimages.com\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://www.walmart.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' *.wal.co *.walmart-customcards.com *.walmart.com:* *.walmart.net *.walmartimages.com\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 422 ()"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb10.strmd.st/secure/AGGNRoRCEUemxscWclbVtOvxrOfxDGvw/rtmp/stream/y5HFVZ20i8LoDex6M_ytRyFcyVO-j2MWJhsL6xFIwu9YCKsn6Y4CA1HdYN65Ox64wPhzVnN81jCer-Sv6L6MUMY/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb10.strmd.st/secure/<621fe3a07d>/rtmp/stream/y5HFVZ20i8LoDex6M_ytRyFcyVO-j2MWJhsL6xFIwu9YCKsn6Y4CA1HdYN65Ox64wPhzVnN81jCer-Sv6L6MUMY/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-connecticut-sun-vs-dallas-wings/2",
+            "url": "https://embed.st/embed/admin/ppv-forest-green-rovers-vs-altrincham/1",
             "title": "",
             "html_length": 23343,
             "script_hosts": [
@@ -314,13 +102,217 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb10.strmd.st/secure/<621fe3a07d>/rtmp/stream/y5HFVZ20i8LoDex6M_ytRyFcyVO-j2MWJhsL6xFIwu9YCKsn6Y4CA1HdYN65Ox64wPhzVnN81jCer-Sv6L6MUMY/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<7b818a457d>/rtmp/stream/qddeLMagns-b19orXxIz3cWTHpqzNbn41FGo7eFjhYcSeCCTZxLylFPhdYOMstqNJ4tdzzsfd8z3/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb10.strmd.st/secure/AGGNRoRCEUemxscWclbVtOvxrOfxDGvw/rtmp/stream/y5HFVZ20i8LoDex6M_ytRyFcyVO-j2MWJhsL6xFIwu9YCKsn6Y4CA1HdYN65Ox64wPhzVnN81jCer-Sv6L6MUMY/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb5.strmd.st/secure/yitYcvuEisIMWNHjWodGPsZEIFAuVHQw/rtmp/stream/qddeLMagns-b19orXxIz3cWTHpqzNbn41FGo7eFjhYcSeCCTZxLylFPhdYOMstqNJ4tdzzsfd8z3/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb5.strmd.st/secure/<7b818a457d>/rtmp/stream/qddeLMagns-b19orXxIz3cWTHpqzNbn41FGo7eFjhYcSeCCTZxLylFPhdYOMstqNJ4tdzzsfd8z3/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/yitYcvuEisIMWNHjWodGPsZEIFAuVHQw/rtmp/stream/qddeLMagns-b19orXxIz3cWTHpqzNbn41FGo7eFjhYcSeCCTZxLylFPhdYOMstqNJ4tdzzsfd8z3/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb5.strmd.st/secure/<7b818a457d>/rtmp/stream/qddeLMagns-b19orXxIz3cWTHpqzNbn41FGo7eFjhYcSeCCTZxLylFPhdYOMstqNJ4tdzzsfd8z3/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://www.walmart.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' *.wal.co *.walmart-customcards.com *.walmart.com:* *.walmart.net *.walmartimages.com\". The request has been blocked.\n"
+        }
+      ]
+    },
+    {
+      "key": "forest-green-rovers-vs-altrincham-2528209|admin|ppv-forest-green-rovers-vs-altrincham|2",
+      "title": "Forest Green Rovers vs Altrincham",
+      "embed": "https://embed.st/embed/admin/ppv-forest-green-rovers-vs-altrincham/2",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<b9324b8688>/rtmp/stream/pVfWw4AjFmTYWa0hYzl3ZwJOt58PlbcVK3Ixq1jpt-qUsTuG4Ij2M4wHHBq51y9EQly2hRX-HWfVcICvTA/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://www.walmart.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' *.wal.co *.walmart-customcards.com *.walmart.com:* *.walmart.net *.walmartimages.com\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/COogJUnYinrZgvfrmaoEhoSMCceUvQQq/rtmp/stream/pVfWw4AjFmTYWa0hYzl3ZwJOt58PlbcVK3Ixq1jpt-qUsTuG4Ij2M4wHHBq51y9EQly2hRX-HWfVcICvTA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<b9324b8688>/rtmp/stream/pVfWw4AjFmTYWa0hYzl3ZwJOt58PlbcVK3Ixq1jpt-qUsTuG4Ij2M4wHHBq51y9EQly2hRX-HWfVcICvTA/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://openshield.canatrace.com/download-free-can/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
         },
         {
           "console": "error",
@@ -329,20 +321,59 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<621fe3a07d>/rtmp/stream/y5HFVZ20i8LoDex6M_ytRyFcyVO-j2MWJhsL6xFIwu9YCKsn6Y4CA1HdYN65Ox64wPhzVnN81jCer-Sv6L6MUMY/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<b9324b8688>/rtmp/stream/pVfWw4AjFmTYWa0hYzl3ZwJOt58PlbcVK3Ixq1jpt-qUsTuG4Ij2M4wHHBq51y9EQly2hRX-HWfVcICvTA/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/AGGNRoRCEUemxscWclbVtOvxrOfxDGvw/rtmp/stream/y5HFVZ20i8LoDex6M_ytRyFcyVO-j2MWJhsL6xFIwu9YCKsn6Y4CA1HdYN65Ox64wPhzVnN81jCer-Sv6L6MUMY/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 422 ()"
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<621fe3a07d>/rtmp/stream/y5HFVZ20i8LoDex6M_ytRyFcyVO-j2MWJhsL6xFIwu9YCKsn6Y4CA1HdYN65Ox64wPhzVnN81jCer-Sv6L6MUMY/1/playlist.m3u8",
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-forest-green-rovers-vs-altrincham/2",
+            "title": "",
+            "html_length": 132351,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llvpn.com",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb1.strmd.st/secure/<b9324b8688>/rtmp/stream/pVfWw4AjFmTYWa0hYzl3ZwJOt58PlbcVK3Ixq1jpt-qUsTuG4Ij2M4wHHBq51y9EQly2hRX-HWfVcICvTA/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb1.strmd.st/secure/COogJUnYinrZgvfrmaoEhoSMCceUvQQq/rtmp/stream/pVfWw4AjFmTYWa0hYzl3ZwJOt58PlbcVK3Ixq1jpt-qUsTuG4Ij2M4wHHBq51y9EQly2hRX-HWfVcICvTA/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/COogJUnYinrZgvfrmaoEhoSMCceUvQQq/rtmp/stream/pVfWw4AjFmTYWa0hYzl3ZwJOt58PlbcVK3Ixq1jpt-qUsTuG4Ij2M4wHHBq51y9EQly2hRX-HWfVcICvTA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<b9324b8688>/rtmp/stream/pVfWw4AjFmTYWa0hYzl3ZwJOt58PlbcVK3Ixq1jpt-qUsTuG4Ij2M4wHHBq51y9EQly2hRX-HWfVcICvTA/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         }
       ]
     }
