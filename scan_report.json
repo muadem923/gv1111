@@ -1,27 +1,27 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1788824956,
-  "elapsed_seconds": 54.09,
+  "started_at": 1788830955,
+  "elapsed_seconds": 48.66,
   "api_ok": true,
   "matches": 11,
   "live_matches": 11,
   "nearby_fallback_matches": 0,
   "nearby_fallback_used": false,
-  "source_pairs": 13,
-  "embed_candidates": 11,
+  "source_pairs": 16,
+  "embed_candidates": 14,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 11
+    "upstream_dead": 14
   },
   "entries": [],
   "browser_events": [
     {
-      "key": "florida-state-vs-smu-2498665|admin|ppv-smu-mustangs-at-florida-state-seminoles|1",
-      "title": "Florida State vs SMU",
-      "embed": "https://embed.st/embed/admin/ppv-smu-mustangs-at-florida-state-seminoles/1",
+      "key": "los-angeles-dodgers-vs-cincinnati-reds-2497343|admin|ppv-cincinnati-reds-vs-los-angeles-dodgers|1",
+      "title": "Los Angeles Dodgers vs Cincinnati Reds",
+      "embed": "https://embed.st/embed/admin/ppv-cincinnati-reds-vs-los-angeles-dodgers/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
@@ -30,20 +30,17 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
           "request": "fetch",
           "method": "POST",
           "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<67fdf1c082>/rtmp/stream/qPjuMNG-CQRnO3Jvv6WyTECB1pU1Yp_kgvKYMFG3Znp6vEbWkzjt8V-X3U53aJ5MZdqxs7tV/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -51,87 +48,6 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb12.strmd.st/secure/VLvesDxzkpoUQxpDQwEiLrTSPHafgGyJ/rtmp/stream/qPjuMNG-CQRnO3Jvv6WyTECB1pU1Yp_kgvKYMFG3Znp6vEbWkzjt8V-X3U53aJ5MZdqxs7tV/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb12.strmd.st/secure/<67fdf1c082>/rtmp/stream/qPjuMNG-CQRnO3Jvv6WyTECB1pU1Yp_kgvKYMFG3Znp6vEbWkzjt8V-X3U53aJ5MZdqxs7tV/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-smu-mustangs-at-florida-state-seminoles/1",
-            "title": "",
-            "html_length": 659389,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "wukusywhkcerm.space"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb12.strmd.st/secure/<67fdf1c082>/rtmp/stream/qPjuMNG-CQRnO3Jvv6WyTECB1pU1Yp_kgvKYMFG3Znp6vEbWkzjt8V-X3U53aJ5MZdqxs7tV/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb12.strmd.st/secure/VLvesDxzkpoUQxpDQwEiLrTSPHafgGyJ/rtmp/stream/qPjuMNG-CQRnO3Jvv6WyTECB1pU1Yp_kgvKYMFG3Znp6vEbWkzjt8V-X3U53aJ5MZdqxs7tV/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<67fdf1c082>/rtmp/stream/qPjuMNG-CQRnO3Jvv6WyTECB1pU1Yp_kgvKYMFG3Znp6vEbWkzjt8V-X3U53aJ5MZdqxs7tV/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/VLvesDxzkpoUQxpDQwEiLrTSPHafgGyJ/rtmp/stream/qPjuMNG-CQRnO3Jvv6WyTECB1pU1Yp_kgvKYMFG3Znp6vEbWkzjt8V-X3U53aJ5MZdqxs7tV/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb12.strmd.st/secure/<67fdf1c082>/rtmp/stream/qPjuMNG-CQRnO3Jvv6WyTECB1pU1Yp_kgvKYMFG3Znp6vEbWkzjt8V-X3U53aJ5MZdqxs7tV/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "florida-state-vs-smu-2498665|admin|ppv-smu-mustangs-at-florida-state-seminoles|2",
-      "title": "Florida State vs SMU",
-      "embed": "https://embed.st/embed/admin/ppv-smu-mustangs-at-florida-state-seminoles/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
           "response": "fetch",
           "status": 200,
           "url": "https://embed.st/fetch"
@@ -139,15 +55,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<c7be7dd1f5>/rtmp/stream/b19Cgei4pn4T6G-hgCUL8IYo5hPokHh9aK838xwgQiYkwrgJSqMa7o3Z8H8Z2wxgm89cDXhTTGGywA/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<b2650ee546>/rtmp/stream/SggIrqaNkgVICflbFN--yeEifjTXyxyU1rzMhkDlRN4t_0YAsXs2ykFNSJMKurmizADTbIIg-HzqZpSGn65HA-hFHw/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb12.strmd.st/secure/EpBxmKKegnDejMVjVgYycKKNaECuaoyD/rtmp/stream/b19Cgei4pn4T6G-hgCUL8IYo5hPokHh9aK838xwgQiYkwrgJSqMa7o3Z8H8Z2wxgm89cDXhTTGGywA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/FlhtOfoRjRGDSXmPApXSUjQSoTYcQoog/rtmp/stream/SggIrqaNkgVICflbFN--yeEifjTXyxyU1rzMhkDlRN4t_0YAsXs2ykFNSJMKurmizADTbIIg-HzqZpSGn65HA-hFHw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb12.strmd.st/secure/<c7be7dd1f5>/rtmp/stream/b19Cgei4pn4T6G-hgCUL8IYo5hPokHh9aK838xwgQiYkwrgJSqMa7o3Z8H8Z2wxgm89cDXhTTGGywA/1/playlist.m3u8",
+          "request_failed": "https://lb10.strmd.st/secure/<b2650ee546>/rtmp/stream/SggIrqaNkgVICflbFN--yeEifjTXyxyU1rzMhkDlRN4t_0YAsXs2ykFNSJMKurmizADTbIIg-HzqZpSGn65HA-hFHw/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -161,32 +77,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<c7be7dd1f5>/rtmp/stream/b19Cgei4pn4T6G-hgCUL8IYo5hPokHh9aK838xwgQiYkwrgJSqMa7o3Z8H8Z2wxgm89cDXhTTGGywA/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<b2650ee546>/rtmp/stream/SggIrqaNkgVICflbFN--yeEifjTXyxyU1rzMhkDlRN4t_0YAsXs2ykFNSJMKurmizADTbIIg-HzqZpSGn65HA-hFHw/1/playlist.m3u8",
           "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/EpBxmKKegnDejMVjVgYycKKNaECuaoyD/rtmp/stream/b19Cgei4pn4T6G-hgCUL8IYo5hPokHh9aK838xwgQiYkwrgJSqMa7o3Z8H8Z2wxgm89cDXhTTGGywA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb12.strmd.st/secure/<c7be7dd1f5>/rtmp/stream/b19Cgei4pn4T6G-hgCUL8IYo5hPokHh9aK838xwgQiYkwrgJSqMa7o3Z8H8Z2wxgm89cDXhTTGGywA/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-smu-mustangs-at-florida-state-seminoles/2",
+            "url": "https://embed.st/embed/admin/ppv-cincinnati-reds-vs-los-angeles-dodgers/1",
             "title": "",
-            "html_length": 768397,
+            "html_length": 132171,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "llvpn.com",
               "strmd.b-cdn.net",
-              "wukusywhkcerm.space",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -199,9 +103,881 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb12.strmd.st/secure/<c7be7dd1f5>/rtmp/stream/b19Cgei4pn4T6G-hgCUL8IYo5hPokHh9aK838xwgQiYkwrgJSqMa7o3Z8H8Z2wxgm89cDXhTTGGywA/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<b2650ee546>/rtmp/stream/SggIrqaNkgVICflbFN--yeEifjTXyxyU1rzMhkDlRN4t_0YAsXs2ykFNSJMKurmizADTbIIg-HzqZpSGn65HA-hFHw/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb12.strmd.st/secure/EpBxmKKegnDejMVjVgYycKKNaECuaoyD/rtmp/stream/b19Cgei4pn4T6G-hgCUL8IYo5hPokHh9aK838xwgQiYkwrgJSqMa7o3Z8H8Z2wxgm89cDXhTTGGywA/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb10.strmd.st/secure/FlhtOfoRjRGDSXmPApXSUjQSoTYcQoog/rtmp/stream/SggIrqaNkgVICflbFN--yeEifjTXyxyU1rzMhkDlRN4t_0YAsXs2ykFNSJMKurmizADTbIIg-HzqZpSGn65HA-hFHw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/FlhtOfoRjRGDSXmPApXSUjQSoTYcQoog/rtmp/stream/SggIrqaNkgVICflbFN--yeEifjTXyxyU1rzMhkDlRN4t_0YAsXs2ykFNSJMKurmizADTbIIg-HzqZpSGn65HA-hFHw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<b2650ee546>/rtmp/stream/SggIrqaNkgVICflbFN--yeEifjTXyxyU1rzMhkDlRN4t_0YAsXs2ykFNSJMKurmizADTbIIg-HzqZpSGn65HA-hFHw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "los-angeles-dodgers-vs-cincinnati-reds-2497343|admin|ppv-cincinnati-reds-vs-los-angeles-dodgers|2",
+      "title": "Los Angeles Dodgers vs Cincinnati Reds",
+      "embed": "https://embed.st/embed/admin/ppv-cincinnati-reds-vs-los-angeles-dodgers/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb10.strmd.st/secure/<24a3e30cb8>/rtmp/stream/pqdQ4WYAS2h-9-hLT03Nwm_5It4QFbub5nwN1NRNELVXP43aapxuAtBdjGkoB0BOhzlGblmki114ANwcmODVnZw_pm48x70/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/OgFiErXxyzTcwuNQtlpGAAlkszbjBpDe/rtmp/stream/pqdQ4WYAS2h-9-hLT03Nwm_5It4QFbub5nwN1NRNELVXP43aapxuAtBdjGkoB0BOhzlGblmki114ANwcmODVnZw_pm48x70/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<24a3e30cb8>/rtmp/stream/pqdQ4WYAS2h-9-hLT03Nwm_5It4QFbub5nwN1NRNELVXP43aapxuAtBdjGkoB0BOhzlGblmki114ANwcmODVnZw_pm48x70/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb10.strmd.st/secure/<24a3e30cb8>/rtmp/stream/pqdQ4WYAS2h-9-hLT03Nwm_5It4QFbub5nwN1NRNELVXP43aapxuAtBdjGkoB0BOhzlGblmki114ANwcmODVnZw_pm48x70/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/OgFiErXxyzTcwuNQtlpGAAlkszbjBpDe/rtmp/stream/pqdQ4WYAS2h-9-hLT03Nwm_5It4QFbub5nwN1NRNELVXP43aapxuAtBdjGkoB0BOhzlGblmki114ANwcmODVnZw_pm48x70/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<24a3e30cb8>/rtmp/stream/pqdQ4WYAS2h-9-hLT03Nwm_5It4QFbub5nwN1NRNELVXP43aapxuAtBdjGkoB0BOhzlGblmki114ANwcmODVnZw_pm48x70/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-cincinnati-reds-vs-los-angeles-dodgers/2",
+            "title": "",
+            "html_length": 132351,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llvpn.com",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb10.strmd.st/secure/<24a3e30cb8>/rtmp/stream/pqdQ4WYAS2h-9-hLT03Nwm_5It4QFbub5nwN1NRNELVXP43aapxuAtBdjGkoB0BOhzlGblmki114ANwcmODVnZw_pm48x70/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb10.strmd.st/secure/OgFiErXxyzTcwuNQtlpGAAlkszbjBpDe/rtmp/stream/pqdQ4WYAS2h-9-hLT03Nwm_5It4QFbub5nwN1NRNELVXP43aapxuAtBdjGkoB0BOhzlGblmki114ANwcmODVnZw_pm48x70/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "los-angeles-dodgers-vs-cincinnati-reds-2497343|delta|live_mlb_dodgers-reds-live-streaming-594219888|1",
+      "title": "Los Angeles Dodgers vs Cincinnati Reds",
+      "embed": "https://embed.st/embed/delta/live_mlb_dodgers-reds-live-streaming-594219888/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<0138b0ac20>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/szzMwUwlBBxWQAFOuUjdfrXpZVwRTwoh/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<0138b0ac20>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_dodgers-reds-live-streaming-594219888/1",
+            "title": "",
+            "html_length": 659387,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "iuncotzmvgrpr.site",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb12.strmd.st/secure/<0138b0ac20>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb12.strmd.st/secure/szzMwUwlBBxWQAFOuUjdfrXpZVwRTwoh/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<0138b0ac20>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/szzMwUwlBBxWQAFOuUjdfrXpZVwRTwoh/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<0138b0ac20>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "los-angeles-dodgers-vs-cincinnati-reds-2497343|delta|live_mlb_dodgers-reds-live-streaming-594219888|2",
+      "title": "Los Angeles Dodgers vs Cincinnati Reds",
+      "embed": "https://embed.st/embed/delta/live_mlb_dodgers-reds-live-streaming-594219888/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<53d495ee9e>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/2/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/BVyWetFsYAZXwzFFUPtWiTlucMgXeZuH/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<53d495ee9e>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<53d495ee9e>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/2/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/BVyWetFsYAZXwzFFUPtWiTlucMgXeZuH/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<53d495ee9e>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_dodgers-reds-live-streaming-594219888/2",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "iuncotzmvgrpr.site",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb12.strmd.st/secure/<53d495ee9e>/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/2/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb12.strmd.st/secure/BVyWetFsYAZXwzFFUPtWiTlucMgXeZuH/delta/stream/live_mlb_dodgers-reds-live-streaming-594219888/2/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "san-francisco-giants-vs-st--louis-cardinals-2497342|admin|ppv-st-louis-cardinals-vs-san-francisco-giants|1",
+      "title": "San Francisco Giants vs St. Louis Cardinals",
+      "embed": "https://embed.st/embed/admin/ppv-st-louis-cardinals-vs-san-francisco-giants/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<62cc7c90f9>/rtmp/stream/F4xLW4RyKrAK8wZbzN9XaTOjS0TSwzy8Bg6KGeAfd0SIgriyq2NT4JWD6dabvypd9mk0SHzY1rs3ZI3liMVOxp3xXjg/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/ZjHhkHxiLKHguWlmuBnXobivmWnneNmv/rtmp/stream/F4xLW4RyKrAK8wZbzN9XaTOjS0TSwzy8Bg6KGeAfd0SIgriyq2NT4JWD6dabvypd9mk0SHzY1rs3ZI3liMVOxp3xXjg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<62cc7c90f9>/rtmp/stream/F4xLW4RyKrAK8wZbzN9XaTOjS0TSwzy8Bg6KGeAfd0SIgriyq2NT4JWD6dabvypd9mk0SHzY1rs3ZI3liMVOxp3xXjg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<62cc7c90f9>/rtmp/stream/F4xLW4RyKrAK8wZbzN9XaTOjS0TSwzy8Bg6KGeAfd0SIgriyq2NT4JWD6dabvypd9mk0SHzY1rs3ZI3liMVOxp3xXjg/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/ZjHhkHxiLKHguWlmuBnXobivmWnneNmv/rtmp/stream/F4xLW4RyKrAK8wZbzN9XaTOjS0TSwzy8Bg6KGeAfd0SIgriyq2NT4JWD6dabvypd9mk0SHzY1rs3ZI3liMVOxp3xXjg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<62cc7c90f9>/rtmp/stream/F4xLW4RyKrAK8wZbzN9XaTOjS0TSwzy8Bg6KGeAfd0SIgriyq2NT4JWD6dabvypd9mk0SHzY1rs3ZI3liMVOxp3xXjg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-st-louis-cardinals-vs-san-francisco-giants/1",
+            "title": "",
+            "html_length": 768215,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "iuncotzmvgrpr.site",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb1.strmd.st/secure/<62cc7c90f9>/rtmp/stream/F4xLW4RyKrAK8wZbzN9XaTOjS0TSwzy8Bg6KGeAfd0SIgriyq2NT4JWD6dabvypd9mk0SHzY1rs3ZI3liMVOxp3xXjg/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb1.strmd.st/secure/ZjHhkHxiLKHguWlmuBnXobivmWnneNmv/rtmp/stream/F4xLW4RyKrAK8wZbzN9XaTOjS0TSwzy8Bg6KGeAfd0SIgriyq2NT4JWD6dabvypd9mk0SHzY1rs3ZI3liMVOxp3xXjg/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "san-francisco-giants-vs-st--louis-cardinals-2497342|admin|ppv-st-louis-cardinals-vs-san-francisco-giants|2",
+      "title": "San Francisco Giants vs St. Louis Cardinals",
+      "embed": "https://embed.st/embed/admin/ppv-st-louis-cardinals-vs-san-francisco-giants/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<5d61bd0d24>/rtmp/stream/fckEHDQSqeFWnyGJARL_3NcsqJUYvNwgb1lzkx0zwJO4h_l1N6awCCS_iPwPA85oPvyT0MIVpuBEKOmpWS6kdVWaj0SYsVfs/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/wsAuTADOaWAXLbPfdmmWuFoiWUJOTNaK/rtmp/stream/fckEHDQSqeFWnyGJARL_3NcsqJUYvNwgb1lzkx0zwJO4h_l1N6awCCS_iPwPA85oPvyT0MIVpuBEKOmpWS6kdVWaj0SYsVfs/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<5d61bd0d24>/rtmp/stream/fckEHDQSqeFWnyGJARL_3NcsqJUYvNwgb1lzkx0zwJO4h_l1N6awCCS_iPwPA85oPvyT0MIVpuBEKOmpWS6kdVWaj0SYsVfs/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<5d61bd0d24>/rtmp/stream/fckEHDQSqeFWnyGJARL_3NcsqJUYvNwgb1lzkx0zwJO4h_l1N6awCCS_iPwPA85oPvyT0MIVpuBEKOmpWS6kdVWaj0SYsVfs/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/wsAuTADOaWAXLbPfdmmWuFoiWUJOTNaK/rtmp/stream/fckEHDQSqeFWnyGJARL_3NcsqJUYvNwgb1lzkx0zwJO4h_l1N6awCCS_iPwPA85oPvyT0MIVpuBEKOmpWS6kdVWaj0SYsVfs/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<5d61bd0d24>/rtmp/stream/fckEHDQSqeFWnyGJARL_3NcsqJUYvNwgb1lzkx0zwJO4h_l1N6awCCS_iPwPA85oPvyT0MIVpuBEKOmpWS6kdVWaj0SYsVfs/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-st-louis-cardinals-vs-san-francisco-giants/2",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb1.strmd.st/secure/<5d61bd0d24>/rtmp/stream/fckEHDQSqeFWnyGJARL_3NcsqJUYvNwgb1lzkx0zwJO4h_l1N6awCCS_iPwPA85oPvyT0MIVpuBEKOmpWS6kdVWaj0SYsVfs/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb1.strmd.st/secure/wsAuTADOaWAXLbPfdmmWuFoiWUJOTNaK/rtmp/stream/fckEHDQSqeFWnyGJARL_3NcsqJUYvNwgb1lzkx0zwJO4h_l1N6awCCS_iPwPA85oPvyT0MIVpuBEKOmpWS6kdVWaj0SYsVfs/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "san-francisco-giants-vs-st--louis-cardinals-2497342|delta|live_mlb_giants-cardinals-live-streaming-594219456|1",
+      "title": "San Francisco Giants vs St. Louis Cardinals",
+      "embed": "https://embed.st/embed/delta/live_mlb_giants-cardinals-live-streaming-594219456/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<f8f1fe3465>/delta/stream/live_mlb_giants-cardinals-live-streaming-594219456/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb3.strmd.st/secure/pHLsTpCCSJbMFNzXhfWrbFTAITPQTjyE/delta/stream/live_mlb_giants-cardinals-live-streaming-594219456/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<f8f1fe3465>/delta/stream/live_mlb_giants-cardinals-live-streaming-594219456/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<f8f1fe3465>/delta/stream/live_mlb_giants-cardinals-live-streaming-594219456/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/pHLsTpCCSJbMFNzXhfWrbFTAITPQTjyE/delta/stream/live_mlb_giants-cardinals-live-streaming-594219456/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<f8f1fe3465>/delta/stream/live_mlb_giants-cardinals-live-streaming-594219456/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_giants-cardinals-live-streaming-594219456/1",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb3.strmd.st/secure/<f8f1fe3465>/delta/stream/live_mlb_giants-cardinals-live-streaming-594219456/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb3.strmd.st/secure/pHLsTpCCSJbMFNzXhfWrbFTAITPQTjyE/delta/stream/live_mlb_giants-cardinals-live-streaming-594219456/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "live-event_monday-night-raw-live-stream|delta|live-event_monday-night-raw-live-stream|1",
+      "title": "Monday Night Raw",
+      "embed": "https://embed.st/embed/delta/live-event_monday-night-raw-live-stream/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<81326b94a2>/delta/stream/live-event_monday-night-raw-live-stream/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb3.strmd.st/secure/hCqrqCkLIhgfELpZBwEiSSDocdImkvtJ/delta/stream/live-event_monday-night-raw-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<81326b94a2>/delta/stream/live-event_monday-night-raw-live-stream/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<81326b94a2>/delta/stream/live-event_monday-night-raw-live-stream/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/hCqrqCkLIhgfELpZBwEiSSDocdImkvtJ/delta/stream/live-event_monday-night-raw-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<81326b94a2>/delta/stream/live-event_monday-night-raw-live-stream/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live-event_monday-night-raw-live-stream/1",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb3.strmd.st/secure/<81326b94a2>/delta/stream/live-event_monday-night-raw-live-stream/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb3.strmd.st/secure/hCqrqCkLIhgfELpZBwEiSSDocdImkvtJ/delta/stream/live-event_monday-night-raw-live-stream/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "florida-state-vs-smu-2498665|admin|ppv-smu-mustangs-at-florida-state-seminoles|1",
+      "title": "Florida State vs SMU",
+      "embed": "https://embed.st/embed/admin/ppv-smu-mustangs-at-florida-state-seminoles/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<01664983d0>/rtmp/stream/EMT6YD7MGbmSXB5b0JfFmCf4zgO_hzWIgA-FHPbdXtdlGp-pBE0UiLqpf1cWJreTf_NGpc9A/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb4.strmd.st/secure/aKVwlpnhDzyukXwvvOOIHAOCQgxzwEjs/rtmp/stream/EMT6YD7MGbmSXB5b0JfFmCf4zgO_hzWIgA-FHPbdXtdlGp-pBE0UiLqpf1cWJreTf_NGpc9A/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<01664983d0>/rtmp/stream/EMT6YD7MGbmSXB5b0JfFmCf4zgO_hzWIgA-FHPbdXtdlGp-pBE0UiLqpf1cWJreTf_NGpc9A/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<01664983d0>/rtmp/stream/EMT6YD7MGbmSXB5b0JfFmCf4zgO_hzWIgA-FHPbdXtdlGp-pBE0UiLqpf1cWJreTf_NGpc9A/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/aKVwlpnhDzyukXwvvOOIHAOCQgxzwEjs/rtmp/stream/EMT6YD7MGbmSXB5b0JfFmCf4zgO_hzWIgA-FHPbdXtdlGp-pBE0UiLqpf1cWJreTf_NGpc9A/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<01664983d0>/rtmp/stream/EMT6YD7MGbmSXB5b0JfFmCf4zgO_hzWIgA-FHPbdXtdlGp-pBE0UiLqpf1cWJreTf_NGpc9A/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-smu-mustangs-at-florida-state-seminoles/1",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb4.strmd.st/secure/<01664983d0>/rtmp/stream/EMT6YD7MGbmSXB5b0JfFmCf4zgO_hzWIgA-FHPbdXtdlGp-pBE0UiLqpf1cWJreTf_NGpc9A/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb4.strmd.st/secure/aKVwlpnhDzyukXwvvOOIHAOCQgxzwEjs/rtmp/stream/EMT6YD7MGbmSXB5b0JfFmCf4zgO_hzWIgA-FHPbdXtdlGp-pBE0UiLqpf1cWJreTf_NGpc9A/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "florida-state-vs-smu-2498665|admin|ppv-smu-mustangs-at-florida-state-seminoles|2",
+      "title": "Florida State vs SMU",
+      "embed": "https://embed.st/embed/admin/ppv-smu-mustangs-at-florida-state-seminoles/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<44d8dd4eab>/rtmp/stream/gG3-zMzRq8gj7Z8UhriVyaB-nNI7QD7nxhHD6sD2SKwsFQUmimMMMz_Raewi9v6LRl2H6nGrRDQxAg/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb4.strmd.st/secure/pPtuYLPGxCaQrDbHPHmIZuoRDuwhoZXP/rtmp/stream/gG3-zMzRq8gj7Z8UhriVyaB-nNI7QD7nxhHD6sD2SKwsFQUmimMMMz_Raewi9v6LRl2H6nGrRDQxAg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<44d8dd4eab>/rtmp/stream/gG3-zMzRq8gj7Z8UhriVyaB-nNI7QD7nxhHD6sD2SKwsFQUmimMMMz_Raewi9v6LRl2H6nGrRDQxAg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<44d8dd4eab>/rtmp/stream/gG3-zMzRq8gj7Z8UhriVyaB-nNI7QD7nxhHD6sD2SKwsFQUmimMMMz_Raewi9v6LRl2H6nGrRDQxAg/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/pPtuYLPGxCaQrDbHPHmIZuoRDuwhoZXP/rtmp/stream/gG3-zMzRq8gj7Z8UhriVyaB-nNI7QD7nxhHD6sD2SKwsFQUmimMMMz_Raewi9v6LRl2H6nGrRDQxAg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<44d8dd4eab>/rtmp/stream/gG3-zMzRq8gj7Z8UhriVyaB-nNI7QD7nxhHD6sD2SKwsFQUmimMMMz_Raewi9v6LRl2H6nGrRDQxAg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-smu-mustangs-at-florida-state-seminoles/2",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb4.strmd.st/secure/<44d8dd4eab>/rtmp/stream/gG3-zMzRq8gj7Z8UhriVyaB-nNI7QD7nxhHD6sD2SKwsFQUmimMMMz_Raewi9v6LRl2H6nGrRDQxAg/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb4.strmd.st/secure/pPtuYLPGxCaQrDbHPHmIZuoRDuwhoZXP/rtmp/stream/gG3-zMzRq8gj7Z8UhriVyaB-nNI7QD7nxhHD6sD2SKwsFQUmimMMMz_Raewi9v6LRl2H6nGrRDQxAg/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -234,15 +1010,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<107755a2f6>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<c72bc665bc>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb4.strmd.st/secure/GGHQiGTLqnTSzkrPSdiEAgDtlgwYFSCL/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/bHqGDJwTwVhDXDOQzeWrjwfphZPOKOyv/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb4.strmd.st/secure/<107755a2f6>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
+          "request_failed": "https://lb1.strmd.st/secure/<c72bc665bc>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -256,15 +1032,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<107755a2f6>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<c72bc665bc>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/GGHQiGTLqnTSzkrPSdiEAgDtlgwYFSCL/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/bHqGDJwTwVhDXDOQzeWrjwfphZPOKOyv/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb4.strmd.st/secure/<107755a2f6>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
+          "request_failed": "https://lb1.strmd.st/secure/<c72bc665bc>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -276,12 +1052,12 @@
             "status": 200,
             "url": "https://embed.st/embed/delta/live_cfb_florida-state-smu-live-streaming-587704464/1",
             "title": "",
-            "html_length": 768397,
+            "html_length": 768395,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "iuncotzmvgrpr.site",
               "strmd.b-cdn.net",
-              "wukusywhkcerm.space",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -294,9 +1070,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb4.strmd.st/secure/<107755a2f6>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<c72bc665bc>/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb4.strmd.st/secure/GGHQiGTLqnTSzkrPSdiEAgDtlgwYFSCL/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb1.strmd.st/secure/bHqGDJwTwVhDXDOQzeWrjwfphZPOKOyv/delta/stream/live_cfb_florida-state-smu-live-streaming-587704464/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -329,15 +1105,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<5491a635ca>/rtmp/stream/zaJaSSoL0Wyer31fbCXUkaD28w4--HekY42Hrv2kugk0nrtnR70LjLWFixyu_0sFUxDmRIn1sCDmiEwfPMiHDpKN9rvrTPQ/1/playlist.m3u8",
+          "url": "https://lb6.strmd.st/secure/<b575e87dda>/rtmp/stream/TlIhSPdT9HjDGJjFT8MUag6ejJwXFMk3Rafm73DveoGYHH3MPlOgLW7uWf5LKCPT5BmNSHdZlsfHnHyd3zGHkvirzyLz89w/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/bhhQlTpzgdZlRKkGuzRoMFQbrdmrROtN/rtmp/stream/zaJaSSoL0Wyer31fbCXUkaD28w4--HekY42Hrv2kugk0nrtnR70LjLWFixyu_0sFUxDmRIn1sCDmiEwfPMiHDpKN9rvrTPQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb6.strmd.st/secure/tTlCRRaKjURAlflCdGjvCUVRUDWAuBOv/rtmp/stream/TlIhSPdT9HjDGJjFT8MUag6ejJwXFMk3Rafm73DveoGYHH3MPlOgLW7uWf5LKCPT5BmNSHdZlsfHnHyd3zGHkvirzyLz89w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb5.strmd.st/secure/<5491a635ca>/rtmp/stream/zaJaSSoL0Wyer31fbCXUkaD28w4--HekY42Hrv2kugk0nrtnR70LjLWFixyu_0sFUxDmRIn1sCDmiEwfPMiHDpKN9rvrTPQ/1/playlist.m3u8",
+          "request_failed": "https://lb6.strmd.st/secure/<b575e87dda>/rtmp/stream/TlIhSPdT9HjDGJjFT8MUag6ejJwXFMk3Rafm73DveoGYHH3MPlOgLW7uWf5LKCPT5BmNSHdZlsfHnHyd3zGHkvirzyLz89w/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -351,15 +1127,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<5491a635ca>/rtmp/stream/zaJaSSoL0Wyer31fbCXUkaD28w4--HekY42Hrv2kugk0nrtnR70LjLWFixyu_0sFUxDmRIn1sCDmiEwfPMiHDpKN9rvrTPQ/1/playlist.m3u8",
+          "url": "https://lb6.strmd.st/secure/<b575e87dda>/rtmp/stream/TlIhSPdT9HjDGJjFT8MUag6ejJwXFMk3Rafm73DveoGYHH3MPlOgLW7uWf5LKCPT5BmNSHdZlsfHnHyd3zGHkvirzyLz89w/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/bhhQlTpzgdZlRKkGuzRoMFQbrdmrROtN/rtmp/stream/zaJaSSoL0Wyer31fbCXUkaD28w4--HekY42Hrv2kugk0nrtnR70LjLWFixyu_0sFUxDmRIn1sCDmiEwfPMiHDpKN9rvrTPQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/tTlCRRaKjURAlflCdGjvCUVRUDWAuBOv/rtmp/stream/TlIhSPdT9HjDGJjFT8MUag6ejJwXFMk3Rafm73DveoGYHH3MPlOgLW7uWf5LKCPT5BmNSHdZlsfHnHyd3zGHkvirzyLz89w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb5.strmd.st/secure/<5491a635ca>/rtmp/stream/zaJaSSoL0Wyer31fbCXUkaD28w4--HekY42Hrv2kugk0nrtnR70LjLWFixyu_0sFUxDmRIn1sCDmiEwfPMiHDpKN9rvrTPQ/1/playlist.m3u8",
+          "request_failed": "https://lb6.strmd.st/secure/<b575e87dda>/rtmp/stream/TlIhSPdT9HjDGJjFT8MUag6ejJwXFMk3Rafm73DveoGYHH3MPlOgLW7uWf5LKCPT5BmNSHdZlsfHnHyd3zGHkvirzyLz89w/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -371,12 +1147,12 @@
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-edmonton-elks-at-calgary-stampeders/1",
             "title": "",
-            "html_length": 768397,
+            "html_length": 768395,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "iuncotzmvgrpr.site",
               "strmd.b-cdn.net",
-              "wukusywhkcerm.space",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -389,9 +1165,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<5491a635ca>/rtmp/stream/zaJaSSoL0Wyer31fbCXUkaD28w4--HekY42Hrv2kugk0nrtnR70LjLWFixyu_0sFUxDmRIn1sCDmiEwfPMiHDpKN9rvrTPQ/1/playlist.m3u8",
+          "url": "https://lb6.strmd.st/secure/<b575e87dda>/rtmp/stream/TlIhSPdT9HjDGJjFT8MUag6ejJwXFMk3Rafm73DveoGYHH3MPlOgLW7uWf5LKCPT5BmNSHdZlsfHnHyd3zGHkvirzyLz89w/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb5.strmd.st/secure/bhhQlTpzgdZlRKkGuzRoMFQbrdmrROtN/rtmp/stream/zaJaSSoL0Wyer31fbCXUkaD28w4--HekY42Hrv2kugk0nrtnR70LjLWFixyu_0sFUxDmRIn1sCDmiEwfPMiHDpKN9rvrTPQ/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb6.strmd.st/secure/tTlCRRaKjURAlflCdGjvCUVRUDWAuBOv/rtmp/stream/TlIhSPdT9HjDGJjFT8MUag6ejJwXFMk3Rafm73DveoGYHH3MPlOgLW7uWf5LKCPT5BmNSHdZlsfHnHyd3zGHkvirzyLz89w/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -424,15 +1200,37 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb14.strmd.st/secure/<20c7f76f8a>/rtmp/stream/Bu5gIQneeXl_5ilc7ZJ1E2rH-WQ43zVSpjJ0XDRnzUMH2MZrDyCCZnFi-4lz_zxrRN5FA55kXxO_AHFiqgAecSz993DlHzx34Dr6/1/playlist.m3u8",
+          "url": "https://lb6.strmd.st/secure/<3b99bfeb23>/rtmp/stream/-IxjfEwraPdCVxUJKkrx7I4ySsdpFDzHW_OS30ueKr6AkHe7jrQqg68mZ12izroKgH7aquYylQLq_tKTVykZl5JIdtxUdv3ZcGzn/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb14.strmd.st/secure/nRuZBvbcefsUsflZdawQtQqTrizUqNaL/rtmp/stream/Bu5gIQneeXl_5ilc7ZJ1E2rH-WQ43zVSpjJ0XDRnzUMH2MZrDyCCZnFi-4lz_zxrRN5FA55kXxO_AHFiqgAecSz993DlHzx34Dr6/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb6.strmd.st/secure/kxniMqaZWqhiGbdNrQrHRFSQVsqVGcyy/rtmp/stream/-IxjfEwraPdCVxUJKkrx7I4ySsdpFDzHW_OS30ueKr6AkHe7jrQqg68mZ12izroKgH7aquYylQLq_tKTVykZl5JIdtxUdv3ZcGzn/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb14.strmd.st/secure/<20c7f76f8a>/rtmp/stream/Bu5gIQneeXl_5ilc7ZJ1E2rH-WQ43zVSpjJ0XDRnzUMH2MZrDyCCZnFi-4lz_zxrRN5FA55kXxO_AHFiqgAecSz993DlHzx34Dr6/1/playlist.m3u8",
+          "request_failed": "https://lb6.strmd.st/secure/<3b99bfeb23>/rtmp/stream/-IxjfEwraPdCVxUJKkrx7I4ySsdpFDzHW_OS30ueKr6AkHe7jrQqg68mZ12izroKgH7aquYylQLq_tKTVykZl5JIdtxUdv3ZcGzn/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<3b99bfeb23>/rtmp/stream/-IxjfEwraPdCVxUJKkrx7I4ySsdpFDzHW_OS30ueKr6AkHe7jrQqg68mZ12izroKgH7aquYylQLq_tKTVykZl5JIdtxUdv3ZcGzn/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/kxniMqaZWqhiGbdNrQrHRFSQVsqVGcyy/rtmp/stream/-IxjfEwraPdCVxUJKkrx7I4ySsdpFDzHW_OS30ueKr6AkHe7jrQqg68mZ12izroKgH7aquYylQLq_tKTVykZl5JIdtxUdv3ZcGzn/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<3b99bfeb23>/rtmp/stream/-IxjfEwraPdCVxUJKkrx7I4ySsdpFDzHW_OS30ueKr6AkHe7jrQqg68mZ12izroKgH7aquYylQLq_tKTVykZl5JIdtxUdv3ZcGzn/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -444,510 +1242,11 @@
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-edmonton-elks-at-calgary-stampeders/2",
             "title": "",
-            "html_length": 659389,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "wukusywhkcerm.space"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb14.strmd.st/secure/<20c7f76f8a>/rtmp/stream/Bu5gIQneeXl_5ilc7ZJ1E2rH-WQ43zVSpjJ0XDRnzUMH2MZrDyCCZnFi-4lz_zxrRN5FA55kXxO_AHFiqgAecSz993DlHzx34Dr6/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb14.strmd.st/secure/nRuZBvbcefsUsflZdawQtQqTrizUqNaL/rtmp/stream/Bu5gIQneeXl_5ilc7ZJ1E2rH-WQ43zVSpjJ0XDRnzUMH2MZrDyCCZnFi-4lz_zxrRN5FA55kXxO_AHFiqgAecSz993DlHzx34Dr6/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb14.strmd.st/secure/<20c7f76f8a>/rtmp/stream/Bu5gIQneeXl_5ilc7ZJ1E2rH-WQ43zVSpjJ0XDRnzUMH2MZrDyCCZnFi-4lz_zxrRN5FA55kXxO_AHFiqgAecSz993DlHzx34Dr6/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/nRuZBvbcefsUsflZdawQtQqTrizUqNaL/rtmp/stream/Bu5gIQneeXl_5ilc7ZJ1E2rH-WQ43zVSpjJ0XDRnzUMH2MZrDyCCZnFi-4lz_zxrRN5FA55kXxO_AHFiqgAecSz993DlHzx34Dr6/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb14.strmd.st/secure/<20c7f76f8a>/rtmp/stream/Bu5gIQneeXl_5ilc7ZJ1E2rH-WQ43zVSpjJ0XDRnzUMH2MZrDyCCZnFi-4lz_zxrRN5FA55kXxO_AHFiqgAecSz993DlHzx34Dr6/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "san-diego-padres-vs-washington-nationals-2458203|admin|ppv-washington-nationals-vs-san-diego-padres|1",
-      "title": "San Diego Padres vs Washington Nationals",
-      "embed": "https://embed.st/embed/admin/ppv-washington-nationals-vs-san-diego-padres/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb14.strmd.st/secure/<db031139e1>/rtmp/stream/3GFFmNgiW69Lv3fsKwSI4aRFefwppWl9D_QUb3dZyngaK-WTP6RLVbggRiD319s7qelMwS4eo_NAJANXIRK6Sg/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb14.strmd.st/secure/KnhEJXusdlXXThWMsRixmdmBmzTEGilU/rtmp/stream/3GFFmNgiW69Lv3fsKwSI4aRFefwppWl9D_QUb3dZyngaK-WTP6RLVbggRiD319s7qelMwS4eo_NAJANXIRK6Sg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb14.strmd.st/secure/<db031139e1>/rtmp/stream/3GFFmNgiW69Lv3fsKwSI4aRFefwppWl9D_QUb3dZyngaK-WTP6RLVbggRiD319s7qelMwS4eo_NAJANXIRK6Sg/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb14.strmd.st/secure/<db031139e1>/rtmp/stream/3GFFmNgiW69Lv3fsKwSI4aRFefwppWl9D_QUb3dZyngaK-WTP6RLVbggRiD319s7qelMwS4eo_NAJANXIRK6Sg/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/KnhEJXusdlXXThWMsRixmdmBmzTEGilU/rtmp/stream/3GFFmNgiW69Lv3fsKwSI4aRFefwppWl9D_QUb3dZyngaK-WTP6RLVbggRiD319s7qelMwS4eo_NAJANXIRK6Sg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb14.strmd.st/secure/<db031139e1>/rtmp/stream/3GFFmNgiW69Lv3fsKwSI4aRFefwppWl9D_QUb3dZyngaK-WTP6RLVbggRiD319s7qelMwS4eo_NAJANXIRK6Sg/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-washington-nationals-vs-san-diego-padres/1",
-            "title": "",
-            "html_length": 768397,
+            "html_length": 768395,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
-              "strmd.b-cdn.net",
-              "wukusywhkcerm.space",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb14.strmd.st/secure/<db031139e1>/rtmp/stream/3GFFmNgiW69Lv3fsKwSI4aRFefwppWl9D_QUb3dZyngaK-WTP6RLVbggRiD319s7qelMwS4eo_NAJANXIRK6Sg/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb14.strmd.st/secure/KnhEJXusdlXXThWMsRixmdmBmzTEGilU/rtmp/stream/3GFFmNgiW69Lv3fsKwSI4aRFefwppWl9D_QUb3dZyngaK-WTP6RLVbggRiD319s7qelMwS4eo_NAJANXIRK6Sg/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "san-diego-padres-vs-washington-nationals-2458203|admin|ppv-washington-nationals-vs-san-diego-padres|2",
-      "title": "San Diego Padres vs Washington Nationals",
-      "embed": "https://embed.st/embed/admin/ppv-washington-nationals-vs-san-diego-padres/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<45003ade71>/rtmp/stream/46Bmwc1gAvS7gyVFVf8JKlsD0rO3PAp66yZ6nDxlf4XXV63Y4cC4ZHFk3fKzeH5vp3cWxcR_gOW8_acZm2K1KrGJ1z8/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb11.strmd.st/secure/ZxjhVVWixBFmThdFrDhSqqeDYJpvoYNV/rtmp/stream/46Bmwc1gAvS7gyVFVf8JKlsD0rO3PAp66yZ6nDxlf4XXV63Y4cC4ZHFk3fKzeH5vp3cWxcR_gOW8_acZm2K1KrGJ1z8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<45003ade71>/rtmp/stream/46Bmwc1gAvS7gyVFVf8JKlsD0rO3PAp66yZ6nDxlf4XXV63Y4cC4ZHFk3fKzeH5vp3cWxcR_gOW8_acZm2K1KrGJ1z8/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-washington-nationals-vs-san-diego-padres/2",
-            "title": "",
-            "html_length": 659389,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "wukusywhkcerm.space"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb11.strmd.st/secure/<45003ade71>/rtmp/stream/46Bmwc1gAvS7gyVFVf8JKlsD0rO3PAp66yZ6nDxlf4XXV63Y4cC4ZHFk3fKzeH5vp3cWxcR_gOW8_acZm2K1KrGJ1z8/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb11.strmd.st/secure/ZxjhVVWixBFmThdFrDhSqqeDYJpvoYNV/rtmp/stream/46Bmwc1gAvS7gyVFVf8JKlsD0rO3PAp66yZ6nDxlf4XXV63Y4cC4ZHFk3fKzeH5vp3cWxcR_gOW8_acZm2K1KrGJ1z8/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<45003ade71>/rtmp/stream/46Bmwc1gAvS7gyVFVf8JKlsD0rO3PAp66yZ6nDxlf4XXV63Y4cC4ZHFk3fKzeH5vp3cWxcR_gOW8_acZm2K1KrGJ1z8/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/ZxjhVVWixBFmThdFrDhSqqeDYJpvoYNV/rtmp/stream/46Bmwc1gAvS7gyVFVf8JKlsD0rO3PAp66yZ6nDxlf4XXV63Y4cC4ZHFk3fKzeH5vp3cWxcR_gOW8_acZm2K1KrGJ1z8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<45003ade71>/rtmp/stream/46Bmwc1gAvS7gyVFVf8JKlsD0rO3PAp66yZ6nDxlf4XXV63Y4cC4ZHFk3fKzeH5vp3cWxcR_gOW8_acZm2K1KrGJ1z8/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "san-diego-padres-vs-washington-nationals-2458203|delta|live_mlb_padres-nationals-live-streaming-594219024|1",
-      "title": "San Diego Padres vs Washington Nationals",
-      "embed": "https://embed.st/embed/delta/live_mlb_padres-nationals-live-streaming-594219024/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<54197bf709>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb7.strmd.st/secure/RGmoAnEKzEpqGqZztACtYUZMasljgJUs/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<54197bf709>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<54197bf709>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/RGmoAnEKzEpqGqZztACtYUZMasljgJUs/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<54197bf709>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_mlb_padres-nationals-live-streaming-594219024/1",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "wukusywhkcerm.space",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb7.strmd.st/secure/<54197bf709>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb7.strmd.st/secure/RGmoAnEKzEpqGqZztACtYUZMasljgJUs/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "san-diego-padres-vs-washington-nationals-2458203|delta|live_mlb_padres-nationals-live-streaming-594219024|2",
-      "title": "San Diego Padres vs Washington Nationals",
-      "embed": "https://embed.st/embed/delta/live_mlb_padres-nationals-live-streaming-594219024/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<9e54930250>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/2/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/ynwwJbrbuJdXxwoayzGGKVoEtVhHZBLE/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<9e54930250>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/2/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<9e54930250>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/2/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_mlb_padres-nationals-live-streaming-594219024/2",
-            "title": "",
-            "html_length": 768217,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "wukusywhkcerm.space",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<9e54930250>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/2/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb6.strmd.st/secure/ynwwJbrbuJdXxwoayzGGKVoEtVhHZBLE/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/2/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/ynwwJbrbuJdXxwoayzGGKVoEtVhHZBLE/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<9e54930250>/delta/stream/live_mlb_padres-nationals-live-streaming-594219024/2/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "elche-vs-real-sociedad-2506208|delta|live_laliga_elche-real-sociedad-live-streaming-614104848|1",
-      "title": "Elche vs Real Sociedad",
-      "embed": "https://embed.st/embed/delta/live_laliga_elche-real-sociedad-live-streaming-614104848/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<d2f9a410a1>/delta/stream/live_laliga_elche-real-sociedad-live-streaming-614104848/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/dzXFXLCuVehmrOWxjaSgxiMPHFFLpuJt/delta/stream/live_laliga_elche-real-sociedad-live-streaming-614104848/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<d2f9a410a1>/delta/stream/live_laliga_elche-real-sociedad-live-streaming-614104848/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<d2f9a410a1>/delta/stream/live_laliga_elche-real-sociedad-live-streaming-614104848/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/dzXFXLCuVehmrOWxjaSgxiMPHFFLpuJt/delta/stream/live_laliga_elche-real-sociedad-live-streaming-614104848/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<d2f9a410a1>/delta/stream/live_laliga_elche-real-sociedad-live-streaming-614104848/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_laliga_elche-real-sociedad-live-streaming-614104848/1",
-            "title": "",
-            "html_length": 132350,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
+              "iuncotzmvgrpr.site",
               "strmd.b-cdn.net",
               "www.gstatic.com",
               "www.w3.org"
@@ -961,9 +1260,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<d2f9a410a1>/delta/stream/live_laliga_elche-real-sociedad-live-streaming-614104848/1/playlist.m3u8",
+          "url": "https://lb6.strmd.st/secure/<3b99bfeb23>/rtmp/stream/-IxjfEwraPdCVxUJKkrx7I4ySsdpFDzHW_OS30ueKr6AkHe7jrQqg68mZ12izroKgH7aquYylQLq_tKTVykZl5JIdtxUdv3ZcGzn/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/dzXFXLCuVehmrOWxjaSgxiMPHFFLpuJt/delta/stream/live_laliga_elche-real-sociedad-live-streaming-614104848/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb6.strmd.st/secure/kxniMqaZWqhiGbdNrQrHRFSQVsqVGcyy/rtmp/stream/-IxjfEwraPdCVxUJKkrx7I4ySsdpFDzHW_OS30ueKr6AkHe7jrQqg68mZ12izroKgH7aquYylQLq_tKTVykZl5JIdtxUdv3ZcGzn/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -972,9 +1271,9 @@
       ]
     },
     {
-      "key": "detroit-tigers-vs-minnesota-twins-2458197|golf|1011|1",
-      "title": "Detroit Tigers vs Minnesota Twins",
-      "embed": "https://embed.st/embed/golf/1011/1",
+      "key": "san-diego-padres-vs-washington-nationals-2458203|golf|1012|1",
+      "title": "San Diego Padres vs Washington Nationals",
+      "embed": "https://embed.st/embed/golf/1012/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
@@ -1005,13 +1304,13 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://cdn14.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=beYzAsd3SByRG2ZM7mCvTw&expires=1788832203",
+          "url": "https://cdn15.zohanayaan.com:1686/hls/msandiegopadres.m3u8?md5=UQAxYdQOahR75Q5lFfN9KQ&expires=1788838197",
           "resource_type": "xhr"
         },
         {
           "response": "media",
           "status": 404,
-          "url": "https://cdn14.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=beYzAsd3SByRG2ZM7mCvTw&expires=1788832203",
+          "url": "https://cdn15.zohanayaan.com:1686/hls/msandiegopadres.m3u8?md5=UQAxYdQOahR75Q5lFfN9KQ&expires=1788838197",
           "referer": "https://exposestrat.st/"
         },
         {
@@ -1021,7 +1320,7 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/golf/1011/1",
+            "url": "https://embed.st/embed/golf/1012/1",
             "title": "",
             "html_length": 2105,
             "script_hosts": [
