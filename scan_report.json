@@ -1,28 +1,29 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1788880664,
-  "elapsed_seconds": 51.68,
+  "started_at": 1788893226,
+  "elapsed_seconds": 63.36,
   "api_ok": true,
-  "matches": 12,
-  "live_matches": 4,
-  "nearby_fallback_matches": 8,
-  "nearby_fallback_used": true,
-  "source_pairs": 18,
-  "embed_candidates": 11,
+  "matches": 8,
+  "live_matches": 8,
+  "nearby_fallback_matches": 0,
+  "nearby_fallback_used": false,
+  "source_pairs": 14,
+  "embed_candidates": 14,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 11
+    "upstream_dead": 13,
+    "media_unverified": 1
   },
   "entries": [],
   "browser_events": [
     {
-      "key": "aek-athens-vs-lask-2594650|admin|ppv-aek-athens-vs-lask-linz|1",
-      "title": "AEK Athens vs LASK",
-      "embed": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/1",
-      "discovery": "nearby_all",
+      "key": "al-ittihad-vs-al-fayha-2573351|delta|live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928|1",
+      "title": "Al-Ittihad vs Al-Fayha",
+      "embed": "https://embed.st/embed/delta/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1",
+      "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
@@ -43,7 +44,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<aab3f0b543>/rtmp/stream/4TXz5hICtXh93FhEOGW90NlgcamTjJEoklUxxVtZL0obT-MR4Vgn7p_jYZ0fJO7QNPDPqZoVh-7m/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<b3697b6c03>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -52,10 +53,10 @@
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/QBCTYBqqIEBJqnUgbSflMdZDQYuxkNoR/rtmp/stream/4TXz5hICtXh93FhEOGW90NlgcamTjJEoklUxxVtZL0obT-MR4Vgn7p_jYZ0fJO7QNPDPqZoVh-7m/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/UjynkhzfbqfJNvizARbuvNQrWXVBSHJi/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb5.strmd.st/secure/<aab3f0b543>/rtmp/stream/4TXz5hICtXh93FhEOGW90NlgcamTjJEoklUxxVtZL0obT-MR4Vgn7p_jYZ0fJO7QNPDPqZoVh-7m/1/playlist.m3u8",
+          "request_failed": "https://lb11.strmd.st/secure/<b3697b6c03>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -63,15 +64,19 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/1",
+            "url": "https://embed.st/embed/delta/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1",
             "title": "",
             "html_length": 659389,
             "script_hosts": [
               "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "wkzmfbrbxstzq.space"
+              "qnmicpryszffx.space",
+              "strmd.b-cdn.net"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -82,9 +87,453 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<aab3f0b543>/rtmp/stream/4TXz5hICtXh93FhEOGW90NlgcamTjJEoklUxxVtZL0obT-MR4Vgn7p_jYZ0fJO7QNPDPqZoVh-7m/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<b3697b6c03>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb5.strmd.st/secure/QBCTYBqqIEBJqnUgbSflMdZDQYuxkNoR/rtmp/stream/4TXz5hICtXh93FhEOGW90NlgcamTjJEoklUxxVtZL0obT-MR4Vgn7p_jYZ0fJO7QNPDPqZoVh-7m/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb11.strmd.st/secure/UjynkhzfbqfJNvizARbuvNQrWXVBSHJi/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<b3697b6c03>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/UjynkhzfbqfJNvizARbuvNQrWXVBSHJi/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<b3697b6c03>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "nec-nijmegen-vs-excelsior-2489085|admin|ppv-nec-nijmegen-vs-excelsior|1",
+      "title": "NEC Nijmegen vs Excelsior",
+      "embed": "https://embed.st/embed/admin/ppv-nec-nijmegen-vs-excelsior/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<e03433e5c0>/rtmp/stream/K57aJIc3zfKvaRmsxATFADpX8xLmelN8jM2gwOlB05s1kMOlAt9vE_0tIQfYY1WwrbqCCunO3d4/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/ypuXajwTXSlbvKgTlVMHgpdxWyWjIJoH/rtmp/stream/K57aJIc3zfKvaRmsxATFADpX8xLmelN8jM2gwOlB05s1kMOlAt9vE_0tIQfYY1WwrbqCCunO3d4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<e03433e5c0>/rtmp/stream/K57aJIc3zfKvaRmsxATFADpX8xLmelN8jM2gwOlB05s1kMOlAt9vE_0tIQfYY1WwrbqCCunO3d4/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<e03433e5c0>/rtmp/stream/K57aJIc3zfKvaRmsxATFADpX8xLmelN8jM2gwOlB05s1kMOlAt9vE_0tIQfYY1WwrbqCCunO3d4/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-nec-nijmegen-vs-excelsior/1",
+            "title": "",
+            "html_length": 659899,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "qnmicpryszffx.space",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb13.strmd.st/secure/<e03433e5c0>/rtmp/stream/K57aJIc3zfKvaRmsxATFADpX8xLmelN8jM2gwOlB05s1kMOlAt9vE_0tIQfYY1WwrbqCCunO3d4/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb13.strmd.st/secure/ypuXajwTXSlbvKgTlVMHgpdxWyWjIJoH/rtmp/stream/K57aJIc3zfKvaRmsxATFADpX8xLmelN8jM2gwOlB05s1kMOlAt9vE_0tIQfYY1WwrbqCCunO3d4/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/ypuXajwTXSlbvKgTlVMHgpdxWyWjIJoH/rtmp/stream/K57aJIc3zfKvaRmsxATFADpX8xLmelN8jM2gwOlB05s1kMOlAt9vE_0tIQfYY1WwrbqCCunO3d4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<e03433e5c0>/rtmp/stream/K57aJIc3zfKvaRmsxATFADpX8xLmelN8jM2gwOlB05s1kMOlAt9vE_0tIQfYY1WwrbqCCunO3d4/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "nec-nijmegen-vs-excelsior-2489085|admin|ppv-nec-nijmegen-vs-excelsior|2",
+      "title": "NEC Nijmegen vs Excelsior",
+      "embed": "https://embed.st/embed/admin/ppv-nec-nijmegen-vs-excelsior/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<c708c180a2>/rtmp/stream/GDhk6F0RztTWaLQcZ4FU3rEmhbCZCLIMokMJ9ga_w4b-rIYgXAfU6zQ18vGYE3GP2D6-zCgZBXXe6mfY/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/rrMeuiGUaJdWTTTzJwPlCAoPgMGHVXJO/rtmp/stream/GDhk6F0RztTWaLQcZ4FU3rEmhbCZCLIMokMJ9ga_w4b-rIYgXAfU6zQ18vGYE3GP2D6-zCgZBXXe6mfY/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<c708c180a2>/rtmp/stream/GDhk6F0RztTWaLQcZ4FU3rEmhbCZCLIMokMJ9ga_w4b-rIYgXAfU6zQ18vGYE3GP2D6-zCgZBXXe6mfY/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<c708c180a2>/rtmp/stream/GDhk6F0RztTWaLQcZ4FU3rEmhbCZCLIMokMJ9ga_w4b-rIYgXAfU6zQ18vGYE3GP2D6-zCgZBXXe6mfY/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/rrMeuiGUaJdWTTTzJwPlCAoPgMGHVXJO/rtmp/stream/GDhk6F0RztTWaLQcZ4FU3rEmhbCZCLIMokMJ9ga_w4b-rIYgXAfU6zQ18vGYE3GP2D6-zCgZBXXe6mfY/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<c708c180a2>/rtmp/stream/GDhk6F0RztTWaLQcZ4FU3rEmhbCZCLIMokMJ9ga_w4b-rIYgXAfU6zQ18vGYE3GP2D6-zCgZBXXe6mfY/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-nec-nijmegen-vs-excelsior/2",
+            "title": "",
+            "html_length": 768397,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "qnmicpryszffx.space",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb13.strmd.st/secure/<c708c180a2>/rtmp/stream/GDhk6F0RztTWaLQcZ4FU3rEmhbCZCLIMokMJ9ga_w4b-rIYgXAfU6zQ18vGYE3GP2D6-zCgZBXXe6mfY/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb13.strmd.st/secure/rrMeuiGUaJdWTTTzJwPlCAoPgMGHVXJO/rtmp/stream/GDhk6F0RztTWaLQcZ4FU3rEmhbCZCLIMokMJ9ga_w4b-rIYgXAfU6zQ18vGYE3GP2D6-zCgZBXXe6mfY/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "club-brugge-vs-aston-villa-2594644|admin|ppv-club-brugge-vs-aston-villa|1",
+      "title": "Club Brugge vs Aston Villa",
+      "embed": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb7.strmd.st/secure/<cfa2d86ba5>/rtmp/stream/72EcuxemqsdMvt8GR9CPKFVGUcalYKZqwiXkUG38Z9bn3CWM66110IEa8y7G0YqTYb-_wAq6zZP4/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb7.strmd.st/secure/YdFLayxxsjSadzBZfUpFREHRXzwmMvZi/rtmp/stream/72EcuxemqsdMvt8GR9CPKFVGUcalYKZqwiXkUG38Z9bn3CWM66110IEa8y7G0YqTYb-_wAq6zZP4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<cfa2d86ba5>/rtmp/stream/72EcuxemqsdMvt8GR9CPKFVGUcalYKZqwiXkUG38Z9bn3CWM66110IEa8y7G0YqTYb-_wAq6zZP4/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb7.strmd.st/secure/<cfa2d86ba5>/rtmp/stream/72EcuxemqsdMvt8GR9CPKFVGUcalYKZqwiXkUG38Z9bn3CWM66110IEa8y7G0YqTYb-_wAq6zZP4/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/1",
+            "title": "",
+            "html_length": 768374,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "qnmicpryszffx.space",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb7.strmd.st/secure/<cfa2d86ba5>/rtmp/stream/72EcuxemqsdMvt8GR9CPKFVGUcalYKZqwiXkUG38Z9bn3CWM66110IEa8y7G0YqTYb-_wAq6zZP4/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb7.strmd.st/secure/YdFLayxxsjSadzBZfUpFREHRXzwmMvZi/rtmp/stream/72EcuxemqsdMvt8GR9CPKFVGUcalYKZqwiXkUG38Z9bn3CWM66110IEa8y7G0YqTYb-_wAq6zZP4/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/YdFLayxxsjSadzBZfUpFREHRXzwmMvZi/rtmp/stream/72EcuxemqsdMvt8GR9CPKFVGUcalYKZqwiXkUG38Z9bn3CWM66110IEa8y7G0YqTYb-_wAq6zZP4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<cfa2d86ba5>/rtmp/stream/72EcuxemqsdMvt8GR9CPKFVGUcalYKZqwiXkUG38Z9bn3CWM66110IEa8y7G0YqTYb-_wAq6zZP4/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "club-brugge-vs-aston-villa-2594644|admin|ppv-club-brugge-vs-aston-villa|2",
+      "title": "Club Brugge vs Aston Villa",
+      "embed": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb5.strmd.st/secure/<634ec45751>/rtmp/stream/Ca3zOxROxsvQNMijhKA08W6t0EeFMZbVeY05vORgXuXDxpQyd2cSv46vlQX9_F4iJPnpgSeg4zdt4u4jHw/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/2",
+            "title": "",
+            "html_length": 659389,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "qnmicpryszffx.space",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb5.strmd.st/secure/<634ec45751>/rtmp/stream/Ca3zOxROxsvQNMijhKA08W6t0EeFMZbVeY05vORgXuXDxpQyd2cSv46vlQX9_F4iJPnpgSeg4zdt4u4jHw/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb5.strmd.st/secure/BmoqXoIUsoIwdKFktvENuZApfMlKOmCu/rtmp/stream/Ca3zOxROxsvQNMijhKA08W6t0EeFMZbVeY05vORgXuXDxpQyd2cSv46vlQX9_F4iJPnpgSeg4zdt4u4jHw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb5.strmd.st/secure/BmoqXoIUsoIwdKFktvENuZApfMlKOmCu/rtmp/stream/Ca3zOxROxsvQNMijhKA08W6t0EeFMZbVeY05vORgXuXDxpQyd2cSv46vlQX9_F4iJPnpgSeg4zdt4u4jHw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb5.strmd.st/secure/<634ec45751>/rtmp/stream/Ca3zOxROxsvQNMijhKA08W6t0EeFMZbVeY05vORgXuXDxpQyd2cSv46vlQX9_F4iJPnpgSeg4zdt4u4jHw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        }
+      ]
+    },
+    {
+      "key": "club-brugge-vs-aston-villa-2594644|admin|ppv-club-brugge-vs-aston-villa|3",
+      "title": "Club Brugge vs Aston Villa",
+      "embed": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/3",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<9578f329ec>/rtmp/stream/h8EyVTN5Acsu1pYC0L_JIsf_rz4vavDzw9HexVLbinUMiHsQOM-Rv84vm2A1hBQovP9VQUGSwbypvw/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb4.strmd.st/secure/qBAtxnjfhPuwogxNgyibgixApRZLYdhc/rtmp/stream/h8EyVTN5Acsu1pYC0L_JIsf_rz4vavDzw9HexVLbinUMiHsQOM-Rv84vm2A1hBQovP9VQUGSwbypvw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<9578f329ec>/rtmp/stream/h8EyVTN5Acsu1pYC0L_JIsf_rz4vavDzw9HexVLbinUMiHsQOM-Rv84vm2A1hBQovP9VQUGSwbypvw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/3",
+            "title": "",
+            "html_length": 659389,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "qnmicpryszffx.space",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb4.strmd.st/secure/<9578f329ec>/rtmp/stream/h8EyVTN5Acsu1pYC0L_JIsf_rz4vavDzw9HexVLbinUMiHsQOM-Rv84vm2A1hBQovP9VQUGSwbypvw/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb4.strmd.st/secure/qBAtxnjfhPuwogxNgyibgixApRZLYdhc/rtmp/stream/h8EyVTN5Acsu1pYC0L_JIsf_rz4vavDzw9HexVLbinUMiHsQOM-Rv84vm2A1hBQovP9VQUGSwbypvw/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -97,15 +546,300 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<aab3f0b543>/rtmp/stream/4TXz5hICtXh93FhEOGW90NlgcamTjJEoklUxxVtZL0obT-MR4Vgn7p_jYZ0fJO7QNPDPqZoVh-7m/1/playlist.m3u8",
+          "url": "https://lb4.strmd.st/secure/<9578f329ec>/rtmp/stream/h8EyVTN5Acsu1pYC0L_JIsf_rz4vavDzw9HexVLbinUMiHsQOM-Rv84vm2A1hBQovP9VQUGSwbypvw/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/QBCTYBqqIEBJqnUgbSflMdZDQYuxkNoR/rtmp/stream/4TXz5hICtXh93FhEOGW90NlgcamTjJEoklUxxVtZL0obT-MR4Vgn7p_jYZ0fJO7QNPDPqZoVh-7m/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/qBAtxnjfhPuwogxNgyibgixApRZLYdhc/rtmp/stream/h8EyVTN5Acsu1pYC0L_JIsf_rz4vavDzw9HexVLbinUMiHsQOM-Rv84vm2A1hBQovP9VQUGSwbypvw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb5.strmd.st/secure/<aab3f0b543>/rtmp/stream/4TXz5hICtXh93FhEOGW90NlgcamTjJEoklUxxVtZL0obT-MR4Vgn7p_jYZ0fJO7QNPDPqZoVh-7m/1/playlist.m3u8",
+          "request_failed": "https://lb4.strmd.st/secure/<9578f329ec>/rtmp/stream/h8EyVTN5Acsu1pYC0L_JIsf_rz4vavDzw9HexVLbinUMiHsQOM-Rv84vm2A1hBQovP9VQUGSwbypvw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "club-brugge-vs-aston-villa-2594644|admin|ppv-club-brugge-vs-aston-villa|4",
+      "title": "Club Brugge vs Aston Villa",
+      "embed": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/4",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<4d88e62cf5>/rtmp/stream/JBwo2G0WLwPKokWddwdoSjU63CDhD5L3q_dbUTAWLJOtZ80PYdO06mIP04VqtGbrqQ2EnUV16ybrLiVCS88/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb4.strmd.st/secure/itxDPuPBErCZtvVFIqxLoSvLchOXVXfO/rtmp/stream/JBwo2G0WLwPKokWddwdoSjU63CDhD5L3q_dbUTAWLJOtZ80PYdO06mIP04VqtGbrqQ2EnUV16ybrLiVCS88/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<4d88e62cf5>/rtmp/stream/JBwo2G0WLwPKokWddwdoSjU63CDhD5L3q_dbUTAWLJOtZ80PYdO06mIP04VqtGbrqQ2EnUV16ybrLiVCS88/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<4d88e62cf5>/rtmp/stream/JBwo2G0WLwPKokWddwdoSjU63CDhD5L3q_dbUTAWLJOtZ80PYdO06mIP04VqtGbrqQ2EnUV16ybrLiVCS88/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/itxDPuPBErCZtvVFIqxLoSvLchOXVXfO/rtmp/stream/JBwo2G0WLwPKokWddwdoSjU63CDhD5L3q_dbUTAWLJOtZ80PYdO06mIP04VqtGbrqQ2EnUV16ybrLiVCS88/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<4d88e62cf5>/rtmp/stream/JBwo2G0WLwPKokWddwdoSjU63CDhD5L3q_dbUTAWLJOtZ80PYdO06mIP04VqtGbrqQ2EnUV16ybrLiVCS88/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/4",
+            "title": "",
+            "html_length": 768397,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "qnmicpryszffx.space",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb4.strmd.st/secure/<4d88e62cf5>/rtmp/stream/JBwo2G0WLwPKokWddwdoSjU63CDhD5L3q_dbUTAWLJOtZ80PYdO06mIP04VqtGbrqQ2EnUV16ybrLiVCS88/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb4.strmd.st/secure/itxDPuPBErCZtvVFIqxLoSvLchOXVXfO/rtmp/stream/JBwo2G0WLwPKokWddwdoSjU63CDhD5L3q_dbUTAWLJOtZ80PYdO06mIP04VqtGbrqQ2EnUV16ybrLiVCS88/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "club-brugge-vs-aston-villa-2594644|delta|live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040|1",
+      "title": "Club Brugge vs Aston Villa",
+      "embed": "https://embed.st/embed/delta/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<9df91ff62a>/delta/stream/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb3.strmd.st/secure/zrhNZncXcOsTXtRcwtbRSIOJnFPAbpMX/delta/stream/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<9df91ff62a>/delta/stream/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<9df91ff62a>/delta/stream/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/zrhNZncXcOsTXtRcwtbRSIOJnFPAbpMX/delta/stream/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<9df91ff62a>/delta/stream/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1",
+            "title": "",
+            "html_length": 768374,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "qnmicpryszffx.space",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb3.strmd.st/secure/<9df91ff62a>/delta/stream/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb3.strmd.st/secure/zrhNZncXcOsTXtRcwtbRSIOJnFPAbpMX/delta/stream/live_uefa-champions-league_club-brugge-aston-villa-live-streaming-614237040/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "aek-athens-vs-lask-2594650|admin|ppv-aek-athens-vs-lask-linz|1",
+      "title": "AEK Athens vs LASK",
+      "embed": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb14.strmd.st/secure/<20c5f7bfdf>/rtmp/stream/pEaa3jzMbO6sgP7et56ujP3iEXTUkOSIgUJfc_bI3NLL5gtQkso6IF0CFtDXMHPwU_fuIBf_dZbw/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/fmhcetVMcZnUjdLSxENwzdLOcxjdEbDf/rtmp/stream/pEaa3jzMbO6sgP7et56ujP3iEXTUkOSIgUJfc_bI3NLL5gtQkso6IF0CFtDXMHPwU_fuIBf_dZbw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<20c5f7bfdf>/rtmp/stream/pEaa3jzMbO6sgP7et56ujP3iEXTUkOSIgUJfc_bI3NLL5gtQkso6IF0CFtDXMHPwU_fuIBf_dZbw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb14.strmd.st/secure/<20c5f7bfdf>/rtmp/stream/pEaa3jzMbO6sgP7et56ujP3iEXTUkOSIgUJfc_bI3NLL5gtQkso6IF0CFtDXMHPwU_fuIBf_dZbw/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/1",
+            "title": "",
+            "html_length": 768374,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "qnmicpryszffx.space",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb14.strmd.st/secure/<20c5f7bfdf>/rtmp/stream/pEaa3jzMbO6sgP7et56ujP3iEXTUkOSIgUJfc_bI3NLL5gtQkso6IF0CFtDXMHPwU_fuIBf_dZbw/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb14.strmd.st/secure/fmhcetVMcZnUjdLSxENwzdLOcxjdEbDf/rtmp/stream/pEaa3jzMbO6sgP7et56ujP3iEXTUkOSIgUJfc_bI3NLL5gtQkso6IF0CFtDXMHPwU_fuIBf_dZbw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/fmhcetVMcZnUjdLSxENwzdLOcxjdEbDf/rtmp/stream/pEaa3jzMbO6sgP7et56ujP3iEXTUkOSIgUJfc_bI3NLL5gtQkso6IF0CFtDXMHPwU_fuIBf_dZbw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<20c5f7bfdf>/rtmp/stream/pEaa3jzMbO6sgP7et56ujP3iEXTUkOSIgUJfc_bI3NLL5gtQkso6IF0CFtDXMHPwU_fuIBf_dZbw/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -118,7 +852,7 @@
       "key": "aek-athens-vs-lask-2594650|admin|ppv-aek-athens-vs-lask-linz|2",
       "title": "AEK Athens vs LASK",
       "embed": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/2",
-      "discovery": "nearby_all",
+      "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
@@ -139,15 +873,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<698f171d98>/rtmp/stream/iIE-_jmxWsnyFzO21PjJ-3-TE-A9RdY9fE3HgB5qsSXd2rgdpC_1hyn7n7Q9hT5LqDRnBrDnyMYKHuUqrw/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<06bd45b110>/rtmp/stream/NwMKNgZepyxkY3woVheXwWPP7ZKsxjibMvcKDKqeZkYHvKB4pCaTYv8bh2HiupaT4AqxNkoibZ6B_YaJmQ/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb10.strmd.st/secure/AHfyKTSvwnaWvPcGncRxaDqJnDuKtecG/rtmp/stream/iIE-_jmxWsnyFzO21PjJ-3-TE-A9RdY9fE3HgB5qsSXd2rgdpC_1hyn7n7Q9hT5LqDRnBrDnyMYKHuUqrw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/yvMNxnZeJRJTpjxCOGoSXHQPHOrqPsNM/rtmp/stream/NwMKNgZepyxkY3woVheXwWPP7ZKsxjibMvcKDKqeZkYHvKB4pCaTYv8bh2HiupaT4AqxNkoibZ6B_YaJmQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<698f171d98>/rtmp/stream/iIE-_jmxWsnyFzO21PjJ-3-TE-A9RdY9fE3HgB5qsSXd2rgdpC_1hyn7n7Q9hT5LqDRnBrDnyMYKHuUqrw/1/playlist.m3u8",
+          "request_failed": "https://lb8.strmd.st/secure/<06bd45b110>/rtmp/stream/NwMKNgZepyxkY3woVheXwWPP7ZKsxjibMvcKDKqeZkYHvKB4pCaTYv8bh2HiupaT4AqxNkoibZ6B_YaJmQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -159,15 +893,24 @@
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<06bd45b110>/rtmp/stream/NwMKNgZepyxkY3woVheXwWPP7ZKsxjibMvcKDKqeZkYHvKB4pCaTYv8bh2HiupaT4AqxNkoibZ6B_YaJmQ/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/2",
             "title": "",
-            "html_length": 659389,
+            "html_length": 768374,
             "script_hosts": [
               "cdn.jsdelivr.net",
+              "embed.st",
+              "qnmicpryszffx.space",
               "strmd.b-cdn.net",
-              "wkzmfbrbxstzq.space"
+              "www.gstatic.com",
+              "www.w3.org"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -178,26 +921,20 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb10.strmd.st/secure/<698f171d98>/rtmp/stream/iIE-_jmxWsnyFzO21PjJ-3-TE-A9RdY9fE3HgB5qsSXd2rgdpC_1hyn7n7Q9hT5LqDRnBrDnyMYKHuUqrw/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<06bd45b110>/rtmp/stream/NwMKNgZepyxkY3woVheXwWPP7ZKsxjibMvcKDKqeZkYHvKB4pCaTYv8bh2HiupaT4AqxNkoibZ6B_YaJmQ/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb10.strmd.st/secure/AHfyKTSvwnaWvPcGncRxaDqJnDuKtecG/rtmp/stream/iIE-_jmxWsnyFzO21PjJ-3-TE-A9RdY9fE3HgB5qsSXd2rgdpC_1hyn7n7Q9hT5LqDRnBrDnyMYKHuUqrw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb8.strmd.st/secure/yvMNxnZeJRJTpjxCOGoSXHQPHOrqPsNM/rtmp/stream/NwMKNgZepyxkY3woVheXwWPP7ZKsxjibMvcKDKqeZkYHvKB4pCaTYv8bh2HiupaT4AqxNkoibZ6B_YaJmQ/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
         },
         {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<698f171d98>/rtmp/stream/iIE-_jmxWsnyFzO21PjJ-3-TE-A9RdY9fE3HgB5qsSXd2rgdpC_1hyn7n7Q9hT5LqDRnBrDnyMYKHuUqrw/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/AHfyKTSvwnaWvPcGncRxaDqJnDuKtecG/rtmp/stream/iIE-_jmxWsnyFzO21PjJ-3-TE-A9RdY9fE3HgB5qsSXd2rgdpC_1hyn7n7Q9hT5LqDRnBrDnyMYKHuUqrw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/yvMNxnZeJRJTpjxCOGoSXHQPHOrqPsNM/rtmp/stream/NwMKNgZepyxkY3woVheXwWPP7ZKsxjibMvcKDKqeZkYHvKB4pCaTYv8bh2HiupaT4AqxNkoibZ6B_YaJmQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<698f171d98>/rtmp/stream/iIE-_jmxWsnyFzO21PjJ-3-TE-A9RdY9fE3HgB5qsSXd2rgdpC_1hyn7n7Q9hT5LqDRnBrDnyMYKHuUqrw/1/playlist.m3u8",
+          "request_failed": "https://lb8.strmd.st/secure/<06bd45b110>/rtmp/stream/NwMKNgZepyxkY3woVheXwWPP7ZKsxjibMvcKDKqeZkYHvKB4pCaTYv8bh2HiupaT4AqxNkoibZ6B_YaJmQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -210,7 +947,7 @@
       "key": "aek-athens-vs-lask-2594650|admin|ppv-aek-athens-vs-lask-linz|3",
       "title": "AEK Athens vs LASK",
       "embed": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/3",
-      "discovery": "nearby_all",
+      "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
@@ -231,15 +968,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<11eac7683f>/rtmp/stream/dziMZSFTp-XjMWVYJ7B9JRAaAFSjNOoVghd7CF4F7qwLf-_Eqzp7qpnH2kr0Wetu2hYVXKAQJRPsLg/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<30c8c7f24c>/rtmp/stream/w7lh6QMLUytIJXGnRPVrBP_jsBiQloTc-SSaBuEmOGAvBR6rtK4xrHgvzT7A6V6lzkf4vjhp1IazMQ/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb10.strmd.st/secure/OxeGnSQBwQMVYhPLZrfoaeanXspuQuUP/rtmp/stream/dziMZSFTp-XjMWVYJ7B9JRAaAFSjNOoVghd7CF4F7qwLf-_Eqzp7qpnH2kr0Wetu2hYVXKAQJRPsLg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/nsIPFBVWGcHXwJvEOtdTJERHbxkHniTe/rtmp/stream/w7lh6QMLUytIJXGnRPVrBP_jsBiQloTc-SSaBuEmOGAvBR6rtK4xrHgvzT7A6V6lzkf4vjhp1IazMQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<11eac7683f>/rtmp/stream/dziMZSFTp-XjMWVYJ7B9JRAaAFSjNOoVghd7CF4F7qwLf-_Eqzp7qpnH2kr0Wetu2hYVXKAQJRPsLg/1/playlist.m3u8",
+          "request_failed": "https://lb8.strmd.st/secure/<30c8c7f24c>/rtmp/stream/w7lh6QMLUytIJXGnRPVrBP_jsBiQloTc-SSaBuEmOGAvBR6rtK4xrHgvzT7A6V6lzkf4vjhp1IazMQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -253,15 +990,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<11eac7683f>/rtmp/stream/dziMZSFTp-XjMWVYJ7B9JRAaAFSjNOoVghd7CF4F7qwLf-_Eqzp7qpnH2kr0Wetu2hYVXKAQJRPsLg/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<30c8c7f24c>/rtmp/stream/w7lh6QMLUytIJXGnRPVrBP_jsBiQloTc-SSaBuEmOGAvBR6rtK4xrHgvzT7A6V6lzkf4vjhp1IazMQ/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/OxeGnSQBwQMVYhPLZrfoaeanXspuQuUP/rtmp/stream/dziMZSFTp-XjMWVYJ7B9JRAaAFSjNOoVghd7CF4F7qwLf-_Eqzp7qpnH2kr0Wetu2hYVXKAQJRPsLg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/nsIPFBVWGcHXwJvEOtdTJERHbxkHniTe/rtmp/stream/w7lh6QMLUytIJXGnRPVrBP_jsBiQloTc-SSaBuEmOGAvBR6rtK4xrHgvzT7A6V6lzkf4vjhp1IazMQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<11eac7683f>/rtmp/stream/dziMZSFTp-XjMWVYJ7B9JRAaAFSjNOoVghd7CF4F7qwLf-_Eqzp7qpnH2kr0Wetu2hYVXKAQJRPsLg/1/playlist.m3u8",
+          "request_failed": "https://lb8.strmd.st/secure/<30c8c7f24c>/rtmp/stream/w7lh6QMLUytIJXGnRPVrBP_jsBiQloTc-SSaBuEmOGAvBR6rtK4xrHgvzT7A6V6lzkf4vjhp1IazMQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -277,8 +1014,8 @@
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "qnmicpryszffx.space",
               "strmd.b-cdn.net",
-              "wkzmfbrbxstzq.space",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -291,9 +1028,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb10.strmd.st/secure/<11eac7683f>/rtmp/stream/dziMZSFTp-XjMWVYJ7B9JRAaAFSjNOoVghd7CF4F7qwLf-_Eqzp7qpnH2kr0Wetu2hYVXKAQJRPsLg/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<30c8c7f24c>/rtmp/stream/w7lh6QMLUytIJXGnRPVrBP_jsBiQloTc-SSaBuEmOGAvBR6rtK4xrHgvzT7A6V6lzkf4vjhp1IazMQ/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb10.strmd.st/secure/OxeGnSQBwQMVYhPLZrfoaeanXspuQuUP/rtmp/stream/dziMZSFTp-XjMWVYJ7B9JRAaAFSjNOoVghd7CF4F7qwLf-_Eqzp7qpnH2kr0Wetu2hYVXKAQJRPsLg/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb8.strmd.st/secure/nsIPFBVWGcHXwJvEOtdTJERHbxkHniTe/rtmp/stream/w7lh6QMLUytIJXGnRPVrBP_jsBiQloTc-SSaBuEmOGAvBR6rtK4xrHgvzT7A6V6lzkf4vjhp1IazMQ/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -305,7 +1042,7 @@
       "key": "aek-athens-vs-lask-2594650|admin|ppv-aek-athens-vs-lask-linz|4",
       "title": "AEK Athens vs LASK",
       "embed": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/4",
-      "discovery": "nearby_all",
+      "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
@@ -326,107 +1063,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<7f03783e33>/rtmp/stream/J3DEZosalrjD2yxiNCmoJ0QdFoMnKWxE2i5P84CpYht7IsDm1ZbgLa3hpTMCuKVZDI92ivl1cGCBmwASf_8/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<0d12aaea89>/rtmp/stream/YTZDKNhvDx4TAKq46DPBbQ_SnqW-VGai0jVcUuHx51CNE5lXOs3DA8QjSNIkzovZx318wTx7OgPqnnpO12g/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb13.strmd.st/secure/KDDPChHSFJPSsDIuemxeuRXcnEeoJVak/rtmp/stream/J3DEZosalrjD2yxiNCmoJ0QdFoMnKWxE2i5P84CpYht7IsDm1ZbgLa3hpTMCuKVZDI92ivl1cGCBmwASf_8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/OKEoSUDvDtAwFFDdYDIaVWYBtMOvQATN/rtmp/stream/YTZDKNhvDx4TAKq46DPBbQ_SnqW-VGai0jVcUuHx51CNE5lXOs3DA8QjSNIkzovZx318wTx7OgPqnnpO12g/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb13.strmd.st/secure/<7f03783e33>/rtmp/stream/J3DEZosalrjD2yxiNCmoJ0QdFoMnKWxE2i5P84CpYht7IsDm1ZbgLa3hpTMCuKVZDI92ivl1cGCBmwASf_8/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/4",
-            "title": "",
-            "html_length": 659389,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "wkzmfbrbxstzq.space"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb13.strmd.st/secure/<7f03783e33>/rtmp/stream/J3DEZosalrjD2yxiNCmoJ0QdFoMnKWxE2i5P84CpYht7IsDm1ZbgLa3hpTMCuKVZDI92ivl1cGCBmwASf_8/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb13.strmd.st/secure/KDDPChHSFJPSsDIuemxeuRXcnEeoJVak/rtmp/stream/J3DEZosalrjD2yxiNCmoJ0QdFoMnKWxE2i5P84CpYht7IsDm1ZbgLa3hpTMCuKVZDI92ivl1cGCBmwASf_8/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<7f03783e33>/rtmp/stream/J3DEZosalrjD2yxiNCmoJ0QdFoMnKWxE2i5P84CpYht7IsDm1ZbgLa3hpTMCuKVZDI92ivl1cGCBmwASf_8/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/KDDPChHSFJPSsDIuemxeuRXcnEeoJVak/rtmp/stream/J3DEZosalrjD2yxiNCmoJ0QdFoMnKWxE2i5P84CpYht7IsDm1ZbgLa3hpTMCuKVZDI92ivl1cGCBmwASf_8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb13.strmd.st/secure/<7f03783e33>/rtmp/stream/J3DEZosalrjD2yxiNCmoJ0QdFoMnKWxE2i5P84CpYht7IsDm1ZbgLa3hpTMCuKVZDI92ivl1cGCBmwASf_8/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "club-brugge-vs-aston-villa-2594644|admin|ppv-club-brugge-vs-aston-villa|1",
-      "title": "Club Brugge vs Aston Villa",
-      "embed": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/1",
-      "discovery": "nearby_all",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<bd6a3a326a>/rtmp/stream/NslI2KR2H0xEYX3uwB16vJRqyVWzf06bDaYJYVl3yXbZP9ENqK0ZKz2T8Bu0h7Zl5TJ7Azrx4eni/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/zCuoYTHSYsKnYcCAdxkishLTWQWPacXf/rtmp/stream/NslI2KR2H0xEYX3uwB16vJRqyVWzf06bDaYJYVl3yXbZP9ENqK0ZKz2T8Bu0h7Zl5TJ7Azrx4eni/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<bd6a3a326a>/rtmp/stream/NslI2KR2H0xEYX3uwB16vJRqyVWzf06bDaYJYVl3yXbZP9ENqK0ZKz2T8Bu0h7Zl5TJ7Azrx4eni/1/playlist.m3u8",
+          "request_failed": "https://lb10.strmd.st/secure/<0d12aaea89>/rtmp/stream/YTZDKNhvDx4TAKq46DPBbQ_SnqW-VGai0jVcUuHx51CNE5lXOs3DA8QjSNIkzovZx318wTx7OgPqnnpO12g/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -440,15 +1085,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<bd6a3a326a>/rtmp/stream/NslI2KR2H0xEYX3uwB16vJRqyVWzf06bDaYJYVl3yXbZP9ENqK0ZKz2T8Bu0h7Zl5TJ7Azrx4eni/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<0d12aaea89>/rtmp/stream/YTZDKNhvDx4TAKq46DPBbQ_SnqW-VGai0jVcUuHx51CNE5lXOs3DA8QjSNIkzovZx318wTx7OgPqnnpO12g/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/zCuoYTHSYsKnYcCAdxkishLTWQWPacXf/rtmp/stream/NslI2KR2H0xEYX3uwB16vJRqyVWzf06bDaYJYVl3yXbZP9ENqK0ZKz2T8Bu0h7Zl5TJ7Azrx4eni/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/OKEoSUDvDtAwFFDdYDIaVWYBtMOvQATN/rtmp/stream/YTZDKNhvDx4TAKq46DPBbQ_SnqW-VGai0jVcUuHx51CNE5lXOs3DA8QjSNIkzovZx318wTx7OgPqnnpO12g/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb5.strmd.st/secure/<bd6a3a326a>/rtmp/stream/NslI2KR2H0xEYX3uwB16vJRqyVWzf06bDaYJYVl3yXbZP9ENqK0ZKz2T8Bu0h7Zl5TJ7Azrx4eni/1/playlist.m3u8",
+          "request_failed": "https://lb10.strmd.st/secure/<0d12aaea89>/rtmp/stream/YTZDKNhvDx4TAKq46DPBbQ_SnqW-VGai0jVcUuHx51CNE5lXOs3DA8QjSNIkzovZx318wTx7OgPqnnpO12g/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -458,14 +1103,14 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/1",
+            "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-lask-linz/4",
             "title": "",
             "html_length": 768397,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "qnmicpryszffx.space",
               "strmd.b-cdn.net",
-              "wkzmfbrbxstzq.space",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -478,9 +1123,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<bd6a3a326a>/rtmp/stream/NslI2KR2H0xEYX3uwB16vJRqyVWzf06bDaYJYVl3yXbZP9ENqK0ZKz2T8Bu0h7Zl5TJ7Azrx4eni/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<0d12aaea89>/rtmp/stream/YTZDKNhvDx4TAKq46DPBbQ_SnqW-VGai0jVcUuHx51CNE5lXOs3DA8QjSNIkzovZx318wTx7OgPqnnpO12g/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb5.strmd.st/secure/zCuoYTHSYsKnYcCAdxkishLTWQWPacXf/rtmp/stream/NslI2KR2H0xEYX3uwB16vJRqyVWzf06bDaYJYVl3yXbZP9ENqK0ZKz2T8Bu0h7Zl5TJ7Azrx4eni/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb10.strmd.st/secure/OKEoSUDvDtAwFFDdYDIaVWYBtMOvQATN/rtmp/stream/YTZDKNhvDx4TAKq46DPBbQ_SnqW-VGai0jVcUuHx51CNE5lXOs3DA8QjSNIkzovZx318wTx7OgPqnnpO12g/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -489,10 +1134,10 @@
       ]
     },
     {
-      "key": "club-brugge-vs-aston-villa-2594644|admin|ppv-club-brugge-vs-aston-villa|2",
-      "title": "Club Brugge vs Aston Villa",
-      "embed": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/2",
-      "discovery": "nearby_all",
+      "key": "aek-athens-vs-lask-2594650|delta|live_uefa-champions-league_aek-lask-live-streaming-614225808|1",
+      "title": "AEK Athens vs LASK",
+      "embed": "https://embed.st/embed/delta/live_uefa-champions-league_aek-lask-live-streaming-614225808/1",
+      "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
@@ -513,15 +1158,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<33cbae971d>/rtmp/stream/At6DyXGPBW5SI6_ugix355w6mZfgDFQ-gVQDprRMCPkwHW-CSMDBd7LNrLvR2e3uaDWoj36uAycO3RVR8A/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<09c32069df>/delta/stream/live_uefa-champions-league_aek-lask-live-streaming-614225808/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb1.strmd.st/secure/gYOgYzCoaYeTIKwlolBrlapBCPPiHnbM/rtmp/stream/At6DyXGPBW5SI6_ugix355w6mZfgDFQ-gVQDprRMCPkwHW-CSMDBd7LNrLvR2e3uaDWoj36uAycO3RVR8A/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb9.strmd.st/secure/XnCMhrbxBIpPAdoOVpIoFqvnZmdxqwKr/delta/stream/live_uefa-champions-league_aek-lask-live-streaming-614225808/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb1.strmd.st/secure/<33cbae971d>/rtmp/stream/At6DyXGPBW5SI6_ugix355w6mZfgDFQ-gVQDprRMCPkwHW-CSMDBd7LNrLvR2e3uaDWoj36uAycO3RVR8A/1/playlist.m3u8",
+          "request_failed": "https://lb9.strmd.st/secure/<09c32069df>/delta/stream/live_uefa-champions-league_aek-lask-live-streaming-614225808/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -535,15 +1180,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<33cbae971d>/rtmp/stream/At6DyXGPBW5SI6_ugix355w6mZfgDFQ-gVQDprRMCPkwHW-CSMDBd7LNrLvR2e3uaDWoj36uAycO3RVR8A/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<09c32069df>/delta/stream/live_uefa-champions-league_aek-lask-live-streaming-614225808/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/gYOgYzCoaYeTIKwlolBrlapBCPPiHnbM/rtmp/stream/At6DyXGPBW5SI6_ugix355w6mZfgDFQ-gVQDprRMCPkwHW-CSMDBd7LNrLvR2e3uaDWoj36uAycO3RVR8A/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/XnCMhrbxBIpPAdoOVpIoFqvnZmdxqwKr/delta/stream/live_uefa-champions-league_aek-lask-live-streaming-614225808/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb1.strmd.st/secure/<33cbae971d>/rtmp/stream/At6DyXGPBW5SI6_ugix355w6mZfgDFQ-gVQDprRMCPkwHW-CSMDBd7LNrLvR2e3uaDWoj36uAycO3RVR8A/1/playlist.m3u8",
+          "request_failed": "https://lb9.strmd.st/secure/<09c32069df>/delta/stream/live_uefa-champions-league_aek-lask-live-streaming-614225808/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -553,14 +1198,14 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/2",
+            "url": "https://embed.st/embed/delta/live_uefa-champions-league_aek-lask-live-streaming-614225808/1",
             "title": "",
-            "html_length": 768397,
+            "html_length": 768374,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "qnmicpryszffx.space",
               "strmd.b-cdn.net",
-              "wkzmfbrbxstzq.space",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -573,9 +1218,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb1.strmd.st/secure/<33cbae971d>/rtmp/stream/At6DyXGPBW5SI6_ugix355w6mZfgDFQ-gVQDprRMCPkwHW-CSMDBd7LNrLvR2e3uaDWoj36uAycO3RVR8A/1/playlist.m3u8",
+          "url": "https://lb9.strmd.st/secure/<09c32069df>/delta/stream/live_uefa-champions-league_aek-lask-live-streaming-614225808/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb1.strmd.st/secure/gYOgYzCoaYeTIKwlolBrlapBCPPiHnbM/rtmp/stream/At6DyXGPBW5SI6_ugix355w6mZfgDFQ-gVQDprRMCPkwHW-CSMDBd7LNrLvR2e3uaDWoj36uAycO3RVR8A/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb9.strmd.st/secure/XnCMhrbxBIpPAdoOVpIoFqvnZmdxqwKr/delta/stream/live_uefa-champions-league_aek-lask-live-streaming-614225808/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -584,88 +1229,55 @@
       ]
     },
     {
-      "key": "club-brugge-vs-aston-villa-2594644|admin|ppv-club-brugge-vs-aston-villa|3",
-      "title": "Club Brugge vs Aston Villa",
-      "embed": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/3",
-      "discovery": "nearby_all",
-      "classification": "upstream_dead",
+      "key": "aek-athens-vs-lask-2594650|golf|1030|1",
+      "title": "AEK Athens vs LASK",
+      "embed": "https://embed.st/embed/golf/1030/1",
+      "discovery": "live",
+      "classification": "media_unverified",
       "events": [
         {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."
         },
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<4a067d567b>/rtmp/stream/kqGbIrwMKcgRHER0jgyDGr_VwaPKdr6rFCKlae_ajul6bWwhljG1i5xuFt33TmKiEM0G10dSN7uNFQ/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb1.strmd.st/secure/xaLnLoIsGDodyttGPaFwxSFgtQnKijxV/rtmp/stream/kqGbIrwMKcgRHER0jgyDGr_VwaPKdr6rFCKlae_ajul6bWwhljG1i5xuFt33TmKiEM0G10dSN7uNFQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<4a067d567b>/rtmp/stream/kqGbIrwMKcgRHER0jgyDGr_VwaPKdr6rFCKlae_ajul6bWwhljG1i5xuFt33TmKiEM0G10dSN7uNFQ/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<4a067d567b>/rtmp/stream/kqGbIrwMKcgRHER0jgyDGr_VwaPKdr6rFCKlae_ajul6bWwhljG1i5xuFt33TmKiEM0G10dSN7uNFQ/1/playlist.m3u8",
+          "url": "https://cdn13.zohanayaan.com:1686/hls/mmevent10.m3u8?md5=M5kij9rzBWdij-5cwKstPw&expires=1788900483",
           "resource_type": "xhr"
         },
         {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/xaLnLoIsGDodyttGPaFwxSFgtQnKijxV/rtmp/stream/kqGbIrwMKcgRHER0jgyDGr_VwaPKdr6rFCKlae_ajul6bWwhljG1i5xuFt33TmKiEM0G10dSN7uNFQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<4a067d567b>/rtmp/stream/kqGbIrwMKcgRHER0jgyDGr_VwaPKdr6rFCKlae_ajul6bWwhljG1i5xuFt33TmKiEM0G10dSN7uNFQ/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
+          "response": "media",
+          "status": 200,
+          "url": "https://cdn13.zohanayaan.com:1686/hls/mmevent10.m3u8?md5=M5kij9rzBWdij-5cwKstPw&expires=1788900483",
+          "referer": "https://exposestrat.st/"
         },
         {
           "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
         },
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/3",
+            "url": "https://embed.st/embed/golf/1030/1",
             "title": "",
-            "html_length": 132351,
+            "html_length": 638151,
             "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
+              "a.cdn-lab.shop",
+              "ann.cdn-lab.shop",
+              "embedhd.st",
+              "qnmicpryszffx.space"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -673,420 +1285,6 @@
               "platform": "Linux x86_64"
             }
           }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb1.strmd.st/secure/<4a067d567b>/rtmp/stream/kqGbIrwMKcgRHER0jgyDGr_VwaPKdr6rFCKlae_ajul6bWwhljG1i5xuFt33TmKiEM0G10dSN7uNFQ/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb1.strmd.st/secure/xaLnLoIsGDodyttGPaFwxSFgtQnKijxV/rtmp/stream/kqGbIrwMKcgRHER0jgyDGr_VwaPKdr6rFCKlae_ajul6bWwhljG1i5xuFt33TmKiEM0G10dSN7uNFQ/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "club-brugge-vs-aston-villa-2594644|admin|ppv-club-brugge-vs-aston-villa|4",
-      "title": "Club Brugge vs Aston Villa",
-      "embed": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/4",
-      "discovery": "nearby_all",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<2a891a2439>/rtmp/stream/Zm7VDRcEl7IwZ6G9MiDnAyzj8Ng_J13YlStDrVFatt4pjH8ZWQinZ7GXGdvOcqnphXQ28qFy-jLcZHNnD_s/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb9.strmd.st/secure/zcofOxgMKkiIDthQBhbTYMQkbTrhoYPe/rtmp/stream/Zm7VDRcEl7IwZ6G9MiDnAyzj8Ng_J13YlStDrVFatt4pjH8ZWQinZ7GXGdvOcqnphXQ28qFy-jLcZHNnD_s/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb9.strmd.st/secure/<2a891a2439>/rtmp/stream/Zm7VDRcEl7IwZ6G9MiDnAyzj8Ng_J13YlStDrVFatt4pjH8ZWQinZ7GXGdvOcqnphXQ28qFy-jLcZHNnD_s/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<2a891a2439>/rtmp/stream/Zm7VDRcEl7IwZ6G9MiDnAyzj8Ng_J13YlStDrVFatt4pjH8ZWQinZ7GXGdvOcqnphXQ28qFy-jLcZHNnD_s/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-club-brugge-vs-aston-villa/4",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb9.strmd.st/secure/<2a891a2439>/rtmp/stream/Zm7VDRcEl7IwZ6G9MiDnAyzj8Ng_J13YlStDrVFatt4pjH8ZWQinZ7GXGdvOcqnphXQ28qFy-jLcZHNnD_s/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb9.strmd.st/secure/zcofOxgMKkiIDthQBhbTYMQkbTrhoYPe/rtmp/stream/Zm7VDRcEl7IwZ6G9MiDnAyzj8Ng_J13YlStDrVFatt4pjH8ZWQinZ7GXGdvOcqnphXQ28qFy-jLcZHNnD_s/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/zcofOxgMKkiIDthQBhbTYMQkbTrhoYPe/rtmp/stream/Zm7VDRcEl7IwZ6G9MiDnAyzj8Ng_J13YlStDrVFatt4pjH8ZWQinZ7GXGdvOcqnphXQ28qFy-jLcZHNnD_s/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb9.strmd.st/secure/<2a891a2439>/rtmp/stream/Zm7VDRcEl7IwZ6G9MiDnAyzj8Ng_J13YlStDrVFatt4pjH8ZWQinZ7GXGdvOcqnphXQ28qFy-jLcZHNnD_s/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "nec-nijmegen-vs-excelsior-2489085|admin|ppv-nec-nijmegen-vs-excelsior|1",
-      "title": "NEC Nijmegen vs Excelsior",
-      "embed": "https://embed.st/embed/admin/ppv-nec-nijmegen-vs-excelsior/1",
-      "discovery": "nearby_all",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<add799e765>/rtmp/stream/LzRpmHeMtsTmljTetdlm9VT_dWpesB5ecWyf61xeKf8LwPLL83sprGKLP27mEfbUEq18pSHOb3w/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb3.strmd.st/secure/kYGbwHRfZtitIzMCeKbLFkOfaeSWaepG/rtmp/stream/LzRpmHeMtsTmljTetdlm9VT_dWpesB5ecWyf61xeKf8LwPLL83sprGKLP27mEfbUEq18pSHOb3w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<add799e765>/rtmp/stream/LzRpmHeMtsTmljTetdlm9VT_dWpesB5ecWyf61xeKf8LwPLL83sprGKLP27mEfbUEq18pSHOb3w/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<add799e765>/rtmp/stream/LzRpmHeMtsTmljTetdlm9VT_dWpesB5ecWyf61xeKf8LwPLL83sprGKLP27mEfbUEq18pSHOb3w/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-nec-nijmegen-vs-excelsior/1",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb3.strmd.st/secure/<add799e765>/rtmp/stream/LzRpmHeMtsTmljTetdlm9VT_dWpesB5ecWyf61xeKf8LwPLL83sprGKLP27mEfbUEq18pSHOb3w/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb3.strmd.st/secure/kYGbwHRfZtitIzMCeKbLFkOfaeSWaepG/rtmp/stream/LzRpmHeMtsTmljTetdlm9VT_dWpesB5ecWyf61xeKf8LwPLL83sprGKLP27mEfbUEq18pSHOb3w/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/kYGbwHRfZtitIzMCeKbLFkOfaeSWaepG/rtmp/stream/LzRpmHeMtsTmljTetdlm9VT_dWpesB5ecWyf61xeKf8LwPLL83sprGKLP27mEfbUEq18pSHOb3w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<add799e765>/rtmp/stream/LzRpmHeMtsTmljTetdlm9VT_dWpesB5ecWyf61xeKf8LwPLL83sprGKLP27mEfbUEq18pSHOb3w/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "nec-nijmegen-vs-excelsior-2489085|admin|ppv-nec-nijmegen-vs-excelsior|2",
-      "title": "NEC Nijmegen vs Excelsior",
-      "embed": "https://embed.st/embed/admin/ppv-nec-nijmegen-vs-excelsior/2",
-      "discovery": "nearby_all",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<f86c6f2650>/rtmp/stream/A_OXxv0Du6qfJIL8DC9X1ZxI49UyjtU1mQyjHVFoRW-XIM_HXkIZq3o_WxkiFkW_Z90oZSHdkLUjNDbb/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb3.strmd.st/secure/CIbdgiBiJFwUoHOagmwJTwBzaakrJDid/rtmp/stream/A_OXxv0Du6qfJIL8DC9X1ZxI49UyjtU1mQyjHVFoRW-XIM_HXkIZq3o_WxkiFkW_Z90oZSHdkLUjNDbb/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<f86c6f2650>/rtmp/stream/A_OXxv0Du6qfJIL8DC9X1ZxI49UyjtU1mQyjHVFoRW-XIM_HXkIZq3o_WxkiFkW_Z90oZSHdkLUjNDbb/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<f86c6f2650>/rtmp/stream/A_OXxv0Du6qfJIL8DC9X1ZxI49UyjtU1mQyjHVFoRW-XIM_HXkIZq3o_WxkiFkW_Z90oZSHdkLUjNDbb/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/CIbdgiBiJFwUoHOagmwJTwBzaakrJDid/rtmp/stream/A_OXxv0Du6qfJIL8DC9X1ZxI49UyjtU1mQyjHVFoRW-XIM_HXkIZq3o_WxkiFkW_Z90oZSHdkLUjNDbb/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<f86c6f2650>/rtmp/stream/A_OXxv0Du6qfJIL8DC9X1ZxI49UyjtU1mQyjHVFoRW-XIM_HXkIZq3o_WxkiFkW_Z90oZSHdkLUjNDbb/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-nec-nijmegen-vs-excelsior/2",
-            "title": "",
-            "html_length": 132350,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb3.strmd.st/secure/<f86c6f2650>/rtmp/stream/A_OXxv0Du6qfJIL8DC9X1ZxI49UyjtU1mQyjHVFoRW-XIM_HXkIZq3o_WxkiFkW_Z90oZSHdkLUjNDbb/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb3.strmd.st/secure/CIbdgiBiJFwUoHOagmwJTwBzaakrJDid/rtmp/stream/A_OXxv0Du6qfJIL8DC9X1ZxI49UyjtU1mQyjHVFoRW-XIM_HXkIZq3o_WxkiFkW_Z90oZSHdkLUjNDbb/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "al-ittihad-vs-al-fayha-2573351|delta|live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928|1",
-      "title": "Al-Ittihad vs Al-Fayha",
-      "embed": "https://embed.st/embed/delta/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1",
-      "discovery": "nearby_all",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<4472721bf6>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/xDZgBPGHTZYiyzwoihMOKfDVQZxYNMhr/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<4472721bf6>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<4472721bf6>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/xDZgBPGHTZYiyzwoihMOKfDVQZxYNMhr/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<4472721bf6>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "wkzmfbrbxstzq.space",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<4472721bf6>/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb8.strmd.st/secure/xDZgBPGHTZYiyzwoihMOKfDVQZxYNMhr/delta/stream/live_saudi-pro-league_al-ittihad-al-fayha-live-streaming-614294928/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
         }
       ]
     }
