@@ -1,31 +1,34 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1789070824,
-  "elapsed_seconds": 131.65,
+  "started_at": 1789079542,
+  "elapsed_seconds": 53.68,
   "api_ok": true,
-  "matches": 15,
-  "live_matches": 15,
+  "matches": 8,
+  "live_matches": 8,
   "nearby_fallback_matches": 0,
   "nearby_fallback_used": false,
-  "source_pairs": 24,
-  "embed_candidates": 33,
+  "source_pairs": 10,
+  "embed_candidates": 10,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 32,
-    "media_unverified": 1
+    "upstream_dead": 10
   },
   "entries": [],
   "browser_events": [
     {
-      "key": "manchester-united-vs-sabah-baku-2594538|admin|ppv-manchester-united-vs-sabah-fk|1",
-      "title": "Manchester United vs Sabah Baku",
-      "embed": "https://embed.st/embed/admin/ppv-manchester-united-vs-sabah-fk/1",
+      "key": "seattle-mariners-vs-texas-rangers-2521127|admin|ppv-texas-rangers-vs-seattle-mariners|1",
+      "title": "Seattle Mariners vs Texas Rangers",
+      "embed": "https://embed.st/embed/admin/ppv-texas-rangers-vs-seattle-mariners/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
         {
           "request": "fetch",
           "method": "POST",
@@ -40,7 +43,7 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<9afcabd281>/rtmp/stream/Ptskoz2Z7wjjgOueZAAlGOAgCa-Vrd1DaTSImDTmkuX5t3BQwFPTEf0_WjN3TSs2ei3orbyv3w15/1/playlist.m3u8",
+          "url": "https://lb10.strmd.st/secure/<4e25ea100d>/rtmp/stream/FqxJUHHcRjTrVxh35VAuV0cLY1IcCzDzumHIBx1131-HXmOxF_1AUzwUxE5G9KUb8S0xiAr8RSQjrxcEIO6i4yQ/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
@@ -48,8 +51,182 @@
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "console": "error",
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/yiLfZnwOSnRqioACIDKcVIAtxeORUGzi/rtmp/stream/FqxJUHHcRjTrVxh35VAuV0cLY1IcCzDzumHIBx1131-HXmOxF_1AUzwUxE5G9KUb8S0xiAr8RSQjrxcEIO6i4yQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<4e25ea100d>/rtmp/stream/FqxJUHHcRjTrVxh35VAuV0cLY1IcCzDzumHIBx1131-HXmOxF_1AUzwUxE5G9KUb8S0xiAr8RSQjrxcEIO6i4yQ/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-texas-rangers-vs-seattle-mariners/1",
+            "title": "",
+            "html_length": 23119,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb10.strmd.st/secure/<4e25ea100d>/rtmp/stream/FqxJUHHcRjTrVxh35VAuV0cLY1IcCzDzumHIBx1131-HXmOxF_1AUzwUxE5G9KUb8S0xiAr8RSQjrxcEIO6i4yQ/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb10.strmd.st/secure/yiLfZnwOSnRqioACIDKcVIAtxeORUGzi/rtmp/stream/FqxJUHHcRjTrVxh35VAuV0cLY1IcCzDzumHIBx1131-HXmOxF_1AUzwUxE5G9KUb8S0xiAr8RSQjrxcEIO6i4yQ/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb10.strmd.st/secure/<4e25ea100d>/rtmp/stream/FqxJUHHcRjTrVxh35VAuV0cLY1IcCzDzumHIBx1131-HXmOxF_1AUzwUxE5G9KUb8S0xiAr8RSQjrxcEIO6i4yQ/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/yiLfZnwOSnRqioACIDKcVIAtxeORUGzi/rtmp/stream/FqxJUHHcRjTrVxh35VAuV0cLY1IcCzDzumHIBx1131-HXmOxF_1AUzwUxE5G9KUb8S0xiAr8RSQjrxcEIO6i4yQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<4e25ea100d>/rtmp/stream/FqxJUHHcRjTrVxh35VAuV0cLY1IcCzDzumHIBx1131-HXmOxF_1AUzwUxE5G9KUb8S0xiAr8RSQjrxcEIO6i4yQ/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "seattle-mariners-vs-texas-rangers-2521127|admin|ppv-texas-rangers-vs-seattle-mariners|2",
+      "title": "Seattle Mariners vs Texas Rangers",
+      "embed": "https://embed.st/embed/admin/ppv-texas-rangers-vs-seattle-mariners/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<5bf7c8b180>/rtmp/stream/6SCsh4RNXcHRuEMkplwt2lhwKKfYfJFKsU5MoF9Vhjb9vMZ4dolXEGtRp3JoMnrShWsC1KHd5cfb4Dc8weT-saLvSGpf/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/ORTBZIUJFxNPDomoWKaSpSHMdeHUitBL/rtmp/stream/6SCsh4RNXcHRuEMkplwt2lhwKKfYfJFKsU5MoF9Vhjb9vMZ4dolXEGtRp3JoMnrShWsC1KHd5cfb4Dc8weT-saLvSGpf/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<5bf7c8b180>/rtmp/stream/6SCsh4RNXcHRuEMkplwt2lhwKKfYfJFKsU5MoF9Vhjb9vMZ4dolXEGtRp3JoMnrShWsC1KHd5cfb4Dc8weT-saLvSGpf/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-texas-rangers-vs-seattle-mariners/2",
+            "title": "",
+            "html_length": 23119,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb8.strmd.st/secure/<5bf7c8b180>/rtmp/stream/6SCsh4RNXcHRuEMkplwt2lhwKKfYfJFKsU5MoF9Vhjb9vMZ4dolXEGtRp3JoMnrShWsC1KHd5cfb4Dc8weT-saLvSGpf/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb8.strmd.st/secure/ORTBZIUJFxNPDomoWKaSpSHMdeHUitBL/rtmp/stream/6SCsh4RNXcHRuEMkplwt2lhwKKfYfJFKsU5MoF9Vhjb9vMZ4dolXEGtRp3JoMnrShWsC1KHd5cfb4Dc8weT-saLvSGpf/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<5bf7c8b180>/rtmp/stream/6SCsh4RNXcHRuEMkplwt2lhwKKfYfJFKsU5MoF9Vhjb9vMZ4dolXEGtRp3JoMnrShWsC1KHd5cfb4Dc8weT-saLvSGpf/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/ORTBZIUJFxNPDomoWKaSpSHMdeHUitBL/rtmp/stream/6SCsh4RNXcHRuEMkplwt2lhwKKfYfJFKsU5MoF9Vhjb9vMZ4dolXEGtRp3JoMnrShWsC1KHd5cfb4Dc8weT-saLvSGpf/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<5bf7c8b180>/rtmp/stream/6SCsh4RNXcHRuEMkplwt2lhwKKfYfJFKsU5MoF9Vhjb9vMZ4dolXEGtRp3JoMnrShWsC1KHd5cfb4Dc8weT-saLvSGpf/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "seattle-mariners-vs-texas-rangers-2521127|delta|live_mlb_mariners-rangers-live-streaming-594273456|1",
+      "title": "Seattle Mariners vs Texas Rangers",
+      "embed": "https://embed.st/embed/delta/live_mlb_mariners-rangers-live-streaming-594273456/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<ee2a96d514>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/1/playlist.m3u8",
+          "resource_type": "fetch"
         },
         {
           "console": "warning",
@@ -61,10 +238,10 @@
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb2.strmd.st/secure/EyiINjsENLZYOmuoawzIweeRLFksaNYt/rtmp/stream/Ptskoz2Z7wjjgOueZAAlGOAgCa-Vrd1DaTSImDTmkuX5t3BQwFPTEf0_WjN3TSs2ei3orbyv3w15/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb3.strmd.st/secure/UzsYPiAslDHYhzQKsbKgbCgGjRCpUhsC/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<9afcabd281>/rtmp/stream/Ptskoz2Z7wjjgOueZAAlGOAgCa-Vrd1DaTSImDTmkuX5t3BQwFPTEf0_WjN3TSs2ei3orbyv3w15/1/playlist.m3u8",
+          "request_failed": "https://lb3.strmd.st/secure/<ee2a96d514>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -76,11 +253,15 @@
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-sabah-fk/1",
+            "url": "https://embed.st/embed/delta/live_mlb_mariners-rangers-live-streaming-594273456/1",
             "title": "",
-            "html_length": 23853,
+            "html_length": 23944,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "llvpn.com",
@@ -95,9 +276,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb2.strmd.st/secure/<9afcabd281>/rtmp/stream/Ptskoz2Z7wjjgOueZAAlGOAgCa-Vrd1DaTSImDTmkuX5t3BQwFPTEf0_WjN3TSs2ei3orbyv3w15/1/playlist.m3u8",
+          "url": "https://lb3.strmd.st/secure/<ee2a96d514>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb2.strmd.st/secure/EyiINjsENLZYOmuoawzIweeRLFksaNYt/rtmp/stream/Ptskoz2Z7wjjgOueZAAlGOAgCa-Vrd1DaTSImDTmkuX5t3BQwFPTEf0_WjN3TSs2ei3orbyv3w15/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb3.strmd.st/secure/UzsYPiAslDHYhzQKsbKgbCgGjRCpUhsC/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -106,15 +287,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<9afcabd281>/rtmp/stream/Ptskoz2Z7wjjgOueZAAlGOAgCa-Vrd1DaTSImDTmkuX5t3BQwFPTEf0_WjN3TSs2ei3orbyv3w15/1/playlist.m3u8",
+          "url": "https://lb3.strmd.st/secure/<ee2a96d514>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/EyiINjsENLZYOmuoawzIweeRLFksaNYt/rtmp/stream/Ptskoz2Z7wjjgOueZAAlGOAgCa-Vrd1DaTSImDTmkuX5t3BQwFPTEf0_WjN3TSs2ei3orbyv3w15/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/UzsYPiAslDHYhzQKsbKgbCgGjRCpUhsC/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<9afcabd281>/rtmp/stream/Ptskoz2Z7wjjgOueZAAlGOAgCa-Vrd1DaTSImDTmkuX5t3BQwFPTEf0_WjN3TSs2ei3orbyv3w15/1/playlist.m3u8",
+          "request_failed": "https://lb3.strmd.st/secure/<ee2a96d514>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -124,9 +305,9 @@
       ]
     },
     {
-      "key": "manchester-united-vs-sabah-baku-2594538|admin|ppv-manchester-united-vs-sabah-fk|2",
-      "title": "Manchester United vs Sabah Baku",
-      "embed": "https://embed.st/embed/admin/ppv-manchester-united-vs-sabah-fk/2",
+      "key": "seattle-mariners-vs-texas-rangers-2521127|delta|live_mlb_mariners-rangers-live-streaming-594273456|2",
+      "title": "Seattle Mariners vs Texas Rangers",
+      "embed": "https://embed.st/embed/delta/live_mlb_mariners-rangers-live-streaming-594273456/2",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
@@ -156,43 +337,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<dacc1233f1>/rtmp/stream/WpqM9VBwbGLguomA_ROfk9ev7ryS5ZLUPKn1V9kISNQyYuQACVkpMAQW4Fw5N3IYsWcdImQny-vc4AzjBA/1/playlist.m3u8",
+          "url": "https://lb3.strmd.st/secure/<ef7e4e4a8c>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/2/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-sabah-fk/2",
-            "title": "",
-            "html_length": 23343,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "llvpn.com",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<dacc1233f1>/rtmp/stream/WpqM9VBwbGLguomA_ROfk9ev7ryS5ZLUPKn1V9kISNQyYuQACVkpMAQW4Fw5N3IYsWcdImQny-vc4AzjBA/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb6.strmd.st/secure/fOtmtZPmfjWvUeDrzYfIpIerHiFaqWcr/rtmp/stream/WpqM9VBwbGLguomA_ROfk9ev7ryS5ZLUPKn1V9kISNQyYuQACVkpMAQW4Fw5N3IYsWcdImQny-vc4AzjBA/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
           "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/fOtmtZPmfjWvUeDrzYfIpIerHiFaqWcr/rtmp/stream/WpqM9VBwbGLguomA_ROfk9ev7ryS5ZLUPKn1V9kISNQyYuQACVkpMAQW4Fw5N3IYsWcdImQny-vc4AzjBA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb3.strmd.st/secure/vqsOSrYfSrZVyLmoXlwluFSoPfFgIrLj/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<dacc1233f1>/rtmp/stream/WpqM9VBwbGLguomA_ROfk9ev7ryS5ZLUPKn1V9kISNQyYuQACVkpMAQW4Fw5N3IYsWcdImQny-vc4AzjBA/1/playlist.m3u8",
+          "request_failed": "https://lb3.strmd.st/secure/<ef7e4e4a8c>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/2/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -206,87 +359,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<dacc1233f1>/rtmp/stream/WpqM9VBwbGLguomA_ROfk9ev7ryS5ZLUPKn1V9kISNQyYuQACVkpMAQW4Fw5N3IYsWcdImQny-vc4AzjBA/1/playlist.m3u8",
+          "url": "https://lb3.strmd.st/secure/<ef7e4e4a8c>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/2/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/fOtmtZPmfjWvUeDrzYfIpIerHiFaqWcr/rtmp/stream/WpqM9VBwbGLguomA_ROfk9ev7ryS5ZLUPKn1V9kISNQyYuQACVkpMAQW4Fw5N3IYsWcdImQny-vc4AzjBA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/vqsOSrYfSrZVyLmoXlwluFSoPfFgIrLj/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<dacc1233f1>/rtmp/stream/WpqM9VBwbGLguomA_ROfk9ev7ryS5ZLUPKn1V9kISNQyYuQACVkpMAQW4Fw5N3IYsWcdImQny-vc4AzjBA/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "manchester-united-vs-sabah-baku-2594538|admin|ppv-manchester-united-vs-sabah-fk|3",
-      "title": "Manchester United vs Sabah Baku",
-      "embed": "https://embed.st/embed/admin/ppv-manchester-united-vs-sabah-fk/3",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<d7c947fd39>/rtmp/stream/zqnAO6GOPgNxtan4KVFLgoSb0vG66tuwGCAqirP74zjyrLMI7J1nZh8GGW5LWR4bIXuS0FaD6uBGyA/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/XKJADyXqtQDZBaaJNwosYyYOyDeFAOBS/rtmp/stream/zqnAO6GOPgNxtan4KVFLgoSb0vG66tuwGCAqirP74zjyrLMI7J1nZh8GGW5LWR4bIXuS0FaD6uBGyA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<d7c947fd39>/rtmp/stream/zqnAO6GOPgNxtan4KVFLgoSb0vG66tuwGCAqirP74zjyrLMI7J1nZh8GGW5LWR4bIXuS0FaD6uBGyA/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<d7c947fd39>/rtmp/stream/zqnAO6GOPgNxtan4KVFLgoSb0vG66tuwGCAqirP74zjyrLMI7J1nZh8GGW5LWR4bIXuS0FaD6uBGyA/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/XKJADyXqtQDZBaaJNwosYyYOyDeFAOBS/rtmp/stream/zqnAO6GOPgNxtan4KVFLgoSb0vG66tuwGCAqirP74zjyrLMI7J1nZh8GGW5LWR4bIXuS0FaD6uBGyA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<d7c947fd39>/rtmp/stream/zqnAO6GOPgNxtan4KVFLgoSb0vG66tuwGCAqirP74zjyrLMI7J1nZh8GGW5LWR4bIXuS0FaD6uBGyA/1/playlist.m3u8",
+          "request_failed": "https://lb3.strmd.st/secure/<ef7e4e4a8c>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/2/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -296,110 +377,7 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-sabah-fk/3",
-            "title": "",
-            "html_length": 132350,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<d7c947fd39>/rtmp/stream/zqnAO6GOPgNxtan4KVFLgoSb0vG66tuwGCAqirP74zjyrLMI7J1nZh8GGW5LWR4bIXuS0FaD6uBGyA/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb6.strmd.st/secure/XKJADyXqtQDZBaaJNwosYyYOyDeFAOBS/rtmp/stream/zqnAO6GOPgNxtan4KVFLgoSb0vG66tuwGCAqirP74zjyrLMI7J1nZh8GGW5LWR4bIXuS0FaD6uBGyA/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "manchester-united-vs-sabah-baku-2594538|admin|ppv-manchester-united-vs-sabah-fk|4",
-      "title": "Manchester United vs Sabah Baku",
-      "embed": "https://embed.st/embed/admin/ppv-manchester-united-vs-sabah-fk/4",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<258cf78b86>/rtmp/stream/kbcA2JMX3Ee4pgt9NE6Ml-fVVCzb7S5BcnVWqKX3QIWR56ViBld6t6W7D5WdjMb0wKrVuqELTH88uilc850/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb13.strmd.st/secure/wSJqoUaMZYvyawhnyYDVNteIlPUYvRJj/rtmp/stream/kbcA2JMX3Ee4pgt9NE6Ml-fVVCzb7S5BcnVWqKX3QIWR56ViBld6t6W7D5WdjMb0wKrVuqELTH88uilc850/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb13.strmd.st/secure/<258cf78b86>/rtmp/stream/kbcA2JMX3Ee4pgt9NE6Ml-fVVCzb7S5BcnVWqKX3QIWR56ViBld6t6W7D5WdjMb0wKrVuqELTH88uilc850/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<258cf78b86>/rtmp/stream/kbcA2JMX3Ee4pgt9NE6Ml-fVVCzb7S5BcnVWqKX3QIWR56ViBld6t6W7D5WdjMb0wKrVuqELTH88uilc850/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/wSJqoUaMZYvyawhnyYDVNteIlPUYvRJj/rtmp/stream/kbcA2JMX3Ee4pgt9NE6Ml-fVVCzb7S5BcnVWqKX3QIWR56ViBld6t6W7D5WdjMb0wKrVuqELTH88uilc850/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb13.strmd.st/secure/<258cf78b86>/rtmp/stream/kbcA2JMX3Ee4pgt9NE6Ml-fVVCzb7S5BcnVWqKX3QIWR56ViBld6t6W7D5WdjMb0wKrVuqELTH88uilc850/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-sabah-fk/4",
+            "url": "https://embed.st/embed/delta/live_mlb_mariners-rangers-live-streaming-594273456/2",
             "title": "",
             "html_length": 132351,
             "script_hosts": [
@@ -419,627 +397,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb13.strmd.st/secure/<258cf78b86>/rtmp/stream/kbcA2JMX3Ee4pgt9NE6Ml-fVVCzb7S5BcnVWqKX3QIWR56ViBld6t6W7D5WdjMb0wKrVuqELTH88uilc850/1/playlist.m3u8",
+          "url": "https://lb3.strmd.st/secure/<ef7e4e4a8c>/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/2/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb13.strmd.st/secure/wSJqoUaMZYvyawhnyYDVNteIlPUYvRJj/rtmp/stream/kbcA2JMX3Ee4pgt9NE6Ml-fVVCzb7S5BcnVWqKX3QIWR56ViBld6t6W7D5WdjMb0wKrVuqELTH88uilc850/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "manchester-united-vs-sabah-baku-2594538|delta|live_uefa-champions-league_man-utd-sabah-live-streaming-614260368|1",
-      "title": "Manchester United vs Sabah Baku",
-      "embed": "https://embed.st/embed/delta/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<3060cd8afd>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb13.strmd.st/secure/WNDAfjVNQUiyTCzRnQMSmuTRqKenSEui/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb13.strmd.st/secure/<3060cd8afd>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<3060cd8afd>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/WNDAfjVNQUiyTCzRnQMSmuTRqKenSEui/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb13.strmd.st/secure/<3060cd8afd>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb13.strmd.st/secure/<3060cd8afd>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb13.strmd.st/secure/WNDAfjVNQUiyTCzRnQMSmuTRqKenSEui/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "manchester-united-vs-sabah-baku-2594538|delta|live_uefa-champions-league_man-utd-sabah-live-streaming-614260368|2",
-      "title": "Manchester United vs Sabah Baku",
-      "embed": "https://embed.st/embed/delta/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<77a006323b>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb15.strmd.st/secure/mEbJEbvtIyLHkxPpmGRTTBNMNeBRHJpb/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<77a006323b>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<77a006323b>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb15.strmd.st/secure/mEbJEbvtIyLHkxPpmGRTTBNMNeBRHJpb/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<77a006323b>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2",
-            "title": "",
-            "html_length": 132350,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb15.strmd.st/secure/<77a006323b>/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb15.strmd.st/secure/mEbJEbvtIyLHkxPpmGRTTBNMNeBRHJpb/delta/stream/live_uefa-champions-league_man-utd-sabah-live-streaming-614260368/2/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "bayern-munich-vs-bod--glimt-2594568|admin|ppv-bayern-munich-vs-bodo-glimt|1",
-      "title": "Bayern Munich vs Bodø/Glimt",
-      "embed": "https://embed.st/embed/admin/ppv-bayern-munich-vs-bodo-glimt/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<ebd2adcb21>/rtmp/stream/pPpzDZMC9dOQillzm7DwmHoMoP4aq0NI46s4U181MQOaTSDrd3groEOZQs0BBzw5mVlgBiXiedMn/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb15.strmd.st/secure/uZzumCNnTIJuYuJWTvvEsFhNvBoFRFvV/rtmp/stream/pPpzDZMC9dOQillzm7DwmHoMoP4aq0NI46s4U181MQOaTSDrd3groEOZQs0BBzw5mVlgBiXiedMn/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<ebd2adcb21>/rtmp/stream/pPpzDZMC9dOQillzm7DwmHoMoP4aq0NI46s4U181MQOaTSDrd3groEOZQs0BBzw5mVlgBiXiedMn/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<ebd2adcb21>/rtmp/stream/pPpzDZMC9dOQillzm7DwmHoMoP4aq0NI46s4U181MQOaTSDrd3groEOZQs0BBzw5mVlgBiXiedMn/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb15.strmd.st/secure/uZzumCNnTIJuYuJWTvvEsFhNvBoFRFvV/rtmp/stream/pPpzDZMC9dOQillzm7DwmHoMoP4aq0NI46s4U181MQOaTSDrd3groEOZQs0BBzw5mVlgBiXiedMn/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<ebd2adcb21>/rtmp/stream/pPpzDZMC9dOQillzm7DwmHoMoP4aq0NI46s4U181MQOaTSDrd3groEOZQs0BBzw5mVlgBiXiedMn/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-bayern-munich-vs-bodo-glimt/1",
-            "title": "",
-            "html_length": 132350,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb15.strmd.st/secure/<ebd2adcb21>/rtmp/stream/pPpzDZMC9dOQillzm7DwmHoMoP4aq0NI46s4U181MQOaTSDrd3groEOZQs0BBzw5mVlgBiXiedMn/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb15.strmd.st/secure/uZzumCNnTIJuYuJWTvvEsFhNvBoFRFvV/rtmp/stream/pPpzDZMC9dOQillzm7DwmHoMoP4aq0NI46s4U181MQOaTSDrd3groEOZQs0BBzw5mVlgBiXiedMn/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "bayern-munich-vs-bod--glimt-2594568|admin|ppv-bayern-munich-vs-bodo-glimt|2",
-      "title": "Bayern Munich vs Bodø/Glimt",
-      "embed": "https://embed.st/embed/admin/ppv-bayern-munich-vs-bodo-glimt/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<91574ef565>/rtmp/stream/5fvO0GHk11s98kf8-DJ2zGdJVmEpJ-0W2fsIEOuBHrkUn07zQ9ECUHOcCfVShsKpQ93kXO8qrkAWPaKmig/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb3.strmd.st/secure/FEmqTbQcIPRmmoPITpfBPnVlpLbtBPts/rtmp/stream/5fvO0GHk11s98kf8-DJ2zGdJVmEpJ-0W2fsIEOuBHrkUn07zQ9ECUHOcCfVShsKpQ93kXO8qrkAWPaKmig/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<91574ef565>/rtmp/stream/5fvO0GHk11s98kf8-DJ2zGdJVmEpJ-0W2fsIEOuBHrkUn07zQ9ECUHOcCfVShsKpQ93kXO8qrkAWPaKmig/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<91574ef565>/rtmp/stream/5fvO0GHk11s98kf8-DJ2zGdJVmEpJ-0W2fsIEOuBHrkUn07zQ9ECUHOcCfVShsKpQ93kXO8qrkAWPaKmig/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/FEmqTbQcIPRmmoPITpfBPnVlpLbtBPts/rtmp/stream/5fvO0GHk11s98kf8-DJ2zGdJVmEpJ-0W2fsIEOuBHrkUn07zQ9ECUHOcCfVShsKpQ93kXO8qrkAWPaKmig/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<91574ef565>/rtmp/stream/5fvO0GHk11s98kf8-DJ2zGdJVmEpJ-0W2fsIEOuBHrkUn07zQ9ECUHOcCfVShsKpQ93kXO8qrkAWPaKmig/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-bayern-munich-vs-bodo-glimt/2",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb3.strmd.st/secure/<91574ef565>/rtmp/stream/5fvO0GHk11s98kf8-DJ2zGdJVmEpJ-0W2fsIEOuBHrkUn07zQ9ECUHOcCfVShsKpQ93kXO8qrkAWPaKmig/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb3.strmd.st/secure/FEmqTbQcIPRmmoPITpfBPnVlpLbtBPts/rtmp/stream/5fvO0GHk11s98kf8-DJ2zGdJVmEpJ-0W2fsIEOuBHrkUn07zQ9ECUHOcCfVShsKpQ93kXO8qrkAWPaKmig/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "bayern-munich-vs-bod--glimt-2594568|admin|ppv-bayern-munich-vs-bodo-glimt|3",
-      "title": "Bayern Munich vs Bodø/Glimt",
-      "embed": "https://embed.st/embed/admin/ppv-bayern-munich-vs-bodo-glimt/3",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<ae28706984>/rtmp/stream/DenHMXfb3CCTBI3OjgOq2k4uUf5xH2Vv7a2lVXkkoGJ_MzToAM7Osu4BTXQTdQsnPQS5fkyV4LIQ9Q/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb11.strmd.st/secure/FxMsufLBBJPDlVQPZSnWqoVJvIoRhFkz/rtmp/stream/DenHMXfb3CCTBI3OjgOq2k4uUf5xH2Vv7a2lVXkkoGJ_MzToAM7Osu4BTXQTdQsnPQS5fkyV4LIQ9Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<ae28706984>/rtmp/stream/DenHMXfb3CCTBI3OjgOq2k4uUf5xH2Vv7a2lVXkkoGJ_MzToAM7Osu4BTXQTdQsnPQS5fkyV4LIQ9Q/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<ae28706984>/rtmp/stream/DenHMXfb3CCTBI3OjgOq2k4uUf5xH2Vv7a2lVXkkoGJ_MzToAM7Osu4BTXQTdQsnPQS5fkyV4LIQ9Q/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/FxMsufLBBJPDlVQPZSnWqoVJvIoRhFkz/rtmp/stream/DenHMXfb3CCTBI3OjgOq2k4uUf5xH2Vv7a2lVXkkoGJ_MzToAM7Osu4BTXQTdQsnPQS5fkyV4LIQ9Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<ae28706984>/rtmp/stream/DenHMXfb3CCTBI3OjgOq2k4uUf5xH2Vv7a2lVXkkoGJ_MzToAM7Osu4BTXQTdQsnPQS5fkyV4LIQ9Q/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-bayern-munich-vs-bodo-glimt/3",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb11.strmd.st/secure/<ae28706984>/rtmp/stream/DenHMXfb3CCTBI3OjgOq2k4uUf5xH2Vv7a2lVXkkoGJ_MzToAM7Osu4BTXQTdQsnPQS5fkyV4LIQ9Q/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb11.strmd.st/secure/FxMsufLBBJPDlVQPZSnWqoVJvIoRhFkz/rtmp/stream/DenHMXfb3CCTBI3OjgOq2k4uUf5xH2Vv7a2lVXkkoGJ_MzToAM7Osu4BTXQTdQsnPQS5fkyV4LIQ9Q/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "bayern-munich-vs-bod--glimt-2594568|admin|ppv-bayern-munich-vs-bodo-glimt|4",
-      "title": "Bayern Munich vs Bodø/Glimt",
-      "embed": "https://embed.st/embed/admin/ppv-bayern-munich-vs-bodo-glimt/4",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<30c56a3fe4>/rtmp/stream/8XMbH_0aZB_7-aFNsevrquN6KbikBaTIgFKFI0bbJImgnWfs37fXXkaOHn7E85VPVfbIcK-So_WB3Rcnwi8/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb11.strmd.st/secure/ZinnypAeiifbLgKESxvjJCFmawCBhNRb/rtmp/stream/8XMbH_0aZB_7-aFNsevrquN6KbikBaTIgFKFI0bbJImgnWfs37fXXkaOHn7E85VPVfbIcK-So_WB3Rcnwi8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<30c56a3fe4>/rtmp/stream/8XMbH_0aZB_7-aFNsevrquN6KbikBaTIgFKFI0bbJImgnWfs37fXXkaOHn7E85VPVfbIcK-So_WB3Rcnwi8/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<30c56a3fe4>/rtmp/stream/8XMbH_0aZB_7-aFNsevrquN6KbikBaTIgFKFI0bbJImgnWfs37fXXkaOHn7E85VPVfbIcK-So_WB3Rcnwi8/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/ZinnypAeiifbLgKESxvjJCFmawCBhNRb/rtmp/stream/8XMbH_0aZB_7-aFNsevrquN6KbikBaTIgFKFI0bbJImgnWfs37fXXkaOHn7E85VPVfbIcK-So_WB3Rcnwi8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<30c56a3fe4>/rtmp/stream/8XMbH_0aZB_7-aFNsevrquN6KbikBaTIgFKFI0bbJImgnWfs37fXXkaOHn7E85VPVfbIcK-So_WB3Rcnwi8/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-bayern-munich-vs-bodo-glimt/4",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb11.strmd.st/secure/<30c56a3fe4>/rtmp/stream/8XMbH_0aZB_7-aFNsevrquN6KbikBaTIgFKFI0bbJImgnWfs37fXXkaOHn7E85VPVfbIcK-So_WB3Rcnwi8/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb11.strmd.st/secure/ZinnypAeiifbLgKESxvjJCFmawCBhNRb/rtmp/stream/8XMbH_0aZB_7-aFNsevrquN6KbikBaTIgFKFI0bbJImgnWfs37fXXkaOHn7E85VPVfbIcK-So_WB3Rcnwi8/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb3.strmd.st/secure/vqsOSrYfSrZVyLmoXlwluFSoPfFgIrLj/delta/stream/live_mlb_mariners-rangers-live-streaming-594273456/2/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -1080,15 +440,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<3171ea94a4>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<e6a63bdad1>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/GNDyVNWshEuyavdiWmqqoFPoZtLawRHB/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb5.strmd.st/secure/xRjDzSsMZGoPPlrabFThBKTntyWoVAHa/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb8.strmd.st/secure/<3171ea94a4>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
+          "request_failed": "https://lb5.strmd.st/secure/<e6a63bdad1>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1098,398 +458,11 @@
         {
           "console": "error",
           "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<3171ea94a4>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/GNDyVNWshEuyavdiWmqqoFPoZtLawRHB/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<3171ea94a4>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/delta/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<3171ea94a4>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb8.strmd.st/secure/GNDyVNWshEuyavdiWmqqoFPoZtLawRHB/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "bayern-munich-vs-bod--glimt-2594568|golf|1044|1",
-      "title": "Bayern Munich vs Bodø/Glimt",
-      "embed": "https://embed.st/embed/golf/1044/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Allow attribute will take precedence over 'allowfullscreen'."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<4d358cda01>/ingest/stream/mevent14/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/ngVgUqcidbUWiUPSvsshxftCXqpSEide/ingest/stream/mevent14/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<4d358cda01>/ingest/stream/mevent14/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<4d358cda01>/ingest/stream/mevent14/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/ngVgUqcidbUWiUPSvsshxftCXqpSEide/ingest/stream/mevent14/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<4d358cda01>/ingest/stream/mevent14/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1044/1",
-            "title": "",
-            "html_length": 2105,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "embedhd.st",
-              "llvpn.com"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<4d358cda01>/ingest/stream/mevent14/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb8.strmd.st/secure/ngVgUqcidbUWiUPSvsshxftCXqpSEide/ingest/stream/mevent14/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "bayern-munich-vs-bod--glimt-2594568|golf|1044|2",
-      "title": "Bayern Munich vs Bodø/Glimt",
-      "embed": "https://embed.st/embed/golf/1044/2",
-      "discovery": "live",
-      "classification": "media_unverified",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://cdn12.zohanayaan.com:1686/hls/mevent14.m3u8?md5=CDagkOq2szSgXDNINfS7hg&expires=1789078079",
-          "resource_type": "xhr"
-        },
-        {
-          "response": "media",
-          "status": 200,
-          "url": "https://cdn12.zohanayaan.com:1686/hls/mevent14.m3u8?md5=CDagkOq2szSgXDNINfS7hg&expires=1789078079",
-          "referer": "https://exposestrat.st/"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1044/2",
-            "title": "",
-            "html_length": 2105,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "embedhd.st",
-              "llvpn.com"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "slavia-prague-vs-lens-2594641|admin|ppv-slavia-prague-vs-lens|1",
-      "title": "Slavia Prague vs Lens",
-      "embed": "https://embed.st/embed/admin/ppv-slavia-prague-vs-lens/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<e651ed4c49>/rtmp/stream/j8Qr7VA1eTfDAqTEfH6O99mRb5yUtSJgOo1bPwY7yqpTHWZwVqdtKpfQgeFf1WmNF8NPGF2tXWgG/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb1.strmd.st/secure/MBtFdwYqDRUgBAfGoYovUSYzwNtvlcZq/rtmp/stream/j8Qr7VA1eTfDAqTEfH6O99mRb5yUtSJgOo1bPwY7yqpTHWZwVqdtKpfQgeFf1WmNF8NPGF2tXWgG/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<e651ed4c49>/rtmp/stream/j8Qr7VA1eTfDAqTEfH6O99mRb5yUtSJgOo1bPwY7yqpTHWZwVqdtKpfQgeFf1WmNF8NPGF2tXWgG/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<e651ed4c49>/rtmp/stream/j8Qr7VA1eTfDAqTEfH6O99mRb5yUtSJgOo1bPwY7yqpTHWZwVqdtKpfQgeFf1WmNF8NPGF2tXWgG/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/MBtFdwYqDRUgBAfGoYovUSYzwNtvlcZq/rtmp/stream/j8Qr7VA1eTfDAqTEfH6O99mRb5yUtSJgOo1bPwY7yqpTHWZwVqdtKpfQgeFf1WmNF8NPGF2tXWgG/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<e651ed4c49>/rtmp/stream/j8Qr7VA1eTfDAqTEfH6O99mRb5yUtSJgOo1bPwY7yqpTHWZwVqdtKpfQgeFf1WmNF8NPGF2tXWgG/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-slavia-prague-vs-lens/1",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb1.strmd.st/secure/<e651ed4c49>/rtmp/stream/j8Qr7VA1eTfDAqTEfH6O99mRb5yUtSJgOo1bPwY7yqpTHWZwVqdtKpfQgeFf1WmNF8NPGF2tXWgG/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb1.strmd.st/secure/MBtFdwYqDRUgBAfGoYovUSYzwNtvlcZq/rtmp/stream/j8Qr7VA1eTfDAqTEfH6O99mRb5yUtSJgOo1bPwY7yqpTHWZwVqdtKpfQgeFf1WmNF8NPGF2tXWgG/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "slavia-prague-vs-lens-2594641|admin|ppv-slavia-prague-vs-lens|2",
-      "title": "Slavia Prague vs Lens",
-      "embed": "https://embed.st/embed/admin/ppv-slavia-prague-vs-lens/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<424ebcb0b5>/rtmp/stream/DyAvLlmvpO5o-kzSL_kvdOpbqrPoy2FKTnX6_p01VEdra1OQy6slQrEJMGH2wjO_Vc9o3puaODqlprK0XA/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-slavia-prague-vs-lens/2",
             "title": "",
             "html_length": 23343,
             "script_hosts": [
@@ -1506,231 +479,31 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb9.strmd.st/secure/<424ebcb0b5>/rtmp/stream/DyAvLlmvpO5o-kzSL_kvdOpbqrPoy2FKTnX6_p01VEdra1OQy6slQrEJMGH2wjO_Vc9o3puaODqlprK0XA/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<e6a63bdad1>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb9.strmd.st/secure/QYuItBWsBUOcstiBOKwosmWWmEcceLoL/rtmp/stream/DyAvLlmvpO5o-kzSL_kvdOpbqrPoy2FKTnX6_p01VEdra1OQy6slQrEJMGH2wjO_Vc9o3puaODqlprK0XA/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb5.strmd.st/secure/xRjDzSsMZGoPPlrabFThBKTntyWoVAHa/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb9.strmd.st/secure/QYuItBWsBUOcstiBOKwosmWWmEcceLoL/rtmp/stream/DyAvLlmvpO5o-kzSL_kvdOpbqrPoy2FKTnX6_p01VEdra1OQy6slQrEJMGH2wjO_Vc9o3puaODqlprK0XA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb9.strmd.st/secure/<424ebcb0b5>/rtmp/stream/DyAvLlmvpO5o-kzSL_kvdOpbqrPoy2FKTnX6_p01VEdra1OQy6slQrEJMGH2wjO_Vc9o3puaODqlprK0XA/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "slavia-prague-vs-lens-2594641|admin|ppv-slavia-prague-vs-lens|3",
-      "title": "Slavia Prague vs Lens",
-      "embed": "https://embed.st/embed/admin/ppv-slavia-prague-vs-lens/3",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<c6fe092b1c>/rtmp/stream/5NNyEh6JTfQr3qZwUp9A9ML-HQ-42Qiq2otf0ks4gdUjHHDBJCJPnawuQrahqMbFBcfZfjp0NPATeA/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb9.strmd.st/secure/xFRaVDLtpPlNEaGyXNVqEaQkSUHHwZhe/rtmp/stream/5NNyEh6JTfQr3qZwUp9A9ML-HQ-42Qiq2otf0ks4gdUjHHDBJCJPnawuQrahqMbFBcfZfjp0NPATeA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb9.strmd.st/secure/<c6fe092b1c>/rtmp/stream/5NNyEh6JTfQr3qZwUp9A9ML-HQ-42Qiq2otf0ks4gdUjHHDBJCJPnawuQrahqMbFBcfZfjp0NPATeA/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<c6fe092b1c>/rtmp/stream/5NNyEh6JTfQr3qZwUp9A9ML-HQ-42Qiq2otf0ks4gdUjHHDBJCJPnawuQrahqMbFBcfZfjp0NPATeA/1/playlist.m3u8",
+          "url": "https://lb5.strmd.st/secure/<e6a63bdad1>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/xFRaVDLtpPlNEaGyXNVqEaQkSUHHwZhe/rtmp/stream/5NNyEh6JTfQr3qZwUp9A9ML-HQ-42Qiq2otf0ks4gdUjHHDBJCJPnawuQrahqMbFBcfZfjp0NPATeA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/xRjDzSsMZGoPPlrabFThBKTntyWoVAHa/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb9.strmd.st/secure/<c6fe092b1c>/rtmp/stream/5NNyEh6JTfQr3qZwUp9A9ML-HQ-42Qiq2otf0ks4gdUjHHDBJCJPnawuQrahqMbFBcfZfjp0NPATeA/1/playlist.m3u8",
+          "request_failed": "https://lb5.strmd.st/secure/<e6a63bdad1>/delta/stream/live_uefa-champions-league_bayern-bodoglimt-live-streaming-614241792/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-slavia-prague-vs-lens/3",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb9.strmd.st/secure/<c6fe092b1c>/rtmp/stream/5NNyEh6JTfQr3qZwUp9A9ML-HQ-42Qiq2otf0ks4gdUjHHDBJCJPnawuQrahqMbFBcfZfjp0NPATeA/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb9.strmd.st/secure/xFRaVDLtpPlNEaGyXNVqEaQkSUHHwZhe/rtmp/stream/5NNyEh6JTfQr3qZwUp9A9ML-HQ-42Qiq2otf0ks4gdUjHHDBJCJPnawuQrahqMbFBcfZfjp0NPATeA/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "slavia-prague-vs-lens-2594641|admin|ppv-slavia-prague-vs-lens|4",
-      "title": "Slavia Prague vs Lens",
-      "embed": "https://embed.st/embed/admin/ppv-slavia-prague-vs-lens/4",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<9d6c3096a2>/rtmp/stream/wq41YGzGmQ4_Tfm41CJ2FBx-Q0dGyzjraqG7mWPR0AYdxT-hX4D3C_-QKsOiDrwxQYdqmQOtOV-S_bDGnKI/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb10.strmd.st/secure/OPnVvinnFCaDpFTZHKFDmpYycVCCJaSb/rtmp/stream/wq41YGzGmQ4_Tfm41CJ2FBx-Q0dGyzjraqG7mWPR0AYdxT-hX4D3C_-QKsOiDrwxQYdqmQOtOV-S_bDGnKI/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb10.strmd.st/secure/<9d6c3096a2>/rtmp/stream/wq41YGzGmQ4_Tfm41CJ2FBx-Q0dGyzjraqG7mWPR0AYdxT-hX4D3C_-QKsOiDrwxQYdqmQOtOV-S_bDGnKI/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<9d6c3096a2>/rtmp/stream/wq41YGzGmQ4_Tfm41CJ2FBx-Q0dGyzjraqG7mWPR0AYdxT-hX4D3C_-QKsOiDrwxQYdqmQOtOV-S_bDGnKI/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/OPnVvinnFCaDpFTZHKFDmpYycVCCJaSb/rtmp/stream/wq41YGzGmQ4_Tfm41CJ2FBx-Q0dGyzjraqG7mWPR0AYdxT-hX4D3C_-QKsOiDrwxQYdqmQOtOV-S_bDGnKI/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb10.strmd.st/secure/<9d6c3096a2>/rtmp/stream/wq41YGzGmQ4_Tfm41CJ2FBx-Q0dGyzjraqG7mWPR0AYdxT-hX4D3C_-QKsOiDrwxQYdqmQOtOV-S_bDGnKI/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-slavia-prague-vs-lens/4",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb10.strmd.st/secure/<9d6c3096a2>/rtmp/stream/wq41YGzGmQ4_Tfm41CJ2FBx-Q0dGyzjraqG7mWPR0AYdxT-hX4D3C_-QKsOiDrwxQYdqmQOtOV-S_bDGnKI/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb10.strmd.st/secure/OPnVvinnFCaDpFTZHKFDmpYycVCCJaSb/rtmp/stream/wq41YGzGmQ4_Tfm41CJ2FBx-Q0dGyzjraqG7mWPR0AYdxT-hX4D3C_-QKsOiDrwxQYdqmQOtOV-S_bDGnKI/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
         }
       ]
     },
@@ -1767,15 +540,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<ebb5e74633>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<2af284011d>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb10.strmd.st/secure/NakyJwVkzhyxZxdKlEaVywhlRwHUkMeS/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/EBlMAaehnSIjsqyGIaCouNsBmkqbfymB/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<ebb5e74633>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<2af284011d>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1789,15 +562,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb10.strmd.st/secure/<ebb5e74633>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<2af284011d>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/NakyJwVkzhyxZxdKlEaVywhlRwHUkMeS/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/EBlMAaehnSIjsqyGIaCouNsBmkqbfymB/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb10.strmd.st/secure/<ebb5e74633>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<2af284011d>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1827,524 +600,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb10.strmd.st/secure/<ebb5e74633>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<2af284011d>/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb10.strmd.st/secure/NakyJwVkzhyxZxdKlEaVywhlRwHUkMeS/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "como-vs-rb-leipzig-2594669|admin|ppv-como-vs-rb-leipzig|1",
-      "title": "Como vs RB Leipzig",
-      "embed": "https://embed.st/embed/admin/ppv-como-vs-rb-leipzig/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<956d4239f0>/rtmp/stream/SsIUcS-9Pn-XlHrttAjoVq5OiDBbqFbJTgqGTtsgltjYRk0AWVF1ThxGLx5NRawcji6HmEGevA_ZTw/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/YbipodYwTFIVcifVJKLKUTsKyIzQRgOZ/rtmp/stream/SsIUcS-9Pn-XlHrttAjoVq5OiDBbqFbJTgqGTtsgltjYRk0AWVF1ThxGLx5NRawcji6HmEGevA_ZTw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<956d4239f0>/rtmp/stream/SsIUcS-9Pn-XlHrttAjoVq5OiDBbqFbJTgqGTtsgltjYRk0AWVF1ThxGLx5NRawcji6HmEGevA_ZTw/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<956d4239f0>/rtmp/stream/SsIUcS-9Pn-XlHrttAjoVq5OiDBbqFbJTgqGTtsgltjYRk0AWVF1ThxGLx5NRawcji6HmEGevA_ZTw/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/YbipodYwTFIVcifVJKLKUTsKyIzQRgOZ/rtmp/stream/SsIUcS-9Pn-XlHrttAjoVq5OiDBbqFbJTgqGTtsgltjYRk0AWVF1ThxGLx5NRawcji6HmEGevA_ZTw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<956d4239f0>/rtmp/stream/SsIUcS-9Pn-XlHrttAjoVq5OiDBbqFbJTgqGTtsgltjYRk0AWVF1ThxGLx5NRawcji6HmEGevA_ZTw/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-como-vs-rb-leipzig/1",
-            "title": "",
-            "html_length": 132350,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<956d4239f0>/rtmp/stream/SsIUcS-9Pn-XlHrttAjoVq5OiDBbqFbJTgqGTtsgltjYRk0AWVF1ThxGLx5NRawcji6HmEGevA_ZTw/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb5.strmd.st/secure/YbipodYwTFIVcifVJKLKUTsKyIzQRgOZ/rtmp/stream/SsIUcS-9Pn-XlHrttAjoVq5OiDBbqFbJTgqGTtsgltjYRk0AWVF1ThxGLx5NRawcji6HmEGevA_ZTw/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "como-vs-rb-leipzig-2594669|admin|ppv-como-vs-rb-leipzig|2",
-      "title": "Como vs RB Leipzig",
-      "embed": "https://embed.st/embed/admin/ppv-como-vs-rb-leipzig/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<4131fc1665>/rtmp/stream/UeTfl6wL2Pbk1vuTqHkpfTyO_XwN0Xup_p6QRGuc7NE8HXny3dR4XwDJqt5ZsvOpjofTtMBk8oIB5w_yvYk/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/jmvzrtzLtejXxfqiChqSWusURMUtvOYL/rtmp/stream/UeTfl6wL2Pbk1vuTqHkpfTyO_XwN0Xup_p6QRGuc7NE8HXny3dR4XwDJqt5ZsvOpjofTtMBk8oIB5w_yvYk/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<4131fc1665>/rtmp/stream/UeTfl6wL2Pbk1vuTqHkpfTyO_XwN0Xup_p6QRGuc7NE8HXny3dR4XwDJqt5ZsvOpjofTtMBk8oIB5w_yvYk/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<4131fc1665>/rtmp/stream/UeTfl6wL2Pbk1vuTqHkpfTyO_XwN0Xup_p6QRGuc7NE8HXny3dR4XwDJqt5ZsvOpjofTtMBk8oIB5w_yvYk/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/jmvzrtzLtejXxfqiChqSWusURMUtvOYL/rtmp/stream/UeTfl6wL2Pbk1vuTqHkpfTyO_XwN0Xup_p6QRGuc7NE8HXny3dR4XwDJqt5ZsvOpjofTtMBk8oIB5w_yvYk/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<4131fc1665>/rtmp/stream/UeTfl6wL2Pbk1vuTqHkpfTyO_XwN0Xup_p6QRGuc7NE8HXny3dR4XwDJqt5ZsvOpjofTtMBk8oIB5w_yvYk/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-como-vs-rb-leipzig/2",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<4131fc1665>/rtmp/stream/UeTfl6wL2Pbk1vuTqHkpfTyO_XwN0Xup_p6QRGuc7NE8HXny3dR4XwDJqt5ZsvOpjofTtMBk8oIB5w_yvYk/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb5.strmd.st/secure/jmvzrtzLtejXxfqiChqSWusURMUtvOYL/rtmp/stream/UeTfl6wL2Pbk1vuTqHkpfTyO_XwN0Xup_p6QRGuc7NE8HXny3dR4XwDJqt5ZsvOpjofTtMBk8oIB5w_yvYk/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "como-vs-rb-leipzig-2594669|admin|ppv-como-vs-rb-leipzig|3",
-      "title": "Como vs RB Leipzig",
-      "embed": "https://embed.st/embed/admin/ppv-como-vs-rb-leipzig/3",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<c8d5ca1536>/rtmp/stream/4wgOFkZYf83ZtkZ8dIpi-YHWjHP6897_fVLgyALKSWQcTRWwVnLSvSbaD5jupQWiju1nJJPxwVdJ52w/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb7.strmd.st/secure/XbLHAsjJRNcQNXUDxKrejzTzYKTddxlM/rtmp/stream/4wgOFkZYf83ZtkZ8dIpi-YHWjHP6897_fVLgyALKSWQcTRWwVnLSvSbaD5jupQWiju1nJJPxwVdJ52w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<c8d5ca1536>/rtmp/stream/4wgOFkZYf83ZtkZ8dIpi-YHWjHP6897_fVLgyALKSWQcTRWwVnLSvSbaD5jupQWiju1nJJPxwVdJ52w/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<c8d5ca1536>/rtmp/stream/4wgOFkZYf83ZtkZ8dIpi-YHWjHP6897_fVLgyALKSWQcTRWwVnLSvSbaD5jupQWiju1nJJPxwVdJ52w/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/XbLHAsjJRNcQNXUDxKrejzTzYKTddxlM/rtmp/stream/4wgOFkZYf83ZtkZ8dIpi-YHWjHP6897_fVLgyALKSWQcTRWwVnLSvSbaD5jupQWiju1nJJPxwVdJ52w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<c8d5ca1536>/rtmp/stream/4wgOFkZYf83ZtkZ8dIpi-YHWjHP6897_fVLgyALKSWQcTRWwVnLSvSbaD5jupQWiju1nJJPxwVdJ52w/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-como-vs-rb-leipzig/3",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb7.strmd.st/secure/<c8d5ca1536>/rtmp/stream/4wgOFkZYf83ZtkZ8dIpi-YHWjHP6897_fVLgyALKSWQcTRWwVnLSvSbaD5jupQWiju1nJJPxwVdJ52w/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb7.strmd.st/secure/XbLHAsjJRNcQNXUDxKrejzTzYKTddxlM/rtmp/stream/4wgOFkZYf83ZtkZ8dIpi-YHWjHP6897_fVLgyALKSWQcTRWwVnLSvSbaD5jupQWiju1nJJPxwVdJ52w/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "como-vs-rb-leipzig-2594669|admin|ppv-como-vs-rb-leipzig|4",
-      "title": "Como vs RB Leipzig",
-      "embed": "https://embed.st/embed/admin/ppv-como-vs-rb-leipzig/4",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<f5983edf3f>/rtmp/stream/UW770xF9gJHgKV_bYFoJAJseJJrUm48YP7CnzaAHDEnGnNEuaX2RoPztBDTskxgdGnSrkpdQPbbfr3A155lV/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/iCyRbYILffVavObCNYMzMLrSFzOfHzhb/rtmp/stream/UW770xF9gJHgKV_bYFoJAJseJJrUm48YP7CnzaAHDEnGnNEuaX2RoPztBDTskxgdGnSrkpdQPbbfr3A155lV/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<f5983edf3f>/rtmp/stream/UW770xF9gJHgKV_bYFoJAJseJJrUm48YP7CnzaAHDEnGnNEuaX2RoPztBDTskxgdGnSrkpdQPbbfr3A155lV/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<f5983edf3f>/rtmp/stream/UW770xF9gJHgKV_bYFoJAJseJJrUm48YP7CnzaAHDEnGnNEuaX2RoPztBDTskxgdGnSrkpdQPbbfr3A155lV/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/iCyRbYILffVavObCNYMzMLrSFzOfHzhb/rtmp/stream/UW770xF9gJHgKV_bYFoJAJseJJrUm48YP7CnzaAHDEnGnNEuaX2RoPztBDTskxgdGnSrkpdQPbbfr3A155lV/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<f5983edf3f>/rtmp/stream/UW770xF9gJHgKV_bYFoJAJseJJrUm48YP7CnzaAHDEnGnNEuaX2RoPztBDTskxgdGnSrkpdQPbbfr3A155lV/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-como-vs-rb-leipzig/4",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<f5983edf3f>/rtmp/stream/UW770xF9gJHgKV_bYFoJAJseJJrUm48YP7CnzaAHDEnGnNEuaX2RoPztBDTskxgdGnSrkpdQPbbfr3A155lV/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb8.strmd.st/secure/iCyRbYILffVavObCNYMzMLrSFzOfHzhb/rtmp/stream/UW770xF9gJHgKV_bYFoJAJseJJrUm48YP7CnzaAHDEnGnNEuaX2RoPztBDTskxgdGnSrkpdQPbbfr3A155lV/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "como-vs-rb-leipzig-2594669|delta|live_uefa-champions-league_como-leipzig-live-streaming-614239200|1",
-      "title": "Como vs RB Leipzig",
-      "embed": "https://embed.st/embed/delta/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<1940b6fe4b>/delta/stream/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb3.strmd.st/secure/BvHVSlaMcLxmUODvEyknEJPsYephfIyl/delta/stream/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<1940b6fe4b>/delta/stream/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<1940b6fe4b>/delta/stream/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/BvHVSlaMcLxmUODvEyknEJPsYephfIyl/delta/stream/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<1940b6fe4b>/delta/stream/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1",
-            "title": "",
-            "html_length": 132351,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb3.strmd.st/secure/<1940b6fe4b>/delta/stream/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb3.strmd.st/secure/BvHVSlaMcLxmUODvEyknEJPsYephfIyl/delta/stream/live_uefa-champions-league_como-leipzig-live-streaming-614239200/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb13.strmd.st/secure/EBlMAaehnSIjsqyGIaCouNsBmkqbfymB/delta/stream/live_uefa-champions-league_slavia-praha-lens-live-streaming-614272464/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -2385,15 +643,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<530eef0fcb>/rtmp/stream/ZoV3z4zSCZ8vpCaJ0CBUj8MJqsOR3oBiAuQIGdHks4jyHWkPkK8pLCSgiAQSspJ5KNryOe6D2B0/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<0531bf9b9e>/rtmp/stream/5qMLmU7TZKOuEdos8ZL3q7y7So9R7imwv_5eBINk7Ze_04VYIKPuKWXg1kjjpmzjyMm5cDs_wQE/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb2.strmd.st/secure/zsyYLSztGpsqMOEKLYVlDykwNmPJKVcR/rtmp/stream/ZoV3z4zSCZ8vpCaJ0CBUj8MJqsOR3oBiAuQIGdHks4jyHWkPkK8pLCSgiAQSspJ5KNryOe6D2B0/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/BXthWAKOMpAuqpJdBUydVKKVcpTbjDoE/rtmp/stream/5qMLmU7TZKOuEdos8ZL3q7y7So9R7imwv_5eBINk7Ze_04VYIKPuKWXg1kjjpmzjyMm5cDs_wQE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<530eef0fcb>/rtmp/stream/ZoV3z4zSCZ8vpCaJ0CBUj8MJqsOR3oBiAuQIGdHks4jyHWkPkK8pLCSgiAQSspJ5KNryOe6D2B0/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<0531bf9b9e>/rtmp/stream/5qMLmU7TZKOuEdos8ZL3q7y7So9R7imwv_5eBINk7Ze_04VYIKPuKWXg1kjjpmzjyMm5cDs_wQE/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -2407,15 +665,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<530eef0fcb>/rtmp/stream/ZoV3z4zSCZ8vpCaJ0CBUj8MJqsOR3oBiAuQIGdHks4jyHWkPkK8pLCSgiAQSspJ5KNryOe6D2B0/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<0531bf9b9e>/rtmp/stream/5qMLmU7TZKOuEdos8ZL3q7y7So9R7imwv_5eBINk7Ze_04VYIKPuKWXg1kjjpmzjyMm5cDs_wQE/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/zsyYLSztGpsqMOEKLYVlDykwNmPJKVcR/rtmp/stream/ZoV3z4zSCZ8vpCaJ0CBUj8MJqsOR3oBiAuQIGdHks4jyHWkPkK8pLCSgiAQSspJ5KNryOe6D2B0/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/BXthWAKOMpAuqpJdBUydVKKVcpTbjDoE/rtmp/stream/5qMLmU7TZKOuEdos8ZL3q7y7So9R7imwv_5eBINk7Ze_04VYIKPuKWXg1kjjpmzjyMm5cDs_wQE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<530eef0fcb>/rtmp/stream/ZoV3z4zSCZ8vpCaJ0CBUj8MJqsOR3oBiAuQIGdHks4jyHWkPkK8pLCSgiAQSspJ5KNryOe6D2B0/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<0531bf9b9e>/rtmp/stream/5qMLmU7TZKOuEdos8ZL3q7y7So9R7imwv_5eBINk7Ze_04VYIKPuKWXg1kjjpmzjyMm5cDs_wQE/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -2445,9 +703,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb2.strmd.st/secure/<530eef0fcb>/rtmp/stream/ZoV3z4zSCZ8vpCaJ0CBUj8MJqsOR3oBiAuQIGdHks4jyHWkPkK8pLCSgiAQSspJ5KNryOe6D2B0/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<0531bf9b9e>/rtmp/stream/5qMLmU7TZKOuEdos8ZL3q7y7So9R7imwv_5eBINk7Ze_04VYIKPuKWXg1kjjpmzjyMm5cDs_wQE/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb2.strmd.st/secure/zsyYLSztGpsqMOEKLYVlDykwNmPJKVcR/rtmp/stream/ZoV3z4zSCZ8vpCaJ0CBUj8MJqsOR3oBiAuQIGdHks4jyHWkPkK8pLCSgiAQSspJ5KNryOe6D2B0/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb13.strmd.st/secure/BXthWAKOMpAuqpJdBUydVKKVcpTbjDoE/rtmp/stream/5qMLmU7TZKOuEdos8ZL3q7y7So9R7imwv_5eBINk7Ze_04VYIKPuKWXg1kjjpmzjyMm5cDs_wQE/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -2488,37 +746,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<631d570b83>/rtmp/stream/ubG1CPn3rIuAenQKFX3QahLnL3bzff7LyFXTFqqthos1mvHKGAimqiArB-6O0ojb08JC7li9sApJtmFr/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<c230cb0ecd>/rtmp/stream/GopIngFYd1ufuiVkX1BKs99v-LQkhZEE1eEB4HJPG-DnCeQ_pZCtFohm3o01fHKhbHko_cGQbTFRtXyI/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb12.strmd.st/secure/HsfqBvhlsvwQLoJgBLaumzsibyvfpiON/rtmp/stream/ubG1CPn3rIuAenQKFX3QahLnL3bzff7LyFXTFqqthos1mvHKGAimqiArB-6O0ojb08JC7li9sApJtmFr/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/gVqKnLVDNsapmHsADptTKkcswXmpxIZd/rtmp/stream/GopIngFYd1ufuiVkX1BKs99v-LQkhZEE1eEB4HJPG-DnCeQ_pZCtFohm3o01fHKhbHko_cGQbTFRtXyI/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb12.strmd.st/secure/<631d570b83>/rtmp/stream/ubG1CPn3rIuAenQKFX3QahLnL3bzff7LyFXTFqqthos1mvHKGAimqiArB-6O0ojb08JC7li9sApJtmFr/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<631d570b83>/rtmp/stream/ubG1CPn3rIuAenQKFX3QahLnL3bzff7LyFXTFqqthos1mvHKGAimqiArB-6O0ojb08JC7li9sApJtmFr/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/HsfqBvhlsvwQLoJgBLaumzsibyvfpiON/rtmp/stream/ubG1CPn3rIuAenQKFX3QahLnL3bzff7LyFXTFqqthos1mvHKGAimqiArB-6O0ojb08JC7li9sApJtmFr/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb12.strmd.st/secure/<631d570b83>/rtmp/stream/ubG1CPn3rIuAenQKFX3QahLnL3bzff7LyFXTFqqthos1mvHKGAimqiArB-6O0ojb08JC7li9sApJtmFr/1/playlist.m3u8",
+          "request_failed": "https://lb1.strmd.st/secure/<c230cb0ecd>/rtmp/stream/GopIngFYd1ufuiVkX1BKs99v-LQkhZEE1eEB4HJPG-DnCeQ_pZCtFohm3o01fHKhbHko_cGQbTFRtXyI/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -2530,14 +766,11 @@
             "status": 200,
             "url": "https://embed.st/embed/admin/ppv-the-golazo-show/2",
             "title": "",
-            "html_length": 132351,
+            "html_length": 23343,
             "script_hosts": [
               "cdn.jsdelivr.net",
-              "embed.st",
               "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
+              "strmd.b-cdn.net"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -2548,13 +781,35 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb12.strmd.st/secure/<631d570b83>/rtmp/stream/ubG1CPn3rIuAenQKFX3QahLnL3bzff7LyFXTFqqthos1mvHKGAimqiArB-6O0ojb08JC7li9sApJtmFr/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<c230cb0ecd>/rtmp/stream/GopIngFYd1ufuiVkX1BKs99v-LQkhZEE1eEB4HJPG-DnCeQ_pZCtFohm3o01fHKhbHko_cGQbTFRtXyI/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb12.strmd.st/secure/HsfqBvhlsvwQLoJgBLaumzsibyvfpiON/rtmp/stream/ubG1CPn3rIuAenQKFX3QahLnL3bzff7LyFXTFqqthos1mvHKGAimqiArB-6O0ojb08JC7li9sApJtmFr/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb1.strmd.st/secure/gVqKnLVDNsapmHsADptTKkcswXmpxIZd/rtmp/stream/GopIngFYd1ufuiVkX1BKs99v-LQkhZEE1eEB4HJPG-DnCeQ_pZCtFohm3o01fHKhbHko_cGQbTFRtXyI/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<c230cb0ecd>/rtmp/stream/GopIngFYd1ufuiVkX1BKs99v-LQkhZEE1eEB4HJPG-DnCeQ_pZCtFohm3o01fHKhbHko_cGQbTFRtXyI/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/gVqKnLVDNsapmHsADptTKkcswXmpxIZd/rtmp/stream/GopIngFYd1ufuiVkX1BKs99v-LQkhZEE1eEB4HJPG-DnCeQ_pZCtFohm3o01fHKhbHko_cGQbTFRtXyI/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<c230cb0ecd>/rtmp/stream/GopIngFYd1ufuiVkX1BKs99v-LQkhZEE1eEB4HJPG-DnCeQ_pZCtFohm3o01fHKhbHko_cGQbTFRtXyI/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         }
       ]
     },
@@ -2591,15 +846,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<bee6e2778c>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<9a120392a1>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb12.strmd.st/secure/MHNqFbkfwFwqVHvSlvqLyCTCRkDQzUfs/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/MFrCXloHSwLVMGHNHRQmUVjkKBONCMXU/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb12.strmd.st/secure/<bee6e2778c>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
+          "request_failed": "https://lb1.strmd.st/secure/<9a120392a1>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -2613,15 +868,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb12.strmd.st/secure/<bee6e2778c>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<9a120392a1>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/MHNqFbkfwFwqVHvSlvqLyCTCRkDQzUfs/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/MFrCXloHSwLVMGHNHRQmUVjkKBONCMXU/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb12.strmd.st/secure/<bee6e2778c>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
+          "request_failed": "https://lb1.strmd.st/secure/<9a120392a1>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -2651,9 +906,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb12.strmd.st/secure/<bee6e2778c>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<9a120392a1>/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb12.strmd.st/secure/MHNqFbkfwFwqVHvSlvqLyCTCRkDQzUfs/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb1.strmd.st/secure/MFrCXloHSwLVMGHNHRQmUVjkKBONCMXU/delta/stream/live-event_nfl-network-live-stream/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -2694,232 +949,47 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<48335b991b>/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<9cf0cf9925>/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8",
           "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/RMamczDqHAfOvpOjRAWBRIVWymBUYCZj/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<9cf0cf9925>/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<9cf0cf9925>/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/RMamczDqHAfOvpOjRAWBRIVWymBUYCZj/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<9cf0cf9925>/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
             "url": "https://embed.st/embed/delta/live-event_nfl-network-live-stream/2",
-            "title": "",
-            "html_length": 23343,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "llvpn.com",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb13.strmd.st/secure/<48335b991b>/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb13.strmd.st/secure/hlReSFypshFyAEmKjWeEjYEQDnIJskzB/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb13.strmd.st/secure/hlReSFypshFyAEmKjWeEjYEQDnIJskzB/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb13.strmd.st/secure/<48335b991b>/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        }
-      ]
-    },
-    {
-      "key": "philadelphia-phillies-vs-houston-astros-2521126|admin|ppv-houston-astros-vs-philadelphia-phillies|1",
-      "title": "Philadelphia Phillies vs Houston Astros",
-      "embed": "https://embed.st/embed/admin/ppv-houston-astros-vs-philadelphia-phillies/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<be94a62e4a>/rtmp/stream/L1HRTatsakanR5IFlLfE_7E2IeOKjkr6rEP66Pkf4czXGSUOxaRf_COzNQMRlkflPpE88wJW6lRwdWRRVUpvd1_iTGdnyg/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb4.strmd.st/secure/YKzvDidFPEkWhzoHzJTfLVkDhTbCEqBE/rtmp/stream/L1HRTatsakanR5IFlLfE_7E2IeOKjkr6rEP66Pkf4czXGSUOxaRf_COzNQMRlkflPpE88wJW6lRwdWRRVUpvd1_iTGdnyg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<be94a62e4a>/rtmp/stream/L1HRTatsakanR5IFlLfE_7E2IeOKjkr6rEP66Pkf4czXGSUOxaRf_COzNQMRlkflPpE88wJW6lRwdWRRVUpvd1_iTGdnyg/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<be94a62e4a>/rtmp/stream/L1HRTatsakanR5IFlLfE_7E2IeOKjkr6rEP66Pkf4czXGSUOxaRf_COzNQMRlkflPpE88wJW6lRwdWRRVUpvd1_iTGdnyg/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/YKzvDidFPEkWhzoHzJTfLVkDhTbCEqBE/rtmp/stream/L1HRTatsakanR5IFlLfE_7E2IeOKjkr6rEP66Pkf4czXGSUOxaRf_COzNQMRlkflPpE88wJW6lRwdWRRVUpvd1_iTGdnyg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<be94a62e4a>/rtmp/stream/L1HRTatsakanR5IFlLfE_7E2IeOKjkr6rEP66Pkf4czXGSUOxaRf_COzNQMRlkflPpE88wJW6lRwdWRRVUpvd1_iTGdnyg/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-houston-astros-vs-philadelphia-phillies/1",
-            "title": "",
-            "html_length": 132350,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb4.strmd.st/secure/<be94a62e4a>/rtmp/stream/L1HRTatsakanR5IFlLfE_7E2IeOKjkr6rEP66Pkf4czXGSUOxaRf_COzNQMRlkflPpE88wJW6lRwdWRRVUpvd1_iTGdnyg/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb4.strmd.st/secure/YKzvDidFPEkWhzoHzJTfLVkDhTbCEqBE/rtmp/stream/L1HRTatsakanR5IFlLfE_7E2IeOKjkr6rEP66Pkf4czXGSUOxaRf_COzNQMRlkflPpE88wJW6lRwdWRRVUpvd1_iTGdnyg/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "philadelphia-phillies-vs-houston-astros-2521126|admin|ppv-houston-astros-vs-philadelphia-phillies|2",
-      "title": "Philadelphia Phillies vs Houston Astros",
-      "embed": "https://embed.st/embed/admin/ppv-houston-astros-vs-philadelphia-phillies/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<e9fd9125b9>/rtmp/stream/KAACd0vaE-UPp7uGB22SA-K-QFbH7Dlw58-UtmQaVQDg7Q7Z08qf2Hgvhv8rIuiNH09d2GltFe3LlI_7V99DKqH-B-DioG-RuYQ/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb4.strmd.st/secure/PPKuSUeroJNYGjSFFaDAbGnsjIhZktCb/rtmp/stream/KAACd0vaE-UPp7uGB22SA-K-QFbH7Dlw58-UtmQaVQDg7Q7Z08qf2Hgvhv8rIuiNH09d2GltFe3LlI_7V99DKqH-B-DioG-RuYQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<e9fd9125b9>/rtmp/stream/KAACd0vaE-UPp7uGB22SA-K-QFbH7Dlw58-UtmQaVQDg7Q7Z08qf2Hgvhv8rIuiNH09d2GltFe3LlI_7V99DKqH-B-DioG-RuYQ/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<e9fd9125b9>/rtmp/stream/KAACd0vaE-UPp7uGB22SA-K-QFbH7Dlw58-UtmQaVQDg7Q7Z08qf2Hgvhv8rIuiNH09d2GltFe3LlI_7V99DKqH-B-DioG-RuYQ/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/PPKuSUeroJNYGjSFFaDAbGnsjIhZktCb/rtmp/stream/KAACd0vaE-UPp7uGB22SA-K-QFbH7Dlw58-UtmQaVQDg7Q7Z08qf2Hgvhv8rIuiNH09d2GltFe3LlI_7V99DKqH-B-DioG-RuYQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<e9fd9125b9>/rtmp/stream/KAACd0vaE-UPp7uGB22SA-K-QFbH7Dlw58-UtmQaVQDg7Q7Z08qf2Hgvhv8rIuiNH09d2GltFe3LlI_7V99DKqH-B-DioG-RuYQ/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-houston-astros-vs-philadelphia-phillies/2",
             "title": "",
             "html_length": 132351,
             "script_hosts": [
@@ -2939,407 +1009,13 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb4.strmd.st/secure/<e9fd9125b9>/rtmp/stream/KAACd0vaE-UPp7uGB22SA-K-QFbH7Dlw58-UtmQaVQDg7Q7Z08qf2Hgvhv8rIuiNH09d2GltFe3LlI_7V99DKqH-B-DioG-RuYQ/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<9cf0cf9925>/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb4.strmd.st/secure/PPKuSUeroJNYGjSFFaDAbGnsjIhZktCb/rtmp/stream/KAACd0vaE-UPp7uGB22SA-K-QFbH7Dlw58-UtmQaVQDg7Q7Z08qf2Hgvhv8rIuiNH09d2GltFe3LlI_7V99DKqH-B-DioG-RuYQ/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb11.strmd.st/secure/RMamczDqHAfOvpOjRAWBRIVWymBUYCZj/delta/stream/live-event_nfl-network-live-stream/2/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "philadelphia-phillies-vs-houston-astros-2521126|golf|1132|1",
-      "title": "Philadelphia Phillies vs Houston Astros",
-      "embed": "https://embed.st/embed/golf/1132/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Allow attribute will take precedence over 'allowfullscreen'."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb14.strmd.st/secure/<0ad4ba2239>/ingest/stream/mphiladelphiaphillies/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb14.strmd.st/secure/jMOpUBNWhqysodEApEeuhSWWcFDNkEWA/ingest/stream/mphiladelphiaphillies/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb14.strmd.st/secure/<0ad4ba2239>/ingest/stream/mphiladelphiaphillies/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb14.strmd.st/secure/<0ad4ba2239>/ingest/stream/mphiladelphiaphillies/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/jMOpUBNWhqysodEApEeuhSWWcFDNkEWA/ingest/stream/mphiladelphiaphillies/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb14.strmd.st/secure/<0ad4ba2239>/ingest/stream/mphiladelphiaphillies/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1132/1",
-            "title": "",
-            "html_length": 2106,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "embedhd.st",
-              "llvpn.com"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb14.strmd.st/secure/<0ad4ba2239>/ingest/stream/mphiladelphiaphillies/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb14.strmd.st/secure/jMOpUBNWhqysodEApEeuhSWWcFDNkEWA/ingest/stream/mphiladelphiaphillies/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "philadelphia-phillies-vs-houston-astros-2521126|golf|1132|2",
-      "title": "Philadelphia Phillies vs Houston Astros",
-      "embed": "https://embed.st/embed/golf/1132/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://cdn11.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=px8h1JYHoRZKAvwK62KJAw&expires=1789078139",
-          "resource_type": "xhr"
-        },
-        {
-          "response": "media",
-          "status": 404,
-          "url": "https://cdn11.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=px8h1JYHoRZKAvwK62KJAw&expires=1789078139",
-          "referer": "https://exposestrat.st/"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 ()"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1132/2",
-            "title": "",
-            "html_length": 2105,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "embedhd.st",
-              "llvpn.com"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "atlanta-braves-vs-tampa-bay-rays-2521125|golf|1131|1",
-      "title": "Atlanta Braves vs Tampa Bay Rays",
-      "embed": "https://embed.st/embed/golf/1131/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Allow attribute will take precedence over 'allowfullscreen'."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<b93e9d8acd>/ingest/stream/matlantabraves/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb11.strmd.st/secure/GeXytAQdtUvoYmUyddqlJZdFLGGvDNaW/ingest/stream/matlantabraves/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<b93e9d8acd>/ingest/stream/matlantabraves/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<b93e9d8acd>/ingest/stream/matlantabraves/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/GeXytAQdtUvoYmUyddqlJZdFLGGvDNaW/ingest/stream/matlantabraves/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<b93e9d8acd>/ingest/stream/matlantabraves/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1131/1",
-            "title": "",
-            "html_length": 2106,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "embedhd.st",
-              "llvpn.com"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb11.strmd.st/secure/<b93e9d8acd>/ingest/stream/matlantabraves/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb11.strmd.st/secure/GeXytAQdtUvoYmUyddqlJZdFLGGvDNaW/ingest/stream/matlantabraves/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "atlanta-braves-vs-tampa-bay-rays-2521125|golf|1131|2",
-      "title": "Atlanta Braves vs Tampa Bay Rays",
-      "embed": "https://embed.st/embed/golf/1131/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://cdn12.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=kxWImmWs2BnlDHKgNUqA5Q&expires=1789078149",
-          "resource_type": "xhr"
-        },
-        {
-          "response": "media",
-          "status": 404,
-          "url": "https://cdn12.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=kxWImmWs2BnlDHKgNUqA5Q&expires=1789078149",
-          "referer": "https://exposestrat.st/"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 ()"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1131/2",
-            "title": "",
-            "html_length": 2105,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "embedhd.st",
-              "llvpn.com"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
         }
       ]
     }
