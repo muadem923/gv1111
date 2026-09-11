@@ -1,36 +1,33 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1789134421,
-  "elapsed_seconds": 32.79,
+  "started_at": 1789147178,
+  "elapsed_seconds": 58.91,
   "api_ok": true,
-  "matches": 7,
-  "live_matches": 7,
+  "matches": 18,
+  "live_matches": 18,
   "nearby_fallback_matches": 0,
   "nearby_fallback_used": false,
-  "source_pairs": 8,
-  "embed_candidates": 5,
+  "source_pairs": 20,
+  "embed_candidates": 12,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 5
+    "upstream_dead": 11,
+    "media_unverified": 1
   },
   "entries": [],
   "browser_events": [
     {
-      "key": "spanish-grand-prix-practice-1-2408915|golf|1136|1",
-      "title": "Spanish Grand Prix Practice 1",
-      "embed": "https://embed.st/embed/golf/1136/1",
+      "key": "h-cken-vs-mj-llby-2477941|admin|ppv-bk-h-cken-vs-mj-llby-aif|1",
+      "title": "Häcken vs Mjällby",
+      "embed": "https://embed.st/embed/admin/ppv-bk-h-cken-vs-mj-llby-aif/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
           "console": "warning",
-          "text": "Allow attribute will take precedence over 'allowfullscreen'."
-        },
-        {
-          "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
@@ -42,8 +39,21 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<130f1fbe0c>/rtmp/stream/hWo82Yv4oX7o3v3fIvFqoLqts8OYe8WG_DKIzly1mwIPYRfHykktyO4yBBemp1utepaxSPNduPQ/1/playlist.m3u8",
+          "resource_type": "fetch"
         },
         {
           "console": "warning",
@@ -51,7 +61,157 @@
         },
         {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/lvFlptXyZvjHRjSntUbSoWFaxXGAvesZ/rtmp/stream/hWo82Yv4oX7o3v3fIvFqoLqts8OYe8WG_DKIzly1mwIPYRfHykktyO4yBBemp1utepaxSPNduPQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<130f1fbe0c>/rtmp/stream/hWo82Yv4oX7o3v3fIvFqoLqts8OYe8WG_DKIzly1mwIPYRfHykktyO4yBBemp1utepaxSPNduPQ/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-bk-h-cken-vs-mj-llby-aif/1",
+            "title": "",
+            "html_length": 23853,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "llvpn.com",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb1.strmd.st/secure/<130f1fbe0c>/rtmp/stream/hWo82Yv4oX7o3v3fIvFqoLqts8OYe8WG_DKIzly1mwIPYRfHykktyO4yBBemp1utepaxSPNduPQ/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb1.strmd.st/secure/lvFlptXyZvjHRjSntUbSoWFaxXGAvesZ/rtmp/stream/hWo82Yv4oX7o3v3fIvFqoLqts8OYe8WG_DKIzly1mwIPYRfHykktyO4yBBemp1utepaxSPNduPQ/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<130f1fbe0c>/rtmp/stream/hWo82Yv4oX7o3v3fIvFqoLqts8OYe8WG_DKIzly1mwIPYRfHykktyO4yBBemp1utepaxSPNduPQ/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/lvFlptXyZvjHRjSntUbSoWFaxXGAvesZ/rtmp/stream/hWo82Yv4oX7o3v3fIvFqoLqts8OYe8WG_DKIzly1mwIPYRfHykktyO4yBBemp1utepaxSPNduPQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<130f1fbe0c>/rtmp/stream/hWo82Yv4oX7o3v3fIvFqoLqts8OYe8WG_DKIzly1mwIPYRfHykktyO4yBBemp1utepaxSPNduPQ/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "h-cken-vs-mj-llby-2477941|admin|ppv-bk-h-cken-vs-mj-llby-aif|2",
+      "title": "Häcken vs Mjällby",
+      "embed": "https://embed.st/embed/admin/ppv-bk-h-cken-vs-mj-llby-aif/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<0bbae6d0af>/rtmp/stream/J7gvRjY8Vb1bBybokBtFtZwP1tv8KvmUEuVOPQxAKtdhS6GVAO-IPZ_iYWVTw0tnM7pajmy2EhoCwsHy/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/kISzVGsqqDBamdokjNviTTCgcLwIAARD/rtmp/stream/J7gvRjY8Vb1bBybokBtFtZwP1tv8KvmUEuVOPQxAKtdhS6GVAO-IPZ_iYWVTw0tnM7pajmy2EhoCwsHy/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<0bbae6d0af>/rtmp/stream/J7gvRjY8Vb1bBybokBtFtZwP1tv8KvmUEuVOPQxAKtdhS6GVAO-IPZ_iYWVTw0tnM7pajmy2EhoCwsHy/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<0bbae6d0af>/rtmp/stream/J7gvRjY8Vb1bBybokBtFtZwP1tv8KvmUEuVOPQxAKtdhS6GVAO-IPZ_iYWVTw0tnM7pajmy2EhoCwsHy/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/kISzVGsqqDBamdokjNviTTCgcLwIAARD/rtmp/stream/J7gvRjY8Vb1bBybokBtFtZwP1tv8KvmUEuVOPQxAKtdhS6GVAO-IPZ_iYWVTw0tnM7pajmy2EhoCwsHy/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<0bbae6d0af>/rtmp/stream/J7gvRjY8Vb1bBybokBtFtZwP1tv8KvmUEuVOPQxAKtdhS6GVAO-IPZ_iYWVTw0tnM7pajmy2EhoCwsHy/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "console": "warning",
@@ -61,6 +221,54 @@
           "console": "warning",
           "text": "将根据已有的meta标签来设置缩放比例"
         },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-bk-h-cken-vs-mj-llby-aif/2",
+            "title": "",
+            "html_length": 132351,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llvpn.com",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb1.strmd.st/secure/<0bbae6d0af>/rtmp/stream/J7gvRjY8Vb1bBybokBtFtZwP1tv8KvmUEuVOPQxAKtdhS6GVAO-IPZ_iYWVTw0tnM7pajmy2EhoCwsHy/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb1.strmd.st/secure/kISzVGsqqDBamdokjNviTTCgcLwIAARD/rtmp/stream/J7gvRjY8Vb1bBybokBtFtZwP1tv8KvmUEuVOPQxAKtdhS6GVAO-IPZ_iYWVTw0tnM7pajmy2EhoCwsHy/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        }
+      ]
+    },
+    {
+      "key": "n-rnberg-vs-hannover-96-2511773|admin|ppv-1-fc-n-rnberg-vs-hannover-96|1",
+      "title": "Nürnberg vs Hannover 96",
+      "embed": "https://embed.st/embed/admin/ppv-1-fc-n-rnberg-vs-hannover-96/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
         {
           "request": "fetch",
           "method": "POST",
@@ -72,6 +280,180 @@
           "text": "将根据已有的meta标签来设置缩放比例"
         },
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<153028ddc4>/rtmp/stream/mvlu3i0ea7KNJM7V_7uj8fzTGmX_Ekz-z4u0Pho26usN7LIOsZyqUHQN89EBsl5uDub_DpwgxLj6/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://lp.realintelligence360.com/download-free-real/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb4.strmd.st/secure/IXssydfhqqSBqlZJmxanSgApabcJCaod/rtmp/stream/mvlu3i0ea7KNJM7V_7uj8fzTGmX_Ekz-z4u0Pho26usN7LIOsZyqUHQN89EBsl5uDub_DpwgxLj6/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<153028ddc4>/rtmp/stream/mvlu3i0ea7KNJM7V_7uj8fzTGmX_Ekz-z4u0Pho26usN7LIOsZyqUHQN89EBsl5uDub_DpwgxLj6/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<153028ddc4>/rtmp/stream/mvlu3i0ea7KNJM7V_7uj8fzTGmX_Ekz-z4u0Pho26usN7LIOsZyqUHQN89EBsl5uDub_DpwgxLj6/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-1-fc-n-rnberg-vs-hannover-96/1",
+            "title": "",
+            "html_length": 132151,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llvpn.com",
+              "strmd.b-cdn.net",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb4.strmd.st/secure/<153028ddc4>/rtmp/stream/mvlu3i0ea7KNJM7V_7uj8fzTGmX_Ekz-z4u0Pho26usN7LIOsZyqUHQN89EBsl5uDub_DpwgxLj6/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb4.strmd.st/secure/IXssydfhqqSBqlZJmxanSgApabcJCaod/rtmp/stream/mvlu3i0ea7KNJM7V_7uj8fzTGmX_Ekz-z4u0Pho26usN7LIOsZyqUHQN89EBsl5uDub_DpwgxLj6/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/IXssydfhqqSBqlZJmxanSgApabcJCaod/rtmp/stream/mvlu3i0ea7KNJM7V_7uj8fzTGmX_Ekz-z4u0Pho26usN7LIOsZyqUHQN89EBsl5uDub_DpwgxLj6/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<153028ddc4>/rtmp/stream/mvlu3i0ea7KNJM7V_7uj8fzTGmX_Ekz-z4u0Pho26usN7LIOsZyqUHQN89EBsl5uDub_DpwgxLj6/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://faphouse.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self'\". The request has been blocked.\n"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ]
+    },
+    {
+      "key": "n-rnberg-vs-hannover-96-2511773|admin|ppv-1-fc-n-rnberg-vs-hannover-96|2",
+      "title": "Nürnberg vs Hannover 96",
+      "embed": "https://embed.st/embed/admin/ppv-1-fc-n-rnberg-vs-hannover-96/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
           "response": "fetch",
           "status": 200,
           "url": "https://embed.st/fetch"
@@ -79,33 +461,449 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<61ba72fc63>/ingest/stream/nskyf1hdd/1/playlist.m3u8",
+          "url": "https://lb4.strmd.st/secure/<a817130c3f>/rtmp/stream/qIBB0BADax_CWCnGjPqUf1sMMGJEAMEWK-OEtk_gNTEKMtl2cXOTQSBDrrWBHx9AAow6NhCik0CQm1AHGw/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb4.strmd.st/secure/CnrDuceZeGfrmWjjoCjhRZQhXwQXzEhd/rtmp/stream/qIBB0BADax_CWCnGjPqUf1sMMGJEAMEWK-OEtk_gNTEKMtl2cXOTQSBDrrWBHx9AAow6NhCik0CQm1AHGw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<a817130c3f>/rtmp/stream/qIBB0BADax_CWCnGjPqUf1sMMGJEAMEWK-OEtk_gNTEKMtl2cXOTQSBDrrWBHx9AAow6NhCik0CQm1AHGw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<a817130c3f>/rtmp/stream/qIBB0BADax_CWCnGjPqUf1sMMGJEAMEWK-OEtk_gNTEKMtl2cXOTQSBDrrWBHx9AAow6NhCik0CQm1AHGw/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/CnrDuceZeGfrmWjjoCjhRZQhXwQXzEhd/rtmp/stream/qIBB0BADax_CWCnGjPqUf1sMMGJEAMEWK-OEtk_gNTEKMtl2cXOTQSBDrrWBHx9AAow6NhCik0CQm1AHGw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<a817130c3f>/rtmp/stream/qIBB0BADax_CWCnGjPqUf1sMMGJEAMEWK-OEtk_gNTEKMtl2cXOTQSBDrrWBHx9AAow6NhCik0CQm1AHGw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-1-fc-n-rnberg-vs-hannover-96/2",
+            "title": "",
+            "html_length": 132351,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llvpn.com",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb4.strmd.st/secure/<a817130c3f>/rtmp/stream/qIBB0BADax_CWCnGjPqUf1sMMGJEAMEWK-OEtk_gNTEKMtl2cXOTQSBDrrWBHx9AAow6NhCik0CQm1AHGw/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb4.strmd.st/secure/CnrDuceZeGfrmWjjoCjhRZQhXwQXzEhd/rtmp/stream/qIBB0BADax_CWCnGjPqUf1sMMGJEAMEWK-OEtk_gNTEKMtl2cXOTQSBDrrWBHx9AAow6NhCik0CQm1AHGw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        }
+      ]
+    },
+    {
+      "key": "darmstadt-vs-arminia-bielefeld-2511777|admin|ppv-sv-darmstadt-98-vs-arminia-bielefeld|1",
+      "title": "Darmstadt vs Arminia Bielefeld",
+      "embed": "https://embed.st/embed/admin/ppv-sv-darmstadt-98-vs-arminia-bielefeld/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<297a9ce9f4>/rtmp/stream/AY9u-k8T5yM3bOulfmboN3izQQs5c6qZ6TA2OzUjMQlLpxcNb2Mjo7sVZj_ir7uXDsVFbXMKl4Hi/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/jUPtLcuZPbiexQaRzMGzbOZTaXTdvNmk/rtmp/stream/AY9u-k8T5yM3bOulfmboN3izQQs5c6qZ6TA2OzUjMQlLpxcNb2Mjo7sVZj_ir7uXDsVFbXMKl4Hi/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<297a9ce9f4>/rtmp/stream/AY9u-k8T5yM3bOulfmboN3izQQs5c6qZ6TA2OzUjMQlLpxcNb2Mjo7sVZj_ir7uXDsVFbXMKl4Hi/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<297a9ce9f4>/rtmp/stream/AY9u-k8T5yM3bOulfmboN3izQQs5c6qZ6TA2OzUjMQlLpxcNb2Mjo7sVZj_ir7uXDsVFbXMKl4Hi/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-sv-darmstadt-98-vs-arminia-bielefeld/1",
+            "title": "",
+            "html_length": 132327,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llvpn.com",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb12.strmd.st/secure/<297a9ce9f4>/rtmp/stream/AY9u-k8T5yM3bOulfmboN3izQQs5c6qZ6TA2OzUjMQlLpxcNb2Mjo7sVZj_ir7uXDsVFbXMKl4Hi/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb12.strmd.st/secure/jUPtLcuZPbiexQaRzMGzbOZTaXTdvNmk/rtmp/stream/AY9u-k8T5yM3bOulfmboN3izQQs5c6qZ6TA2OzUjMQlLpxcNb2Mjo7sVZj_ir7uXDsVFbXMKl4Hi/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/jUPtLcuZPbiexQaRzMGzbOZTaXTdvNmk/rtmp/stream/AY9u-k8T5yM3bOulfmboN3izQQs5c6qZ6TA2OzUjMQlLpxcNb2Mjo7sVZj_ir7uXDsVFbXMKl4Hi/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<297a9ce9f4>/rtmp/stream/AY9u-k8T5yM3bOulfmboN3izQQs5c6qZ6TA2OzUjMQlLpxcNb2Mjo7sVZj_ir7uXDsVFbXMKl4Hi/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: encrypted-media is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: screen-wake-lock is not allowed in this document."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        }
+      ]
+    },
+    {
+      "key": "darmstadt-vs-arminia-bielefeld-2511777|admin|ppv-sv-darmstadt-98-vs-arminia-bielefeld|2",
+      "title": "Darmstadt vs Arminia Bielefeld",
+      "embed": "https://embed.st/embed/admin/ppv-sv-darmstadt-98-vs-arminia-bielefeld/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<17316f969d>/rtmp/stream/GN7vASGy30SyaSkt_JRIwEPbjiGRrBo5LPtIWAKIUGWFZZrrVwrBicwvKonaW0zlQrs505_c5PI4v9HHwA/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/CDGbIxfJPukYSRpkMvorUPaSdbyRGhky/rtmp/stream/GN7vASGy30SyaSkt_JRIwEPbjiGRrBo5LPtIWAKIUGWFZZrrVwrBicwvKonaW0zlQrs505_c5PI4v9HHwA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<17316f969d>/rtmp/stream/GN7vASGy30SyaSkt_JRIwEPbjiGRrBo5LPtIWAKIUGWFZZrrVwrBicwvKonaW0zlQrs505_c5PI4v9HHwA/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<17316f969d>/rtmp/stream/GN7vASGy30SyaSkt_JRIwEPbjiGRrBo5LPtIWAKIUGWFZZrrVwrBicwvKonaW0zlQrs505_c5PI4v9HHwA/1/playlist.m3u8",
+          "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/CDGbIxfJPukYSRpkMvorUPaSdbyRGhky/rtmp/stream/GN7vASGy30SyaSkt_JRIwEPbjiGRrBo5LPtIWAKIUGWFZZrrVwrBicwvKonaW0zlQrs505_c5PI4v9HHwA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<17316f969d>/rtmp/stream/GN7vASGy30SyaSkt_JRIwEPbjiGRrBo5LPtIWAKIUGWFZZrrVwrBicwvKonaW0zlQrs505_c5PI4v9HHwA/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-sv-darmstadt-98-vs-arminia-bielefeld/2",
+            "title": "",
+            "html_length": 132351,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "llvpn.com",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
         },
+        {
+          "ffprobe": false,
+          "url": "https://lb12.strmd.st/secure/<17316f969d>/rtmp/stream/GN7vASGy30SyaSkt_JRIwEPbjiGRrBo5LPtIWAKIUGWFZZrrVwrBicwvKonaW0zlQrs505_c5PI4v9HHwA/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb12.strmd.st/secure/CDGbIxfJPukYSRpkMvorUPaSdbyRGhky/rtmp/stream/GN7vASGy30SyaSkt_JRIwEPbjiGRrBo5LPtIWAKIUGWFZZrrVwrBicwvKonaW0zlQrs505_c5PI4v9HHwA/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        }
+      ]
+    },
+    {
+      "key": "1149|golf|1149|1",
+      "title": "Chicago Cubs - Pittsburgh Pirates",
+      "embed": "https://embed.st/embed/golf/1149/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
         {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
@@ -124,14 +922,87 @@
         },
         {
           "console": "warning",
+          "text": "Allow attribute will take precedence over 'allowfullscreen'."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb3.strmd.st/secure/FQCrMTfLaJlfbsjfkrMdnVeUaOBdtHup/ingest/stream/nskyf1hdd/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "request_failed": "https://lb3.strmd.st/secure/<61ba72fc63>/ingest/stream/nskyf1hdd/1/playlist.m3u8",
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<89880332e7>/ingest/stream/mchicagocubs/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb3.strmd.st/secure/ftxgVjpedFagOsUNJSOUyZCrvPvZWBQV/ingest/stream/mchicagocubs/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb3.strmd.st/secure/<89880332e7>/ingest/stream/mchicagocubs/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -139,11 +1010,45 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb3.strmd.st/secure/<89880332e7>/ingest/stream/mchicagocubs/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/golf/1136/1",
+            "url": "https://embed.st/embed/golf/1149/1",
             "title": "",
-            "html_length": 2106,
+            "html_length": 2104,
             "script_hosts": [
               "a.cdn-lab.shop",
               "ann.cdn-lab.shop",
@@ -159,59 +1064,41 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb3.strmd.st/secure/<61ba72fc63>/ingest/stream/nskyf1hdd/1/playlist.m3u8",
+          "url": "https://lb3.strmd.st/secure/<89880332e7>/ingest/stream/mchicagocubs/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb3.strmd.st/secure/FQCrMTfLaJlfbsjfkrMdnVeUaOBdtHup/ingest/stream/nskyf1hdd/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb3.strmd.st/secure/ftxgVjpedFagOsUNJSOUyZCrvPvZWBQV/ingest/stream/mchicagocubs/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
         },
         {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
           "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
+          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/ftxgVjpedFagOsUNJSOUyZCrvPvZWBQV/ingest/stream/mchicagocubs/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<61ba72fc63>/ingest/stream/nskyf1hdd/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/FQCrMTfLaJlfbsjfkrMdnVeUaOBdtHup/ingest/stream/nskyf1hdd/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<61ba72fc63>/ingest/stream/nskyf1hdd/1/playlist.m3u8",
+          "request_failed": "https://lb3.strmd.st/secure/<89880332e7>/ingest/stream/mchicagocubs/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
         },
         {
           "console": "warning",
@@ -228,29 +1115,49 @@
         {
           "console": "warning",
           "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         }
       ]
     },
     {
-      "key": "spanish-grand-prix-practice-1-2408915|golf|1136|2",
-      "title": "Spanish Grand Prix Practice 1",
-      "embed": "https://embed.st/embed/golf/1136/2",
+      "key": "1149|golf|1149|2",
+      "title": "Chicago Cubs - Pittsburgh Pirates",
+      "embed": "https://embed.st/embed/golf/1149/2",
       "discovery": "live",
-      "classification": "upstream_dead",
+      "classification": "media_unverified",
       "events": [
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
@@ -260,11 +1167,7 @@
         },
         {
           "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "console": "warning",
@@ -279,17 +1182,9 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://cdn13.zohanayaan.com:1686/hls/nskyf1hdd.m3u8?md5=776uw0TCEIItbEX2pkml0Q&expires=1789141637",
+          "url": "https://cdn11.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=sB5YG6grNHUWm9nAnGb90w&expires=1789154412",
           "resource_type": "xhr"
         },
         {
@@ -297,30 +1192,22 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "error",
-          "text": "Permissions policy violation: accelerometer is not allowed in this document."
-        },
-        {
           "console": "warning",
-          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
         },
         {
           "response": "media",
-          "status": 404,
-          "url": "https://cdn13.zohanayaan.com:1686/hls/nskyf1hdd.m3u8?md5=776uw0TCEIItbEX2pkml0Q&expires=1789141637",
+          "status": 200,
+          "url": "https://cdn11.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=sB5YG6grNHUWm9nAnGb90w&expires=1789154412",
           "referer": "https://exposestrat.st/"
         },
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 ()"
-        },
-        {
-          "console": "error",
-          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "console": "warning",
-          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
         },
         {
           "console": "warning",
@@ -336,81 +1223,495 @@
         },
         {
           "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "Permissions policy violation: accelerometer is not allowed in this document."
-        },
-        {
-          "console": "warning",
-          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Permissions policy violation: accelerometer is not allowed in this document."
-        },
-        {
-          "console": "warning",
-          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
-        },
-        {
-          "console": "error",
-          "text": "Permissions policy violation: accelerometer is not allowed in this document."
-        },
-        {
-          "console": "warning",
-          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
-        },
-        {
-          "console": "error",
-          "text": "Permissions policy violation: accelerometer is not allowed in this document."
-        },
-        {
-          "console": "warning",
-          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
-        },
-        {
-          "console": "error",
-          "text": "Permissions policy violation: accelerometer is not allowed in this document."
-        },
-        {
-          "console": "warning",
-          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Permissions policy violation: accelerometer is not allowed in this document."
-        },
-        {
-          "console": "warning",
-          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
         },
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/golf/1136/2",
+            "url": "https://embed.st/embed/golf/1149/2",
             "title": "",
-            "html_length": 1881,
+            "html_length": 2105,
             "script_hosts": [
               "a.cdn-lab.shop",
               "ann.cdn-lab.shop",
+              "embedhd.st",
+              "llvpn.com"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "b-l--tyg-i-liberec-vs-herning-blue-fox-2507677|admin|ppv-b-l-tyg-i-liberec-vs-herning-blue-fox|1",
+      "title": "Bílí Tygři Liberec vs Herning Blue Fox",
+      "embed": "https://embed.st/embed/admin/ppv-b-l-tyg-i-liberec-vs-herning-blue-fox/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<27cbc93c2e>/rtmp/stream/dATjSP9zDoMN6K26-kx3zjXprxtvOjA2CvOTszDzOMfy9-yhDhUHtgFym09utoKl6dzz-b3VIjGb/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb6.strmd.st/secure/eJYYcahIgYNwBTrEcjlGYSPPkEELTTZO/rtmp/stream/dATjSP9zDoMN6K26-kx3zjXprxtvOjA2CvOTszDzOMfy9-yhDhUHtgFym09utoKl6dzz-b3VIjGb/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<27cbc93c2e>/rtmp/stream/dATjSP9zDoMN6K26-kx3zjXprxtvOjA2CvOTszDzOMfy9-yhDhUHtgFym09utoKl6dzz-b3VIjGb/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<27cbc93c2e>/rtmp/stream/dATjSP9zDoMN6K26-kx3zjXprxtvOjA2CvOTszDzOMfy9-yhDhUHtgFym09utoKl6dzz-b3VIjGb/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/eJYYcahIgYNwBTrEcjlGYSPPkEELTTZO/rtmp/stream/dATjSP9zDoMN6K26-kx3zjXprxtvOjA2CvOTszDzOMfy9-yhDhUHtgFym09utoKl6dzz-b3VIjGb/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<27cbc93c2e>/rtmp/stream/dATjSP9zDoMN6K26-kx3zjXprxtvOjA2CvOTszDzOMfy9-yhDhUHtgFym09utoKl6dzz-b3VIjGb/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-b-l-tyg-i-liberec-vs-herning-blue-fox/1",
+            "title": "",
+            "html_length": 768397,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "ejubffgqqurwz.space",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb6.strmd.st/secure/<27cbc93c2e>/rtmp/stream/dATjSP9zDoMN6K26-kx3zjXprxtvOjA2CvOTszDzOMfy9-yhDhUHtgFym09utoKl6dzz-b3VIjGb/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb6.strmd.st/secure/eJYYcahIgYNwBTrEcjlGYSPPkEELTTZO/rtmp/stream/dATjSP9zDoMN6K26-kx3zjXprxtvOjA2CvOTszDzOMfy9-yhDhUHtgFym09utoKl6dzz-b3VIjGb/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        }
+      ]
+    },
+    {
+      "key": "b-l--tyg-i-liberec-vs-herning-blue-fox-2507677|admin|ppv-b-l-tyg-i-liberec-vs-herning-blue-fox|2",
+      "title": "Bílí Tygři Liberec vs Herning Blue Fox",
+      "embed": "https://embed.st/embed/admin/ppv-b-l-tyg-i-liberec-vs-herning-blue-fox/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<4bf81bdf31>/rtmp/stream/87PFcpbLd_T-VCknPwm8A6kcfp-ldy6WgTFlsxe2VwlpYxqVTaJGHhjflR7FnhQPld5z0lJyGlDorYdH-Q/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb4.strmd.st/secure/fEfQEBXXsnVCGLYYOmhzXGcVNZtSMPTp/rtmp/stream/87PFcpbLd_T-VCknPwm8A6kcfp-ldy6WgTFlsxe2VwlpYxqVTaJGHhjflR7FnhQPld5z0lJyGlDorYdH-Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<4bf81bdf31>/rtmp/stream/87PFcpbLd_T-VCknPwm8A6kcfp-ldy6WgTFlsxe2VwlpYxqVTaJGHhjflR7FnhQPld5z0lJyGlDorYdH-Q/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb4.strmd.st/secure/<4bf81bdf31>/rtmp/stream/87PFcpbLd_T-VCknPwm8A6kcfp-ldy6WgTFlsxe2VwlpYxqVTaJGHhjflR7FnhQPld5z0lJyGlDorYdH-Q/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/fEfQEBXXsnVCGLYYOmhzXGcVNZtSMPTp/rtmp/stream/87PFcpbLd_T-VCknPwm8A6kcfp-ldy6WgTFlsxe2VwlpYxqVTaJGHhjflR7FnhQPld5z0lJyGlDorYdH-Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb4.strmd.st/secure/<4bf81bdf31>/rtmp/stream/87PFcpbLd_T-VCknPwm8A6kcfp-ldy6WgTFlsxe2VwlpYxqVTaJGHhjflR7FnhQPld5z0lJyGlDorYdH-Q/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-b-l-tyg-i-liberec-vs-herning-blue-fox/2",
+            "title": "",
+            "html_length": 768397,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "ejubffgqqurwz.space",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb4.strmd.st/secure/<4bf81bdf31>/rtmp/stream/87PFcpbLd_T-VCknPwm8A6kcfp-ldy6WgTFlsxe2VwlpYxqVTaJGHhjflR7FnhQPld5z0lJyGlDorYdH-Q/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb4.strmd.st/secure/fEfQEBXXsnVCGLYYOmhzXGcVNZtSMPTp/rtmp/stream/87PFcpbLd_T-VCknPwm8A6kcfp-ldy6WgTFlsxe2VwlpYxqVTaJGHhjflR7FnhQPld5z0lJyGlDorYdH-Q/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        }
+      ]
+    },
+    {
+      "key": "1198|golf|1198|1",
+      "title": "Harry Powell - Nathan Sheppard",
+      "embed": "https://embed.st/embed/golf/1198/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Allow attribute will take precedence over 'allowfullscreen'."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<88ab308220>/ingest/stream/mevent1/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/kPiUEWXAqQfjKJoLTettlhrgefStxEsn/ingest/stream/mevent1/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<88ab308220>/ingest/stream/mevent1/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<88ab308220>/ingest/stream/mevent1/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/kPiUEWXAqQfjKJoLTettlhrgefStxEsn/ingest/stream/mevent1/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<88ab308220>/ingest/stream/mevent1/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/golf/1198/1",
+            "title": "",
+            "html_length": 638152,
+            "script_hosts": [
+              "a.cdn-lab.shop",
+              "ann.cdn-lab.shop",
+              "ejubffgqqurwz.space",
               "embedhd.st"
             ],
             "browser": {
@@ -419,106 +1720,18 @@
               "platform": "Linux x86_64"
             }
           }
-        }
-      ]
-    },
-    {
-      "key": "ppv-england-vs-pakistan|admin|ppv-england-vs-pakistan|1",
-      "title": "England vs. Pakistan",
-      "embed": "https://embed.st/embed/admin/ppv-england-vs-pakistan/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<6c9505bb5c>/rtmp/stream/rA8Uh6BHuVsKVpuMrWWX99dqYzuWi8oVEKdace5If9fdMU2t2vYnQqJEYowgz0cgk5RtaVOe_EYxeZuohxM/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-england-vs-pakistan/1",
-            "title": "",
-            "html_length": 23343,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "llvpn.com",
-              "strmd.b-cdn.net"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
         },
         {
           "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<6c9505bb5c>/rtmp/stream/rA8Uh6BHuVsKVpuMrWWX99dqYzuWi8oVEKdace5If9fdMU2t2vYnQqJEYowgz0cgk5RtaVOe_EYxeZuohxM/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<88ab308220>/ingest/stream/mevent1/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb5.strmd.st/secure/SbXFWESGRJEhuIJZlgIVBlPjSssZAYuF/rtmp/stream/rA8Uh6BHuVsKVpuMrWWX99dqYzuWi8oVEKdace5If9fdMU2t2vYnQqJEYowgz0cgk5RtaVOe_EYxeZuohxM/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb8.strmd.st/secure/kPiUEWXAqQfjKJoLTettlhrgefStxEsn/ingest/stream/mevent1/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/SbXFWESGRJEhuIJZlgIVBlPjSssZAYuF/rtmp/stream/rA8Uh6BHuVsKVpuMrWWX99dqYzuWi8oVEKdace5If9fdMU2t2vYnQqJEYowgz0cgk5RtaVOe_EYxeZuohxM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<6c9505bb5c>/rtmp/stream/rA8Uh6BHuVsKVpuMrWWX99dqYzuWi8oVEKdace5If9fdMU2t2vYnQqJEYowgz0cgk5RtaVOe_EYxeZuohxM/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
@@ -527,30 +1740,8 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<6c9505bb5c>/rtmp/stream/rA8Uh6BHuVsKVpuMrWWX99dqYzuWi8oVEKdace5If9fdMU2t2vYnQqJEYowgz0cgk5RtaVOe_EYxeZuohxM/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb5.strmd.st/secure/SbXFWESGRJEhuIJZlgIVBlPjSssZAYuF/rtmp/stream/rA8Uh6BHuVsKVpuMrWWX99dqYzuWi8oVEKdace5If9fdMU2t2vYnQqJEYowgz0cgk5RtaVOe_EYxeZuohxM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<6c9505bb5c>/rtmp/stream/rA8Uh6BHuVsKVpuMrWWX99dqYzuWi8oVEKdace5If9fdMU2t2vYnQqJEYowgz0cgk5RtaVOe_EYxeZuohxM/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "console": "error",
@@ -567,64 +1758,26 @@
         {
           "console": "warning",
           "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
-        }
-      ]
-    },
-    {
-      "key": "ppv-england-vs-pakistan|admin|ppv-england-vs-pakistan|2",
-      "title": "England vs. Pakistan",
-      "embed": "https://embed.st/embed/admin/ppv-england-vs-pakistan/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<02543dd560>/rtmp/stream/pd5gobtQqimuCcdJ1h-V9RfgSOFJRL6SprIoYTPgjI7NxFRNLhUtrNw2SLCco2SF0swqEjWwQgEWTNqIfFwWLsIF/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/sLwMwUPzGjNRFlVyPyAsDrAIZMVBpwWn/rtmp/stream/pd5gobtQqimuCcdJ1h-V9RfgSOFJRL6SprIoYTPgjI7NxFRNLhUtrNw2SLCco2SF0swqEjWwQgEWTNqIfFwWLsIF/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<02543dd560>/rtmp/stream/pd5gobtQqimuCcdJ1h-V9RfgSOFJRL6SprIoYTPgjI7NxFRNLhUtrNw2SLCco2SF0swqEjWwQgEWTNqIfFwWLsIF/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
         },
         {
           "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "console": "warning",
@@ -637,83 +1790,6 @@
         {
           "console": "warning",
           "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<02543dd560>/rtmp/stream/pd5gobtQqimuCcdJ1h-V9RfgSOFJRL6SprIoYTPgjI7NxFRNLhUtrNw2SLCco2SF0swqEjWwQgEWTNqIfFwWLsIF/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-england-vs-pakistan/2",
-            "title": "",
-            "html_length": 132328,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<02543dd560>/rtmp/stream/pd5gobtQqimuCcdJ1h-V9RfgSOFJRL6SprIoYTPgjI7NxFRNLhUtrNw2SLCco2SF0swqEjWwQgEWTNqIfFwWLsIF/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb6.strmd.st/secure/sLwMwUPzGjNRFlVyPyAsDrAIZMVBpwWn/rtmp/stream/pd5gobtQqimuCcdJ1h-V9RfgSOFJRL6SprIoYTPgjI7NxFRNLhUtrNw2SLCco2SF0swqEjWwQgEWTNqIfFwWLsIF/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/sLwMwUPzGjNRFlVyPyAsDrAIZMVBpwWn/rtmp/stream/pd5gobtQqimuCcdJ1h-V9RfgSOFJRL6SprIoYTPgjI7NxFRNLhUtrNw2SLCco2SF0swqEjWwQgEWTNqIfFwWLsIF/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<02543dd560>/rtmp/stream/pd5gobtQqimuCcdJ1h-V9RfgSOFJRL6SprIoYTPgjI7NxFRNLhUtrNw2SLCco2SF0swqEjWwQgEWTNqIfFwWLsIF/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "console": "warning",
@@ -722,17 +1798,15 @@
       ]
     },
     {
-      "key": "live-event_formula-1-2026-spain-gp-1-live-stream|delta|live-event_formula-1-2026-spain-gp-1-live-stream|1",
-      "title": "Formula 1 2026 - Spain GP",
-      "embed": "https://embed.st/embed/delta/live-event_formula-1-2026-spain-gp-1-live-stream/1",
+      "key": "1198|golf|1198|2",
+      "title": "Harry Powell - Nathan Sheppard",
+      "embed": "https://embed.st/embed/golf/1198/2",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
         },
         {
           "console": "warning",
@@ -743,91 +1817,60 @@
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
+          "console": "warning",
+          "text": "document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<0d398f31c7>/delta/stream/live-event_formula-1-2026-spain-gp-1-live-stream/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/JSuqgngCkKBFhUDNzvlryFagozWpUVeO/delta/stream/live-event_formula-1-2026-spain-gp-1-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<0d398f31c7>/delta/stream/live-event_formula-1-2026-spain-gp-1-live-stream/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<0d398f31c7>/delta/stream/live-event_formula-1-2026-spain-gp-1-live-stream/1/playlist.m3u8",
+          "url": "https://cdn13.zohanayaan.com:1686/hls/mevent1.m3u8?md5=Qh33VMeWr2Lq1e2Slxu06Q&expires=1789154430",
           "resource_type": "xhr"
         },
         {
+          "response": "media",
+          "status": 404,
+          "url": "https://cdn13.zohanayaan.com:1686/hls/mevent1.m3u8?md5=Qh33VMeWr2Lq1e2Slxu06Q&expires=1789154430",
+          "referer": "https://exposestrat.st/"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://faphouse.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self'\". The request has been blocked.\n"
+        },
+        {
           "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/JSuqgngCkKBFhUDNzvlryFagozWpUVeO/delta/stream/live-event_formula-1-2026-spain-gp-1-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<0d398f31c7>/delta/stream/live-event_formula-1-2026-spain-gp-1-live-stream/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
+          "text": "Framing 'https://faphouse.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self'\". The request has been blocked.\n"
         },
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live-event_formula-1-2026-spain-gp-1-live-stream/1",
+            "url": "https://embed.st/embed/golf/1198/2",
             "title": "",
-            "html_length": 132350,
+            "html_length": 1909,
             "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "llvpn.com",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
+              "a.cdn-lab.shop",
+              "ann.cdn-lab.shop",
+              "embedhd.st",
+              "therocketlanguages.com"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -835,44 +1878,6 @@
               "platform": "Linux x86_64"
             }
           }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<0d398f31c7>/delta/stream/live-event_formula-1-2026-spain-gp-1-live-stream/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb6.strmd.st/secure/JSuqgngCkKBFhUDNzvlryFagozWpUVeO/delta/stream/live-event_formula-1-2026-spain-gp-1-live-stream/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "将根据已有的meta标签来设置缩放比例"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         }
       ]
     }
