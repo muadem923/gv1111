@@ -1,62 +1,4191 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1789227632,
-  "elapsed_seconds": 52.53,
+  "started_at": 1789235428,
+  "elapsed_seconds": 74.73,
   "api_ok": true,
-  "matches": 69,
-  "live_matches": 69,
+  "matches": 136,
+  "live_matches": 136,
   "nearby_fallback_matches": 0,
   "nearby_fallback_used": false,
-  "source_pairs": 45,
-  "embed_candidates": 0,
+  "source_pairs": 35,
+  "embed_candidates": 17,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
-  "classification_counts": {},
+  "classification_counts": {
+    "upstream_dead": 17
+  },
   "entries": [],
-  "browser_events": [],
-  "errors": [
-    "stream echo/strasbourg-vs-monaco-football-1552764: ReadTimeout: HTTPSConnectionPool(host='livextv-backend.onrender.com', port=443): Read timed out. (read timeout=15)",
-    "stream delta/live_cfb_winston-salem-state-rams-johnson-c-smith-golden-bulls-live-streaming-587739456: ReadTimeout: HTTPSConnectionPool(host='livextv-backend.onrender.com', port=443): Read timed out. (read timeout=15)",
-    "stream echo/3rd-qualifying-circuit-de-espana-formula-1-2723: ReadTimeout: HTTPSConnectionPool(host='livextv-backend.onrender.com', port=443): Read timed out. (read timeout=15)",
-    "stream admin/ppv-fc-twente-vs-ado-den-haag: HTTPError: 503 Server Error: Service Unavailable for url: https://livextv-backend.onrender.com/api/stream/admin/ppv-fc-twente-vs-ado-den-haag",
-    "stream echo/twente-vs-ado-den-haag-football-1552163: HTTPError: 503 Server Error: Service Unavailable for url: https://livextv-backend.onrender.com/api/stream/echo/twente-vs-ado-den-haag-football-1552163",
-    "stream echo/nacional-vs-alverca-football-1575498: HTTPError: 503 Server Error: Service Unavailable for url: https://livextv-backend.onrender.com/api/stream/echo/nacional-vs-alverca-football-1575498",
-    "stream echo/alemannia-aachen-vs-ssv-jahn-regensburg-football-1583984: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/alemannia-aachen-vs-ssv-jahn-regensburg-football-1583984",
-    "stream echo/cadiz-vs-las-palmas-football-1569917: HTTPError: 503 Server Error: Service Unavailable for url: https://livextv-backend.onrender.com/api/stream/echo/cadiz-vs-las-palmas-football-1569917",
-    "stream admin/ppv-osasuna-vs-espanyol: HTTPError: 503 Server Error: Service Unavailable for url: https://livextv-backend.onrender.com/api/stream/admin/ppv-osasuna-vs-espanyol",
-    "stream delta/live_laliga_osasuna-espanyol-live-streaming-615782304: HTTPError: 503 Server Error: Service Unavailable for url: https://livextv-backend.onrender.com/api/stream/delta/live_laliga_osasuna-espanyol-live-streaming-615782304",
-    "stream echo/osasuna-vs-espanyol-football-1570377: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/osasuna-vs-espanyol-football-1570377",
-    "stream admin/ppv-spanish-grand-prix-qualifying: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/admin/ppv-spanish-grand-prix-qualifying",
-    "stream golf/1160: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/golf/1160",
-    "stream admin/ppv-afc-bournemouth-vs-brentford: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/admin/ppv-afc-bournemouth-vs-brentford",
-    "stream delta/live_premier-league_bournemouth-brentford-live-streaming-615390912: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/delta/live_premier-league_bournemouth-brentford-live-streaming-615390912",
-    "stream echo/bournemouth-vs-brentford-football-1557398: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/bournemouth-vs-brentford-football-1557398",
-    "stream admin/ppv-liverpool-vs-fulham: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/admin/ppv-liverpool-vs-fulham",
-    "stream delta/live_premier-league_liverpool-fulham-live-streaming-615392208: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/delta/live_premier-league_liverpool-fulham-live-streaming-615392208",
-    "stream echo/liverpool-vs-fulham-football-1557403: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/liverpool-vs-fulham-football-1557403",
-    "stream admin/ppv-chelsea-vs-hull-city: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/admin/ppv-chelsea-vs-hull-city",
-    "stream delta/live_premier-league_chelsea-hull-live-streaming-615391344: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/delta/live_premier-league_chelsea-hull-live-streaming-615391344",
-    "stream echo/chelsea-vs-hull-city-football-1557399: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/chelsea-vs-hull-city-football-1557399",
-    "stream admin/ppv-crystal-palace-vs-ipswich-town: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/admin/ppv-crystal-palace-vs-ipswich-town",
-    "stream delta/live_premier-league_crystal-palace-ipswich-live-streaming-615391776: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/delta/live_premier-league_crystal-palace-ipswich-live-streaming-615391776",
-    "stream echo/crystal-palace-vs-ipswich-football-1557401: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/crystal-palace-vs-ipswich-football-1557401",
-    "stream admin/ppv-aston-villa-vs-nottingham-forest: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/admin/ppv-aston-villa-vs-nottingham-forest",
-    "stream delta/live_premier-league_aston-villa-forest-live-streaming-615390480: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/delta/live_premier-league_aston-villa-forest-live-streaming-615390480",
-    "stream echo/aston-villa-vs-nottingham-forest-football-1557397: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/aston-villa-vs-nottingham-forest-football-1557397",
-    "stream echo/rotherham-vs-salford-city-football-1563751: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/rotherham-vs-salford-city-football-1563751",
-    "stream echo/walsall-vs-rochdale-football-1563753: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/walsall-vs-rochdale-football-1563753",
-    "stream echo/gillingham-vs-tranmere-football-1563746: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/gillingham-vs-tranmere-football-1563746",
-    "stream echo/oldham-vs-chesterfield-football-1563749: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/oldham-vs-chesterfield-football-1563749",
-    "stream echo/port-vale-vs-exeter-city-football-1563750: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/port-vale-vs-exeter-city-football-1563750",
-    "stream echo/shrewsbury-vs-northampton-football-1563752: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/shrewsbury-vs-northampton-football-1563752",
-    "stream echo/colchester-vs-crewe-football-1563744: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/colchester-vs-crewe-football-1563744",
-    "stream echo/newport-county-vs-fleetwood-town-football-1563748: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/newport-county-vs-fleetwood-town-football-1563748",
-    "stream echo/barnet-vs-accrington-st-football-1563743: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/barnet-vs-accrington-st-football-1563743",
-    "stream echo/york-vs-swindon-town-football-1563754: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/york-vs-swindon-town-football-1563754",
-    "stream echo/sheffield-wednesday-vs-wigan-football-1564304: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/sheffield-wednesday-vs-wigan-football-1564304",
-    "stream echo/afc-wimbledon-vs-doncaster-football-1564295: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/afc-wimbledon-vs-doncaster-football-1564295",
-    "stream echo/oxford-united-vs-burton-albion-football-1564302: HTTPError: 429 Client Error: Too Many Requests for url: https://livextv-backend.onrender.com/api/stream/echo/oxford-united-vs-burton-albion-football-1564302"
-  ]
+  "browser_events": [
+    {
+      "key": "new-york-yankees-vs-new-york-mets-2521146|admin|ppv-new-york-mets-vs-new-york-yankees|1",
+      "title": "New York Yankees vs New York Mets",
+      "embed": "https://embed.st/embed/admin/ppv-new-york-mets-vs-new-york-yankees/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<3e28ed1200>/rtmp/stream/ov5ug4MhRpbpfkPJ8dm4_C0y28fXcXzavIjRuJXqCZLdBColDsTIiS84g_tRCr5qbrr_tRBJBMm53O4xklDE4Q/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/jKKpGyCyShraVuenwPeyukKbidKTaQLn/rtmp/stream/ov5ug4MhRpbpfkPJ8dm4_C0y28fXcXzavIjRuJXqCZLdBColDsTIiS84g_tRCr5qbrr_tRBJBMm53O4xklDE4Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<3e28ed1200>/rtmp/stream/ov5ug4MhRpbpfkPJ8dm4_C0y28fXcXzavIjRuJXqCZLdBColDsTIiS84g_tRCr5qbrr_tRBJBMm53O4xklDE4Q/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-new-york-mets-vs-new-york-yankees/1",
+            "title": "",
+            "html_length": 659897,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb1.strmd.st/secure/<3e28ed1200>/rtmp/stream/ov5ug4MhRpbpfkPJ8dm4_C0y28fXcXzavIjRuJXqCZLdBColDsTIiS84g_tRCr5qbrr_tRBJBMm53O4xklDE4Q/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb1.strmd.st/secure/jKKpGyCyShraVuenwPeyukKbidKTaQLn/rtmp/stream/ov5ug4MhRpbpfkPJ8dm4_C0y28fXcXzavIjRuJXqCZLdBColDsTIiS84g_tRCr5qbrr_tRBJBMm53O4xklDE4Q/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<3e28ed1200>/rtmp/stream/ov5ug4MhRpbpfkPJ8dm4_C0y28fXcXzavIjRuJXqCZLdBColDsTIiS84g_tRCr5qbrr_tRBJBMm53O4xklDE4Q/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/jKKpGyCyShraVuenwPeyukKbidKTaQLn/rtmp/stream/ov5ug4MhRpbpfkPJ8dm4_C0y28fXcXzavIjRuJXqCZLdBColDsTIiS84g_tRCr5qbrr_tRBJBMm53O4xklDE4Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<3e28ed1200>/rtmp/stream/ov5ug4MhRpbpfkPJ8dm4_C0y28fXcXzavIjRuJXqCZLdBColDsTIiS84g_tRCr5qbrr_tRBJBMm53O4xklDE4Q/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ]
+    },
+    {
+      "key": "new-york-yankees-vs-new-york-mets-2521146|admin|ppv-new-york-mets-vs-new-york-yankees|2",
+      "title": "New York Yankees vs New York Mets",
+      "embed": "https://embed.st/embed/admin/ppv-new-york-mets-vs-new-york-yankees/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<7dbae4e351>/rtmp/stream/e8hV0No9_J3S9PwT1Zbm366oMXzpm76vHirR6Z-6Pd5K0Kyh4dM4_ByTZBXzBdhV_K1Do8MrZkQqXrXsQ_IVAoh6ExY/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/ENSXGQTuylLSxutsbVhkBEBKmhagZdrN/rtmp/stream/e8hV0No9_J3S9PwT1Zbm366oMXzpm76vHirR6Z-6Pd5K0Kyh4dM4_ByTZBXzBdhV_K1Do8MrZkQqXrXsQ_IVAoh6ExY/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<7dbae4e351>/rtmp/stream/e8hV0No9_J3S9PwT1Zbm366oMXzpm76vHirR6Z-6Pd5K0Kyh4dM4_ByTZBXzBdhV_K1Do8MrZkQqXrXsQ_IVAoh6ExY/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<7dbae4e351>/rtmp/stream/e8hV0No9_J3S9PwT1Zbm366oMXzpm76vHirR6Z-6Pd5K0Kyh4dM4_ByTZBXzBdhV_K1Do8MrZkQqXrXsQ_IVAoh6ExY/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/ENSXGQTuylLSxutsbVhkBEBKmhagZdrN/rtmp/stream/e8hV0No9_J3S9PwT1Zbm366oMXzpm76vHirR6Z-6Pd5K0Kyh4dM4_ByTZBXzBdhV_K1Do8MrZkQqXrXsQ_IVAoh6ExY/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<7dbae4e351>/rtmp/stream/e8hV0No9_J3S9PwT1Zbm366oMXzpm76vHirR6Z-6Pd5K0Kyh4dM4_ByTZBXzBdhV_K1Do8MrZkQqXrXsQ_IVAoh6ExY/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-new-york-mets-vs-new-york-yankees/2",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb1.strmd.st/secure/<7dbae4e351>/rtmp/stream/e8hV0No9_J3S9PwT1Zbm366oMXzpm76vHirR6Z-6Pd5K0Kyh4dM4_ByTZBXzBdhV_K1Do8MrZkQqXrXsQ_IVAoh6ExY/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb1.strmd.st/secure/ENSXGQTuylLSxutsbVhkBEBKmhagZdrN/rtmp/stream/e8hV0No9_J3S9PwT1Zbm366oMXzpm76vHirR6Z-6Pd5K0Kyh4dM4_ByTZBXzBdhV_K1Do8MrZkQqXrXsQ_IVAoh6ExY/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        }
+      ]
+    },
+    {
+      "key": "new-york-yankees-vs-new-york-mets-2521146|delta|live_mlb_yankees-mets-live-streaming-594315360|1",
+      "title": "New York Yankees vs New York Mets",
+      "embed": "https://embed.st/embed/delta/live_mlb_yankees-mets-live-streaming-594315360/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<32f697b26c>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb6.strmd.st/secure/xMkQmMxtOrkDpmclOzBpUxbFnMATRJVM/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<32f697b26c>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb6.strmd.st/secure/<32f697b26c>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/xMkQmMxtOrkDpmclOzBpUxbFnMATRJVM/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb6.strmd.st/secure/<32f697b26c>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_yankees-mets-live-streaming-594315360/1",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb6.strmd.st/secure/<32f697b26c>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb6.strmd.st/secure/xMkQmMxtOrkDpmclOzBpUxbFnMATRJVM/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "new-york-yankees-vs-new-york-mets-2521146|delta|live_mlb_yankees-mets-live-streaming-594315360|2",
+      "title": "New York Yankees vs New York Mets",
+      "embed": "https://embed.st/embed/delta/live_mlb_yankees-mets-live-streaming-594315360/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<2f6621eaec>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/2/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/BbUDNDUFXOCsbsuqhirCOICmLgUzDFrN/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<2f6621eaec>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<2f6621eaec>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/2/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/BbUDNDUFXOCsbsuqhirCOICmLgUzDFrN/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<2f6621eaec>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_yankees-mets-live-streaming-594315360/2",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb11.strmd.st/secure/<2f6621eaec>/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/2/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb11.strmd.st/secure/BbUDNDUFXOCsbsuqhirCOICmLgUzDFrN/delta/stream/live_mlb_yankees-mets-live-streaming-594315360/2/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "detroit-tigers-vs-colorado-rockies-2521145|admin|ppv-colorado-rockies-vs-detroit-tigers|1",
+      "title": "Detroit Tigers vs Colorado Rockies",
+      "embed": "https://embed.st/embed/admin/ppv-colorado-rockies-vs-detroit-tigers/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<766100491a>/rtmp/stream/KBRE1BVYTzjIDzRaW8Rdd49Hjn-cWUdlZsLoVHGxH9QBgLnOxjuIsSAc2eIJH7nlaxSFEXxPeTXfdPECyBVU/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/RyNMwobVtiEaqSMOkwwQagtoNkLLhHJg/rtmp/stream/KBRE1BVYTzjIDzRaW8Rdd49Hjn-cWUdlZsLoVHGxH9QBgLnOxjuIsSAc2eIJH7nlaxSFEXxPeTXfdPECyBVU/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<766100491a>/rtmp/stream/KBRE1BVYTzjIDzRaW8Rdd49Hjn-cWUdlZsLoVHGxH9QBgLnOxjuIsSAc2eIJH7nlaxSFEXxPeTXfdPECyBVU/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<766100491a>/rtmp/stream/KBRE1BVYTzjIDzRaW8Rdd49Hjn-cWUdlZsLoVHGxH9QBgLnOxjuIsSAc2eIJH7nlaxSFEXxPeTXfdPECyBVU/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/RyNMwobVtiEaqSMOkwwQagtoNkLLhHJg/rtmp/stream/KBRE1BVYTzjIDzRaW8Rdd49Hjn-cWUdlZsLoVHGxH9QBgLnOxjuIsSAc2eIJH7nlaxSFEXxPeTXfdPECyBVU/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<766100491a>/rtmp/stream/KBRE1BVYTzjIDzRaW8Rdd49Hjn-cWUdlZsLoVHGxH9QBgLnOxjuIsSAc2eIJH7nlaxSFEXxPeTXfdPECyBVU/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.aliexpress.us/' in a frame because it set 'X-Frame-Options' to 'deny'."
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-colorado-rockies-vs-detroit-tigers/1",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb11.strmd.st/secure/<766100491a>/rtmp/stream/KBRE1BVYTzjIDzRaW8Rdd49Hjn-cWUdlZsLoVHGxH9QBgLnOxjuIsSAc2eIJH7nlaxSFEXxPeTXfdPECyBVU/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb11.strmd.st/secure/RyNMwobVtiEaqSMOkwwQagtoNkLLhHJg/rtmp/stream/KBRE1BVYTzjIDzRaW8Rdd49Hjn-cWUdlZsLoVHGxH9QBgLnOxjuIsSAc2eIJH7nlaxSFEXxPeTXfdPECyBVU/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        }
+      ]
+    },
+    {
+      "key": "detroit-tigers-vs-colorado-rockies-2521145|admin|ppv-colorado-rockies-vs-detroit-tigers|2",
+      "title": "Detroit Tigers vs Colorado Rockies",
+      "embed": "https://embed.st/embed/admin/ppv-colorado-rockies-vs-detroit-tigers/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb10.strmd.st/secure/<f1ee340e5f>/rtmp/stream/9O3bwuuBJ2GPMl635PSaGTmst6zf8MDkaztxqYpNLkfqNXGlB4SI_5XpjJQ08ESl_0NtTXGu7VrA3KQJbuDaOxtjLw/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb10.strmd.st/secure/LrqMzzqZEbQQjsZZZOTtIJiIoviaQjQw/rtmp/stream/9O3bwuuBJ2GPMl635PSaGTmst6zf8MDkaztxqYpNLkfqNXGlB4SI_5XpjJQ08ESl_0NtTXGu7VrA3KQJbuDaOxtjLw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<f1ee340e5f>/rtmp/stream/9O3bwuuBJ2GPMl635PSaGTmst6zf8MDkaztxqYpNLkfqNXGlB4SI_5XpjJQ08ESl_0NtTXGu7VrA3KQJbuDaOxtjLw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb10.strmd.st/secure/<f1ee340e5f>/rtmp/stream/9O3bwuuBJ2GPMl635PSaGTmst6zf8MDkaztxqYpNLkfqNXGlB4SI_5XpjJQ08ESl_0NtTXGu7VrA3KQJbuDaOxtjLw/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb10.strmd.st/secure/LrqMzzqZEbQQjsZZZOTtIJiIoviaQjQw/rtmp/stream/9O3bwuuBJ2GPMl635PSaGTmst6zf8MDkaztxqYpNLkfqNXGlB4SI_5XpjJQ08ESl_0NtTXGu7VrA3KQJbuDaOxtjLw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb10.strmd.st/secure/<f1ee340e5f>/rtmp/stream/9O3bwuuBJ2GPMl635PSaGTmst6zf8MDkaztxqYpNLkfqNXGlB4SI_5XpjJQ08ESl_0NtTXGu7VrA3KQJbuDaOxtjLw/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-colorado-rockies-vs-detroit-tigers/2",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb10.strmd.st/secure/<f1ee340e5f>/rtmp/stream/9O3bwuuBJ2GPMl635PSaGTmst6zf8MDkaztxqYpNLkfqNXGlB4SI_5XpjJQ08ESl_0NtTXGu7VrA3KQJbuDaOxtjLw/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb10.strmd.st/secure/LrqMzzqZEbQQjsZZZOTtIJiIoviaQjQw/rtmp/stream/9O3bwuuBJ2GPMl635PSaGTmst6zf8MDkaztxqYpNLkfqNXGlB4SI_5XpjJQ08ESl_0NtTXGu7VrA3KQJbuDaOxtjLw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        }
+      ]
+    },
+    {
+      "key": "detroit-tigers-vs-colorado-rockies-2521145|delta|live_mlb_tigers-rockies-live-streaming-594314928|1",
+      "title": "Detroit Tigers vs Colorado Rockies",
+      "embed": "https://embed.st/embed/delta/live_mlb_tigers-rockies-live-streaming-594314928/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb17.strmd.st/secure/<350211cd69>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb17.strmd.st/secure/CkwLPOOkGnAzTaaYKIxUuWmoFdkHOLez/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb17.strmd.st/secure/<350211cd69>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb17.strmd.st/secure/<350211cd69>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb17.strmd.st/secure/CkwLPOOkGnAzTaaYKIxUuWmoFdkHOLez/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb17.strmd.st/secure/<350211cd69>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_tigers-rockies-live-streaming-594314928/1",
+            "title": "",
+            "html_length": 768372,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb17.strmd.st/secure/<350211cd69>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb17.strmd.st/secure/CkwLPOOkGnAzTaaYKIxUuWmoFdkHOLez/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        }
+      ]
+    },
+    {
+      "key": "detroit-tigers-vs-colorado-rockies-2521145|delta|live_mlb_tigers-rockies-live-streaming-594314928|2",
+      "title": "Detroit Tigers vs Colorado Rockies",
+      "embed": "https://embed.st/embed/delta/live_mlb_tigers-rockies-live-streaming-594314928/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<669cee223d>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/2/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/QBSGrAEBeljhlupWUXRGcxZERspwhuGy/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<669cee223d>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<669cee223d>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/2/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/QBSGrAEBeljhlupWUXRGcxZERspwhuGy/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<669cee223d>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/2/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_mlb_tigers-rockies-live-streaming-594314928/2",
+            "title": "",
+            "html_length": 768215,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb8.strmd.st/secure/<669cee223d>/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/2/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb8.strmd.st/secure/QBSGrAEBeljhlupWUXRGcxZERspwhuGy/delta/stream/live_mlb_tigers-rockies-live-streaming-594314928/2/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        }
+      ]
+    },
+    {
+      "key": "toronto-argonauts-vs-ottawa-redblacks-2432588|admin|ppv-ottawa-red-blacks-at-toronto-argonauts|1",
+      "title": "Toronto Argonauts vs Ottawa Redblacks",
+      "embed": "https://embed.st/embed/admin/ppv-ottawa-red-blacks-at-toronto-argonauts/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<3031f5888e>/rtmp/stream/nOww8nIaednoNRyVj4KzvfbsDEO2mt6PuGEih0MhLcCoZYtm2VL9xGIhDGONToG1vtS2znen7XRvLSzf0DmEcjeLH0R7YQ/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/ngGxGllCsbdCEloCqxCbveWgNVBpBnyG/rtmp/stream/nOww8nIaednoNRyVj4KzvfbsDEO2mt6PuGEih0MhLcCoZYtm2VL9xGIhDGONToG1vtS2znen7XRvLSzf0DmEcjeLH0R7YQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<3031f5888e>/rtmp/stream/nOww8nIaednoNRyVj4KzvfbsDEO2mt6PuGEih0MhLcCoZYtm2VL9xGIhDGONToG1vtS2znen7XRvLSzf0DmEcjeLH0R7YQ/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<3031f5888e>/rtmp/stream/nOww8nIaednoNRyVj4KzvfbsDEO2mt6PuGEih0MhLcCoZYtm2VL9xGIhDGONToG1vtS2znen7XRvLSzf0DmEcjeLH0R7YQ/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/ngGxGllCsbdCEloCqxCbveWgNVBpBnyG/rtmp/stream/nOww8nIaednoNRyVj4KzvfbsDEO2mt6PuGEih0MhLcCoZYtm2VL9xGIhDGONToG1vtS2znen7XRvLSzf0DmEcjeLH0R7YQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<3031f5888e>/rtmp/stream/nOww8nIaednoNRyVj4KzvfbsDEO2mt6PuGEih0MhLcCoZYtm2VL9xGIhDGONToG1vtS2znen7XRvLSzf0DmEcjeLH0R7YQ/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-ottawa-red-blacks-at-toronto-argonauts/1",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb8.strmd.st/secure/<3031f5888e>/rtmp/stream/nOww8nIaednoNRyVj4KzvfbsDEO2mt6PuGEih0MhLcCoZYtm2VL9xGIhDGONToG1vtS2znen7XRvLSzf0DmEcjeLH0R7YQ/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb8.strmd.st/secure/ngGxGllCsbdCEloCqxCbveWgNVBpBnyG/rtmp/stream/nOww8nIaednoNRyVj4KzvfbsDEO2mt6PuGEih0MhLcCoZYtm2VL9xGIhDGONToG1vtS2znen7XRvLSzf0DmEcjeLH0R7YQ/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        }
+      ]
+    },
+    {
+      "key": "toronto-argonauts-vs-ottawa-redblacks-2432588|admin|ppv-ottawa-red-blacks-at-toronto-argonauts|2",
+      "title": "Toronto Argonauts vs Ottawa Redblacks",
+      "embed": "https://embed.st/embed/admin/ppv-ottawa-red-blacks-at-toronto-argonauts/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb19.strmd.st/secure/<e50a5d342f>/rtmp/stream/CiyA810n4Q_fSCahaiDe2MtXNfLHSYmXAu_NiHmy9gXxzZWzMXHroO6GifK3Bg3brLcN9YlvCqEphlR0HpEzbMPm7kEXcs5XSJE/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb19.strmd.st/secure/NlpoXCpSZmaHDHaHgEHZgprKhPALdkRV/rtmp/stream/CiyA810n4Q_fSCahaiDe2MtXNfLHSYmXAu_NiHmy9gXxzZWzMXHroO6GifK3Bg3brLcN9YlvCqEphlR0HpEzbMPm7kEXcs5XSJE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb19.strmd.st/secure/<e50a5d342f>/rtmp/stream/CiyA810n4Q_fSCahaiDe2MtXNfLHSYmXAu_NiHmy9gXxzZWzMXHroO6GifK3Bg3brLcN9YlvCqEphlR0HpEzbMPm7kEXcs5XSJE/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb19.strmd.st/secure/<e50a5d342f>/rtmp/stream/CiyA810n4Q_fSCahaiDe2MtXNfLHSYmXAu_NiHmy9gXxzZWzMXHroO6GifK3Bg3brLcN9YlvCqEphlR0HpEzbMPm7kEXcs5XSJE/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb19.strmd.st/secure/NlpoXCpSZmaHDHaHgEHZgprKhPALdkRV/rtmp/stream/CiyA810n4Q_fSCahaiDe2MtXNfLHSYmXAu_NiHmy9gXxzZWzMXHroO6GifK3Bg3brLcN9YlvCqEphlR0HpEzbMPm7kEXcs5XSJE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb19.strmd.st/secure/<e50a5d342f>/rtmp/stream/CiyA810n4Q_fSCahaiDe2MtXNfLHSYmXAu_NiHmy9gXxzZWzMXHroO6GifK3Bg3brLcN9YlvCqEphlR0HpEzbMPm7kEXcs5XSJE/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-ottawa-red-blacks-at-toronto-argonauts/2",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb19.strmd.st/secure/<e50a5d342f>/rtmp/stream/CiyA810n4Q_fSCahaiDe2MtXNfLHSYmXAu_NiHmy9gXxzZWzMXHroO6GifK3Bg3brLcN9YlvCqEphlR0HpEzbMPm7kEXcs5XSJE/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb19.strmd.st/secure/NlpoXCpSZmaHDHaHgEHZgprKhPALdkRV/rtmp/stream/CiyA810n4Q_fSCahaiDe2MtXNfLHSYmXAu_NiHmy9gXxzZWzMXHroO6GifK3Bg3brLcN9YlvCqEphlR0HpEzbMPm7kEXcs5XSJE/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        }
+      ]
+    },
+    {
+      "key": "central-michigan-vs-colgate-2498688|delta|live_cfb_central-michigan-colgate-live-streaming-623786832|1",
+      "title": "Central Michigan vs Colgate",
+      "embed": "https://embed.st/embed/delta/live_cfb_central-michigan-colgate-live-streaming-623786832/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb7.strmd.st/secure/<e9d7557a8a>/delta/stream/live_cfb_central-michigan-colgate-live-streaming-623786832/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb7.strmd.st/secure/oGTKcdYuohGYueLaliNKvQhWJFRbxQTI/delta/stream/live_cfb_central-michigan-colgate-live-streaming-623786832/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<e9d7557a8a>/delta/stream/live_cfb_central-michigan-colgate-live-streaming-623786832/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb7.strmd.st/secure/<e9d7557a8a>/delta/stream/live_cfb_central-michigan-colgate-live-streaming-623786832/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_cfb_central-michigan-colgate-live-streaming-623786832/1",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb7.strmd.st/secure/<e9d7557a8a>/delta/stream/live_cfb_central-michigan-colgate-live-streaming-623786832/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb7.strmd.st/secure/oGTKcdYuohGYueLaliNKvQhWJFRbxQTI/delta/stream/live_cfb_central-michigan-colgate-live-streaming-623786832/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/oGTKcdYuohGYueLaliNKvQhWJFRbxQTI/delta/stream/live_cfb_central-michigan-colgate-live-streaming-623786832/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<e9d7557a8a>/delta/stream/live_cfb_central-michigan-colgate-live-streaming-623786832/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        }
+      ]
+    },
+    {
+      "key": "miami--oh--vs-holy-cross-2498689|delta|live_cfb_miami-ohio-holy-cross-live-streaming-610393968|1",
+      "title": "Miami (OH) vs Holy Cross",
+      "embed": "https://embed.st/embed/delta/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<b8d3fb6151>/delta/stream/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/jeQXAuLGPKQWcPZMVLQBVLekMrzsGzMR/delta/stream/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<b8d3fb6151>/delta/stream/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<b8d3fb6151>/delta/stream/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/jeQXAuLGPKQWcPZMVLQBVLekMrzsGzMR/delta/stream/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<b8d3fb6151>/delta/stream/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb13.strmd.st/secure/<b8d3fb6151>/delta/stream/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb13.strmd.st/secure/jeQXAuLGPKQWcPZMVLQBVLekMrzsGzMR/delta/stream/live_cfb_miami-ohio-holy-cross-live-streaming-610393968/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        }
+      ]
+    },
+    {
+      "key": "west-virginia-vs-ut-martin-2594424|delta|live_cfb_west-virginia-tennessee-martin-live-streaming-610394832|1",
+      "title": "West Virginia vs UT Martin",
+      "embed": "https://embed.st/embed/delta/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<b94a266539>/delta/stream/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/lIraBvinFgLXOvbtvFEvPHeRvGCXTdEI/delta/stream/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<b94a266539>/delta/stream/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<b94a266539>/delta/stream/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/lIraBvinFgLXOvbtvFEvPHeRvGCXTdEI/delta/stream/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<b94a266539>/delta/stream/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1",
+            "title": "",
+            "html_length": 132155,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "therocketlanguages.com",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb13.strmd.st/secure/<b94a266539>/delta/stream/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb13.strmd.st/secure/lIraBvinFgLXOvbtvFEvPHeRvGCXTdEI/delta/stream/live_cfb_west-virginia-tennessee-martin-live-streaming-610394832/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        }
+      ]
+    },
+    {
+      "key": "ppv-jordan-mc-cann-vs-big-stacks|admin|ppv-jordan-mc-cann-vs-big-stacks|1",
+      "title": "Jordan McCann vs. Big Stacks",
+      "embed": "https://embed.st/embed/admin/ppv-jordan-mc-cann-vs-big-stacks/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb16.strmd.st/secure/<8ba76d7ee1>/rtmp/stream/MlqwDMIJfZijUzngjWCJtQ-z_YzIYO1MZATQygjGLc0Al1hx7_c7xBQD-04F7P_FaKuUT0NE_qe-/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb16.strmd.st/secure/vHBbTqdwnThohzkNwDnNrjikrVPfaQJA/rtmp/stream/MlqwDMIJfZijUzngjWCJtQ-z_YzIYO1MZATQygjGLc0Al1hx7_c7xBQD-04F7P_FaKuUT0NE_qe-/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb16.strmd.st/secure/<8ba76d7ee1>/rtmp/stream/MlqwDMIJfZijUzngjWCJtQ-z_YzIYO1MZATQygjGLc0Al1hx7_c7xBQD-04F7P_FaKuUT0NE_qe-/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "Failed to decode downloaded font: https://lp.realintelligence360.com/download-free-real/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
+        },
+        {
+          "console": "warning",
+          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb16.strmd.st/secure/<8ba76d7ee1>/rtmp/stream/MlqwDMIJfZijUzngjWCJtQ-z_YzIYO1MZATQygjGLc0Al1hx7_c7xBQD-04F7P_FaKuUT0NE_qe-/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb16.strmd.st/secure/vHBbTqdwnThohzkNwDnNrjikrVPfaQJA/rtmp/stream/MlqwDMIJfZijUzngjWCJtQ-z_YzIYO1MZATQygjGLc0Al1hx7_c7xBQD-04F7P_FaKuUT0NE_qe-/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb16.strmd.st/secure/<8ba76d7ee1>/rtmp/stream/MlqwDMIJfZijUzngjWCJtQ-z_YzIYO1MZATQygjGLc0Al1hx7_c7xBQD-04F7P_FaKuUT0NE_qe-/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-jordan-mc-cann-vs-big-stacks/1",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb16.strmd.st/secure/<8ba76d7ee1>/rtmp/stream/MlqwDMIJfZijUzngjWCJtQ-z_YzIYO1MZATQygjGLc0Al1hx7_c7xBQD-04F7P_FaKuUT0NE_qe-/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb16.strmd.st/secure/vHBbTqdwnThohzkNwDnNrjikrVPfaQJA/rtmp/stream/MlqwDMIJfZijUzngjWCJtQ-z_YzIYO1MZATQygjGLc0Al1hx7_c7xBQD-04F7P_FaKuUT0NE_qe-/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        }
+      ]
+    },
+    {
+      "key": "ppv-jordan-mc-cann-vs-big-stacks|admin|ppv-jordan-mc-cann-vs-big-stacks|2",
+      "title": "Jordan McCann vs. Big Stacks",
+      "embed": "https://embed.st/embed/admin/ppv-jordan-mc-cann-vs-big-stacks/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb9.strmd.st/secure/<aa58517825>/rtmp/stream/ZN_QJBPkL9gm6aI0rDoDSOz_pRsXgOzkvlbI4nk2wZYPpuykKoJkq50l5Plwi42gNvsBonQ6_DOvnymksA/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb9.strmd.st/secure/eCHlAHChvwZcMkoxCAZRzXUVRvJiFsBa/rtmp/stream/ZN_QJBPkL9gm6aI0rDoDSOz_pRsXgOzkvlbI4nk2wZYPpuykKoJkq50l5Plwi42gNvsBonQ6_DOvnymksA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb9.strmd.st/secure/<aa58517825>/rtmp/stream/ZN_QJBPkL9gm6aI0rDoDSOz_pRsXgOzkvlbI4nk2wZYPpuykKoJkq50l5Plwi42gNvsBonQ6_DOvnymksA/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb9.strmd.st/secure/<aa58517825>/rtmp/stream/ZN_QJBPkL9gm6aI0rDoDSOz_pRsXgOzkvlbI4nk2wZYPpuykKoJkq50l5Plwi42gNvsBonQ6_DOvnymksA/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/eCHlAHChvwZcMkoxCAZRzXUVRvJiFsBa/rtmp/stream/ZN_QJBPkL9gm6aI0rDoDSOz_pRsXgOzkvlbI4nk2wZYPpuykKoJkq50l5Plwi42gNvsBonQ6_DOvnymksA/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb9.strmd.st/secure/<aa58517825>/rtmp/stream/ZN_QJBPkL9gm6aI0rDoDSOz_pRsXgOzkvlbI4nk2wZYPpuykKoJkq50l5Plwi42gNvsBonQ6_DOvnymksA/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-jordan-mc-cann-vs-big-stacks/2",
+            "title": "",
+            "html_length": 768226,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb9.strmd.st/secure/<aa58517825>/rtmp/stream/ZN_QJBPkL9gm6aI0rDoDSOz_pRsXgOzkvlbI4nk2wZYPpuykKoJkq50l5Plwi42gNvsBonQ6_DOvnymksA/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb9.strmd.st/secure/eCHlAHChvwZcMkoxCAZRzXUVRvJiFsBa/rtmp/stream/ZN_QJBPkL9gm6aI0rDoDSOz_pRsXgOzkvlbI4nk2wZYPpuykKoJkq50l5Plwi42gNvsBonQ6_DOvnymksA/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        }
+      ]
+    },
+    {
+      "key": "ppv-flanders-darts-trophy-day-2-evening-session|admin|ppv-flanders-darts-trophy-day-2-evening-session|1",
+      "title": "Flanders Darts Trophy | Day 2 - Evening Session",
+      "embed": "https://embed.st/embed/admin/ppv-flanders-darts-trophy-day-2-evening-session/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb19.strmd.st/secure/<e462eddaef>/rtmp/stream/xojv1YazVAHblPBiP_wISJl3BBfdu3MT1uxJUgWxQTPP1kOer8s9AGpwW3DJS-VndGHq_AYoEQ/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb19.strmd.st/secure/dHjJQkGaxxsJzHBWIoRIblompJVIeFYQ/rtmp/stream/xojv1YazVAHblPBiP_wISJl3BBfdu3MT1uxJUgWxQTPP1kOer8s9AGpwW3DJS-VndGHq_AYoEQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb19.strmd.st/secure/<e462eddaef>/rtmp/stream/xojv1YazVAHblPBiP_wISJl3BBfdu3MT1uxJUgWxQTPP1kOer8s9AGpwW3DJS-VndGHq_AYoEQ/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb19.strmd.st/secure/<e462eddaef>/rtmp/stream/xojv1YazVAHblPBiP_wISJl3BBfdu3MT1uxJUgWxQTPP1kOer8s9AGpwW3DJS-VndGHq_AYoEQ/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb19.strmd.st/secure/dHjJQkGaxxsJzHBWIoRIblompJVIeFYQ/rtmp/stream/xojv1YazVAHblPBiP_wISJl3BBfdu3MT1uxJUgWxQTPP1kOer8s9AGpwW3DJS-VndGHq_AYoEQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb19.strmd.st/secure/<e462eddaef>/rtmp/stream/xojv1YazVAHblPBiP_wISJl3BBfdu3MT1uxJUgWxQTPP1kOer8s9AGpwW3DJS-VndGHq_AYoEQ/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-flanders-darts-trophy-day-2-evening-session/1",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb19.strmd.st/secure/<e462eddaef>/rtmp/stream/xojv1YazVAHblPBiP_wISJl3BBfdu3MT1uxJUgWxQTPP1kOer8s9AGpwW3DJS-VndGHq_AYoEQ/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb19.strmd.st/secure/dHjJQkGaxxsJzHBWIoRIblompJVIeFYQ/rtmp/stream/xojv1YazVAHblPBiP_wISJl3BBfdu3MT1uxJUgWxQTPP1kOer8s9AGpwW3DJS-VndGHq_AYoEQ/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "requestStorageAccess: Refused to execute request. The document is sandboxed, and the 'allow-storage-access-by-user-activation' keyword is not set."
+        }
+      ]
+    },
+    {
+      "key": "ppv-flanders-darts-trophy-day-2-evening-session|admin|ppv-flanders-darts-trophy-day-2-evening-session|2",
+      "title": "Flanders Darts Trophy | Day 2 - Evening Session",
+      "embed": "https://embed.st/embed/admin/ppv-flanders-darts-trophy-day-2-evening-session/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb19.strmd.st/secure/<a44f830d22>/rtmp/stream/zsQfCMOfIi3gGHOcrEQBLejXjVvvcSC2MFPOXkROGE2xH0mC6uHCT7NOxTdY-ZtYULAbKzonYh5E_Z8/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb19.strmd.st/secure/orRPzJLnQXeqOmbiqJiOKAYVTcYZwUur/rtmp/stream/zsQfCMOfIi3gGHOcrEQBLejXjVvvcSC2MFPOXkROGE2xH0mC6uHCT7NOxTdY-ZtYULAbKzonYh5E_Z8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb19.strmd.st/secure/<a44f830d22>/rtmp/stream/zsQfCMOfIi3gGHOcrEQBLejXjVvvcSC2MFPOXkROGE2xH0mC6uHCT7NOxTdY-ZtYULAbKzonYh5E_Z8/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb19.strmd.st/secure/<a44f830d22>/rtmp/stream/zsQfCMOfIi3gGHOcrEQBLejXjVvvcSC2MFPOXkROGE2xH0mC6uHCT7NOxTdY-ZtYULAbKzonYh5E_Z8/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb19.strmd.st/secure/orRPzJLnQXeqOmbiqJiOKAYVTcYZwUur/rtmp/stream/zsQfCMOfIi3gGHOcrEQBLejXjVvvcSC2MFPOXkROGE2xH0mC6uHCT7NOxTdY-ZtYULAbKzonYh5E_Z8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb19.strmd.st/secure/<a44f830d22>/rtmp/stream/zsQfCMOfIi3gGHOcrEQBLejXjVvvcSC2MFPOXkROGE2xH0mC6uHCT7NOxTdY-ZtYULAbKzonYh5E_Z8/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "console": "warning",
+          "text": "将根据已有的meta标签来设置缩放比例"
+        },
+        {
+          "console": "warning",
+          "text": "Setting secure=true because sameSite=None requires secure cookies"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-flanders-darts-trophy-day-2-evening-session/2",
+            "title": "",
+            "html_length": 768395,
+            "script_hosts": [
+              "absffwsnfqxjk.site",
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb19.strmd.st/secure/<a44f830d22>/rtmp/stream/zsQfCMOfIi3gGHOcrEQBLejXjVvvcSC2MFPOXkROGE2xH0mC6uHCT7NOxTdY-ZtYULAbKzonYh5E_Z8/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb19.strmd.st/secure/orRPzJLnQXeqOmbiqJiOKAYVTcYZwUur/rtmp/stream/zsQfCMOfIi3gGHOcrEQBLejXjVvvcSC2MFPOXkROGE2xH0mC6uHCT7NOxTdY-ZtYULAbKzonYh5E_Z8/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "error",
+          "text": "Permissions policy violation: accelerometer is not allowed in this document."
+        },
+        {
+          "console": "warning",
+          "text": "The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        }
+      ]
+    }
+  ],
+  "errors": []
 }
