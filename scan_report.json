@@ -1,20 +1,642 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1789382705,
-  "elapsed_seconds": 0.75,
+  "started_at": 1789403877,
+  "elapsed_seconds": 24.86,
   "api_ok": true,
-  "matches": 1,
-  "live_matches": 1,
+  "matches": 3,
+  "live_matches": 3,
   "nearby_fallback_matches": 0,
   "nearby_fallback_used": false,
-  "source_pairs": 1,
-  "embed_candidates": 0,
+  "source_pairs": 7,
+  "embed_candidates": 6,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
-  "classification_counts": {},
+  "classification_counts": {
+    "upstream_dead": 6
+  },
   "entries": [],
-  "browser_events": [],
+  "browser_events": [
+    {
+      "key": "torino-vs-roma-2482173|admin|ppv-torino-vs-as-roma|1",
+      "title": "Torino vs Roma",
+      "embed": "https://embed.st/embed/admin/ppv-torino-vs-as-roma/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb7.strmd.st/secure/<889a806c43>/rtmp/stream/jWkFD48z85diT3XMFwSoj83PNg8OG-VSjX6ov9P4nwincvltqQKhOmtst1ZSdObeXH0prUs3xcM/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb7.strmd.st/secure/LWpAtCvVKHlrxYZflxgPeynVQoRPmYxc/rtmp/stream/jWkFD48z85diT3XMFwSoj83PNg8OG-VSjX6ov9P4nwincvltqQKhOmtst1ZSdObeXH0prUs3xcM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<889a806c43>/rtmp/stream/jWkFD48z85diT3XMFwSoj83PNg8OG-VSjX6ov9P4nwincvltqQKhOmtst1ZSdObeXH0prUs3xcM/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb7.strmd.st/secure/<889a806c43>/rtmp/stream/jWkFD48z85diT3XMFwSoj83PNg8OG-VSjX6ov9P4nwincvltqQKhOmtst1ZSdObeXH0prUs3xcM/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-torino-vs-as-roma/1",
+            "title": "",
+            "html_length": 659901,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "strmd.b-cdn.net",
+              "xjgvjhtuglzxu.online"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb7.strmd.st/secure/<889a806c43>/rtmp/stream/jWkFD48z85diT3XMFwSoj83PNg8OG-VSjX6ov9P4nwincvltqQKhOmtst1ZSdObeXH0prUs3xcM/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb7.strmd.st/secure/LWpAtCvVKHlrxYZflxgPeynVQoRPmYxc/rtmp/stream/jWkFD48z85diT3XMFwSoj83PNg8OG-VSjX6ov9P4nwincvltqQKhOmtst1ZSdObeXH0prUs3xcM/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/LWpAtCvVKHlrxYZflxgPeynVQoRPmYxc/rtmp/stream/jWkFD48z85diT3XMFwSoj83PNg8OG-VSjX6ov9P4nwincvltqQKhOmtst1ZSdObeXH0prUs3xcM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<889a806c43>/rtmp/stream/jWkFD48z85diT3XMFwSoj83PNg8OG-VSjX6ov9P4nwincvltqQKhOmtst1ZSdObeXH0prUs3xcM/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ]
+    },
+    {
+      "key": "torino-vs-roma-2482173|admin|ppv-torino-vs-as-roma|2",
+      "title": "Torino vs Roma",
+      "embed": "https://embed.st/embed/admin/ppv-torino-vs-as-roma/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<9fac6d07ba>/rtmp/stream/iLgEZPRypx1jAHvdtZyRFbJC9bdiosq8mKNJ0WsD16-LiSKXkau51MT3C93t7XqeJsdM-kStpdHcB-4V/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/tYnxbgWRNnKGdzSpCCxzMzvCHNNmrKsR/rtmp/stream/iLgEZPRypx1jAHvdtZyRFbJC9bdiosq8mKNJ0WsD16-LiSKXkau51MT3C93t7XqeJsdM-kStpdHcB-4V/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<9fac6d07ba>/rtmp/stream/iLgEZPRypx1jAHvdtZyRFbJC9bdiosq8mKNJ0WsD16-LiSKXkau51MT3C93t7XqeJsdM-kStpdHcB-4V/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<9fac6d07ba>/rtmp/stream/iLgEZPRypx1jAHvdtZyRFbJC9bdiosq8mKNJ0WsD16-LiSKXkau51MT3C93t7XqeJsdM-kStpdHcB-4V/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/tYnxbgWRNnKGdzSpCCxzMzvCHNNmrKsR/rtmp/stream/iLgEZPRypx1jAHvdtZyRFbJC9bdiosq8mKNJ0WsD16-LiSKXkau51MT3C93t7XqeJsdM-kStpdHcB-4V/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<9fac6d07ba>/rtmp/stream/iLgEZPRypx1jAHvdtZyRFbJC9bdiosq8mKNJ0WsD16-LiSKXkau51MT3C93t7XqeJsdM-kStpdHcB-4V/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-torino-vs-as-roma/2",
+            "title": "",
+            "html_length": 768399,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org",
+              "xjgvjhtuglzxu.online"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb11.strmd.st/secure/<9fac6d07ba>/rtmp/stream/iLgEZPRypx1jAHvdtZyRFbJC9bdiosq8mKNJ0WsD16-LiSKXkau51MT3C93t7XqeJsdM-kStpdHcB-4V/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb11.strmd.st/secure/tYnxbgWRNnKGdzSpCCxzMzvCHNNmrKsR/rtmp/stream/iLgEZPRypx1jAHvdtZyRFbJC9bdiosq8mKNJ0WsD16-LiSKXkau51MT3C93t7XqeJsdM-kStpdHcB-4V/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "torino-vs-roma-2482173|delta|live_serie-a_torino-roma-live-streaming-615394800|1",
+      "title": "Torino vs Roma",
+      "embed": "https://embed.st/embed/delta/live_serie-a_torino-roma-live-streaming-615394800/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<9c69dc6885>/delta/stream/live_serie-a_torino-roma-live-streaming-615394800/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/HHvstHWKqOAVbVyMbRLyuvxlCsWffAqU/delta/stream/live_serie-a_torino-roma-live-streaming-615394800/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<9c69dc6885>/delta/stream/live_serie-a_torino-roma-live-streaming-615394800/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb11.strmd.st/secure/<9c69dc6885>/delta/stream/live_serie-a_torino-roma-live-streaming-615394800/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/HHvstHWKqOAVbVyMbRLyuvxlCsWffAqU/delta/stream/live_serie-a_torino-roma-live-streaming-615394800/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<9c69dc6885>/delta/stream/live_serie-a_torino-roma-live-streaming-615394800/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_serie-a_torino-roma-live-streaming-615394800/1",
+            "title": "",
+            "html_length": 768399,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org",
+              "xjgvjhtuglzxu.online"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb11.strmd.st/secure/<9c69dc6885>/delta/stream/live_serie-a_torino-roma-live-streaming-615394800/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb11.strmd.st/secure/HHvstHWKqOAVbVyMbRLyuvxlCsWffAqU/delta/stream/live_serie-a_torino-roma-live-streaming-615394800/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "como-vs-parma-2482177|admin|ppv-como-vs-parma|1",
+      "title": "Como vs Parma",
+      "embed": "https://embed.st/embed/admin/ppv-como-vs-parma/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb14.strmd.st/secure/<9b1ea7f745>/rtmp/stream/ZctZ6xA0040w6B87qUnUQZtaq8awcauxv1Bkiu6wmyjnUAYw-r5BFOzdV_29wgGd_KQzJf4PrBNW/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/RHWTyaoXKKBYoJyTPzvdGFlWogLhClWE/rtmp/stream/ZctZ6xA0040w6B87qUnUQZtaq8awcauxv1Bkiu6wmyjnUAYw-r5BFOzdV_29wgGd_KQzJf4PrBNW/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<9b1ea7f745>/rtmp/stream/ZctZ6xA0040w6B87qUnUQZtaq8awcauxv1Bkiu6wmyjnUAYw-r5BFOzdV_29wgGd_KQzJf4PrBNW/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb14.strmd.st/secure/<9b1ea7f745>/rtmp/stream/ZctZ6xA0040w6B87qUnUQZtaq8awcauxv1Bkiu6wmyjnUAYw-r5BFOzdV_29wgGd_KQzJf4PrBNW/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/RHWTyaoXKKBYoJyTPzvdGFlWogLhClWE/rtmp/stream/ZctZ6xA0040w6B87qUnUQZtaq8awcauxv1Bkiu6wmyjnUAYw-r5BFOzdV_29wgGd_KQzJf4PrBNW/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<9b1ea7f745>/rtmp/stream/ZctZ6xA0040w6B87qUnUQZtaq8awcauxv1Bkiu6wmyjnUAYw-r5BFOzdV_29wgGd_KQzJf4PrBNW/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-como-vs-parma/1",
+            "title": "",
+            "html_length": 768376,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org",
+              "xjgvjhtuglzxu.online"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb14.strmd.st/secure/<9b1ea7f745>/rtmp/stream/ZctZ6xA0040w6B87qUnUQZtaq8awcauxv1Bkiu6wmyjnUAYw-r5BFOzdV_29wgGd_KQzJf4PrBNW/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb14.strmd.st/secure/RHWTyaoXKKBYoJyTPzvdGFlWogLhClWE/rtmp/stream/ZctZ6xA0040w6B87qUnUQZtaq8awcauxv1Bkiu6wmyjnUAYw-r5BFOzdV_29wgGd_KQzJf4PrBNW/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "como-vs-parma-2482177|admin|ppv-como-vs-parma|2",
+      "title": "Como vs Parma",
+      "embed": "https://embed.st/embed/admin/ppv-como-vs-parma/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb20.strmd.st/secure/<bcb3b1ff08>/rtmp/stream/cxUw_K4b0Z2BsfvwEVjQeRywsmHXs_Hw9-4jSM7_xGSGpfIx17qSIm0H0GwCa1VBeUYvi5sG_B4_7_ypGg/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb20.strmd.st/secure/qmsOhaGwcRPfZVqdQTTrpbgNRwIOYMNb/rtmp/stream/cxUw_K4b0Z2BsfvwEVjQeRywsmHXs_Hw9-4jSM7_xGSGpfIx17qSIm0H0GwCa1VBeUYvi5sG_B4_7_ypGg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb20.strmd.st/secure/<bcb3b1ff08>/rtmp/stream/cxUw_K4b0Z2BsfvwEVjQeRywsmHXs_Hw9-4jSM7_xGSGpfIx17qSIm0H0GwCa1VBeUYvi5sG_B4_7_ypGg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb20.strmd.st/secure/<bcb3b1ff08>/rtmp/stream/cxUw_K4b0Z2BsfvwEVjQeRywsmHXs_Hw9-4jSM7_xGSGpfIx17qSIm0H0GwCa1VBeUYvi5sG_B4_7_ypGg/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb20.strmd.st/secure/qmsOhaGwcRPfZVqdQTTrpbgNRwIOYMNb/rtmp/stream/cxUw_K4b0Z2BsfvwEVjQeRywsmHXs_Hw9-4jSM7_xGSGpfIx17qSIm0H0GwCa1VBeUYvi5sG_B4_7_ypGg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb20.strmd.st/secure/<bcb3b1ff08>/rtmp/stream/cxUw_K4b0Z2BsfvwEVjQeRywsmHXs_Hw9-4jSM7_xGSGpfIx17qSIm0H0GwCa1VBeUYvi5sG_B4_7_ypGg/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-como-vs-parma/2",
+            "title": "",
+            "html_length": 768399,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org",
+              "xjgvjhtuglzxu.online"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb20.strmd.st/secure/<bcb3b1ff08>/rtmp/stream/cxUw_K4b0Z2BsfvwEVjQeRywsmHXs_Hw9-4jSM7_xGSGpfIx17qSIm0H0GwCa1VBeUYvi5sG_B4_7_ypGg/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb20.strmd.st/secure/qmsOhaGwcRPfZVqdQTTrpbgNRwIOYMNb/rtmp/stream/cxUw_K4b0Z2BsfvwEVjQeRywsmHXs_Hw9-4jSM7_xGSGpfIx17qSIm0H0GwCa1VBeUYvi5sG_B4_7_ypGg/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "como-vs-parma-2482177|delta|live_serie-a_como-parma-live-streaming-615395232|1",
+      "title": "Como vs Parma",
+      "embed": "https://embed.st/embed/delta/live_serie-a_como-parma-live-streaming-615395232/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb20.strmd.st/secure/<155c5f5ec2>/delta/stream/live_serie-a_como-parma-live-streaming-615395232/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb20.strmd.st/secure/dfohGJuQZhyfRFmMHoftfARLMTWInmXS/delta/stream/live_serie-a_como-parma-live-streaming-615395232/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb20.strmd.st/secure/<155c5f5ec2>/delta/stream/live_serie-a_como-parma-live-streaming-615395232/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb20.strmd.st/secure/<155c5f5ec2>/delta/stream/live_serie-a_como-parma-live-streaming-615395232/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb20.strmd.st/secure/dfohGJuQZhyfRFmMHoftfARLMTWInmXS/delta/stream/live_serie-a_como-parma-live-streaming-615395232/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb20.strmd.st/secure/<155c5f5ec2>/delta/stream/live_serie-a_como-parma-live-streaming-615395232/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/delta/live_serie-a_como-parma-live-streaming-615395232/1",
+            "title": "",
+            "html_length": 768399,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org",
+              "xjgvjhtuglzxu.online"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb20.strmd.st/secure/<155c5f5ec2>/delta/stream/live_serie-a_como-parma-live-streaming-615395232/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb20.strmd.st/secure/dfohGJuQZhyfRFmMHoftfARLMTWInmXS/delta/stream/live_serie-a_como-parma-live-streaming-615395232/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    }
+  ],
   "errors": []
 }
