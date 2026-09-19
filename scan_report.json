@@ -1,30 +1,34 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1789834961,
-  "elapsed_seconds": 97.29,
+  "started_at": 1789843205,
+  "elapsed_seconds": 66.81,
   "api_ok": true,
-  "matches": 65,
-  "live_matches": 65,
+  "matches": 160,
+  "live_matches": 160,
   "nearby_fallback_matches": 0,
   "nearby_fallback_used": false,
   "source_pairs": 34,
-  "embed_candidates": 23,
+  "embed_candidates": 15,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 23
+    "upstream_dead": 15
   },
   "entries": [],
   "browser_events": [
     {
-      "key": "arkansas-vs-georgia-2498754|admin|ppv-georgia-bulldogs-at-arkansas-razorbacks|1",
-      "title": "Arkansas vs Georgia",
-      "embed": "https://embed.st/embed/admin/ppv-georgia-bulldogs-at-arkansas-razorbacks/1",
+      "key": "chicago-white-sox-vs-detroit-tigers-2601496|admin|ppv-detroit-tigers-vs-chicago-white-sox|1",
+      "title": "Chicago White Sox vs Detroit Tigers",
+      "embed": "https://embed.st/embed/admin/ppv-detroit-tigers-vs-chicago-white-sox/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
         {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
@@ -36,6 +40,10 @@
           "resource_type": "fetch"
         },
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
           "response": "fetch",
           "status": 200,
           "url": "https://embed.st/fetch"
@@ -43,15 +51,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<0589335173>/rtmp/stream/gmZoPCqXT8P-dwkxNmcA8n1VGwIsZtI8Ua8tp6NVTpvddj2LMuiPx64R2f0WH1iOqK2fBfw/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<3f26ccb914>/rtmp/stream/FHTrFqtBB6spqLN4meO4s4NAovISlt19Ds169K-afyeOV_VZ-XdwQTZvQvTAkFEkp4TjcnQ-m06wtein3u1V1a4/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb15.strmd.st/secure/zvlWeUzUxIHZsCEOTygsdubIwuJhMPHm/rtmp/stream/gmZoPCqXT8P-dwkxNmcA8n1VGwIsZtI8Ua8tp6NVTpvddj2LMuiPx64R2f0WH1iOqK2fBfw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb7.strmd.st/secure/PoYflmCtdJjcPOZUrDyMKDrORNZQKoCG/rtmp/stream/FHTrFqtBB6spqLN4meO4s4NAovISlt19Ds169K-afyeOV_VZ-XdwQTZvQvTAkFEkp4TjcnQ-m06wtein3u1V1a4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb15.strmd.st/secure/<0589335173>/rtmp/stream/gmZoPCqXT8P-dwkxNmcA8n1VGwIsZtI8Ua8tp6NVTpvddj2LMuiPx64R2f0WH1iOqK2fBfw/1/playlist.m3u8",
+          "request_failed": "https://lb7.strmd.st/secure/<3f26ccb914>/rtmp/stream/FHTrFqtBB6spqLN4meO4s4NAovISlt19Ds169K-afyeOV_VZ-XdwQTZvQvTAkFEkp4TjcnQ-m06wtein3u1V1a4/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -61,13 +69,13 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-georgia-bulldogs-at-arkansas-razorbacks/1",
+            "url": "https://embed.st/embed/admin/ppv-detroit-tigers-vs-chicago-white-sox/1",
             "title": "",
-            "html_length": 659389,
+            "html_length": 23342,
             "script_hosts": [
               "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online"
+              "llvpn.com",
+              "strmd.b-cdn.net"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -78,9 +86,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb15.strmd.st/secure/<0589335173>/rtmp/stream/gmZoPCqXT8P-dwkxNmcA8n1VGwIsZtI8Ua8tp6NVTpvddj2LMuiPx64R2f0WH1iOqK2fBfw/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<3f26ccb914>/rtmp/stream/FHTrFqtBB6spqLN4meO4s4NAovISlt19Ds169K-afyeOV_VZ-XdwQTZvQvTAkFEkp4TjcnQ-m06wtein3u1V1a4/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb15.strmd.st/secure/zvlWeUzUxIHZsCEOTygsdubIwuJhMPHm/rtmp/stream/gmZoPCqXT8P-dwkxNmcA8n1VGwIsZtI8Ua8tp6NVTpvddj2LMuiPx64R2f0WH1iOqK2fBfw/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb7.strmd.st/secure/PoYflmCtdJjcPOZUrDyMKDrORNZQKoCG/rtmp/stream/FHTrFqtBB6spqLN4meO4s4NAovISlt19Ds169K-afyeOV_VZ-XdwQTZvQvTAkFEkp4TjcnQ-m06wtein3u1V1a4/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -93,20 +101,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<0589335173>/rtmp/stream/gmZoPCqXT8P-dwkxNmcA8n1VGwIsZtI8Ua8tp6NVTpvddj2LMuiPx64R2f0WH1iOqK2fBfw/1/playlist.m3u8",
+          "url": "https://lb7.strmd.st/secure/<3f26ccb914>/rtmp/stream/FHTrFqtBB6spqLN4meO4s4NAovISlt19Ds169K-afyeOV_VZ-XdwQTZvQvTAkFEkp4TjcnQ-m06wtein3u1V1a4/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/PoYflmCtdJjcPOZUrDyMKDrORNZQKoCG/rtmp/stream/FHTrFqtBB6spqLN4meO4s4NAovISlt19Ds169K-afyeOV_VZ-XdwQTZvQvTAkFEkp4TjcnQ-m06wtein3u1V1a4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb7.strmd.st/secure/<3f26ccb914>/rtmp/stream/FHTrFqtBB6spqLN4meO4s4NAovISlt19Ds169K-afyeOV_VZ-XdwQTZvQvTAkFEkp4TjcnQ-m06wtein3u1V1a4/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "console": "error",
@@ -126,15 +134,7 @@
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb15.strmd.st/secure/zvlWeUzUxIHZsCEOTygsdubIwuJhMPHm/rtmp/stream/gmZoPCqXT8P-dwkxNmcA8n1VGwIsZtI8Ua8tp6NVTpvddj2LMuiPx64R2f0WH1iOqK2fBfw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<0589335173>/rtmp/stream/gmZoPCqXT8P-dwkxNmcA8n1VGwIsZtI8Ua8tp6NVTpvddj2LMuiPx64R2f0WH1iOqK2fBfw/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
@@ -151,21 +151,25 @@
       ]
     },
     {
-      "key": "arkansas-vs-georgia-2498754|admin|ppv-georgia-bulldogs-at-arkansas-razorbacks|2",
-      "title": "Arkansas vs Georgia",
-      "embed": "https://embed.st/embed/admin/ppv-georgia-bulldogs-at-arkansas-razorbacks/2",
+      "key": "chicago-white-sox-vs-detroit-tigers-2601496|admin|ppv-detroit-tigers-vs-chicago-white-sox|2",
+      "title": "Chicago White Sox vs Detroit Tigers",
+      "embed": "https://embed.st/embed/admin/ppv-detroit-tigers-vs-chicago-white-sox/2",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
         {
           "request": "fetch",
           "method": "POST",
           "url": "https://embed.st/fetch",
           "resource_type": "fetch"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "response": "fetch",
@@ -175,47 +179,19 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<74c1bd40bf>/rtmp/stream/uohHKKORU5hDww93AFmagDKVEYRbEMnirYCfR0UO4BKcHkMRfqqD-jYFbilHd7N8qu3Q0DrtIlLJ/1/playlist.m3u8",
+          "url": "https://lb18.strmd.st/secure/<8382527fb6>/rtmp/stream/Eo-J4LPC2S370KlUVCUzO0eFp4y_kix8H6TmwCOzAZLdg3YtmRgb5N7Zw4sL69tRCG-2MVu2S5zXK-hgLSdJ5FTVndAe/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-georgia-bulldogs-at-arkansas-razorbacks/2",
-            "title": "",
-            "html_length": 659389,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb1.strmd.st/secure/<74c1bd40bf>/rtmp/stream/uohHKKORU5hDww93AFmagDKVEYRbEMnirYCfR0UO4BKcHkMRfqqD-jYFbilHd7N8qu3Q0DrtIlLJ/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb1.strmd.st/secure/UhqKxQoqtotOtNXxwxYHqbuaDZERAMyn/rtmp/stream/uohHKKORU5hDww93AFmagDKVEYRbEMnirYCfR0UO4BKcHkMRfqqD-jYFbilHd7N8qu3Q0DrtIlLJ/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb1.strmd.st/secure/UhqKxQoqtotOtNXxwxYHqbuaDZERAMyn/rtmp/stream/uohHKKORU5hDww93AFmagDKVEYRbEMnirYCfR0UO4BKcHkMRfqqD-jYFbilHd7N8qu3Q0DrtIlLJ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb18.strmd.st/secure/RUEDPtJsYWtncSaDIwEFeIbxHqPWBQeU/rtmp/stream/Eo-J4LPC2S370KlUVCUzO0eFp4y_kix8H6TmwCOzAZLdg3YtmRgb5N7Zw4sL69tRCG-2MVu2S5zXK-hgLSdJ5FTVndAe/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb1.strmd.st/secure/<74c1bd40bf>/rtmp/stream/uohHKKORU5hDww93AFmagDKVEYRbEMnirYCfR0UO4BKcHkMRfqqD-jYFbilHd7N8qu3Q0DrtIlLJ/1/playlist.m3u8",
+          "request_failed": "https://lb18.strmd.st/secure/<8382527fb6>/rtmp/stream/Eo-J4LPC2S370KlUVCUzO0eFp4y_kix8H6TmwCOzAZLdg3YtmRgb5N7Zw4sL69tRCG-2MVu2S5zXK-hgLSdJ5FTVndAe/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -229,88 +205,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<74c1bd40bf>/rtmp/stream/uohHKKORU5hDww93AFmagDKVEYRbEMnirYCfR0UO4BKcHkMRfqqD-jYFbilHd7N8qu3Q0DrtIlLJ/1/playlist.m3u8",
+          "url": "https://lb18.strmd.st/secure/<8382527fb6>/rtmp/stream/Eo-J4LPC2S370KlUVCUzO0eFp4y_kix8H6TmwCOzAZLdg3YtmRgb5N7Zw4sL69tRCG-2MVu2S5zXK-hgLSdJ5FTVndAe/1/playlist.m3u8",
           "resource_type": "xhr"
-        }
-      ]
-    },
-    {
-      "key": "arkansas-vs-georgia-2498754|admin|ppv-georgia-bulldogs-at-arkansas-razorbacks|3",
-      "title": "Arkansas vs Georgia",
-      "embed": "https://embed.st/embed/admin/ppv-georgia-bulldogs-at-arkansas-razorbacks/3",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb18.strmd.st/secure/<0e0a0f0546>/rtmp/stream/I8zMNi-VwSMqoUGUob0nOKwvzmGko_Cy49tWvZRJ5v8Aq7luO9MGEj_wRUep03XsC-TLu0Wp_U7ZKHNvVIDw76k/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb18.strmd.st/secure/iLBuXiAifuswVKlcaxxuTCZlEgkJOoNI/rtmp/stream/I8zMNi-VwSMqoUGUob0nOKwvzmGko_Cy49tWvZRJ5v8Aq7luO9MGEj_wRUep03XsC-TLu0Wp_U7ZKHNvVIDw76k/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb18.strmd.st/secure/<0e0a0f0546>/rtmp/stream/I8zMNi-VwSMqoUGUob0nOKwvzmGko_Cy49tWvZRJ5v8Aq7luO9MGEj_wRUep03XsC-TLu0Wp_U7ZKHNvVIDw76k/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb18.strmd.st/secure/<0e0a0f0546>/rtmp/stream/I8zMNi-VwSMqoUGUob0nOKwvzmGko_Cy49tWvZRJ5v8Aq7luO9MGEj_wRUep03XsC-TLu0Wp_U7ZKHNvVIDw76k/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb18.strmd.st/secure/iLBuXiAifuswVKlcaxxuTCZlEgkJOoNI/rtmp/stream/I8zMNi-VwSMqoUGUob0nOKwvzmGko_Cy49tWvZRJ5v8Aq7luO9MGEj_wRUep03XsC-TLu0Wp_U7ZKHNvVIDw76k/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb18.strmd.st/secure/<0e0a0f0546>/rtmp/stream/I8zMNi-VwSMqoUGUob0nOKwvzmGko_Cy49tWvZRJ5v8Aq7luO9MGEj_wRUep03XsC-TLu0Wp_U7ZKHNvVIDw76k/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-georgia-bulldogs-at-arkansas-razorbacks/3",
+            "url": "https://embed.st/embed/admin/ppv-detroit-tigers-vs-chicago-white-sox/2",
             "title": "",
-            "html_length": 768397,
+            "html_length": 132350,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "llvpn.com",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -323,27 +231,35 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb18.strmd.st/secure/<0e0a0f0546>/rtmp/stream/I8zMNi-VwSMqoUGUob0nOKwvzmGko_Cy49tWvZRJ5v8Aq7luO9MGEj_wRUep03XsC-TLu0Wp_U7ZKHNvVIDw76k/1/playlist.m3u8",
+          "url": "https://lb18.strmd.st/secure/<8382527fb6>/rtmp/stream/Eo-J4LPC2S370KlUVCUzO0eFp4y_kix8H6TmwCOzAZLdg3YtmRgb5N7Zw4sL69tRCG-2MVu2S5zXK-hgLSdJ5FTVndAe/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb18.strmd.st/secure/iLBuXiAifuswVKlcaxxuTCZlEgkJOoNI/rtmp/stream/I8zMNi-VwSMqoUGUob0nOKwvzmGko_Cy49tWvZRJ5v8Aq7luO9MGEj_wRUep03XsC-TLu0Wp_U7ZKHNvVIDw76k/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb18.strmd.st/secure/RUEDPtJsYWtncSaDIwEFeIbxHqPWBQeU/rtmp/stream/Eo-J4LPC2S370KlUVCUzO0eFp4y_kix8H6TmwCOzAZLdg3YtmRgb5N7Zw4sL69tRCG-2MVu2S5zXK-hgLSdJ5FTVndAe/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb18.strmd.st/secure/RUEDPtJsYWtncSaDIwEFeIbxHqPWBQeU/rtmp/stream/Eo-J4LPC2S370KlUVCUzO0eFp4y_kix8H6TmwCOzAZLdg3YtmRgb5N7Zw4sL69tRCG-2MVu2S5zXK-hgLSdJ5FTVndAe/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb18.strmd.st/secure/<8382527fb6>/rtmp/stream/Eo-J4LPC2S370KlUVCUzO0eFp4y_kix8H6TmwCOzAZLdg3YtmRgb5N7Zw4sL69tRCG-2MVu2S5zXK-hgLSdJ5FTVndAe/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         }
       ]
     },
     {
-      "key": "arkansas-vs-georgia-2498754|admin|ppv-georgia-bulldogs-at-arkansas-razorbacks|4",
-      "title": "Arkansas vs Georgia",
-      "embed": "https://embed.st/embed/admin/ppv-georgia-bulldogs-at-arkansas-razorbacks/4",
+      "key": "chicago-white-sox-vs-detroit-tigers-2601496|delta|live_mlb_white-sox-tigers-live-streaming-594436320|1",
+      "title": "Chicago White Sox vs Detroit Tigers",
+      "embed": "https://embed.st/embed/delta/live_mlb_white-sox-tigers-live-streaming-594436320/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
         {
           "request": "fetch",
           "method": "POST",
@@ -351,22 +267,34 @@
           "resource_type": "fetch"
         },
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
           "response": "fetch",
           "status": 200,
           "url": "https://embed.st/fetch"
         },
         {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb18.strmd.st/secure/<46c3b078b5>/rtmp/stream/44556WfFiALG6dapWrY_a2-m7uhR0-vESVrY6m3A7pEjcO4fLuJ4z7IiQVR6vKEkPAiZ040YKgqFT81-siNyRwgP_aUR/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<e0cb581d38>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb18.strmd.st/secure/sjJFCNFDRpOkrDUmwSemyciLsiUeaefi/rtmp/stream/44556WfFiALG6dapWrY_a2-m7uhR0-vESVrY6m3A7pEjcO4fLuJ4z7IiQVR6vKEkPAiZ040YKgqFT81-siNyRwgP_aUR/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/vInDarWXuIPuwWMpCnOuRkzxNgmGBBlH/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb18.strmd.st/secure/<46c3b078b5>/rtmp/stream/44556WfFiALG6dapWrY_a2-m7uhR0-vESVrY6m3A7pEjcO4fLuJ4z7IiQVR6vKEkPAiZ040YKgqFT81-siNyRwgP_aUR/1/playlist.m3u8",
+          "request_failed": "https://lb11.strmd.st/secure/<e0cb581d38>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -380,36 +308,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb18.strmd.st/secure/<46c3b078b5>/rtmp/stream/44556WfFiALG6dapWrY_a2-m7uhR0-vESVrY6m3A7pEjcO4fLuJ4z7IiQVR6vKEkPAiZ040YKgqFT81-siNyRwgP_aUR/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<e0cb581d38>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/1/playlist.m3u8",
           "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb18.strmd.st/secure/sjJFCNFDRpOkrDUmwSemyciLsiUeaefi/rtmp/stream/44556WfFiALG6dapWrY_a2-m7uhR0-vESVrY6m3A7pEjcO4fLuJ4z7IiQVR6vKEkPAiZ040YKgqFT81-siNyRwgP_aUR/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb18.strmd.st/secure/<46c3b078b5>/rtmp/stream/44556WfFiALG6dapWrY_a2-m7uhR0-vESVrY6m3A7pEjcO4fLuJ4z7IiQVR6vKEkPAiZ040YKgqFT81-siNyRwgP_aUR/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-georgia-bulldogs-at-arkansas-razorbacks/4",
+            "url": "https://embed.st/embed/delta/live_mlb_white-sox-tigers-live-streaming-594436320/1",
             "title": "",
-            "html_length": 768397,
+            "html_length": 132214,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "llvpn.com",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -422,20 +334,32 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb18.strmd.st/secure/<46c3b078b5>/rtmp/stream/44556WfFiALG6dapWrY_a2-m7uhR0-vESVrY6m3A7pEjcO4fLuJ4z7IiQVR6vKEkPAiZ040YKgqFT81-siNyRwgP_aUR/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<e0cb581d38>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb18.strmd.st/secure/sjJFCNFDRpOkrDUmwSemyciLsiUeaefi/rtmp/stream/44556WfFiALG6dapWrY_a2-m7uhR0-vESVrY6m3A7pEjcO4fLuJ4z7IiQVR6vKEkPAiZ040YKgqFT81-siNyRwgP_aUR/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb11.strmd.st/secure/vInDarWXuIPuwWMpCnOuRkzxNgmGBBlH/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/vInDarWXuIPuwWMpCnOuRkzxNgmGBBlH/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb11.strmd.st/secure/<e0cb581d38>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         }
       ]
     },
     {
-      "key": "arkansas-vs-georgia-2498754|delta|live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584|1",
-      "title": "Arkansas vs Georgia",
-      "embed": "https://embed.st/embed/delta/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1",
+      "key": "chicago-white-sox-vs-detroit-tigers-2601496|delta|live_mlb_white-sox-tigers-live-streaming-594436320|2",
+      "title": "Chicago White Sox vs Detroit Tigers",
+      "embed": "https://embed.st/embed/delta/live_mlb_white-sox-tigers-live-streaming-594436320/2",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
@@ -457,15 +381,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb16.strmd.st/secure/<484cf8119a>/delta/stream/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<fef6e03864>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/2/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb16.strmd.st/secure/uEYwssKQYkpMBkerBHBFwHTkDafVPmEC/delta/stream/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb11.strmd.st/secure/DxtIZtMTNGIXObidWXVIlmlbHHKnJJyn/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb16.strmd.st/secure/<484cf8119a>/delta/stream/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1/playlist.m3u8",
+          "request_failed": "https://lb11.strmd.st/secure/<fef6e03864>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/2/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -479,15 +403,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb16.strmd.st/secure/<484cf8119a>/delta/stream/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<fef6e03864>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/2/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb16.strmd.st/secure/uEYwssKQYkpMBkerBHBFwHTkDafVPmEC/delta/stream/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/DxtIZtMTNGIXObidWXVIlmlbHHKnJJyn/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb16.strmd.st/secure/<484cf8119a>/delta/stream/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1/playlist.m3u8",
+          "request_failed": "https://lb11.strmd.st/secure/<fef6e03864>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/2/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -497,14 +421,14 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1",
+            "url": "https://embed.st/embed/delta/live_mlb_white-sox-tigers-live-streaming-594436320/2",
             "title": "",
-            "html_length": 768441,
+            "html_length": 768433,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "kvxwqdgvhwxqc.site",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -517,9 +441,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb16.strmd.st/secure/<484cf8119a>/delta/stream/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1/playlist.m3u8",
+          "url": "https://lb11.strmd.st/secure/<fef6e03864>/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/2/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb16.strmd.st/secure/uEYwssKQYkpMBkerBHBFwHTkDafVPmEC/delta/stream/live_cfb_arkansas-georgia-bulldogs-live-streaming-587827584/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb11.strmd.st/secure/DxtIZtMTNGIXObidWXVIlmlbHHKnJJyn/delta/stream/live_mlb_white-sox-tigers-live-streaming-594436320/2/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -528,12 +452,32 @@
       ]
     },
     {
-      "key": "kansas-state-vs-tulane-2498755|delta|live_cfb_kansas-st-tulane-live-streaming-587829312|1",
-      "title": "Kansas State vs Tulane",
-      "embed": "https://embed.st/embed/delta/live_cfb_kansas-st-tulane-live-streaming-587829312/1",
+      "key": "chicago-white-sox-vs-detroit-tigers-2601496|golf|1478|1",
+      "title": "Chicago White Sox vs Detroit Tigers",
+      "embed": "https://embed.st/embed/golf/1478/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Allow attribute will take precedence over 'allowfullscreen'."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
         {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
@@ -552,15 +496,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<6866104e8a>/delta/stream/live_cfb_kansas-st-tulane-live-streaming-587829312/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<4298cd5c53>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/dzQIKLWvmUzcQKcbAcvWpqqUrimeryiY/delta/stream/live_cfb_kansas-st-tulane-live-streaming-587829312/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/ngtRUvsbKcwkpWKiOsHePULUtmcjpwiO/ingest/stream/mchicagowhitesox/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<6866104e8a>/delta/stream/live_cfb_kansas-st-tulane-live-streaming-587829312/1/playlist.m3u8",
+          "request_failed": "https://lb14.strmd.st/secure/<4298cd5c53>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -574,15 +518,233 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<6866104e8a>/delta/stream/live_cfb_kansas-st-tulane-live-streaming-587829312/1/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<4298cd5c53>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/golf/1478/1",
+            "title": "",
+            "html_length": 638148,
+            "script_hosts": [
+              "a.cdn-lab.shop",
+              "ann.cdn-lab.shop",
+              "kvxwqdgvhwxqc.site",
+              "rockystream.st"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb14.strmd.st/secure/<4298cd5c53>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb14.strmd.st/secure/ngtRUvsbKcwkpWKiOsHePULUtmcjpwiO/ingest/stream/mchicagowhitesox/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/ngtRUvsbKcwkpWKiOsHePULUtmcjpwiO/ingest/stream/mchicagowhitesox/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<4298cd5c53>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "chicago-white-sox-vs-detroit-tigers-2601496|golf|1478|2",
+      "title": "Chicago White Sox vs Detroit Tigers",
+      "embed": "https://embed.st/embed/golf/1478/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "console": "warning",
+          "text": "Allow attribute will take precedence over 'allowfullscreen'."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb14.strmd.st/secure/<67b5ba1da9>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/NvOhSqBNpxWjNukABzJlmGuIayVfnkEJ/ingest/stream/mchicagowhitesox/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<67b5ba1da9>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "A bad HTTP response code (404) was received when fetching the script."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb14.strmd.st/secure/<67b5ba1da9>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/dzQIKLWvmUzcQKcbAcvWpqqUrimeryiY/delta/stream/live_cfb_kansas-st-tulane-live-streaming-587829312/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<6866104e8a>/delta/stream/live_cfb_kansas-st-tulane-live-streaming-587829312/1/playlist.m3u8",
+          "request_failed": "https://embed.st/38861cba61c66739c1452c3a71e39852.ttf",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/NvOhSqBNpxWjNukABzJlmGuIayVfnkEJ/ingest/stream/mchicagowhitesox/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb14.strmd.st/secure/<67b5ba1da9>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "A bad HTTP response code (404) was received when fetching the script."
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/golf/1478/2",
+            "title": "",
+            "html_length": 1913,
+            "script_hosts": [
+              "a.cdn-lab.shop",
+              "ann.cdn-lab.shop",
+              "rockystream.st",
+              "therocketlanguages.com"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb14.strmd.st/secure/<67b5ba1da9>/ingest/stream/mchicagowhitesox/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb14.strmd.st/secure/NvOhSqBNpxWjNukABzJlmGuIayVfnkEJ/ingest/stream/mchicagowhitesox/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "boston-college-vs-maine-2498767|delta|live_cfb_boston-college-maine-live-streaming-587850912|1",
+      "title": "Boston College vs Maine",
+      "embed": "https://embed.st/embed/delta/live_cfb_boston-college-maine-live-streaming-587850912/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<50923216a0>/delta/stream/live_cfb_boston-college-maine-live-streaming-587850912/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/WmbDLTYiERJuyHFJIQgTwcmbcdpgvmwz/delta/stream/live_cfb_boston-college-maine-live-streaming-587850912/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<50923216a0>/delta/stream/live_cfb_boston-college-maine-live-streaming-587850912/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb13.strmd.st/secure/<50923216a0>/delta/stream/live_cfb_boston-college-maine-live-streaming-587850912/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/WmbDLTYiERJuyHFJIQgTwcmbcdpgvmwz/delta/stream/live_cfb_boston-college-maine-live-streaming-587850912/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb13.strmd.st/secure/<50923216a0>/delta/stream/live_cfb_boston-college-maine-live-streaming-587850912/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -592,14 +754,14 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_kansas-st-tulane-live-streaming-587829312/1",
+            "url": "https://embed.st/embed/delta/live_cfb_boston-college-maine-live-streaming-587850912/1",
             "title": "",
-            "html_length": 768441,
+            "html_length": 132199,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
+              "therocketlanguages.com",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -612,9 +774,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<6866104e8a>/delta/stream/live_cfb_kansas-st-tulane-live-streaming-587829312/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<50923216a0>/delta/stream/live_cfb_boston-college-maine-live-streaming-587850912/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/dzQIKLWvmUzcQKcbAcvWpqqUrimeryiY/delta/stream/live_cfb_kansas-st-tulane-live-streaming-587829312/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb13.strmd.st/secure/WmbDLTYiERJuyHFJIQgTwcmbcdpgvmwz/delta/stream/live_cfb_boston-college-maine-live-streaming-587850912/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -623,15 +785,15 @@
       ]
     },
     {
-      "key": "iowa-state-vs-bowling-green-2498756|delta|live_cfb_iowa-state-bowling-green-live-streaming-587828448|1",
-      "title": "Iowa State vs Bowling Green",
-      "embed": "https://embed.st/embed/delta/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1",
+      "key": "illinois-vs-southern-illinois-2498768|delta|live_cfb_illinois-southern-illinois-live-streaming-587851344|1",
+      "title": "Illinois vs Southern Illinois",
+      "embed": "https://embed.st/embed/delta/live_cfb_illinois-southern-illinois-live-streaming-587851344/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
         },
         {
           "request": "fetch",
@@ -647,15 +809,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<d4042c0f53>/delta/stream/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<649284ad04>/delta/stream/live_cfb_illinois-southern-illinois-live-streaming-587851344/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/NGURHphIUQgUJaWIXWzfrfSQQUgSLSlG/delta/stream/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/BdcrEgARCXONZRLFnlLTICXYHoxyLefK/delta/stream/live_cfb_illinois-southern-illinois-live-streaming-587851344/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<d4042c0f53>/delta/stream/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<649284ad04>/delta/stream/live_cfb_illinois-southern-illinois-live-streaming-587851344/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -669,19 +831,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<d4042c0f53>/delta/stream/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<649284ad04>/delta/stream/live_cfb_illinois-southern-illinois-live-streaming-587851344/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/BdcrEgARCXONZRLFnlLTICXYHoxyLefK/delta/stream/live_cfb_illinois-southern-illinois-live-streaming-587851344/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/NGURHphIUQgUJaWIXWzfrfSQQUgSLSlG/delta/stream/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<d4042c0f53>/delta/stream/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<649284ad04>/delta/stream/live_cfb_illinois-southern-illinois-live-streaming-587851344/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -691,14 +849,14 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1",
+            "url": "https://embed.st/embed/delta/live_cfb_illinois-southern-illinois-live-streaming-587851344/1",
             "title": "",
-            "html_length": 768441,
+            "html_length": 132199,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
+              "therocketlanguages.com",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -711,9 +869,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<d4042c0f53>/delta/stream/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<649284ad04>/delta/stream/live_cfb_illinois-southern-illinois-live-streaming-587851344/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/NGURHphIUQgUJaWIXWzfrfSQQUgSLSlG/delta/stream/live_cfb_iowa-state-bowling-green-live-streaming-587828448/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb13.strmd.st/secure/BdcrEgARCXONZRLFnlLTICXYHoxyLefK/delta/stream/live_cfb_illinois-southern-illinois-live-streaming-587851344/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -722,15 +880,15 @@
       ]
     },
     {
-      "key": "georgia-tech-vs-mercer-2498758|delta|live_cfb_georgia-tech-mercer-live-streaming-587850480|1",
-      "title": "Georgia Tech vs Mercer",
-      "embed": "https://embed.st/embed/delta/live_cfb_georgia-tech-mercer-live-streaming-587850480/1",
+      "key": "john-hedges-vs-pat-brown-2548283|admin|ppv-hedges-vs-brown|1",
+      "title": "John Hedges vs Pat Brown",
+      "embed": "https://embed.st/embed/admin/ppv-hedges-vs-brown/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
         },
         {
           "request": "fetch",
@@ -746,24 +904,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<e6a932da6f>/delta/stream/live_cfb_georgia-tech-mercer-live-streaming-587850480/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<69de6fceb6>/rtmp/stream/CiMMfCVV8QX64Ep0CFRWb8bsXRKWEo6QgtmGJ5F9nOU7HC_cfOZfDPswDxGTjdkbVkUQtHQYUJ-c6z1Y/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb13.strmd.st/secure/gLrxgCRfMvPaLmxHCRsFNMxXQGkakGvb/delta/stream/live_cfb_georgia-tech-mercer-live-streaming-587850480/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/PpcmvpewZnrbmBgeGtvziVvBMhfnOMNL/rtmp/stream/CiMMfCVV8QX64Ep0CFRWb8bsXRKWEo6QgtmGJ5F9nOU7HC_cfOZfDPswDxGTjdkbVkUQtHQYUJ-c6z1Y/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb13.strmd.st/secure/<e6a932da6f>/delta/stream/live_cfb_georgia-tech-mercer-live-streaming-587850480/1/playlist.m3u8",
+          "request_failed": "https://lb8.strmd.st/secure/<69de6fceb6>/rtmp/stream/CiMMfCVV8QX64Ep0CFRWb8bsXRKWEo6QgtmGJ5F9nOU7HC_cfOZfDPswDxGTjdkbVkUQtHQYUJ-c6z1Y/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
@@ -772,32 +926,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb13.strmd.st/secure/<e6a932da6f>/delta/stream/live_cfb_georgia-tech-mercer-live-streaming-587850480/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<69de6fceb6>/rtmp/stream/CiMMfCVV8QX64Ep0CFRWb8bsXRKWEo6QgtmGJ5F9nOU7HC_cfOZfDPswDxGTjdkbVkUQtHQYUJ-c6z1Y/1/playlist.m3u8",
           "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/gLrxgCRfMvPaLmxHCRsFNMxXQGkakGvb/delta/stream/live_cfb_georgia-tech-mercer-live-streaming-587850480/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb13.strmd.st/secure/<e6a932da6f>/delta/stream/live_cfb_georgia-tech-mercer-live-streaming-587850480/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_georgia-tech-mercer-live-streaming-587850480/1",
+            "url": "https://embed.st/embed/admin/ppv-hedges-vs-brown/1",
             "title": "",
-            "html_length": 768441,
+            "html_length": 132155,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
+              "therocketlanguages.com",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -810,20 +952,32 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb13.strmd.st/secure/<e6a932da6f>/delta/stream/live_cfb_georgia-tech-mercer-live-streaming-587850480/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<69de6fceb6>/rtmp/stream/CiMMfCVV8QX64Ep0CFRWb8bsXRKWEo6QgtmGJ5F9nOU7HC_cfOZfDPswDxGTjdkbVkUQtHQYUJ-c6z1Y/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb13.strmd.st/secure/gLrxgCRfMvPaLmxHCRsFNMxXQGkakGvb/delta/stream/live_cfb_georgia-tech-mercer-live-streaming-587850480/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb8.strmd.st/secure/PpcmvpewZnrbmBgeGtvziVvBMhfnOMNL/rtmp/stream/CiMMfCVV8QX64Ep0CFRWb8bsXRKWEo6QgtmGJ5F9nOU7HC_cfOZfDPswDxGTjdkbVkUQtHQYUJ-c6z1Y/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/PpcmvpewZnrbmBgeGtvziVvBMhfnOMNL/rtmp/stream/CiMMfCVV8QX64Ep0CFRWb8bsXRKWEo6QgtmGJ5F9nOU7HC_cfOZfDPswDxGTjdkbVkUQtHQYUJ-c6z1Y/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<69de6fceb6>/rtmp/stream/CiMMfCVV8QX64Ep0CFRWb8bsXRKWEo6QgtmGJ5F9nOU7HC_cfOZfDPswDxGTjdkbVkUQtHQYUJ-c6z1Y/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         }
       ]
     },
     {
-      "key": "clemson-vs-north-carolina-2498759|delta|live_cfb_clemson-north-carolina-live-streaming-587828016|1",
-      "title": "Clemson vs North Carolina",
-      "embed": "https://embed.st/embed/delta/live_cfb_clemson-north-carolina-live-streaming-587828016/1",
+      "key": "john-hedges-vs-pat-brown-2548283|admin|ppv-hedges-vs-brown|2",
+      "title": "John Hedges vs Pat Brown",
+      "embed": "https://embed.st/embed/admin/ppv-hedges-vs-brown/2",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
@@ -845,15 +999,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<dd99b4e75f>/delta/stream/live_cfb_clemson-north-carolina-live-streaming-587828016/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<515645f457>/rtmp/stream/cyR_OidyxwpR_o963EBEyUuEm9A1SXG9-dGGcvWSI9mcsSS12p4Dx5U6yY4kKlliCr-o4TpwYvTou4Bh49pAiQ/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb9.strmd.st/secure/AkLiGoETRcLIERKmNBodfOSALuAxKBmv/delta/stream/live_cfb_clemson-north-carolina-live-streaming-587828016/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/ofAhHjChaVhKIEUfshBdjncvbvkSVreU/rtmp/stream/cyR_OidyxwpR_o963EBEyUuEm9A1SXG9-dGGcvWSI9mcsSS12p4Dx5U6yY4kKlliCr-o4TpwYvTou4Bh49pAiQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb9.strmd.st/secure/<dd99b4e75f>/delta/stream/live_cfb_clemson-north-carolina-live-streaming-587828016/1/playlist.m3u8",
+          "request_failed": "https://lb8.strmd.st/secure/<515645f457>/rtmp/stream/cyR_OidyxwpR_o963EBEyUuEm9A1SXG9-dGGcvWSI9mcsSS12p4Dx5U6yY4kKlliCr-o4TpwYvTou4Bh49pAiQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -867,15 +1021,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb9.strmd.st/secure/<dd99b4e75f>/delta/stream/live_cfb_clemson-north-carolina-live-streaming-587828016/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<515645f457>/rtmp/stream/cyR_OidyxwpR_o963EBEyUuEm9A1SXG9-dGGcvWSI9mcsSS12p4Dx5U6yY4kKlliCr-o4TpwYvTou4Bh49pAiQ/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb9.strmd.st/secure/AkLiGoETRcLIERKmNBodfOSALuAxKBmv/delta/stream/live_cfb_clemson-north-carolina-live-streaming-587828016/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/ofAhHjChaVhKIEUfshBdjncvbvkSVreU/rtmp/stream/cyR_OidyxwpR_o963EBEyUuEm9A1SXG9-dGGcvWSI9mcsSS12p4Dx5U6yY4kKlliCr-o4TpwYvTou4Bh49pAiQ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb9.strmd.st/secure/<dd99b4e75f>/delta/stream/live_cfb_clemson-north-carolina-live-streaming-587828016/1/playlist.m3u8",
+          "request_failed": "https://lb8.strmd.st/secure/<515645f457>/rtmp/stream/cyR_OidyxwpR_o963EBEyUuEm9A1SXG9-dGGcvWSI9mcsSS12p4Dx5U6yY4kKlliCr-o4TpwYvTou4Bh49pAiQ/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -885,14 +1039,14 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_clemson-north-carolina-live-streaming-587828016/1",
+            "url": "https://embed.st/embed/admin/ppv-hedges-vs-brown/2",
             "title": "",
-            "html_length": 768441,
+            "html_length": 768389,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "kvxwqdgvhwxqc.site",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -905,9 +1059,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb9.strmd.st/secure/<dd99b4e75f>/delta/stream/live_cfb_clemson-north-carolina-live-streaming-587828016/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<515645f457>/rtmp/stream/cyR_OidyxwpR_o963EBEyUuEm9A1SXG9-dGGcvWSI9mcsSS12p4Dx5U6yY4kKlliCr-o4TpwYvTou4Bh49pAiQ/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb9.strmd.st/secure/AkLiGoETRcLIERKmNBodfOSALuAxKBmv/delta/stream/live_cfb_clemson-north-carolina-live-streaming-587828016/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb8.strmd.st/secure/ofAhHjChaVhKIEUfshBdjncvbvkSVreU/rtmp/stream/cyR_OidyxwpR_o963EBEyUuEm9A1SXG9-dGGcvWSI9mcsSS12p4Dx5U6yY4kKlliCr-o4TpwYvTou4Bh49pAiQ/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -916,9 +1070,9 @@
       ]
     },
     {
-      "key": "minnesota-vs-akron-2498760|delta|live_cfb_minnesota-akron-live-streaming-587829744|1",
-      "title": "Minnesota vs Akron",
-      "embed": "https://embed.st/embed/delta/live_cfb_minnesota-akron-live-streaming-587829744/1",
+      "key": "john-hedges-vs-pat-brown-2548283|delta|live-event_john-hedges-vs-pat-brown-live-stream|1",
+      "title": "John Hedges vs Pat Brown",
+      "embed": "https://embed.st/embed/delta/live-event_john-hedges-vs-pat-brown-live-stream/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
@@ -940,15 +1094,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<05758b064f>/delta/stream/live_cfb_minnesota-akron-live-streaming-587829744/1/playlist.m3u8",
+          "url": "https://lb15.strmd.st/secure/<acde77f877>/delta/stream/live-event_john-hedges-vs-pat-brown-live-stream/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb11.strmd.st/secure/NvpLopuFPCNTpoauMHNRJRzqRsSVtVVP/delta/stream/live_cfb_minnesota-akron-live-streaming-587829744/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb15.strmd.st/secure/gQjAZSKdxZZcSzQnStdeFRXzmxhdBvxs/delta/stream/live-event_john-hedges-vs-pat-brown-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb11.strmd.st/secure/<05758b064f>/delta/stream/live_cfb_minnesota-akron-live-streaming-587829744/1/playlist.m3u8",
+          "request_failed": "https://lb15.strmd.st/secure/<acde77f877>/delta/stream/live-event_john-hedges-vs-pat-brown-live-stream/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -962,19 +1116,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<05758b064f>/delta/stream/live_cfb_minnesota-akron-live-streaming-587829744/1/playlist.m3u8",
+          "url": "https://lb15.strmd.st/secure/<acde77f877>/delta/stream/live-event_john-hedges-vs-pat-brown-live-stream/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to XMLHttpRequest at 'https://lb15.strmd.st/secure/gQjAZSKdxZZcSzQnStdeFRXzmxhdBvxs/delta/stream/live-event_john-hedges-vs-pat-brown-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/NvpLopuFPCNTpoauMHNRJRzqRsSVtVVP/delta/stream/live_cfb_minnesota-akron-live-streaming-587829744/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb11.strmd.st/secure/<05758b064f>/delta/stream/live_cfb_minnesota-akron-live-streaming-587829744/1/playlist.m3u8",
+          "request_failed": "https://lb15.strmd.st/secure/<acde77f877>/delta/stream/live-event_john-hedges-vs-pat-brown-live-stream/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -984,14 +1134,14 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_minnesota-akron-live-streaming-587829744/1",
+            "url": "https://embed.st/embed/delta/live-event_john-hedges-vs-pat-brown-live-stream/1",
             "title": "",
-            "html_length": 768441,
+            "html_length": 768433,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "kvxwqdgvhwxqc.site",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -1004,9 +1154,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb11.strmd.st/secure/<05758b064f>/delta/stream/live_cfb_minnesota-akron-live-streaming-587829744/1/playlist.m3u8",
+          "url": "https://lb15.strmd.st/secure/<acde77f877>/delta/stream/live-event_john-hedges-vs-pat-brown-live-stream/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb11.strmd.st/secure/NvpLopuFPCNTpoauMHNRJRzqRsSVtVVP/delta/stream/live_cfb_minnesota-akron-live-streaming-587829744/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb15.strmd.st/secure/gQjAZSKdxZZcSzQnStdeFRXzmxhdBvxs/delta/stream/live-event_john-hedges-vs-pat-brown-live-stream/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -1015,12 +1165,36 @@
       ]
     },
     {
-      "key": "ohio-state-vs-kent-state-2498761|admin|ppv-kent-state-golden-flashes-at-ohio-state-buckeyes|1",
-      "title": "Ohio State vs Kent State",
-      "embed": "https://embed.st/embed/admin/ppv-kent-state-golden-flashes-at-ohio-state-buckeyes/1",
+      "key": "john-hedges-vs-pat-brown-2548283|golf|1519|1",
+      "title": "John Hedges vs Pat Brown",
+      "embed": "https://embed.st/embed/golf/1519/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "Allow attribute will take precedence over 'allowfullscreen'."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
         {
           "console": "warning",
           "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
@@ -1039,15 +1213,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<cd28673979>/rtmp/stream/qIXO-S7U6Jd7hqDUNoF1wh-Dpr-3o6vfjwgRITXmbm53u5ERYnM1rtZsn9x_NS5n0TR86as/1/playlist.m3u8",
+          "url": "https://lb19.strmd.st/secure/<ed0ba70950>/ingest/stream/mevent2/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb11.strmd.st/secure/SPOnEPjBEIFUsLyuRkwcTJaQKyxEHnDC/rtmp/stream/qIXO-S7U6Jd7hqDUNoF1wh-Dpr-3o6vfjwgRITXmbm53u5ERYnM1rtZsn9x_NS5n0TR86as/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb19.strmd.st/secure/tpmIKEgXbCduPqhSwWoRqHsZuHORnEee/ingest/stream/mevent2/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb11.strmd.st/secure/<cd28673979>/rtmp/stream/qIXO-S7U6Jd7hqDUNoF1wh-Dpr-3o6vfjwgRITXmbm53u5ERYnM1rtZsn9x_NS5n0TR86as/1/playlist.m3u8",
+          "request_failed": "https://lb19.strmd.st/secure/<ed0ba70950>/ingest/stream/mevent2/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1061,15 +1235,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb11.strmd.st/secure/<cd28673979>/rtmp/stream/qIXO-S7U6Jd7hqDUNoF1wh-Dpr-3o6vfjwgRITXmbm53u5ERYnM1rtZsn9x_NS5n0TR86as/1/playlist.m3u8",
+          "url": "https://lb19.strmd.st/secure/<ed0ba70950>/ingest/stream/mevent2/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb11.strmd.st/secure/SPOnEPjBEIFUsLyuRkwcTJaQKyxEHnDC/rtmp/stream/qIXO-S7U6Jd7hqDUNoF1wh-Dpr-3o6vfjwgRITXmbm53u5ERYnM1rtZsn9x_NS5n0TR86as/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb19.strmd.st/secure/tpmIKEgXbCduPqhSwWoRqHsZuHORnEee/ingest/stream/mevent2/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb11.strmd.st/secure/<cd28673979>/rtmp/stream/qIXO-S7U6Jd7hqDUNoF1wh-Dpr-3o6vfjwgRITXmbm53u5ERYnM1rtZsn9x_NS5n0TR86as/1/playlist.m3u8",
+          "request_failed": "https://lb19.strmd.st/secure/<ed0ba70950>/ingest/stream/mevent2/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1079,14 +1253,232 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-kent-state-golden-flashes-at-ohio-state-buckeyes/1",
+            "url": "https://embed.st/embed/golf/1519/1",
             "title": "",
-            "html_length": 768397,
+            "html_length": 638148,
+            "script_hosts": [
+              "a.cdn-lab.shop",
+              "ann.cdn-lab.shop",
+              "kvxwqdgvhwxqc.site",
+              "rockystream.st"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb19.strmd.st/secure/<ed0ba70950>/ingest/stream/mevent2/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb19.strmd.st/secure/tpmIKEgXbCduPqhSwWoRqHsZuHORnEee/ingest/stream/mevent2/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "john-hedges-vs-pat-brown-2548283|golf|1519|2",
+      "title": "John Hedges vs Pat Brown",
+      "embed": "https://embed.st/embed/golf/1519/2",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "console": "warning",
+          "text": "Allow attribute will take precedence over 'allowfullscreen'."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<cfa30f438f>/ingest/stream/mevent2/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/wHomBJmkvLMxsadHmFIuhTRTWgCNDTEa/ingest/stream/mevent2/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<cfa30f438f>/ingest/stream/mevent2/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "A bad HTTP response code (404) was received when fetching the script."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<cfa30f438f>/ingest/stream/mevent2/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/wHomBJmkvLMxsadHmFIuhTRTWgCNDTEa/ingest/stream/mevent2/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<cfa30f438f>/ingest/stream/mevent2/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "request_failed": "https://embed.st/38861cba61c66739c1452c3a71e39852.ttf",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/golf/1519/2",
+            "title": "",
+            "html_length": 1913,
+            "script_hosts": [
+              "a.cdn-lab.shop",
+              "ann.cdn-lab.shop",
+              "rockystream.st",
+              "therocketlanguages.com"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb12.strmd.st/secure/<cfa30f438f>/ingest/stream/mevent2/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb12.strmd.st/secure/wHomBJmkvLMxsadHmFIuhTRTWgCNDTEa/ingest/stream/mevent2/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "A bad HTTP response code (404) was received when fetching the script."
+        }
+      ]
+    },
+    {
+      "key": "ajax-vs-excelsior-2489123|admin|ppv-ajax-amsterdam-vs-excelsior|1",
+      "title": "Ajax vs Excelsior",
+      "embed": "https://embed.st/embed/admin/ppv-ajax-amsterdam-vs-excelsior/1",
+      "discovery": "live",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<3701281fc0>/rtmp/stream/FvNB2k0uArIXu_mSg3joA5jmVAcWwqv2DP9Nm6SH_sjziL8VfUFdYMgQZmhUnhy_pCGcXeaxSJM/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/WRGBAhXCvJQOCVLGPPEZKsWMfmBBAiWD/rtmp/stream/FvNB2k0uArIXu_mSg3joA5jmVAcWwqv2DP9Nm6SH_sjziL8VfUFdYMgQZmhUnhy_pCGcXeaxSJM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<3701281fc0>/rtmp/stream/FvNB2k0uArIXu_mSg3joA5jmVAcWwqv2DP9Nm6SH_sjziL8VfUFdYMgQZmhUnhy_pCGcXeaxSJM/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb12.strmd.st/secure/<3701281fc0>/rtmp/stream/FvNB2k0uArIXu_mSg3joA5jmVAcWwqv2DP9Nm6SH_sjziL8VfUFdYMgQZmhUnhy_pCGcXeaxSJM/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/WRGBAhXCvJQOCVLGPPEZKsWMfmBBAiWD/rtmp/stream/FvNB2k0uArIXu_mSg3joA5jmVAcWwqv2DP9Nm6SH_sjziL8VfUFdYMgQZmhUnhy_pCGcXeaxSJM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb12.strmd.st/secure/<3701281fc0>/rtmp/stream/FvNB2k0uArIXu_mSg3joA5jmVAcWwqv2DP9Nm6SH_sjziL8VfUFdYMgQZmhUnhy_pCGcXeaxSJM/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-ajax-amsterdam-vs-excelsior/1",
+            "title": "",
+            "html_length": 132155,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
+              "therocketlanguages.com",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -1099,9 +1491,9 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb11.strmd.st/secure/<cd28673979>/rtmp/stream/qIXO-S7U6Jd7hqDUNoF1wh-Dpr-3o6vfjwgRITXmbm53u5ERYnM1rtZsn9x_NS5n0TR86as/1/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<3701281fc0>/rtmp/stream/FvNB2k0uArIXu_mSg3joA5jmVAcWwqv2DP9Nm6SH_sjziL8VfUFdYMgQZmhUnhy_pCGcXeaxSJM/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb11.strmd.st/secure/SPOnEPjBEIFUsLyuRkwcTJaQKyxEHnDC/rtmp/stream/qIXO-S7U6Jd7hqDUNoF1wh-Dpr-3o6vfjwgRITXmbm53u5ERYnM1rtZsn9x_NS5n0TR86as/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb12.strmd.st/secure/WRGBAhXCvJQOCVLGPPEZKsWMfmBBAiWD/rtmp/stream/FvNB2k0uArIXu_mSg3joA5jmVAcWwqv2DP9Nm6SH_sjziL8VfUFdYMgQZmhUnhy_pCGcXeaxSJM/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -1110,15 +1502,15 @@
       ]
     },
     {
-      "key": "ohio-state-vs-kent-state-2498761|admin|ppv-kent-state-golden-flashes-at-ohio-state-buckeyes|2",
-      "title": "Ohio State vs Kent State",
-      "embed": "https://embed.st/embed/admin/ppv-kent-state-golden-flashes-at-ohio-state-buckeyes/2",
+      "key": "ajax-vs-excelsior-2489123|admin|ppv-ajax-amsterdam-vs-excelsior|2",
+      "title": "Ajax vs Excelsior",
+      "embed": "https://embed.st/embed/admin/ppv-ajax-amsterdam-vs-excelsior/2",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "console": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
         },
         {
           "request": "fetch",
@@ -1134,19 +1526,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<821084db92>/rtmp/stream/q3gzpGdZQlvHB81YDOgI9zVCoAkNNkXnjcC-KXiBSUyIboY8F1EznK3_0JB5Ecel5jDz2o5oCAoF/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<1745a821c7>/rtmp/stream/Z-o65olL5p3POVX0ePlTmJBqhOgHMef1ZOvCZZvGZPWZTDYaJtFbus_1DeHaEnXolnrKvHd29dmbGhW1/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to fetch at 'https://lb13.strmd.st/secure/wjtFGWdZvoSyqVxExSVPqeKXZtjsudxe/rtmp/stream/Z-o65olL5p3POVX0ePlTmJBqhOgHMef1ZOvCZZvGZPWZTDYaJtFbus_1DeHaEnXolnrKvHd29dmbGhW1/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb4.strmd.st/secure/JgiIjiRfzFNfBUmEMvbnaFjjqWKfMHba/rtmp/stream/q3gzpGdZQlvHB81YDOgI9zVCoAkNNkXnjcC-KXiBSUyIboY8F1EznK3_0JB5Ecel5jDz2o5oCAoF/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<821084db92>/rtmp/stream/q3gzpGdZQlvHB81YDOgI9zVCoAkNNkXnjcC-KXiBSUyIboY8F1EznK3_0JB5Ecel5jDz2o5oCAoF/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<1745a821c7>/rtmp/stream/Z-o65olL5p3POVX0ePlTmJBqhOgHMef1ZOvCZZvGZPWZTDYaJtFbus_1DeHaEnXolnrKvHd29dmbGhW1/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1160,15 +1548,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<821084db92>/rtmp/stream/q3gzpGdZQlvHB81YDOgI9zVCoAkNNkXnjcC-KXiBSUyIboY8F1EznK3_0JB5Ecel5jDz2o5oCAoF/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<1745a821c7>/rtmp/stream/Z-o65olL5p3POVX0ePlTmJBqhOgHMef1ZOvCZZvGZPWZTDYaJtFbus_1DeHaEnXolnrKvHd29dmbGhW1/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/JgiIjiRfzFNfBUmEMvbnaFjjqWKfMHba/rtmp/stream/q3gzpGdZQlvHB81YDOgI9zVCoAkNNkXnjcC-KXiBSUyIboY8F1EznK3_0JB5Ecel5jDz2o5oCAoF/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb13.strmd.st/secure/wjtFGWdZvoSyqVxExSVPqeKXZtjsudxe/rtmp/stream/Z-o65olL5p3POVX0ePlTmJBqhOgHMef1ZOvCZZvGZPWZTDYaJtFbus_1DeHaEnXolnrKvHd29dmbGhW1/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb4.strmd.st/secure/<821084db92>/rtmp/stream/q3gzpGdZQlvHB81YDOgI9zVCoAkNNkXnjcC-KXiBSUyIboY8F1EznK3_0JB5Ecel5jDz2o5oCAoF/1/playlist.m3u8",
+          "request_failed": "https://lb13.strmd.st/secure/<1745a821c7>/rtmp/stream/Z-o65olL5p3POVX0ePlTmJBqhOgHMef1ZOvCZZvGZPWZTDYaJtFbus_1DeHaEnXolnrKvHd29dmbGhW1/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1178,14 +1566,14 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-kent-state-golden-flashes-at-ohio-state-buckeyes/2",
+            "url": "https://embed.st/embed/admin/ppv-ajax-amsterdam-vs-excelsior/2",
             "title": "",
-            "html_length": 768397,
+            "html_length": 132155,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
               "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
+              "therocketlanguages.com",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -1198,1074 +1586,13 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb4.strmd.st/secure/<821084db92>/rtmp/stream/q3gzpGdZQlvHB81YDOgI9zVCoAkNNkXnjcC-KXiBSUyIboY8F1EznK3_0JB5Ecel5jDz2o5oCAoF/1/playlist.m3u8",
+          "url": "https://lb13.strmd.st/secure/<1745a821c7>/rtmp/stream/Z-o65olL5p3POVX0ePlTmJBqhOgHMef1ZOvCZZvGZPWZTDYaJtFbus_1DeHaEnXolnrKvHd29dmbGhW1/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb4.strmd.st/secure/JgiIjiRfzFNfBUmEMvbnaFjjqWKfMHba/rtmp/stream/q3gzpGdZQlvHB81YDOgI9zVCoAkNNkXnjcC-KXiBSUyIboY8F1EznK3_0JB5Ecel5jDz2o5oCAoF/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb13.strmd.st/secure/wjtFGWdZvoSyqVxExSVPqeKXZtjsudxe/rtmp/stream/Z-o65olL5p3POVX0ePlTmJBqhOgHMef1ZOvCZZvGZPWZTDYaJtFbus_1DeHaEnXolnrKvHd29dmbGhW1/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "ohio-state-vs-kent-state-2498761|delta|live_cfb_ohio-state-kent-state-live-streaming-587830176|1",
-      "title": "Ohio State vs Kent State",
-      "embed": "https://embed.st/embed/delta/live_cfb_ohio-state-kent-state-live-streaming-587830176/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb5.strmd.st/secure/<a9ca134163>/delta/stream/live_cfb_ohio-state-kent-state-live-streaming-587830176/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_ohio-state-kent-state-live-streaming-587830176/1",
-            "title": "",
-            "html_length": 659433,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb5.strmd.st/secure/<a9ca134163>/delta/stream/live_cfb_ohio-state-kent-state-live-streaming-587830176/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb5.strmd.st/secure/IKUFIYLaqqBxvyMdwzWecSCPkTTRsKtO/delta/stream/live_cfb_ohio-state-kent-state-live-streaming-587830176/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb5.strmd.st/secure/IKUFIYLaqqBxvyMdwzWecSCPkTTRsKtO/delta/stream/live_cfb_ohio-state-kent-state-live-streaming-587830176/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb5.strmd.st/secure/<a9ca134163>/delta/stream/live_cfb_ohio-state-kent-state-live-streaming-587830176/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        }
-      ]
-    },
-    {
-      "key": "penn-state-vs-buffalo-2498762|admin|ppv-buffalo-bulls-at-penn-state-nittany-lions|1",
-      "title": "Penn State vs Buffalo",
-      "embed": "https://embed.st/embed/admin/ppv-buffalo-bulls-at-penn-state-nittany-lions/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<bf68c4ef5d>/rtmp/stream/lBXbjM38tiMMCGJ3OQHHp8J7ZWBOqBztOrjiCS2EyopgwXs41jVt0x7Au9uBro1Dgyjgra4/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb1.strmd.st/secure/nWaVkWjStSiGCgIIjtTLfySINYMqZPKY/rtmp/stream/lBXbjM38tiMMCGJ3OQHHp8J7ZWBOqBztOrjiCS2EyopgwXs41jVt0x7Au9uBro1Dgyjgra4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<bf68c4ef5d>/rtmp/stream/lBXbjM38tiMMCGJ3OQHHp8J7ZWBOqBztOrjiCS2EyopgwXs41jVt0x7Au9uBro1Dgyjgra4/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb1.strmd.st/secure/<bf68c4ef5d>/rtmp/stream/lBXbjM38tiMMCGJ3OQHHp8J7ZWBOqBztOrjiCS2EyopgwXs41jVt0x7Au9uBro1Dgyjgra4/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/nWaVkWjStSiGCgIIjtTLfySINYMqZPKY/rtmp/stream/lBXbjM38tiMMCGJ3OQHHp8J7ZWBOqBztOrjiCS2EyopgwXs41jVt0x7Au9uBro1Dgyjgra4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb1.strmd.st/secure/<bf68c4ef5d>/rtmp/stream/lBXbjM38tiMMCGJ3OQHHp8J7ZWBOqBztOrjiCS2EyopgwXs41jVt0x7Au9uBro1Dgyjgra4/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-buffalo-bulls-at-penn-state-nittany-lions/1",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb1.strmd.st/secure/<bf68c4ef5d>/rtmp/stream/lBXbjM38tiMMCGJ3OQHHp8J7ZWBOqBztOrjiCS2EyopgwXs41jVt0x7Au9uBro1Dgyjgra4/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb1.strmd.st/secure/nWaVkWjStSiGCgIIjtTLfySINYMqZPKY/rtmp/stream/lBXbjM38tiMMCGJ3OQHHp8J7ZWBOqBztOrjiCS2EyopgwXs41jVt0x7Au9uBro1Dgyjgra4/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "penn-state-vs-buffalo-2498762|admin|ppv-buffalo-bulls-at-penn-state-nittany-lions|2",
-      "title": "Penn State vs Buffalo",
-      "embed": "https://embed.st/embed/admin/ppv-buffalo-bulls-at-penn-state-nittany-lions/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb20.strmd.st/secure/<965b723a67>/rtmp/stream/b_XTYQmsc_mwbMqcLa0MYzkDcW0oD32UuEWeQSDhEAbqzULOtOKru8IX7OLnJESMQJEh93TwWOPJ/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb20.strmd.st/secure/UhZmkomNSjyCAWGpIteuCpehDKPyCryL/rtmp/stream/b_XTYQmsc_mwbMqcLa0MYzkDcW0oD32UuEWeQSDhEAbqzULOtOKru8IX7OLnJESMQJEh93TwWOPJ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb20.strmd.st/secure/<965b723a67>/rtmp/stream/b_XTYQmsc_mwbMqcLa0MYzkDcW0oD32UuEWeQSDhEAbqzULOtOKru8IX7OLnJESMQJEh93TwWOPJ/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb20.strmd.st/secure/<965b723a67>/rtmp/stream/b_XTYQmsc_mwbMqcLa0MYzkDcW0oD32UuEWeQSDhEAbqzULOtOKru8IX7OLnJESMQJEh93TwWOPJ/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb20.strmd.st/secure/UhZmkomNSjyCAWGpIteuCpehDKPyCryL/rtmp/stream/b_XTYQmsc_mwbMqcLa0MYzkDcW0oD32UuEWeQSDhEAbqzULOtOKru8IX7OLnJESMQJEh93TwWOPJ/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb20.strmd.st/secure/<965b723a67>/rtmp/stream/b_XTYQmsc_mwbMqcLa0MYzkDcW0oD32UuEWeQSDhEAbqzULOtOKru8IX7OLnJESMQJEh93TwWOPJ/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-buffalo-bulls-at-penn-state-nittany-lions/2",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb20.strmd.st/secure/<965b723a67>/rtmp/stream/b_XTYQmsc_mwbMqcLa0MYzkDcW0oD32UuEWeQSDhEAbqzULOtOKru8IX7OLnJESMQJEh93TwWOPJ/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb20.strmd.st/secure/UhZmkomNSjyCAWGpIteuCpehDKPyCryL/rtmp/stream/b_XTYQmsc_mwbMqcLa0MYzkDcW0oD32UuEWeQSDhEAbqzULOtOKru8IX7OLnJESMQJEh93TwWOPJ/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "penn-state-vs-buffalo-2498762|delta|live_cfb_penn-state-buffalo-live-streaming-587830608|1",
-      "title": "Penn State vs Buffalo",
-      "embed": "https://embed.st/embed/delta/live_cfb_penn-state-buffalo-live-streaming-587830608/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb20.strmd.st/secure/<2f120059d2>/delta/stream/live_cfb_penn-state-buffalo-live-streaming-587830608/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb20.strmd.st/secure/rXUfHoTDsmECcouBHyYbtdWUVUkmQGee/delta/stream/live_cfb_penn-state-buffalo-live-streaming-587830608/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb20.strmd.st/secure/<2f120059d2>/delta/stream/live_cfb_penn-state-buffalo-live-streaming-587830608/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb20.strmd.st/secure/<2f120059d2>/delta/stream/live_cfb_penn-state-buffalo-live-streaming-587830608/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb20.strmd.st/secure/rXUfHoTDsmECcouBHyYbtdWUVUkmQGee/delta/stream/live_cfb_penn-state-buffalo-live-streaming-587830608/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb20.strmd.st/secure/<2f120059d2>/delta/stream/live_cfb_penn-state-buffalo-live-streaming-587830608/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_penn-state-buffalo-live-streaming-587830608/1",
-            "title": "",
-            "html_length": 768441,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb20.strmd.st/secure/<2f120059d2>/delta/stream/live_cfb_penn-state-buffalo-live-streaming-587830608/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb20.strmd.st/secure/rXUfHoTDsmECcouBHyYbtdWUVUkmQGee/delta/stream/live_cfb_penn-state-buffalo-live-streaming-587830608/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "texas-state-vs-north-texas-2498815|delta|live_cfb_texas-state-north-texas-live-streaming-587831040|1",
-      "title": "Texas State vs North Texas",
-      "embed": "https://embed.st/embed/delta/live_cfb_texas-state-north-texas-live-streaming-587831040/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb17.strmd.st/secure/<d4d6f83ee3>/delta/stream/live_cfb_texas-state-north-texas-live-streaming-587831040/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb17.strmd.st/secure/kTLafJApAfrQkKSvkIPcrUhVUseGXmth/delta/stream/live_cfb_texas-state-north-texas-live-streaming-587831040/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb17.strmd.st/secure/<d4d6f83ee3>/delta/stream/live_cfb_texas-state-north-texas-live-streaming-587831040/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb17.strmd.st/secure/<d4d6f83ee3>/delta/stream/live_cfb_texas-state-north-texas-live-streaming-587831040/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb17.strmd.st/secure/kTLafJApAfrQkKSvkIPcrUhVUseGXmth/delta/stream/live_cfb_texas-state-north-texas-live-streaming-587831040/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb17.strmd.st/secure/<d4d6f83ee3>/delta/stream/live_cfb_texas-state-north-texas-live-streaming-587831040/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_texas-state-north-texas-live-streaming-587831040/1",
-            "title": "",
-            "html_length": 768441,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb17.strmd.st/secure/<d4d6f83ee3>/delta/stream/live_cfb_texas-state-north-texas-live-streaming-587831040/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb17.strmd.st/secure/kTLafJApAfrQkKSvkIPcrUhVUseGXmth/delta/stream/live_cfb_texas-state-north-texas-live-streaming-587831040/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "roma-vs-inter-milan-2482181|admin|ppv-as-roma-vs-inter-milan|1",
-      "title": "Roma vs Inter Milan",
-      "embed": "https://embed.st/embed/admin/ppv-as-roma-vs-inter-milan/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<55901bf420>/rtmp/stream/ctiX01oVXULUeSoRJOj-5nxd9Z_4tau8fA5ZShOj3HWHF_u4D8k7vnBeW-qj9AkCgTlF3O9BfjD8/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb15.strmd.st/secure/jwctOJqecHZKhoexuFQwuiaDVNDBStFv/rtmp/stream/ctiX01oVXULUeSoRJOj-5nxd9Z_4tau8fA5ZShOj3HWHF_u4D8k7vnBeW-qj9AkCgTlF3O9BfjD8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<55901bf420>/rtmp/stream/ctiX01oVXULUeSoRJOj-5nxd9Z_4tau8fA5ZShOj3HWHF_u4D8k7vnBeW-qj9AkCgTlF3O9BfjD8/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<55901bf420>/rtmp/stream/ctiX01oVXULUeSoRJOj-5nxd9Z_4tau8fA5ZShOj3HWHF_u4D8k7vnBeW-qj9AkCgTlF3O9BfjD8/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb15.strmd.st/secure/jwctOJqecHZKhoexuFQwuiaDVNDBStFv/rtmp/stream/ctiX01oVXULUeSoRJOj-5nxd9Z_4tau8fA5ZShOj3HWHF_u4D8k7vnBeW-qj9AkCgTlF3O9BfjD8/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<55901bf420>/rtmp/stream/ctiX01oVXULUeSoRJOj-5nxd9Z_4tau8fA5ZShOj3HWHF_u4D8k7vnBeW-qj9AkCgTlF3O9BfjD8/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-as-roma-vs-inter-milan/1",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb15.strmd.st/secure/<55901bf420>/rtmp/stream/ctiX01oVXULUeSoRJOj-5nxd9Z_4tau8fA5ZShOj3HWHF_u4D8k7vnBeW-qj9AkCgTlF3O9BfjD8/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb15.strmd.st/secure/jwctOJqecHZKhoexuFQwuiaDVNDBStFv/rtmp/stream/ctiX01oVXULUeSoRJOj-5nxd9Z_4tau8fA5ZShOj3HWHF_u4D8k7vnBeW-qj9AkCgTlF3O9BfjD8/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "roma-vs-inter-milan-2482181|admin|ppv-as-roma-vs-inter-milan|2",
-      "title": "Roma vs Inter Milan",
-      "embed": "https://embed.st/embed/admin/ppv-as-roma-vs-inter-milan/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<f5ce36e428>/rtmp/stream/-RYiNxSj28c09_giJaNA5isKTmXMTT-4wRXWfe95mNd5rcyMDxHDTH4YT60wnPeH21pobbpBDw4WCs4nyg/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb15.strmd.st/secure/LqdmZnlOMvFwhfNmuOMfnrngcePBSaPj/rtmp/stream/-RYiNxSj28c09_giJaNA5isKTmXMTT-4wRXWfe95mNd5rcyMDxHDTH4YT60wnPeH21pobbpBDw4WCs4nyg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<f5ce36e428>/rtmp/stream/-RYiNxSj28c09_giJaNA5isKTmXMTT-4wRXWfe95mNd5rcyMDxHDTH4YT60wnPeH21pobbpBDw4WCs4nyg/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<f5ce36e428>/rtmp/stream/-RYiNxSj28c09_giJaNA5isKTmXMTT-4wRXWfe95mNd5rcyMDxHDTH4YT60wnPeH21pobbpBDw4WCs4nyg/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb15.strmd.st/secure/LqdmZnlOMvFwhfNmuOMfnrngcePBSaPj/rtmp/stream/-RYiNxSj28c09_giJaNA5isKTmXMTT-4wRXWfe95mNd5rcyMDxHDTH4YT60wnPeH21pobbpBDw4WCs4nyg/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<f5ce36e428>/rtmp/stream/-RYiNxSj28c09_giJaNA5isKTmXMTT-4wRXWfe95mNd5rcyMDxHDTH4YT60wnPeH21pobbpBDw4WCs4nyg/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-as-roma-vs-inter-milan/2",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb15.strmd.st/secure/<f5ce36e428>/rtmp/stream/-RYiNxSj28c09_giJaNA5isKTmXMTT-4wRXWfe95mNd5rcyMDxHDTH4YT60wnPeH21pobbpBDw4WCs4nyg/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb15.strmd.st/secure/LqdmZnlOMvFwhfNmuOMfnrngcePBSaPj/rtmp/stream/-RYiNxSj28c09_giJaNA5isKTmXMTT-4wRXWfe95mNd5rcyMDxHDTH4YT60wnPeH21pobbpBDw4WCs4nyg/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "roma-vs-inter-milan-2482181|admin|ppv-as-roma-vs-inter-milan|3",
-      "title": "Roma vs Inter Milan",
-      "embed": "https://embed.st/embed/admin/ppv-as-roma-vs-inter-milan/3",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb18.strmd.st/secure/<286dc85617>/rtmp/stream/X0B3xK_XFRcAGV4W1ERDuwrq-nXJ35widjkm7OuO55Svg-iwMUyBXkb6Hjru9B4caJ_eErszXuVoNw/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-as-roma-vs-inter-milan/3",
-            "title": "",
-            "html_length": 659389,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb18.strmd.st/secure/<286dc85617>/rtmp/stream/X0B3xK_XFRcAGV4W1ERDuwrq-nXJ35widjkm7OuO55Svg-iwMUyBXkb6Hjru9B4caJ_eErszXuVoNw/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb18.strmd.st/secure/VWnewTktdsvjHKLsnMcSGQQBKTZnbtAa/rtmp/stream/X0B3xK_XFRcAGV4W1ERDuwrq-nXJ35widjkm7OuO55Svg-iwMUyBXkb6Hjru9B4caJ_eErszXuVoNw/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb18.strmd.st/secure/VWnewTktdsvjHKLsnMcSGQQBKTZnbtAa/rtmp/stream/X0B3xK_XFRcAGV4W1ERDuwrq-nXJ35widjkm7OuO55Svg-iwMUyBXkb6Hjru9B4caJ_eErszXuVoNw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb18.strmd.st/secure/<286dc85617>/rtmp/stream/X0B3xK_XFRcAGV4W1ERDuwrq-nXJ35widjkm7OuO55Svg-iwMUyBXkb6Hjru9B4caJ_eErszXuVoNw/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb18.strmd.st/secure/<286dc85617>/rtmp/stream/X0B3xK_XFRcAGV4W1ERDuwrq-nXJ35widjkm7OuO55Svg-iwMUyBXkb6Hjru9B4caJ_eErszXuVoNw/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb18.strmd.st/secure/VWnewTktdsvjHKLsnMcSGQQBKTZnbtAa/rtmp/stream/X0B3xK_XFRcAGV4W1ERDuwrq-nXJ35widjkm7OuO55Svg-iwMUyBXkb6Hjru9B4caJ_eErszXuVoNw/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb18.strmd.st/secure/<286dc85617>/rtmp/stream/X0B3xK_XFRcAGV4W1ERDuwrq-nXJ35widjkm7OuO55Svg-iwMUyBXkb6Hjru9B4caJ_eErszXuVoNw/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "roma-vs-inter-milan-2482181|admin|ppv-as-roma-vs-inter-milan|4",
-      "title": "Roma vs Inter Milan",
-      "embed": "https://embed.st/embed/admin/ppv-as-roma-vs-inter-milan/4",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<ea8d50fae8>/rtmp/stream/4jy1ixixhDqJW7ZG35wANQrVxuX-AHckD4aqpP9HkobZYTRN9yEVxvQBXszapqBo6wKkJi4W8IAGeYFFjrE/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb8.strmd.st/secure/tQaJqDDIfdqkcbSaUgfhIcOrbQFqpzGL/rtmp/stream/4jy1ixixhDqJW7ZG35wANQrVxuX-AHckD4aqpP9HkobZYTRN9yEVxvQBXszapqBo6wKkJi4W8IAGeYFFjrE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<ea8d50fae8>/rtmp/stream/4jy1ixixhDqJW7ZG35wANQrVxuX-AHckD4aqpP9HkobZYTRN9yEVxvQBXszapqBo6wKkJi4W8IAGeYFFjrE/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb8.strmd.st/secure/<ea8d50fae8>/rtmp/stream/4jy1ixixhDqJW7ZG35wANQrVxuX-AHckD4aqpP9HkobZYTRN9yEVxvQBXszapqBo6wKkJi4W8IAGeYFFjrE/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/tQaJqDDIfdqkcbSaUgfhIcOrbQFqpzGL/rtmp/stream/4jy1ixixhDqJW7ZG35wANQrVxuX-AHckD4aqpP9HkobZYTRN9yEVxvQBXszapqBo6wKkJi4W8IAGeYFFjrE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb8.strmd.st/secure/<ea8d50fae8>/rtmp/stream/4jy1ixixhDqJW7ZG35wANQrVxuX-AHckD4aqpP9HkobZYTRN9yEVxvQBXszapqBo6wKkJi4W8IAGeYFFjrE/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/admin/ppv-as-roma-vs-inter-milan/4",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb8.strmd.st/secure/<ea8d50fae8>/rtmp/stream/4jy1ixixhDqJW7ZG35wANQrVxuX-AHckD4aqpP9HkobZYTRN9yEVxvQBXszapqBo6wKkJi4W8IAGeYFFjrE/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb8.strmd.st/secure/tQaJqDDIfdqkcbSaUgfhIcOrbQFqpzGL/rtmp/stream/4jy1ixixhDqJW7ZG35wANQrVxuX-AHckD4aqpP9HkobZYTRN9yEVxvQBXszapqBo6wKkJi4W8IAGeYFFjrE/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "roma-vs-inter-milan-2482181|delta|live_serie-a_roma-inter-live-streaming-617511600|1",
-      "title": "Roma vs Inter Milan",
-      "embed": "https://embed.st/embed/delta/live_serie-a_roma-inter-live-streaming-617511600/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<dde429c4fa>/delta/stream/live_serie-a_roma-inter-live-streaming-617511600/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb3.strmd.st/secure/vAAZGMbrlIjMdWUrZrAtXkVATCdEpSAa/delta/stream/live_serie-a_roma-inter-live-streaming-617511600/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<dde429c4fa>/delta/stream/live_serie-a_roma-inter-live-streaming-617511600/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb3.strmd.st/secure/<dde429c4fa>/delta/stream/live_serie-a_roma-inter-live-streaming-617511600/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb3.strmd.st/secure/vAAZGMbrlIjMdWUrZrAtXkVATCdEpSAa/delta/stream/live_serie-a_roma-inter-live-streaming-617511600/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb3.strmd.st/secure/<dde429c4fa>/delta/stream/live_serie-a_roma-inter-live-streaming-617511600/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_serie-a_roma-inter-live-streaming-617511600/1",
-            "title": "",
-            "html_length": 768441,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb3.strmd.st/secure/<dde429c4fa>/delta/stream/live_serie-a_roma-inter-live-streaming-617511600/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb3.strmd.st/secure/vAAZGMbrlIjMdWUrZrAtXkVATCdEpSAa/delta/stream/live_serie-a_roma-inter-live-streaming-617511600/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "live_cfb_kansas-arizona-st-live-streaming-587828880|delta|live_cfb_kansas-arizona-st-live-streaming-587828880|1",
-      "title": "Kansas Jayhawks vs Arizona State Sun Devils",
-      "embed": "https://embed.st/embed/delta/live_cfb_kansas-arizona-st-live-streaming-587828880/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<21bcaa1215>/delta/stream/live_cfb_kansas-arizona-st-live-streaming-587828880/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb7.strmd.st/secure/xiPGlSIkIQFFCfWoLuETueXQJiYsVpCV/delta/stream/live_cfb_kansas-arizona-st-live-streaming-587828880/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<21bcaa1215>/delta/stream/live_cfb_kansas-arizona-st-live-streaming-587828880/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<21bcaa1215>/delta/stream/live_cfb_kansas-arizona-st-live-streaming-587828880/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/delta/live_cfb_kansas-arizona-st-live-streaming-587828880/1",
-            "title": "",
-            "html_length": 768261,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "uaqngxxyfmzen.online",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb7.strmd.st/secure/<21bcaa1215>/delta/stream/live_cfb_kansas-arizona-st-live-streaming-587828880/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb7.strmd.st/secure/xiPGlSIkIQFFCfWoLuETueXQJiYsVpCV/delta/stream/live_cfb_kansas-arizona-st-live-streaming-587828880/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/xiPGlSIkIQFFCfWoLuETueXQJiYsVpCV/delta/stream/live_cfb_kansas-arizona-st-live-streaming-587828880/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<21bcaa1215>/delta/stream/live_cfb_kansas-arizona-st-live-streaming-587828880/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
         }
       ]
     }
