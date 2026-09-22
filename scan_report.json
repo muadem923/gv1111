@@ -1,27 +1,27 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1790057033,
-  "elapsed_seconds": 58.23,
+  "started_at": 1790076479,
+  "elapsed_seconds": 40.19,
   "api_ok": true,
-  "matches": 6,
-  "live_matches": 6,
-  "nearby_fallback_matches": 0,
-  "nearby_fallback_used": false,
-  "source_pairs": 8,
-  "embed_candidates": 13,
+  "matches": 2,
+  "live_matches": 1,
+  "nearby_fallback_matches": 1,
+  "nearby_fallback_used": true,
+  "source_pairs": 2,
+  "embed_candidates": 12,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 13
+    "upstream_dead": 12
   },
   "entries": [],
   "browser_events": [
     {
-      "key": "san-francisco-giants-vs-minnesota-twins-2605685|foxtrot|twins-v-giants-401817029|1",
-      "title": "San Francisco Giants vs Minnesota Twins",
-      "embed": "https://embed.st/embed/foxtrot/twins-v-giants-401817029/1",
+      "key": "brisbane-bullets-vs-new-zealand-breakers-2487887|admin|ppv-brisbane-bullets-vs-new-zealand-breakers|1",
+      "title": "Brisbane Bullets vs New Zealand Breakers",
+      "embed": "https://embed.st/embed/admin/ppv-brisbane-bullets-vs-new-zealand-breakers/1",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
@@ -43,15 +43,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<b17b75cfab>/foxtrot/stream/twins-v-giants-401817029/1/playlist.m3u8",
+          "url": "https://lb16.strmd.st/secure/<e1ee86213c>/rtmp/stream/4treg1hM-TYRjbx2opzyxhHh52Qs5A3Pcx_6BOX8ttBatIzFT1S1u7qgY7kfNqELxU1AeyVMiP3FFxM/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb4.strmd.st/secure/CMytGZhqNIBrKBoPFXupcUUxtwqncazO/foxtrot/stream/twins-v-giants-401817029/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb16.strmd.st/secure/EnkZSCynDPEpusOWALEnEzULozBnGSLo/rtmp/stream/4treg1hM-TYRjbx2opzyxhHh52Qs5A3Pcx_6BOX8ttBatIzFT1S1u7qgY7kfNqELxU1AeyVMiP3FFxM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb4.strmd.st/secure/<b17b75cfab>/foxtrot/stream/twins-v-giants-401817029/1/playlist.m3u8",
+          "request_failed": "https://lb16.strmd.st/secure/<e1ee86213c>/rtmp/stream/4treg1hM-TYRjbx2opzyxhHh52Qs5A3Pcx_6BOX8ttBatIzFT1S1u7qgY7kfNqELxU1AeyVMiP3FFxM/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -63,21 +63,15 @@
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<b17b75cfab>/foxtrot/stream/twins-v-giants-401817029/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/foxtrot/twins-v-giants-401817029/1",
+            "url": "https://embed.st/embed/admin/ppv-brisbane-bullets-vs-new-zealand-breakers/1",
             "title": "",
-            "html_length": 659901,
+            "html_length": 659381,
             "script_hosts": [
               "cdn.jsdelivr.net",
-              "strmd.b-cdn.net",
-              "sxspuqxqsdgen.website"
+              "mqedxwrfksyzy.site",
+              "strmd.b-cdn.net"
             ],
             "browser": {
               "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
@@ -88,284 +82,18 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb4.strmd.st/secure/<b17b75cfab>/foxtrot/stream/twins-v-giants-401817029/1/playlist.m3u8",
+          "url": "https://lb16.strmd.st/secure/<e1ee86213c>/rtmp/stream/4treg1hM-TYRjbx2opzyxhHh52Qs5A3Pcx_6BOX8ttBatIzFT1S1u7qgY7kfNqELxU1AeyVMiP3FFxM/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb4.strmd.st/secure/CMytGZhqNIBrKBoPFXupcUUxtwqncazO/foxtrot/stream/twins-v-giants-401817029/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb16.strmd.st/secure/EnkZSCynDPEpusOWALEnEzULozBnGSLo/rtmp/stream/4treg1hM-TYRjbx2opzyxhHh52Qs5A3Pcx_6BOX8ttBatIzFT1S1u7qgY7kfNqELxU1AeyVMiP3FFxM/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
         },
         {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/CMytGZhqNIBrKBoPFXupcUUxtwqncazO/foxtrot/stream/twins-v-giants-401817029/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<b17b75cfab>/foxtrot/stream/twins-v-giants-401817029/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        }
-      ]
-    },
-    {
-      "key": "san-francisco-giants-vs-minnesota-twins-2605685|golf|1611|1",
-      "title": "San Francisco Giants vs Minnesota Twins",
-      "embed": "https://embed.st/embed/golf/1611/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "Allow attribute will take precedence over 'allowfullscreen'."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<7d1e44ef6e>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Blocked opening 'https://c.adsco.re/r#apikey=QlJAAAAAAAAArRMIRsGBk-hpXXMDyS9EWV8qBEI&sub_id=15098&type=2&data=https%3A%2F%2Fengine.spotscenered.info%2Flink.engine%3Fz%3D81069%26guid%3Dc0e7ab91-d0e2-474b-88e2-dea7440da138' in a new window because the request was made in a sandboxed frame whose 'allow-popups' permission is not set."
-        },
-        {
-          "console": "error",
-          "text": "Unsafe attempt to initiate navigation for frame with origin 'https://embed.st' from frame with URL 'https://promote-e0c.pages.dev/go.html?subid=a740780&cl=a2_14614745532864351244_740780_2_0&country=default'. The frame attempting navigation of the top-level window is sandboxed, but the flag of 'allow-top-navigation' or 'allow-top-navigation-by-user-activation' is not set.\n"
-        },
-        {
-          "console": "error",
-          "text": "Blocked opening 'https://promote-e0c.pages.dev/go.html?subid=a740780&cl=a2_14614745532864351244_740780_2_0&country=default' in a new window because the request was made in a sandboxed frame whose 'allow-popups' permission is not set."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Blocked opening 'https://c.adsco.re/r#apikey=QlJAAAAAAAAArRMIRsGBk-hpXXMDyS9EWV8qBEI&sub_id=15098&type=2&data=https%3A%2F%2Fengine.spotscenered.info%2Flink.engine%3Fz%3D81069%26guid%3Dc0e7ab91-d0e2-474b-88e2-dea7440da138' in a new window because the request was made in a sandboxed frame whose 'allow-popups' permission is not set."
-        },
-        {
-          "console": "error",
-          "text": "Unsafe attempt to initiate navigation for frame with origin 'https://embed.st' from frame with URL 'https://promote-e0c.pages.dev/go.html?subid=a740780&cl=a2_13237712878253263356_740780_2_0&country=default'. The frame attempting navigation of the top-level window is sandboxed, but the flag of 'allow-top-navigation' or 'allow-top-navigation-by-user-activation' is not set.\n"
-        },
-        {
-          "console": "error",
-          "text": "Blocked opening 'https://promote-e0c.pages.dev/go.html?subid=a740780&cl=a2_13237712878253263356_740780_2_0&country=default' in a new window because the request was made in a sandboxed frame whose 'allow-popups' permission is not set."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb2.strmd.st/secure/wAqZqIYqikcJYmOFuqRUDiPjgbdAwudL/ingest/stream/msanfranciscogiants/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb2.strmd.st/secure/<7d1e44ef6e>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://kibibe.com/template/undefined.html' from origin 'https://promote-e0c.pages.dev' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header contains multiple values 'https://promote-e0c.pages.dev, https://promote-e0c.pages.dev', but only one is allowed. Have the server send the header with a valid value."
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://faphouse.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://kibibe.com/template/undefined.html' from origin 'https://promote-e0c.pages.dev' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header contains multiple values 'https://promote-e0c.pages.dev, https://promote-e0c.pages.dev', but only one is allowed. Have the server send the header with a valid value."
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<7d1e44ef6e>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
+          "url": "https://lb16.strmd.st/secure/<e1ee86213c>/rtmp/stream/4treg1hM-TYRjbx2opzyxhHh52Qs5A3Pcx_6BOX8ttBatIzFT1S1u7qgY7kfNqELxU1AeyVMiP3FFxM/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
@@ -374,204 +102,43 @@
         },
         {
           "console": "error",
-          "text": "Blocked opening 'https://c.adsco.re/r#apikey=QlJAAAAAAAAArRMIRsGBk-hpXXMDyS9EWV8qBEI&sub_id=15098&type=2&data=https%3A%2F%2Fengine.spotscenered.info%2Flink.engine%3Fz%3D81069%26guid%3Dc0e7ab91-d0e2-474b-88e2-dea7440da138' in a new window because the request was made in a sandboxed frame whose 'allow-popups' permission is not set."
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
-          "text": "Unsafe attempt to initiate navigation for frame with origin 'https://embed.st' from frame with URL 'https://promote-e0c.pages.dev/go.html?subid=a740780&cl=a2_14614745532864351244_740780_2_0&country=default'. The frame attempting navigation of the top-level window is sandboxed, but the flag of 'allow-top-navigation' or 'allow-top-navigation-by-user-activation' is not set.\n"
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
           "console": "error",
-          "text": "Blocked opening 'https://promote-e0c.pages.dev/go.html?subid=a740780&cl=a2_14614745532864351244_740780_2_0&country=default' in a new window because the request was made in a sandboxed frame whose 'allow-popups' permission is not set."
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1611/1",
-            "title": "",
-            "html_length": 638158,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "rockystream.st",
-              "sxspuqxqsdgen.website"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb2.strmd.st/secure/<7d1e44ef6e>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb2.strmd.st/secure/wAqZqIYqikcJYmOFuqRUDiPjgbdAwudL/ingest/stream/msanfranciscogiants/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/wAqZqIYqikcJYmOFuqRUDiPjgbdAwudL/ingest/stream/msanfranciscogiants/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
         },
         {
-          "request_failed": "https://lb2.strmd.st/secure/<7d1e44ef6e>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Refused to display 'https://www.wherewindsmeetgame.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'."
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb16.strmd.st/secure/EnkZSCynDPEpusOWALEnEzULozBnGSLo/rtmp/stream/4treg1hM-TYRjbx2opzyxhHh52Qs5A3Pcx_6BOX8ttBatIzFT1S1u7qgY7kfNqELxU1AeyVMiP3FFxM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb16.strmd.st/secure/<e1ee86213c>/rtmp/stream/4treg1hM-TYRjbx2opzyxhHh52Qs5A3Pcx_6BOX8ttBatIzFT1S1u7qgY7kfNqELxU1AeyVMiP3FFxM/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://faphouse.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Blocked opening 'https://c.adsco.re/r#apikey=QlJAAAAAAAAArRMIRsGBk-hpXXMDyS9EWV8qBEI&sub_id=15098&type=2&data=https%3A%2F%2Fengine.spotscenered.info%2Flink.engine%3Fz%3D81069%26guid%3Dc0e7ab91-d0e2-474b-88e2-dea7440da138' in a new window because the request was made in a sandboxed frame whose 'allow-popups' permission is not set."
-        },
-        {
-          "console": "error",
-          "text": "Unsafe attempt to initiate navigation for frame with origin 'https://embed.st' from frame with URL 'https://promote-e0c.pages.dev/go.html?subid=a740780&cl=a2_13237712878253263356_740780_2_0&country=default'. The frame attempting navigation of the top-level window is sandboxed, but the flag of 'allow-top-navigation' or 'allow-top-navigation-by-user-activation' is not set.\n"
-        },
-        {
-          "console": "error",
-          "text": "Blocked opening 'https://promote-e0c.pages.dev/go.html?subid=a740780&cl=a2_13237712878253263356_740780_2_0&country=default' in a new window because the request was made in a sandboxed frame whose 'allow-popups' permission is not set."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://faphouse.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self'\". The request has been blocked.\n"
-        }
-      ]
-    },
-    {
-      "key": "san-francisco-giants-vs-minnesota-twins-2605685|golf|1611|2",
-      "title": "San Francisco Giants vs Minnesota Twins",
-      "embed": "https://embed.st/embed/golf/1611/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Allow attribute will take precedence over 'allowfullscreen'."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<cdc0965079>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb15.strmd.st/secure/fNTKWlQBtUxPztgrUQiszseudeZYeYCQ/ingest/stream/msanfranciscogiants/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<cdc0965079>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "A bad HTTP response code (404) was received when fetching the script."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<cdc0965079>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
-          "resource_type": "xhr"
         },
         {
           "console": "error",
@@ -580,572 +147,13 @@
         {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "request_failed": "https://embed.st/38861cba61c66739c1452c3a71e39852.ttf",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1611/2",
-            "title": "",
-            "html_length": 638157,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "rockystream.st",
-              "sxspuqxqsdgen.website"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb15.strmd.st/secure/<cdc0965079>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb15.strmd.st/secure/fNTKWlQBtUxPztgrUQiszseudeZYeYCQ/ingest/stream/msanfranciscogiants/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb15.strmd.st/secure/fNTKWlQBtUxPztgrUQiszseudeZYeYCQ/ingest/stream/msanfranciscogiants/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<cdc0965079>/ingest/stream/msanfranciscogiants/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "A bad HTTP response code (404) was received when fetching the script."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         }
       ]
     },
     {
-      "key": "ppv-event-01-wwe-monday-night-raw-ppv-01|golf|1638|1",
-      "title": "WWE Monday Night RAW 💥",
-      "embed": "https://embed.st/embed/golf/1638/1",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Allow attribute will take precedence over 'allowfullscreen'."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<5c8c58e87e>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb15.strmd.st/secure/gKmXMxwcaIysWqkFPgjuESlpYmNdwANv/ingest/stream/mmevent10/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<5c8c58e87e>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb15.strmd.st/secure/<5c8c58e87e>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb15.strmd.st/secure/gKmXMxwcaIysWqkFPgjuESlpYmNdwANv/ingest/stream/mmevent10/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb15.strmd.st/secure/<5c8c58e87e>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1638/1",
-            "title": "",
-            "html_length": 638158,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "rockystream.st",
-              "sxspuqxqsdgen.website"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb15.strmd.st/secure/<5c8c58e87e>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb15.strmd.st/secure/gKmXMxwcaIysWqkFPgjuESlpYmNdwANv/ingest/stream/mmevent10/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        }
-      ]
-    },
-    {
-      "key": "ppv-event-01-wwe-monday-night-raw-ppv-01|golf|1638|2",
-      "title": "WWE Monday Night RAW 💥",
-      "embed": "https://embed.st/embed/golf/1638/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Allow attribute will take precedence over 'allowfullscreen'."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb14.strmd.st/secure/<30605a41ee>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb14.strmd.st/secure/oCYYCUiOPCiVaKoqexKsFoKdQgUlhqED/ingest/stream/mmevent10/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb14.strmd.st/secure/<30605a41ee>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "A bad HTTP response code (404) was received when fetching the script."
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb14.strmd.st/secure/<30605a41ee>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "request_failed": "https://embed.st/38861cba61c66739c1452c3a71e39852.ttf",
-          "failure": "net::ERR_ABORTED"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/oCYYCUiOPCiVaKoqexKsFoKdQgUlhqED/ingest/stream/mmevent10/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb14.strmd.st/secure/<30605a41ee>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/golf/1638/2",
-            "title": "",
-            "html_length": 638157,
-            "script_hosts": [
-              "a.cdn-lab.shop",
-              "ann.cdn-lab.shop",
-              "rockystream.st",
-              "sxspuqxqsdgen.website"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb14.strmd.st/secure/<30605a41ee>/ingest/stream/mmevent10/1/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb14.strmd.st/secure/oCYYCUiOPCiVaKoqexKsFoKdQgUlhqED/ingest/stream/mmevent10/1/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "A bad HTTP response code (404) was received when fetching the script."
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        }
-      ]
-    },
-    {
-      "key": "los-angeles-rams-vs-new-york-giants-2475405|foxtrot|giants-v-rams-401872947|1",
-      "title": "Los Angeles Rams vs New York Giants",
-      "embed": "https://embed.st/embed/foxtrot/giants-v-rams-401872947/1",
+      "key": "brisbane-bullets-vs-new-zealand-breakers-2487887|admin|ppv-brisbane-bullets-vs-new-zealand-breakers|2",
+      "title": "Brisbane Bullets vs New Zealand Breakers",
+      "embed": "https://embed.st/embed/admin/ppv-brisbane-bullets-vs-new-zealand-breakers/2",
       "discovery": "live",
       "classification": "upstream_dead",
       "events": [
@@ -1167,32 +175,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<cde2e9abe7>/foxtrot/stream/giants-v-rams-401872947/1/playlist.m3u8",
+          "url": "https://lb19.strmd.st/secure/<36d1ac68ed>/rtmp/stream/0tWJyLIKxJAQ0qlqXsXbaaD8PR8xrEKsbxLlA_PGFAsvrzg9oFQwlBijD48rSuWYy-PuFBZ7-1cTjHpTwspl/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to fetch at 'https://lb19.strmd.st/secure/rODqcHyrKwEYhVgDzASJldSQwiDUudCV/rtmp/stream/0tWJyLIKxJAQ0qlqXsXbaaD8PR8xrEKsbxLlA_PGFAsvrzg9oFQwlBijD48rSuWYy-PuFBZ7-1cTjHpTwspl/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/iXqQsWjdMwAvKPQevUEQaiLvMTtAXtdO/foxtrot/stream/giants-v-rams-401872947/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<cde2e9abe7>/foxtrot/stream/giants-v-rams-401872947/1/playlist.m3u8",
+          "request_failed": "https://lb19.strmd.st/secure/<36d1ac68ed>/rtmp/stream/0tWJyLIKxJAQ0qlqXsXbaaD8PR8xrEKsbxLlA_PGFAsvrzg9oFQwlBijD48rSuWYy-PuFBZ7-1cTjHpTwspl/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
@@ -1201,19 +197,85 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<cde2e9abe7>/foxtrot/stream/giants-v-rams-401872947/1/playlist.m3u8",
+          "url": "https://lb19.strmd.st/secure/<36d1ac68ed>/rtmp/stream/0tWJyLIKxJAQ0qlqXsXbaaD8PR8xrEKsbxLlA_PGFAsvrzg9oFQwlBijD48rSuWYy-PuFBZ7-1cTjHpTwspl/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-brisbane-bullets-vs-new-zealand-breakers/2",
+            "title": "",
+            "html_length": 659891,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "mqedxwrfksyzy.site",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb19.strmd.st/secure/<36d1ac68ed>/rtmp/stream/0tWJyLIKxJAQ0qlqXsXbaaD8PR8xrEKsbxLlA_PGFAsvrzg9oFQwlBijD48rSuWYy-PuFBZ7-1cTjHpTwspl/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb19.strmd.st/secure/rODqcHyrKwEYhVgDzASJldSQwiDUudCV/rtmp/stream/0tWJyLIKxJAQ0qlqXsXbaaD8PR8xrEKsbxLlA_PGFAsvrzg9oFQwlBijD48rSuWYy-PuFBZ7-1cTjHpTwspl/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
         },
         {
           "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/iXqQsWjdMwAvKPQevUEQaiLvMTtAXtdO/foxtrot/stream/giants-v-rams-401872947/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to XMLHttpRequest at 'https://lb19.strmd.st/secure/rODqcHyrKwEYhVgDzASJldSQwiDUudCV/rtmp/stream/0tWJyLIKxJAQ0qlqXsXbaaD8PR8xrEKsbxLlA_PGFAsvrzg9oFQwlBijD48rSuWYy-PuFBZ7-1cTjHpTwspl/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<cde2e9abe7>/foxtrot/stream/giants-v-rams-401872947/1/playlist.m3u8",
+          "request_failed": "https://lb19.strmd.st/secure/<36d1ac68ed>/rtmp/stream/0tWJyLIKxJAQ0qlqXsXbaaD8PR8xrEKsbxLlA_PGFAsvrzg9oFQwlBijD48rSuWYy-PuFBZ7-1cTjHpTwspl/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|1",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/1",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<b2a3a12553>/rtmp/stream/cIW5eeaVpReB8J1wzRWOdIn3WywN4JGuGQgt7TTWEgcBrN3okvLZ3J_lrjUB-RXApo6krrVLaGI/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/lENCahmDpQzzBGMnYhmXAblmqoBXExSm/rtmp/stream/cIW5eeaVpReB8J1wzRWOdIn3WywN4JGuGQgt7TTWEgcBrN3okvLZ3J_lrjUB-RXApo6krrVLaGI/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<b2a3a12553>/rtmp/stream/cIW5eeaVpReB8J1wzRWOdIn3WywN4JGuGQgt7TTWEgcBrN3okvLZ3J_lrjUB-RXApo6krrVLaGI/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1222,19 +284,129 @@
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<b2a3a12553>/rtmp/stream/cIW5eeaVpReB8J1wzRWOdIn3WywN4JGuGQgt7TTWEgcBrN3okvLZ3J_lrjUB-RXApo6krrVLaGI/1/playlist.m3u8",
+          "resource_type": "xhr"
         },
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/foxtrot/giants-v-rams-401872947/1",
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/1",
             "title": "",
-            "html_length": 768399,
+            "html_length": 659891,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "mqedxwrfksyzy.site",
+              "strmd.b-cdn.net"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb8.strmd.st/secure/<b2a3a12553>/rtmp/stream/cIW5eeaVpReB8J1wzRWOdIn3WywN4JGuGQgt7TTWEgcBrN3okvLZ3J_lrjUB-RXApo6krrVLaGI/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb8.strmd.st/secure/lENCahmDpQzzBGMnYhmXAblmqoBXExSm/rtmp/stream/cIW5eeaVpReB8J1wzRWOdIn3WywN4JGuGQgt7TTWEgcBrN3okvLZ3J_lrjUB-RXApo6krrVLaGI/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/lENCahmDpQzzBGMnYhmXAblmqoBXExSm/rtmp/stream/cIW5eeaVpReB8J1wzRWOdIn3WywN4JGuGQgt7TTWEgcBrN3okvLZ3J_lrjUB-RXApo6krrVLaGI/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<b2a3a12553>/rtmp/stream/cIW5eeaVpReB8J1wzRWOdIn3WywN4JGuGQgt7TTWEgcBrN3okvLZ3J_lrjUB-RXApo6krrVLaGI/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|2",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/2",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<2648f79757>/rtmp/stream/MEEcIkNpQrvPFunq7E1Ovo_rJcnKffvaX1Wlc7G8jXeysHxJqZhRKaxpGMhy5hqSzGvCdWG9kaKnF1E0/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb8.strmd.st/secure/LzYCPdMJZBynwNdmnIswGECNxgDElTAG/rtmp/stream/MEEcIkNpQrvPFunq7E1Ovo_rJcnKffvaX1Wlc7G8jXeysHxJqZhRKaxpGMhy5hqSzGvCdWG9kaKnF1E0/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<2648f79757>/rtmp/stream/MEEcIkNpQrvPFunq7E1Ovo_rJcnKffvaX1Wlc7G8jXeysHxJqZhRKaxpGMhy5hqSzGvCdWG9kaKnF1E0/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb8.strmd.st/secure/<2648f79757>/rtmp/stream/MEEcIkNpQrvPFunq7E1Ovo_rJcnKffvaX1Wlc7G8jXeysHxJqZhRKaxpGMhy5hqSzGvCdWG9kaKnF1E0/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb8.strmd.st/secure/LzYCPdMJZBynwNdmnIswGECNxgDElTAG/rtmp/stream/MEEcIkNpQrvPFunq7E1Ovo_rJcnKffvaX1Wlc7G8jXeysHxJqZhRKaxpGMhy5hqSzGvCdWG9kaKnF1E0/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb8.strmd.st/secure/<2648f79757>/rtmp/stream/MEEcIkNpQrvPFunq7E1Ovo_rJcnKffvaX1Wlc7G8jXeysHxJqZhRKaxpGMhy5hqSzGvCdWG9kaKnF1E0/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/2",
+            "title": "",
+            "html_length": 768389,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "mqedxwrfksyzy.site",
               "strmd.b-cdn.net",
-              "sxspuqxqsdgen.website",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -1247,33 +419,21 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<cde2e9abe7>/foxtrot/stream/giants-v-rams-401872947/1/playlist.m3u8",
+          "url": "https://lb8.strmd.st/secure/<2648f79757>/rtmp/stream/MEEcIkNpQrvPFunq7E1Ovo_rJcnKffvaX1Wlc7G8jXeysHxJqZhRKaxpGMhy5hqSzGvCdWG9kaKnF1E0/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/iXqQsWjdMwAvKPQevUEQaiLvMTtAXtdO/foxtrot/stream/giants-v-rams-401872947/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb8.strmd.st/secure/LzYCPdMJZBynwNdmnIswGECNxgDElTAG/rtmp/stream/MEEcIkNpQrvPFunq7E1Ovo_rJcnKffvaX1Wlc7G8jXeysHxJqZhRKaxpGMhy5hqSzGvCdWG9kaKnF1E0/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         }
       ]
     },
     {
-      "key": "los-angeles-rams-vs-new-york-giants-2475405|foxtrot|giants-v-rams-401872947|2",
-      "title": "Los Angeles Rams vs New York Giants",
-      "embed": "https://embed.st/embed/foxtrot/giants-v-rams-401872947/2",
-      "discovery": "live",
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|3",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/3",
+      "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
         {
@@ -1294,15 +454,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<d9c9892f26>/foxtrot/stream/giants-v-rams-401872947/2/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<37bbaf45c8>/rtmp/stream/UKmjuEE4K_Ro0epcujvJcM6M9wXDiIJMSULR4qIKmWltvnYLgLBmDohIczpAiE9tTN8TC66ZQj4/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/vyLMaYQELiWJbJFrCGALfnHUyTLKzLjH/foxtrot/stream/giants-v-rams-401872947/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb14.strmd.st/secure/aeRrPqsIUchRdFuHzOLTFORSnFyTlspL/rtmp/stream/UKmjuEE4K_Ro0epcujvJcM6M9wXDiIJMSULR4qIKmWltvnYLgLBmDohIczpAiE9tTN8TC66ZQj4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<d9c9892f26>/foxtrot/stream/giants-v-rams-401872947/2/playlist.m3u8",
+          "request_failed": "https://lb14.strmd.st/secure/<37bbaf45c8>/rtmp/stream/UKmjuEE4K_Ro0epcujvJcM6M9wXDiIJMSULR4qIKmWltvnYLgLBmDohIczpAiE9tTN8TC66ZQj4/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1316,23 +476,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<d9c9892f26>/foxtrot/stream/giants-v-rams-401872947/2/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<37bbaf45c8>/rtmp/stream/UKmjuEE4K_Ro0epcujvJcM6M9wXDiIJMSULR4qIKmWltvnYLgLBmDohIczpAiE9tTN8TC66ZQj4/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to XMLHttpRequest at 'https://lb14.strmd.st/secure/aeRrPqsIUchRdFuHzOLTFORSnFyTlspL/rtmp/stream/UKmjuEE4K_Ro0epcujvJcM6M9wXDiIJMSULR4qIKmWltvnYLgLBmDohIczpAiE9tTN8TC66ZQj4/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/vyLMaYQELiWJbJFrCGALfnHUyTLKzLjH/foxtrot/stream/giants-v-rams-401872947/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<d9c9892f26>/foxtrot/stream/giants-v-rams-401872947/2/playlist.m3u8",
+          "request_failed": "https://lb14.strmd.st/secure/<37bbaf45c8>/rtmp/stream/UKmjuEE4K_Ro0epcujvJcM6M9wXDiIJMSULR4qIKmWltvnYLgLBmDohIczpAiE9tTN8TC66ZQj4/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1340,24 +492,16 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/foxtrot/giants-v-rams-401872947/2",
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/3",
             "title": "",
-            "html_length": 768399,
+            "html_length": 768389,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "mqedxwrfksyzy.site",
               "strmd.b-cdn.net",
-              "sxspuqxqsdgen.website",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -1370,33 +514,21 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<d9c9892f26>/foxtrot/stream/giants-v-rams-401872947/2/playlist.m3u8",
+          "url": "https://lb14.strmd.st/secure/<37bbaf45c8>/rtmp/stream/UKmjuEE4K_Ro0epcujvJcM6M9wXDiIJMSULR4qIKmWltvnYLgLBmDohIczpAiE9tTN8TC66ZQj4/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/vyLMaYQELiWJbJFrCGALfnHUyTLKzLjH/foxtrot/stream/giants-v-rams-401872947/2/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb14.strmd.st/secure/aeRrPqsIUchRdFuHzOLTFORSnFyTlspL/rtmp/stream/UKmjuEE4K_Ro0epcujvJcM6M9wXDiIJMSULR4qIKmWltvnYLgLBmDohIczpAiE9tTN8TC66ZQj4/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         }
       ]
     },
     {
-      "key": "los-angeles-rams-vs-new-york-giants-2475405|foxtrot|giants-v-rams-401872947|3",
-      "title": "Los Angeles Rams vs New York Giants",
-      "embed": "https://embed.st/embed/foxtrot/giants-v-rams-401872947/3",
-      "discovery": "live",
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|4",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/4",
+      "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
         {
@@ -1417,53 +549,37 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<6fcab10d1d>/foxtrot/stream/giants-v-rams-401872947/3/playlist.m3u8",
+          "url": "https://lb2.strmd.st/secure/<b4882761c2>/rtmp/stream/p4Ai3NDDZw3mK7m3IzdX4823kID_j1D0veewaAcKvqWZaUmXRZ-6x3kmIr0RL3fJcUtAMP3TnMi2nqbo/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to fetch at 'https://lb2.strmd.st/secure/JeOumImYEYzIRaEmudPsEPqeAsWdGVNM/rtmp/stream/p4Ai3NDDZw3mK7m3IzdX4823kID_j1D0veewaAcKvqWZaUmXRZ-6x3kmIr0RL3fJcUtAMP3TnMi2nqbo/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb2.strmd.st/secure/YLrTtPAjesfwFFCpbdolTxUnEaZsmwLl/foxtrot/stream/giants-v-rams-401872947/3/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb2.strmd.st/secure/<6fcab10d1d>/foxtrot/stream/giants-v-rams-401872947/3/playlist.m3u8",
+          "request_failed": "https://lb2.strmd.st/secure/<b4882761c2>/rtmp/stream/p4Ai3NDDZw3mK7m3IzdX4823kID_j1D0veewaAcKvqWZaUmXRZ-6x3kmIr0RL3fJcUtAMP3TnMi2nqbo/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb2.strmd.st/secure/<6fcab10d1d>/foxtrot/stream/giants-v-rams-401872947/3/playlist.m3u8",
+          "url": "https://lb2.strmd.st/secure/<b4882761c2>/rtmp/stream/p4Ai3NDDZw3mK7m3IzdX4823kID_j1D0veewaAcKvqWZaUmXRZ-6x3kmIr0RL3fJcUtAMP3TnMi2nqbo/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/JeOumImYEYzIRaEmudPsEPqeAsWdGVNM/rtmp/stream/p4Ai3NDDZw3mK7m3IzdX4823kID_j1D0veewaAcKvqWZaUmXRZ-6x3kmIr0RL3fJcUtAMP3TnMi2nqbo/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/YLrTtPAjesfwFFCpbdolTxUnEaZsmwLl/foxtrot/stream/giants-v-rams-401872947/3/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb2.strmd.st/secure/<6fcab10d1d>/foxtrot/stream/giants-v-rams-401872947/3/playlist.m3u8",
+          "request_failed": "https://lb2.strmd.st/secure/<b4882761c2>/rtmp/stream/p4Ai3NDDZw3mK7m3IzdX4823kID_j1D0veewaAcKvqWZaUmXRZ-6x3kmIr0RL3fJcUtAMP3TnMi2nqbo/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1471,20 +587,16 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/foxtrot/giants-v-rams-401872947/3",
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/4",
             "title": "",
-            "html_length": 768399,
+            "html_length": 768389,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "mqedxwrfksyzy.site",
               "strmd.b-cdn.net",
-              "sxspuqxqsdgen.website",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -1497,41 +609,21 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb2.strmd.st/secure/<6fcab10d1d>/foxtrot/stream/giants-v-rams-401872947/3/playlist.m3u8",
+          "url": "https://lb2.strmd.st/secure/<b4882761c2>/rtmp/stream/p4Ai3NDDZw3mK7m3IzdX4823kID_j1D0veewaAcKvqWZaUmXRZ-6x3kmIr0RL3fJcUtAMP3TnMi2nqbo/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb2.strmd.st/secure/YLrTtPAjesfwFFCpbdolTxUnEaZsmwLl/foxtrot/stream/giants-v-rams-401872947/3/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb2.strmd.st/secure/JeOumImYEYzIRaEmudPsEPqeAsWdGVNM/rtmp/stream/p4Ai3NDDZw3mK7m3IzdX4823kID_j1D0veewaAcKvqWZaUmXRZ-6x3kmIr0RL3fJcUtAMP3TnMi2nqbo/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
         }
       ]
     },
     {
-      "key": "los-angeles-rams-vs-new-york-giants-2475405|hotel|new-york-giants-vs-los-angeles-rams-nfl-1790036100|1",
-      "title": "Los Angeles Rams vs New York Giants",
-      "embed": "https://embed.st/embed/hotel/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1",
-      "discovery": "live",
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|5",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/5",
+      "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
         {
@@ -1552,32 +644,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<c0390d6a95>/hotel/stream/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1/playlist.m3u8",
+          "url": "https://lb2.strmd.st/secure/<df93fe598e>/rtmp/stream/U2UwaZnMhltc7w41RCprlqxsR_H7Iyy_7ruze9T305ok2XPgz5Hak2V9T0pqvniDTn0_gftXu5Y/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to fetch at 'https://lb2.strmd.st/secure/qwXSBVQOBlTwptqHPUrsWktEPpZwZwIo/rtmp/stream/U2UwaZnMhltc7w41RCprlqxsR_H7Iyy_7ruze9T305ok2XPgz5Hak2V9T0pqvniDTn0_gftXu5Y/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb4.strmd.st/secure/eDEfiADMWCNWAZXketZUdJHJTLRnJHPO/hotel/stream/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<c0390d6a95>/hotel/stream/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1/playlist.m3u8",
+          "request_failed": "https://lb2.strmd.st/secure/<df93fe598e>/rtmp/stream/U2UwaZnMhltc7w41RCprlqxsR_H7Iyy_7ruze9T305ok2XPgz5Hak2V9T0pqvniDTn0_gftXu5Y/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
@@ -1586,19 +666,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<c0390d6a95>/hotel/stream/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1/playlist.m3u8",
+          "url": "https://lb2.strmd.st/secure/<df93fe598e>/rtmp/stream/U2UwaZnMhltc7w41RCprlqxsR_H7Iyy_7ruze9T305ok2XPgz5Hak2V9T0pqvniDTn0_gftXu5Y/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to XMLHttpRequest at 'https://lb2.strmd.st/secure/qwXSBVQOBlTwptqHPUrsWktEPpZwZwIo/rtmp/stream/U2UwaZnMhltc7w41RCprlqxsR_H7Iyy_7ruze9T305ok2XPgz5Hak2V9T0pqvniDTn0_gftXu5Y/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/eDEfiADMWCNWAZXketZUdJHJTLRnJHPO/hotel/stream/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<c0390d6a95>/hotel/stream/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1/playlist.m3u8",
+          "request_failed": "https://lb2.strmd.st/secure/<df93fe598e>/rtmp/stream/U2UwaZnMhltc7w41RCprlqxsR_H7Iyy_7ruze9T305ok2XPgz5Hak2V9T0pqvniDTn0_gftXu5Y/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1606,24 +682,16 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/hotel/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1",
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/5",
             "title": "",
-            "html_length": 768399,
+            "html_length": 768389,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "mqedxwrfksyzy.site",
               "strmd.b-cdn.net",
-              "sxspuqxqsdgen.website",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -1636,65 +704,21 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb4.strmd.st/secure/<c0390d6a95>/hotel/stream/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1/playlist.m3u8",
+          "url": "https://lb2.strmd.st/secure/<df93fe598e>/rtmp/stream/U2UwaZnMhltc7w41RCprlqxsR_H7Iyy_7ruze9T305ok2XPgz5Hak2V9T0pqvniDTn0_gftXu5Y/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb4.strmd.st/secure/eDEfiADMWCNWAZXketZUdJHJTLRnJHPO/hotel/stream/new-york-giants-vs-los-angeles-rams-nfl-1790036100/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb2.strmd.st/secure/qwXSBVQOBlTwptqHPUrsWktEPpZwZwIo/rtmp/stream/U2UwaZnMhltc7w41RCprlqxsR_H7Iyy_7ruze9T305ok2XPgz5Hak2V9T0pqvniDTn0_gftXu5Y/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         }
       ]
     },
     {
-      "key": "live-event_manningcast-live-stream|delta|live-event_manningcast-live-stream|1",
-      "title": "ManningCast",
-      "embed": "https://embed.st/embed/delta/live-event_manningcast-live-stream/1",
-      "discovery": "live",
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|6",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/6",
+      "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
         {
@@ -1715,24 +739,20 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<b45be8e302>/delta/stream/live-event_manningcast-live-stream/1/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<0d06b18c2d>/rtmp/stream/NCONSWYXZZTJbByAMuksRDB9WfXZsoKJaVRgc-e0-3xsXpgRGvrhGI0J9pziOW1TozZXsb4xwiKcEkEk/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb4.strmd.st/secure/XeunYtHlyUTpRbPdrMOAgZGTDaSgiaIB/delta/stream/live-event_manningcast-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/sGvaqmAfYwUOXNkXhNnTrocSmShVBehg/rtmp/stream/NCONSWYXZZTJbByAMuksRDB9WfXZsoKJaVRgc-e0-3xsXpgRGvrhGI0J9pziOW1TozZXsb4xwiKcEkEk/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb4.strmd.st/secure/<b45be8e302>/delta/stream/live-event_manningcast-live-stream/1/playlist.m3u8",
+          "request_failed": "https://lb12.strmd.st/secure/<0d06b18c2d>/rtmp/stream/NCONSWYXZZTJbByAMuksRDB9WfXZsoKJaVRgc-e0-3xsXpgRGvrhGI0J9pziOW1TozZXsb4xwiKcEkEk/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
@@ -1741,23 +761,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb4.strmd.st/secure/<b45be8e302>/delta/stream/live-event_manningcast-live-stream/1/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<0d06b18c2d>/rtmp/stream/NCONSWYXZZTJbByAMuksRDB9WfXZsoKJaVRgc-e0-3xsXpgRGvrhGI0J9pziOW1TozZXsb4xwiKcEkEk/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/sGvaqmAfYwUOXNkXhNnTrocSmShVBehg/rtmp/stream/NCONSWYXZZTJbByAMuksRDB9WfXZsoKJaVRgc-e0-3xsXpgRGvrhGI0J9pziOW1TozZXsb4xwiKcEkEk/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb4.strmd.st/secure/XeunYtHlyUTpRbPdrMOAgZGTDaSgiaIB/delta/stream/live-event_manningcast-live-stream/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb4.strmd.st/secure/<b45be8e302>/delta/stream/live-event_manningcast-live-stream/1/playlist.m3u8",
+          "request_failed": "https://lb12.strmd.st/secure/<0d06b18c2d>/rtmp/stream/NCONSWYXZZTJbByAMuksRDB9WfXZsoKJaVRgc-e0-3xsXpgRGvrhGI0J9pziOW1TozZXsb4xwiKcEkEk/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1765,24 +777,16 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live-event_manningcast-live-stream/1",
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/6",
             "title": "",
-            "html_length": 768443,
+            "html_length": 768389,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "mqedxwrfksyzy.site",
               "strmd.b-cdn.net",
-              "sxspuqxqsdgen.website",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -1795,37 +799,21 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb4.strmd.st/secure/<b45be8e302>/delta/stream/live-event_manningcast-live-stream/1/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<0d06b18c2d>/rtmp/stream/NCONSWYXZZTJbByAMuksRDB9WfXZsoKJaVRgc-e0-3xsXpgRGvrhGI0J9pziOW1TozZXsb4xwiKcEkEk/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb4.strmd.st/secure/XeunYtHlyUTpRbPdrMOAgZGTDaSgiaIB/delta/stream/live-event_manningcast-live-stream/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb12.strmd.st/secure/sGvaqmAfYwUOXNkXhNnTrocSmShVBehg/rtmp/stream/NCONSWYXZZTJbByAMuksRDB9WfXZsoKJaVRgc-e0-3xsXpgRGvrhGI0J9pziOW1TozZXsb4xwiKcEkEk/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         }
       ]
     },
     {
-      "key": "live-event_manningcast-live-stream|delta|live-event_manningcast-live-stream|2",
-      "title": "ManningCast",
-      "embed": "https://embed.st/embed/delta/live-event_manningcast-live-stream/2",
-      "discovery": "live",
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|7",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/7",
+      "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
         {
@@ -1846,53 +834,37 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<4da239d2e9>/delta/stream/live-event_manningcast-live-stream/2/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<4f2af305ad>/rtmp/stream/cgex3VLcvFFro6o0XyPMgtLlcNyHHlBVy8mC1xM1l1da_jNLCN1n0LCGINDEP6hc3zRbEgyOywM/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to fetch at 'https://lb12.strmd.st/secure/qebseIZpQuGsuENkVohWNqOcEMXKVqPL/rtmp/stream/cgex3VLcvFFro6o0XyPMgtLlcNyHHlBVy8mC1xM1l1da_jNLCN1n0LCGINDEP6hc3zRbEgyOywM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb7.strmd.st/secure/DHcFMsFqARcjtzwnvvMuTcgWkOYbzfXL/delta/stream/live-event_manningcast-live-stream/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<4da239d2e9>/delta/stream/live-event_manningcast-live-stream/2/playlist.m3u8",
+          "request_failed": "https://lb12.strmd.st/secure/<4f2af305ad>/rtmp/stream/cgex3VLcvFFro6o0XyPMgtLlcNyHHlBVy8mC1xM1l1da_jNLCN1n0LCGINDEP6hc3zRbEgyOywM/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<4da239d2e9>/delta/stream/live-event_manningcast-live-stream/2/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<4f2af305ad>/rtmp/stream/cgex3VLcvFFro6o0XyPMgtLlcNyHHlBVy8mC1xM1l1da_jNLCN1n0LCGINDEP6hc3zRbEgyOywM/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to XMLHttpRequest at 'https://lb12.strmd.st/secure/qebseIZpQuGsuENkVohWNqOcEMXKVqPL/rtmp/stream/cgex3VLcvFFro6o0XyPMgtLlcNyHHlBVy8mC1xM1l1da_jNLCN1n0LCGINDEP6hc3zRbEgyOywM/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/DHcFMsFqARcjtzwnvvMuTcgWkOYbzfXL/delta/stream/live-event_manningcast-live-stream/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<4da239d2e9>/delta/stream/live-event_manningcast-live-stream/2/playlist.m3u8",
+          "request_failed": "https://lb12.strmd.st/secure/<4f2af305ad>/rtmp/stream/cgex3VLcvFFro6o0XyPMgtLlcNyHHlBVy8mC1xM1l1da_jNLCN1n0LCGINDEP6hc3zRbEgyOywM/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -1900,20 +872,16 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/delta/live-event_manningcast-live-stream/2",
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/7",
             "title": "",
-            "html_length": 768443,
+            "html_length": 768389,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "mqedxwrfksyzy.site",
               "strmd.b-cdn.net",
-              "sxspuqxqsdgen.website",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -1926,37 +894,21 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb7.strmd.st/secure/<4da239d2e9>/delta/stream/live-event_manningcast-live-stream/2/playlist.m3u8",
+          "url": "https://lb12.strmd.st/secure/<4f2af305ad>/rtmp/stream/cgex3VLcvFFro6o0XyPMgtLlcNyHHlBVy8mC1xM1l1da_jNLCN1n0LCGINDEP6hc3zRbEgyOywM/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb7.strmd.st/secure/DHcFMsFqARcjtzwnvvMuTcgWkOYbzfXL/delta/stream/live-event_manningcast-live-stream/2/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb12.strmd.st/secure/qebseIZpQuGsuENkVohWNqOcEMXKVqPL/rtmp/stream/cgex3VLcvFFro6o0XyPMgtLlcNyHHlBVy8mC1xM1l1da_jNLCN1n0LCGINDEP6hc3zRbEgyOywM/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         }
       ]
     },
     {
-      "key": "detroit-tigers-vs-washington-nationals-2605684|foxtrot|nationals-v-tigers-401817028|1",
-      "title": "Detroit Tigers vs Washington Nationals",
-      "embed": "https://embed.st/embed/foxtrot/nationals-v-tigers-401817028/1",
-      "discovery": "live",
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|8",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/8",
+      "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
         {
@@ -1977,53 +929,37 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<f33c18e865>/foxtrot/stream/nationals-v-tigers-401817028/1/playlist.m3u8",
+          "url": "https://lb16.strmd.st/secure/<e8fdfc38b5>/rtmp/stream/UMD7_sZ1cwqxMuB4SxH6nRdZ4Po3L4-rSkbZdLXauONN3DDps201B7OqQtINmiOi8levXyQxoL-cbfhh/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to fetch at 'https://lb16.strmd.st/secure/tDdPoRFOsAoLyyncAqCJeHXplizUjyBe/rtmp/stream/UMD7_sZ1cwqxMuB4SxH6nRdZ4Po3L4-rSkbZdLXauONN3DDps201B7OqQtINmiOi8levXyQxoL-cbfhh/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/WQTSyxpkfNHppHHayjHhYGzxTxZielDs/foxtrot/stream/nationals-v-tigers-401817028/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<f33c18e865>/foxtrot/stream/nationals-v-tigers-401817028/1/playlist.m3u8",
+          "request_failed": "https://lb16.strmd.st/secure/<e8fdfc38b5>/rtmp/stream/UMD7_sZ1cwqxMuB4SxH6nRdZ4Po3L4-rSkbZdLXauONN3DDps201B7OqQtINmiOi8levXyQxoL-cbfhh/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
           "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
         },
         {
           "console": "error",
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<f33c18e865>/foxtrot/stream/nationals-v-tigers-401817028/1/playlist.m3u8",
+          "url": "https://lb16.strmd.st/secure/<e8fdfc38b5>/rtmp/stream/UMD7_sZ1cwqxMuB4SxH6nRdZ4Po3L4-rSkbZdLXauONN3DDps201B7OqQtINmiOi8levXyQxoL-cbfhh/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to XMLHttpRequest at 'https://lb16.strmd.st/secure/tDdPoRFOsAoLyyncAqCJeHXplizUjyBe/rtmp/stream/UMD7_sZ1cwqxMuB4SxH6nRdZ4Po3L4-rSkbZdLXauONN3DDps201B7OqQtINmiOi8levXyQxoL-cbfhh/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/WQTSyxpkfNHppHHayjHhYGzxTxZielDs/foxtrot/stream/nationals-v-tigers-401817028/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<f33c18e865>/foxtrot/stream/nationals-v-tigers-401817028/1/playlist.m3u8",
+          "request_failed": "https://lb16.strmd.st/secure/<e8fdfc38b5>/rtmp/stream/UMD7_sZ1cwqxMuB4SxH6nRdZ4Po3L4-rSkbZdLXauONN3DDps201B7OqQtINmiOi8levXyQxoL-cbfhh/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -2031,20 +967,16 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/foxtrot/nationals-v-tigers-401817028/1",
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/8",
             "title": "",
-            "html_length": 768399,
+            "html_length": 768389,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "mqedxwrfksyzy.site",
               "strmd.b-cdn.net",
-              "sxspuqxqsdgen.website",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -2057,45 +989,21 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<f33c18e865>/foxtrot/stream/nationals-v-tigers-401817028/1/playlist.m3u8",
+          "url": "https://lb16.strmd.st/secure/<e8fdfc38b5>/rtmp/stream/UMD7_sZ1cwqxMuB4SxH6nRdZ4Po3L4-rSkbZdLXauONN3DDps201B7OqQtINmiOi8levXyQxoL-cbfhh/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/WQTSyxpkfNHppHHayjHhYGzxTxZielDs/foxtrot/stream/nationals-v-tigers-401817028/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb16.strmd.st/secure/tDdPoRFOsAoLyyncAqCJeHXplizUjyBe/rtmp/stream/UMD7_sZ1cwqxMuB4SxH6nRdZ4Po3L4-rSkbZdLXauONN3DDps201B7OqQtINmiOi8levXyQxoL-cbfhh/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         }
       ]
     },
     {
-      "key": "baltimore-orioles-vs-toronto-blue-jays-2605683|foxtrot|blue-jays-v-orioles-401817027|1",
-      "title": "Baltimore Orioles vs Toronto Blue Jays",
-      "embed": "https://embed.st/embed/foxtrot/blue-jays-v-orioles-401817027/1",
-      "discovery": "live",
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|9",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/9",
+      "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
         {
@@ -2116,15 +1024,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<f3f7dc2bb4>/foxtrot/stream/blue-jays-v-orioles-401817027/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<2d86da6eb0>/rtmp/stream/_oEYA0PTYRDOs87pxmSLlmRPxqQhoHWSIUSPmRT2kRHkT45zx7KbcP5XMk5fKZfh8-lw-s9z1nvX8Q/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/GrHyvVlvsvDNdHzqADxehnCLUvZAoVOD/foxtrot/stream/blue-jays-v-orioles-401817027/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/dDyeHZeDhjDMRJORFNVqaLAAoptXUshu/rtmp/stream/_oEYA0PTYRDOs87pxmSLlmRPxqQhoHWSIUSPmRT2kRHkT45zx7KbcP5XMk5fKZfh8-lw-s9z1nvX8Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<f3f7dc2bb4>/foxtrot/stream/blue-jays-v-orioles-401817027/1/playlist.m3u8",
+          "request_failed": "https://lb1.strmd.st/secure/<2d86da6eb0>/rtmp/stream/_oEYA0PTYRDOs87pxmSLlmRPxqQhoHWSIUSPmRT2kRHkT45zx7KbcP5XMk5fKZfh8-lw-s9z1nvX8Q/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -2136,25 +1044,17 @@
           "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<f3f7dc2bb4>/foxtrot/stream/blue-jays-v-orioles-401817027/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<2d86da6eb0>/rtmp/stream/_oEYA0PTYRDOs87pxmSLlmRPxqQhoHWSIUSPmRT2kRHkT45zx7KbcP5XMk5fKZfh8-lw-s9z1nvX8Q/1/playlist.m3u8",
           "resource_type": "xhr"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/dDyeHZeDhjDMRJORFNVqaLAAoptXUshu/rtmp/stream/_oEYA0PTYRDOs87pxmSLlmRPxqQhoHWSIUSPmRT2kRHkT45zx7KbcP5XMk5fKZfh8-lw-s9z1nvX8Q/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/GrHyvVlvsvDNdHzqADxehnCLUvZAoVOD/foxtrot/stream/blue-jays-v-orioles-401817027/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<f3f7dc2bb4>/foxtrot/stream/blue-jays-v-orioles-401817027/1/playlist.m3u8",
+          "request_failed": "https://lb1.strmd.st/secure/<2d86da6eb0>/rtmp/stream/_oEYA0PTYRDOs87pxmSLlmRPxqQhoHWSIUSPmRT2kRHkT45zx7KbcP5XMk5fKZfh8-lw-s9z1nvX8Q/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -2162,28 +1062,16 @@
           "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
-        },
-        {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/foxtrot/blue-jays-v-orioles-401817027/1",
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/9",
             "title": "",
-            "html_length": 768399,
+            "html_length": 768389,
             "script_hosts": [
               "cdn.jsdelivr.net",
               "embed.st",
+              "mqedxwrfksyzy.site",
               "strmd.b-cdn.net",
-              "sxspuqxqsdgen.website",
               "www.gstatic.com",
               "www.w3.org"
             ],
@@ -2196,49 +1084,108 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<f3f7dc2bb4>/foxtrot/stream/blue-jays-v-orioles-401817027/1/playlist.m3u8",
+          "url": "https://lb1.strmd.st/secure/<2d86da6eb0>/rtmp/stream/_oEYA0PTYRDOs87pxmSLlmRPxqQhoHWSIUSPmRT2kRHkT45zx7KbcP5XMk5fKZfh8-lw-s9z1nvX8Q/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/GrHyvVlvsvDNdHzqADxehnCLUvZAoVOD/foxtrot/stream/blue-jays-v-orioles-401817027/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb1.strmd.st/secure/dDyeHZeDhjDMRJORFNVqaLAAoptXUshu/rtmp/stream/_oEYA0PTYRDOs87pxmSLlmRPxqQhoHWSIUSPmRT2kRHkT45zx7KbcP5XMk5fKZfh8-lw-s9z1nvX8Q/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
           "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "players-championship-29-2608320|admin|ppv-players-championship-29-den-bosch|10",
+      "title": "Players Championship 29",
+      "embed": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/10",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<7b66dff256>/rtmp/stream/an7gc8kH0rK7NK0t5wp2TW56qcpURR2cLAqLzM_CG2-wkrJ1zaMvIOo8Dc7oJBR4KsRI_ZHk960aW58HpgE/1/playlist.m3u8",
+          "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Access to fetch at 'https://lb1.strmd.st/secure/wzXhCOxhAHYPCUgqxGrmKsOgRtQSjtaU/rtmp/stream/an7gc8kH0rK7NK0t5wp2TW56qcpURR2cLAqLzM_CG2-wkrJ1zaMvIOo8Dc7oJBR4KsRI_ZHk960aW58HpgE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb1.strmd.st/secure/<7b66dff256>/rtmp/stream/an7gc8kH0rK7NK0t5wp2TW56qcpURR2cLAqLzM_CG2-wkrJ1zaMvIOo8Dc7oJBR4KsRI_ZHk960aW58HpgE/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
         },
         {
           "console": "error",
-          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
         },
         {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb1.strmd.st/secure/<7b66dff256>/rtmp/stream/an7gc8kH0rK7NK0t5wp2TW56qcpURR2cLAqLzM_CG2-wkrJ1zaMvIOo8Dc7oJBR4KsRI_ZHk960aW58HpgE/1/playlist.m3u8",
+          "resource_type": "xhr"
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb1.strmd.st/secure/wzXhCOxhAHYPCUgqxGrmKsOgRtQSjtaU/rtmp/stream/an7gc8kH0rK7NK0t5wp2TW56qcpURR2cLAqLzM_CG2-wkrJ1zaMvIOo8Dc7oJBR4KsRI_ZHk960aW58HpgE/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "console": "warning",
-          "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+          "request_failed": "https://lb1.strmd.st/secure/<7b66dff256>/rtmp/stream/an7gc8kH0rK7NK0t5wp2TW56qcpURR2cLAqLzM_CG2-wkrJ1zaMvIOo8Dc7oJBR4KsRI_ZHk960aW58HpgE/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-players-championship-29-den-bosch/10",
+            "title": "",
+            "html_length": 768389,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "embed.st",
+              "mqedxwrfksyzy.site",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
         },
         {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+          "ffprobe": false,
+          "url": "https://lb1.strmd.st/secure/<7b66dff256>/rtmp/stream/an7gc8kH0rK7NK0t5wp2TW56qcpURR2cLAqLzM_CG2-wkrJ1zaMvIOo8Dc7oJBR4KsRI_ZHk960aW58HpgE/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb1.strmd.st/secure/wzXhCOxhAHYPCUgqxGrmKsOgRtQSjtaU/rtmp/stream/an7gc8kH0rK7NK0t5wp2TW56qcpURR2cLAqLzM_CG2-wkrJ1zaMvIOo8Dc7oJBR4KsRI_ZHk960aW58HpgE/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
         }
       ]
     }
