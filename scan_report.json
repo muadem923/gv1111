@@ -1,33 +1,33 @@
 {
   "version": "0.1.3",
   "browser_channel": "chrome",
-  "started_at": 1791177945,
-  "elapsed_seconds": 25.46,
+  "started_at": 1791203298,
+  "elapsed_seconds": 14.82,
   "api_ok": true,
   "matches": 1,
-  "live_matches": 1,
-  "nearby_fallback_matches": 0,
-  "nearby_fallback_used": false,
-  "source_pairs": 1,
-  "embed_candidates": 6,
+  "live_matches": 0,
+  "nearby_fallback_matches": 1,
+  "nearby_fallback_used": true,
+  "source_pairs": 3,
+  "embed_candidates": 3,
   "verified_current": 0,
   "reused_last_good": 0,
   "published_entries": 0,
   "classification_counts": {
-    "upstream_dead": 6
+    "upstream_dead": 3
   },
   "entries": [],
   "browser_events": [
     {
-      "key": "las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|hotel|las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|1",
-      "title": "Las Vegas Motor Speedway — The Chase - Race: South Point 400",
-      "embed": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1",
-      "discovery": "live",
+      "key": "cyprus-vs-latvia-2475301|admin|ppv-cyprus-vs-latvia|1",
+      "title": "Cyprus vs Latvia",
+      "embed": "https://embed.st/embed/admin/ppv-cyprus-vs-latvia/1",
+      "discovery": "nearby_all",
       "classification": "upstream_dead",
       "events": [
         {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
         },
         {
           "request": "fetch",
@@ -43,15 +43,15 @@
         {
           "request": "media",
           "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<0cd93e0307>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1/playlist.m3u8",
+          "url": "https://lb24.strmd.st/secure/<1ec02e9293>/rtmp/stream/H2b6pEpbOx4a1KAJ8mFYkEtrgVx3PVOipLVFVIvUGlg7KMiErN5q_jCKbfXXF_MCB_auHMIwkuZV2w/1/playlist.m3u8",
           "resource_type": "fetch"
         },
         {
           "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/ARDwmbmAJRIniPzKtBASmXCvPWwAzCkX/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+          "text": "Access to fetch at 'https://lb24.strmd.st/secure/yVhTqNLfYCzPlgujByuSpdIPbHXgDBAh/rtmp/stream/H2b6pEpbOx4a1KAJ8mFYkEtrgVx3PVOipLVFVIvUGlg7KMiErN5q_jCKbfXXF_MCB_auHMIwkuZV2w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
         },
         {
-          "request_failed": "https://lb6.strmd.st/secure/<0cd93e0307>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1/playlist.m3u8",
+          "request_failed": "https://lb24.strmd.st/secure/<1ec02e9293>/rtmp/stream/H2b6pEpbOx4a1KAJ8mFYkEtrgVx3PVOipLVFVIvUGlg7KMiErN5q_jCKbfXXF_MCB_auHMIwkuZV2w/1/playlist.m3u8",
           "failure": "net::ERR_FAILED"
         },
         {
@@ -61,12 +61,12 @@
         {
           "page": {
             "status": 200,
-            "url": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1",
+            "url": "https://embed.st/embed/admin/ppv-cyprus-vs-latvia/1",
             "title": "",
-            "html_length": 23151,
+            "html_length": 659381,
             "script_hosts": [
-              "capitalhospitals.org",
               "cdn.jsdelivr.net",
+              "dgwxaedsrledc.site",
               "strmd.b-cdn.net"
             ],
             "browser": {
@@ -78,9 +78,249 @@
         },
         {
           "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<0cd93e0307>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1/playlist.m3u8",
+          "url": "https://lb24.strmd.st/secure/<1ec02e9293>/rtmp/stream/H2b6pEpbOx4a1KAJ8mFYkEtrgVx3PVOipLVFVIvUGlg7KMiErN5q_jCKbfXXF_MCB_auHMIwkuZV2w/1/playlist.m3u8",
           "codecs": [],
-          "error": "https://lb6.strmd.st/secure/ARDwmbmAJRIniPzKtBASmXCvPWwAzCkX/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "error": "https://lb24.strmd.st/secure/yVhTqNLfYCzPlgujByuSpdIPbHXgDBAh/rtmp/stream/H2b6pEpbOx4a1KAJ8mFYkEtrgVx3PVOipLVFVIvUGlg7KMiErN5q_jCKbfXXF_MCB_auHMIwkuZV2w/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb24.strmd.st/secure/<1ec02e9293>/rtmp/stream/H2b6pEpbOx4a1KAJ8mFYkEtrgVx3PVOipLVFVIvUGlg7KMiErN5q_jCKbfXXF_MCB_auHMIwkuZV2w/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb24.strmd.st/secure/yVhTqNLfYCzPlgujByuSpdIPbHXgDBAh/rtmp/stream/H2b6pEpbOx4a1KAJ8mFYkEtrgVx3PVOipLVFVIvUGlg7KMiErN5q_jCKbfXXF_MCB_auHMIwkuZV2w/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb24.strmd.st/secure/<1ec02e9293>/rtmp/stream/H2b6pEpbOx4a1KAJ8mFYkEtrgVx3PVOipLVFVIvUGlg7KMiErN5q_jCKbfXXF_MCB_auHMIwkuZV2w/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        },
+        {
+          "console": "error",
+          "text": "Framing 'https://store.steampowered.com/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+        }
+      ]
+    },
+    {
+      "key": "cyprus-vs-latvia-2475301|admin|ppv-cyprus-vs-latvia|2",
+      "title": "Cyprus vs Latvia",
+      "embed": "https://embed.st/embed/admin/ppv-cyprus-vs-latvia/2",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb21.strmd.st/secure/<d571bf6e9f>/rtmp/stream/8MvxwjMmXTusd6cGI38ZPpjOqNw9gf3KsY2DzB84FbmUdF89xjKLZJl-HC-iewCHxwVeQmElzTSLA3F4NUk/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb21.strmd.st/secure/YxkYRmietECFPlSPrNFOoaFWVZhCiYDG/rtmp/stream/8MvxwjMmXTusd6cGI38ZPpjOqNw9gf3KsY2DzB84FbmUdF89xjKLZJl-HC-iewCHxwVeQmElzTSLA3F4NUk/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb21.strmd.st/secure/<d571bf6e9f>/rtmp/stream/8MvxwjMmXTusd6cGI38ZPpjOqNw9gf3KsY2DzB84FbmUdF89xjKLZJl-HC-iewCHxwVeQmElzTSLA3F4NUk/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb21.strmd.st/secure/<d571bf6e9f>/rtmp/stream/8MvxwjMmXTusd6cGI38ZPpjOqNw9gf3KsY2DzB84FbmUdF89xjKLZJl-HC-iewCHxwVeQmElzTSLA3F4NUk/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb21.strmd.st/secure/YxkYRmietECFPlSPrNFOoaFWVZhCiYDG/rtmp/stream/8MvxwjMmXTusd6cGI38ZPpjOqNw9gf3KsY2DzB84FbmUdF89xjKLZJl-HC-iewCHxwVeQmElzTSLA3F4NUk/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb21.strmd.st/secure/<d571bf6e9f>/rtmp/stream/8MvxwjMmXTusd6cGI38ZPpjOqNw9gf3KsY2DzB84FbmUdF89xjKLZJl-HC-iewCHxwVeQmElzTSLA3F4NUk/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/admin/ppv-cyprus-vs-latvia/2",
+            "title": "",
+            "html_length": 768389,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "dgwxaedsrledc.site",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb21.strmd.st/secure/<d571bf6e9f>/rtmp/stream/8MvxwjMmXTusd6cGI38ZPpjOqNw9gf3KsY2DzB84FbmUdF89xjKLZJl-HC-iewCHxwVeQmElzTSLA3F4NUk/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb21.strmd.st/secure/YxkYRmietECFPlSPrNFOoaFWVZhCiYDG/rtmp/stream/8MvxwjMmXTusd6cGI38ZPpjOqNw9gf3KsY2DzB84FbmUdF89xjKLZJl-HC-iewCHxwVeQmElzTSLA3F4NUk/1/playlist.m3u8: Server returned 404 Not Found\n",
+          "browser_status": null,
+          "request_seen": true,
+          "response_seen": false,
+          "trigger": "request"
+        }
+      ]
+    },
+    {
+      "key": "cyprus-vs-latvia-2475301|hotel|cyprus-vs-latvia-uefa-nations-league-1791216000|1",
+      "title": "Cyprus vs Latvia",
+      "embed": "https://embed.st/embed/hotel/cyprus-vs-latvia-uefa-nations-league-1791216000/1",
+      "discovery": "nearby_all",
+      "classification": "upstream_dead",
+      "events": [
+        {
+          "console": "warning",
+          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+        },
+        {
+          "request": "fetch",
+          "method": "POST",
+          "url": "https://embed.st/fetch",
+          "resource_type": "fetch"
+        },
+        {
+          "response": "fetch",
+          "status": 200,
+          "url": "https://embed.st/fetch"
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb21.strmd.st/secure/<2461fcae54>/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/playlist.m3u8",
+          "resource_type": "fetch"
+        },
+        {
+          "console": "error",
+          "text": "Access to fetch at 'https://lb21.strmd.st/secure/juPUwgZNayukoHWJBoejgfwEFlMaWITT/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb21.strmd.st/secure/<2461fcae54>/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "The script has an unsupported MIME type ('text/html')."
+        },
+        {
+          "request": "media",
+          "method": "GET",
+          "url": "https://lb21.strmd.st/secure/<2461fcae54>/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/playlist.m3u8",
+          "resource_type": "xhr"
+        },
+        {
+          "console": "error",
+          "text": "Access to XMLHttpRequest at 'https://lb21.strmd.st/secure/juPUwgZNayukoHWJBoejgfwEFlMaWITT/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+        },
+        {
+          "request_failed": "https://lb21.strmd.st/secure/<2461fcae54>/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/playlist.m3u8",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "console": "error",
+          "text": "Failed to load resource: net::ERR_FAILED"
+        },
+        {
+          "page": {
+            "status": 200,
+            "url": "https://embed.st/embed/hotel/cyprus-vs-latvia-uefa-nations-league-1791216000/1",
+            "title": "",
+            "html_length": 768389,
+            "script_hosts": [
+              "cdn.jsdelivr.net",
+              "dgwxaedsrledc.site",
+              "embed.st",
+              "strmd.b-cdn.net",
+              "www.gstatic.com",
+              "www.w3.org"
+            ],
+            "browser": {
+              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "webdriver": true,
+              "platform": "Linux x86_64"
+            }
+          }
+        },
+        {
+          "ffprobe": false,
+          "url": "https://lb21.strmd.st/secure/<2461fcae54>/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/playlist.m3u8",
+          "codecs": [],
+          "error": "https://lb21.strmd.st/secure/juPUwgZNayukoHWJBoejgfwEFlMaWITT/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/playlist.m3u8: Server returned 404 Not Found\n",
           "browser_status": null,
           "request_seen": true,
           "response_seen": false,
@@ -89,531 +329,6 @@
         {
           "console": "error",
           "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<0cd93e0307>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/ARDwmbmAJRIniPzKtBASmXCvPWwAzCkX/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<0cd93e0307>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/1/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|hotel|las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|2",
-      "title": "Las Vegas Motor Speedway — The Chase - Race: South Point 400",
-      "embed": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 403 ()"
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<525113ef24>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/XBMZGjUzLaIqwkltGefArCdurXbHmRFY/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<525113ef24>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<525113ef24>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Framing 'https://www.opera.com/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://*.opera.com https://*.operaneon.com\". The request has been blocked.\n"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/XBMZGjUzLaIqwkltGefArCdurXbHmRFY/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<525113ef24>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2",
-            "title": "",
-            "html_length": 132159,
-            "script_hosts": [
-              "capitalhospitals.org",
-              "cdn.jsdelivr.net",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<525113ef24>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb6.strmd.st/secure/XBMZGjUzLaIqwkltGefArCdurXbHmRFY/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/2/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|hotel|las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|3",
-      "title": "Las Vegas Motor Speedway — The Chase - Race: South Point 400",
-      "embed": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<842f3df575>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb6.strmd.st/secure/ueccdFTrgHjbTGCGWFhyudNqxZjscykF/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<842f3df575>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 ()"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 ()"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 ()"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: the server responded with a status of 404 ()"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb6.strmd.st/secure/<842f3df575>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "warning",
-          "text": "Failed to decode downloaded font: https://lp.realintelligence360.com/download-free-real/freevpnlp_files/helveticaneueltstd-roman_0-webfont.ttf"
-        },
-        {
-          "console": "warning",
-          "text": "OTS parsing error: invalid sfntVersion: 1008813135"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb6.strmd.st/secure/ueccdFTrgHjbTGCGWFhyudNqxZjscykF/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb6.strmd.st/secure/<842f3df575>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "cjskcaxpjhgne.online",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb6.strmd.st/secure/<842f3df575>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb6.strmd.st/secure/ueccdFTrgHjbTGCGWFhyudNqxZjscykF/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/3/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|hotel|las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|4",
-      "title": "Las Vegas Motor Speedway — The Chase - Race: South Point 400",
-      "embed": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb31.strmd.st/secure/<ffeefe540b>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb31.strmd.st/secure/kZlfVLOAZPsGtMjeUdqYpBmzTaQctGnH/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb31.strmd.st/secure/<ffeefe540b>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb31.strmd.st/secure/<ffeefe540b>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb31.strmd.st/secure/kZlfVLOAZPsGtMjeUdqYpBmzTaQctGnH/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb31.strmd.st/secure/<ffeefe540b>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "cjskcaxpjhgne.online",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb31.strmd.st/secure/<ffeefe540b>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb31.strmd.st/secure/kZlfVLOAZPsGtMjeUdqYpBmzTaQctGnH/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/4/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        }
-      ]
-    },
-    {
-      "key": "las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|hotel|las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|5",
-      "title": "Las Vegas Motor Speedway — The Chase - Race: South Point 400",
-      "embed": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<f86cacf7db>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb7.strmd.st/secure/ygWiUTKwpJlSVVTGxVnHeYlpbMJyDQwL/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<f86cacf7db>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<f86cacf7db>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5",
-            "title": "",
-            "html_length": 768374,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "cjskcaxpjhgne.online",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb7.strmd.st/secure/<f86cacf7db>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb7.strmd.st/secure/ygWiUTKwpJlSVVTGxVnHeYlpbMJyDQwL/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/ygWiUTKwpJlSVVTGxVnHeYlpbMJyDQwL/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<f86cacf7db>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/5/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        }
-      ]
-    },
-    {
-      "key": "las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|hotel|las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400|6",
-      "title": "Las Vegas Motor Speedway — The Chase - Race: South Point 400",
-      "embed": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6",
-      "discovery": "live",
-      "classification": "upstream_dead",
-      "events": [
-        {
-          "console": "warning",
-          "text": "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
-        },
-        {
-          "request": "fetch",
-          "method": "POST",
-          "url": "https://embed.st/fetch",
-          "resource_type": "fetch"
-        },
-        {
-          "response": "fetch",
-          "status": 200,
-          "url": "https://embed.st/fetch"
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<ae85b8892f>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6/playlist.m3u8",
-          "resource_type": "fetch"
-        },
-        {
-          "console": "error",
-          "text": "Access to fetch at 'https://lb7.strmd.st/secure/bUynAYlXWUeavIZdjOTrwYJnnAQFddjQ/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<ae85b8892f>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "The script has an unsupported MIME type ('text/html')."
-        },
-        {
-          "request": "media",
-          "method": "GET",
-          "url": "https://lb7.strmd.st/secure/<ae85b8892f>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6/playlist.m3u8",
-          "resource_type": "xhr"
-        },
-        {
-          "console": "error",
-          "text": "Access to XMLHttpRequest at 'https://lb7.strmd.st/secure/bUynAYlXWUeavIZdjOTrwYJnnAQFddjQ/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6/playlist.m3u8' from origin 'https://embed.st' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
-        },
-        {
-          "request_failed": "https://lb7.strmd.st/secure/<ae85b8892f>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6/playlist.m3u8",
-          "failure": "net::ERR_FAILED"
-        },
-        {
-          "console": "error",
-          "text": "Failed to load resource: net::ERR_FAILED"
-        },
-        {
-          "page": {
-            "status": 200,
-            "url": "https://embed.st/embed/hotel/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6",
-            "title": "",
-            "html_length": 768397,
-            "script_hosts": [
-              "cdn.jsdelivr.net",
-              "cjskcaxpjhgne.online",
-              "embed.st",
-              "strmd.b-cdn.net",
-              "www.gstatic.com",
-              "www.w3.org"
-            ],
-            "browser": {
-              "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-              "webdriver": true,
-              "platform": "Linux x86_64"
-            }
-          }
-        },
-        {
-          "ffprobe": false,
-          "url": "https://lb7.strmd.st/secure/<ae85b8892f>/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6/playlist.m3u8",
-          "codecs": [],
-          "error": "https://lb7.strmd.st/secure/bUynAYlXWUeavIZdjOTrwYJnnAQFddjQ/hotel/stream/las-vegas-motor-speedway-the-chase-race-south-point-400-nascar-cup-series-1791149400/6/playlist.m3u8: Server returned 404 Not Found\n",
-          "browser_status": null,
-          "request_seen": true,
-          "response_seen": false,
-          "trigger": "request"
         }
       ]
     }
