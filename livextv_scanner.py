@@ -337,7 +337,9 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, list[str], 
             }
         })
 
-        for url, meta in observed.items():
+        # Snapshot: handlers may add URLs while we probe; cap probes per embed
+        # to bound worst-case runtime.
+        for url, meta in list(observed.items())[:4]:
             status = meta.get("status")
             headers = meta.get("headers") if isinstance(meta.get("headers"), dict) else {}
             ok, codecs, err = ffprobe_verify(url, referer, headers)
