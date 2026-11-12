@@ -181,7 +181,11 @@ def browser_launch_kwargs() -> dict[str, Any]:
     return kw
 
 
-def ffprobe_verify(url: str, referer: str) -> tuple[bool, list[str], str]:
+def replay_headers(headers: dict[str, str]) -> dict[str, str]:
+    return {k: v for k, v in headers.items() if k == "cookie" or k.startswith("x-")}
+
+
+def ffprobe_verify(url: str, referer: str, extra_headers: dict[str, str] | None = None) -> tuple[bool, list[str], str]:
     exe = shutil.which("ffprobe")
     if not exe:
         return False, [], "ffprobe not found"
@@ -193,8 +197,12 @@ def ffprobe_verify(url: str, referer: str) -> tuple[bool, list[str], str]:
         "-probesize", "131072",
         "-analyzeduration", str(FFPROBE_ANALYZE_US),
         "-show_entries", "stream=codec_name,codec_type",
-        "-of", "json", url,
+        "-of", "json",
     ]
+    hdr = replay_headers(extra_headers or {})
+    if hdr:
+        cmd += ["-headers", "".join(f"{k}: {v}\r\n" for k, v in hdr.items())]
+    cmd.append(url)
     try:
         cp = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=FFPROBE_TIMEOUT_SECONDS)
     except subprocess.TimeoutExpired:
@@ -264,6 +272,15 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, list[str], 
         status = int(resp.status)
         if "/fetch" in url:
             events.append({"response": "fetch", "status": status, "url": redact_url(url)})
+            try:
+                body = resp.json()
+            except Exception:
+                body = None
+            if isinstance(body, dict):
+                events.append({"fetch_body_keys": sorted(str(k) for k in body.keys())})
+                hosts = sorted({urllib.parse.urlsplit(v).netloc for v in body.values() if isinstance(v, str) and v.startswith("http")})
+                if hosts:
+                    events.append({"fetch_url_hosts": hosts})
         if not MEDIA_RE.search(url):
             return
         row = observed.setdefault(url, {"status": None, "request_seen": False, "response_seen": False})
@@ -280,10 +297,9 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, list[str], 
         if resp is not None:
             main_status = int(resp.status)
         deadline = time.time() + BROWSER_WAIT_SECONDS
+        # Observe the full window: players may retry dead CDN hosts and only
+        # surface a working URL on a later request.
         while time.time() < deadline:
-            if observed:
-                page.wait_for_timeout(750)
-                break
             page.wait_for_timeout(250)
         if not observed:
             for selector in ["video", "button", "[class*=play]", "[aria-label*=play i]"]:
@@ -323,7 +339,8 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, list[str], 
 
         for url, meta in observed.items():
             status = meta.get("status")
-            ok, codecs, err = ffprobe_verify(url, referer)
+            headers = meta.get("headers") if isinstance(meta.get("headers"), dict) else {}
+            ok, codecs, err = ffprobe_verify(url, referer, headers)
             events.append({
                 "ffprobe": ok,
                 "url": redact_url(url),
@@ -332,6 +349,8 @@ def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, list[str], 
                 "browser_status": status,
                 "request_seen": bool(meta.get("request_seen")),
                 "response_seen": bool(meta.get("response_seen")),
+                "has_cookie": bool(headers.get("cookie")),
+                "header_names": sorted(headers.keys()),
             })
             if ok:
                 result_url = url

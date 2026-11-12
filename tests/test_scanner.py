@@ -166,6 +166,10 @@ class TestScanner(unittest.TestCase):
         self.assertIn("https://m.example/x.m3u8", text)
         self.assertIn('group-title="LiveXTV"', text)
 
+    def test_replay_headers(self):
+        h = {"cookie": "a=b", "x-token": "t", "referer": "r", "host": "h", "user-agent": "u"}
+        self.assertEqual(sc.replay_headers(h), {"cookie": "a=b", "x-token": "t"})
+
     def test_browser_launch_kwargs(self):
         with patch.object(sc, "BROWSER_CHANNEL", "chrome"):
             self.assertEqual(sc.browser_launch_kwargs(), {"headless": True, "channel": "chrome"})
