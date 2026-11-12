@@ -7,30 +7,26 @@ import os
 import re
 import shutil
 import subprocess
-import sys
 import time
 import urllib.parse
-from datetime import datetime, timezone
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Any
 
 import requests
 
-VERSION = "0.1.3"
-HOME = os.getenv("LIVEXTV_HOME", "https://livextv.pro/")
-API_BASE = os.getenv("LIVEXTV_API_BASE", "https://livextv-backend.onrender.com/api").rstrip("/")
+VERSION = "0.2.0"
+API_BASE = os.getenv("LIVEXTV_API_BASE", "https://api.ppv.st/api").rstrip("/")
 UA = os.getenv(
     "LIVEXTV_USER_AGENT",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
 )
-REFERER = os.getenv("LIVEXTV_MEDIA_REFERER", "https://embed.st/")
 OUT_M3U = Path(os.getenv("LIVEXTV_OUTPUT", "livextv.m3u"))
 STATE_FILE = Path(os.getenv("LIVEXTV_STATE", "state/livextv_last_good.json"))
 REPORT_FILE = Path(os.getenv("LIVEXTV_REPORT", "scan_report.json"))
-MAX_MATCHES = int(os.getenv("LIVEXTV_MAX_MATCHES", "30"))
-MAX_SOURCES_PER_MATCH = int(os.getenv("LIVEXTV_MAX_SOURCES_PER_MATCH", "3"))
+MAX_STREAMS = int(os.getenv("LIVEXTV_MAX_MATCHES", "30"))
+MAX_SUBSTREAMS = int(os.getenv("LIVEXTV_MAX_SOURCES_PER_MATCH", "2"))
 MAX_EMBEDS = int(os.getenv("LIVEXTV_MAX_EMBEDS", "45"))
 BROWSER_WAIT_SECONDS = float(os.getenv("LIVEXTV_BROWSER_WAIT_SECONDS", "7"))
 BROWSER_CHANNEL = os.getenv("LIVEXTV_BROWSER_CHANNEL", "").strip().lower()
@@ -39,16 +35,16 @@ HTTP_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_HTTP_TIMEOUT_SECONDS", "15"))
 FFPROBE_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_FFPROBE_TIMEOUT_SECONDS", "18"))
 FFPROBE_ANALYZE_US = int(os.getenv("LIVEXTV_FFPROBE_ANALYZE_US", "1500000"))
 LAST_GOOD_TTL_SECONDS = int(os.getenv("LIVEXTV_LAST_GOOD_TTL_SECONDS", "900"))
-FALLBACK_ALL = os.getenv("LIVEXTV_FALLBACK_ALL", "0").lower() in {"1", "true", "yes"}
-NEARBY_FALLBACK = os.getenv("LIVEXTV_NEARBY_FALLBACK", "1").lower() in {"1", "true", "yes"}
-MIN_SOURCE_PAIRS = int(os.getenv("LIVEXTV_MIN_SOURCE_PAIRS", "6"))
-NEARBY_MAX_MATCHES = int(os.getenv("LIVEXTV_NEARBY_MAX_MATCHES", "8"))
-NEARBY_WINDOW_BEFORE_SECONDS = int(os.getenv("LIVEXTV_NEARBY_WINDOW_BEFORE_SECONDS", "10800"))
-NEARBY_WINDOW_AFTER_SECONDS = int(os.getenv("LIVEXTV_NEARBY_WINDOW_AFTER_SECONDS", "14400"))
+LIVE_WINDOW_BEFORE_SECONDS = int(os.getenv("LIVEXTV_LIVE_WINDOW_BEFORE_SECONDS", "10800"))
+LIVE_GRACE_AFTER_SECONDS = int(os.getenv("LIVEXTV_LIVE_GRACE_AFTER_SECONDS", "1800"))
+REFERER_OVERRIDE = os.getenv("LIVEXTV_MEDIA_REFERER", "").strip()
+DRY_RUN = os.getenv("LIVEXTV_DRY_RUN", "0").lower() in {"1", "true", "yes"}
 GROUP_TITLE = os.getenv("LIVEXTV_GROUP_TITLE", "LiveXTV")
 
 SECURE_RE = re.compile(r"(/secure/)([^/]+)(/)", re.I)
 MEDIA_RE = re.compile(r"\.m3u8(?:$|\?)", re.I)
+HTML_MEDIA_RE = re.compile(r"https?://[^\"'<>\\ ]+?\.m3u8(?:\?[^\"'<>\\ ]*)?", re.I)
+QUALITY_RE = re.compile(r"(\d{3,4}p)", re.I)
 
 
 def now_ts() -> int:
@@ -81,93 +77,275 @@ def load_json(path: Path, default: Any) -> Any:
         return default
 
 
-def api_rows(obj: Any) -> list[dict[str, Any]]:
-    if isinstance(obj, dict) and isinstance(obj.get("data"), list):
-        obj = obj["data"]
-    if not isinstance(obj, list):
-        return []
-    return [x for x in obj if isinstance(x, dict)]
+def stream_categories(obj: Any) -> list[dict[str, Any]]:
+    if isinstance(obj, dict) and isinstance(obj.get("streams"), list):
+        return [c for c in obj["streams"] if isinstance(c, dict)]
+    return []
 
 
-def source_pairs(matches: list[dict[str, Any]]) -> list[dict[str, str]]:
-    out: list[dict[str, str]] = []
-    seen: set[tuple[str, str, str]] = set()
-    for m in matches[:MAX_MATCHES]:
-        mid = str(m.get("id") or "").strip()
-        title = clean_title(str(m.get("title") or mid))
-        category = str(m.get("category") or "").strip()
-        sources = m.get("sources") if isinstance(m.get("sources"), list) else []
-        for s in sources[:MAX_SOURCES_PER_MATCH]:
-            if not isinstance(s, dict):
+def is_live_now(row: dict[str, Any], now: int) -> bool:
+    if row.get("always_live"):
+        return True
+    starts = int(row.get("starts_at") or 0)
+    ends = int(row.get("ends_at") or 0)
+    if starts <= 0 or starts > now:
+        return False
+    if ends > 0:
+        return now <= ends + LIVE_GRACE_AFTER_SECONDS
+    return now - starts <= LIVE_WINDOW_BEFORE_SECONDS
+
+
+def quality_of(variant: dict[str, Any]) -> str:
+    m = QUALITY_RE.search(str(variant.get("uri_name") or ""))
+    if m:
+        return m.group(1).lower()
+    tag = str(variant.get("source_tag") or "").split("|")[0].strip().upper()
+    return tag if tag in {"HD", "SD", "FHD", "4K"} else ""
+
+
+def referer_for(embed_url: str) -> str:
+    if REFERER_OVERRIDE:
+        return REFERER_OVERRIDE
+    p = urllib.parse.urlsplit(embed_url)
+    return f"{p.scheme}://{p.netloc}/"
+
+
+@dataclass
+class Candidate:
+    key: str
+    title: str
+    category: str
+    quality: str
+    embed_url: str
+
+
+@dataclass
+class Entry:
+    key: str
+    title: str
+    category: str
+    quality: str
+    embed_url: str
+    url: str
+    referer: str
+    user_agent: str
+    verified_at: int
+    codecs: list[str]
+
+
+def discover_candidates(session: requests.Session) -> tuple[list[Candidate], int, bool, list[str]]:
+    try:
+        r = session.get(f"{API_BASE}/streams", timeout=HTTP_TIMEOUT_SECONDS)
+        r.raise_for_status()
+        cats = stream_categories(r.json())
+    except Exception as exc:
+        return [], 0, False, [f"streams: {type(exc).__name__}: {exc}"]
+
+    live: list[tuple[str, dict[str, Any]]] = []
+    now = now_ts()
+    for cat in cats:
+        category = clean_title(str(cat.get("category") or ""))
+        for st in cat.get("streams") or []:
+            if isinstance(st, dict) and is_live_now(st, now):
+                live.append((category, st))
+    live = live[:MAX_STREAMS]
+
+    out: list[Candidate] = []
+    seen: set[str] = set()
+    for category, st in live:
+        variants = [st] + [v for v in (st.get("substreams") or []) if isinstance(v, dict)][:MAX_SUBSTREAMS]
+        for idx, v in enumerate(variants):
+            embed = str(v.get("iframe") or "").strip()
+            if not embed.startswith("http"):
                 continue
-            source = str(s.get("source") or "").strip()
-            sid = str(s.get("id") or "").strip()
-            key = (mid, source, sid)
-            if source and sid and key not in seen:
-                seen.add(key)
-                out.append({"match_id": mid, "title": title, "category": category, "source": source, "source_id": sid, "discovery": str(m.get("_discovery") or "live")})
-    return out
+            key = f"{st.get('id')}|{0 if idx == 0 else (v.get('id') or 0)}"
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(Candidate(
+                key=key,
+                title=clean_title(str(st.get("name") or st.get("id") or "")),
+                category=category,
+                quality=quality_of(v),
+                embed_url=embed,
+            ))
+            if len(out) >= MAX_EMBEDS:
+                return out, len(live), True, []
+    return out, len(live), True, []
 
 
-def build_stream_url(source: str, source_id: str) -> str:
-    return f"{API_BASE}/stream/{urllib.parse.quote(source, safe='')}/{urllib.parse.quote(source_id, safe='')}"
+def browser_launch_kwargs() -> dict[str, Any]:
+    kw: dict[str, Any] = {"headless": True}
+    if BROWSER_CHANNEL and BROWSER_CHANNEL not in {"chromium", "bundled"}:
+        kw["channel"] = BROWSER_CHANNEL
+    return kw
 
 
-def match_epoch_seconds(row: dict[str, Any]) -> int | None:
-    """Best-effort parse of a match start time; LiveXTV currently uses epoch ms."""
-    for key in ("date", "startTime", "start_time", "timestamp", "time"):
-        raw = row.get(key)
-        if raw in (None, ""):
-            continue
-        if isinstance(raw, (int, float)):
-            value = float(raw)
-            if value > 10_000_000_000:
-                value /= 1000.0
-            if value > 0:
-                return int(value)
-        text = str(raw).strip()
+def ffprobe_verify(url: str, referer: str) -> tuple[bool, list[str], str]:
+    exe = shutil.which("ffprobe")
+    if not exe:
+        return False, [], "ffprobe not found"
+    cmd = [
+        exe, "-hide_banner", "-v", "error",
+        "-rw_timeout", "12000000",
+        "-user_agent", UA,
+        "-referer", referer,
+        "-probesize", "131072",
+        "-analyzeduration", str(FFPROBE_ANALYZE_US),
+        "-show_entries", "stream=codec_name,codec_type",
+        "-of", "json", url,
+    ]
+    try:
+        cp = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=FFPROBE_TIMEOUT_SECONDS)
+    except subprocess.TimeoutExpired:
+        return False, [], "ffprobe timeout"
+    except Exception as exc:
+        return False, [], f"{type(exc).__name__}: {exc}"
+    if cp.returncode != 0:
+        return False, [], (cp.stderr or "")[-500:]
+    try:
+        obj = json.loads(cp.stdout or "{}")
+        streams = obj.get("streams") if isinstance(obj, dict) else []
+    except Exception:
+        streams = []
+    codecs = [str(x.get("codec_name") or "") for x in streams if isinstance(x, dict) and x.get("codec_name")]
+    types = [str(x.get("codec_type") or "") for x in streams if isinstance(x, dict)]
+    good_video = any(t == "video" and c.lower() not in {"png", "mjpeg", "jpeg"} for t, c in zip(types, codecs))
+    good_audio = any(t == "audio" for t in types)
+    ok = bool(good_video or good_audio)
+    return ok, codecs, "" if ok else "no playable audio/video stream"
+
+
+def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, list[str], list[dict[str, Any]]]:
+    events: list[dict[str, Any]] = []
+    # Capture media URLs at REQUEST time: runners may never surface a response
+    # event even though ffprobe can fetch the same URL directly.
+    observed: dict[str, dict[str, Any]] = {}
+    page = browser.new_page()
+    main_status: int | None = None
+    result_url: str | None = None
+    result_codecs: list[str] = []
+    referer = referer_for(candidate.embed_url)
+
+    def on_request(req):
+        u = req.url
+        if "/fetch" in u or MEDIA_RE.search(u):
+            events.append({
+                "request": "fetch" if "/fetch" in u else "media",
+                "method": req.method,
+                "url": redact_url(u),
+                "resource_type": req.resource_type,
+            })
+        if MEDIA_RE.search(u):
+            try:
+                headers = {str(k).lower(): str(v) for k, v in dict(req.headers).items()}
+            except Exception:
+                headers = {}
+            row = observed.setdefault(u, {"status": None, "request_seen": False, "response_seen": False})
+            row["request_seen"] = True
+            if headers:
+                row["headers"] = headers
+
+    def on_request_failed(req):
+        u = req.url
+        if "/fetch" in u or MEDIA_RE.search(u):
+            try:
+                failure = req.failure
+            except Exception:
+                failure = None
+            events.append({"request_failed": redact_url(u), "failure": str(failure or "")[:300]})
+
+    def on_console(msg):
+        if msg.type in {"error", "warning"}:
+            events.append({"console": msg.type, "text": str(msg.text)[:500]})
+
+    def on_response(resp):
+        url = resp.url
+        status = int(resp.status)
+        if "/fetch" in url:
+            events.append({"response": "fetch", "status": status, "url": redact_url(url)})
+        if not MEDIA_RE.search(url):
+            return
+        row = observed.setdefault(url, {"status": None, "request_seen": False, "response_seen": False})
+        row["status"] = status
+        row["response_seen"] = True
+        events.append({"response": "media", "status": status, "url": redact_url(url)})
+
+    page.on("request", on_request)
+    page.on("requestfailed", on_request_failed)
+    page.on("console", on_console)
+    page.on("response", on_response)
+    try:
+        resp = page.goto(candidate.embed_url, wait_until="domcontentloaded", timeout=BROWSER_TIMEOUT_SECONDS * 1000)
+        if resp is not None:
+            main_status = int(resp.status)
+        deadline = time.time() + BROWSER_WAIT_SECONDS
+        while time.time() < deadline:
+            if observed:
+                page.wait_for_timeout(750)
+                break
+            page.wait_for_timeout(250)
+        if not observed:
+            for selector in ["video", "button", "[class*=play]", "[aria-label*=play i]"]:
+                try:
+                    loc = page.locator(selector).first
+                    if loc.count() and loc.is_visible():
+                        loc.click(timeout=1200)
+                        page.wait_for_timeout(1800)
+                        events.append({"clicked": selector})
+                        break
+                except Exception:
+                    pass
         try:
-            value = float(text)
-            if value > 10_000_000_000:
-                value /= 1000.0
-            if value > 0:
-                return int(value)
-        except ValueError:
+            title = page.title()
+        except Exception:
+            title = ""
+        try:
+            html = page.content()
+            html_len = len(html)
+        except Exception:
+            html = ""
+            html_len = 0
+        # Some embeds inline the playlist URL in page source; use it as a
+        # fallback source when the player never fires a media request.
+        for u in HTML_MEDIA_RE.findall(html):
+            if u not in observed:
+                observed.setdefault(u, {"status": None, "request_seen": False, "response_seen": False})
+                events.append({"html_media": redact_url(u)})
+        events.append({
+            "page": {
+                "status": main_status,
+                "url": page.url,
+                "title": title[:200],
+                "html_length": html_len,
+            }
+        })
+
+        for url, meta in observed.items():
+            status = meta.get("status")
+            ok, codecs, err = ffprobe_verify(url, referer)
+            events.append({
+                "ffprobe": ok,
+                "url": redact_url(url),
+                "codecs": codecs,
+                "error": err[:300],
+                "browser_status": status,
+                "request_seen": bool(meta.get("request_seen")),
+                "response_seen": bool(meta.get("response_seen")),
+            })
+            if ok:
+                result_url = url
+                result_codecs = codecs
+                break
+    except Exception as exc:
+        events.append({"error": f"{type(exc).__name__}: {exc}"})
+    finally:
+        try:
+            page.close()
+        except Exception:
             pass
-        try:
-            dt = datetime.fromisoformat(text.replace("Z", "+00:00"))
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            return int(dt.timestamp())
-        except ValueError:
-            continue
-    return None
 
-
-def select_nearby_matches(all_rows: list[dict[str, Any]], live_match_ids: set[str], at: int | None = None) -> list[dict[str, Any]]:
-    """Pick non-live-list matches closest to now, within a conservative time window."""
-    at = now_ts() if at is None else int(at)
-    selected: list[tuple[int, int, dict[str, Any]]] = []
-    for row in all_rows:
-        mid = str(row.get("id") or "").strip()
-        if not mid or mid in live_match_ids:
-            continue
-        sources = row.get("sources") if isinstance(row.get("sources"), list) else []
-        if not sources:
-            continue
-        ts = match_epoch_seconds(row)
-        if ts is None:
-            continue
-        delta = ts - at
-        if delta < -NEARBY_WINDOW_BEFORE_SECONDS or delta > NEARBY_WINDOW_AFTER_SECONDS:
-            continue
-        clone = dict(row)
-        clone["_discovery"] = "nearby_all"
-        # Prefer already-started/recent matches, then closest upcoming matches.
-        started_bias = 0 if delta <= 0 else 1
-        selected.append((started_bias, abs(delta), clone))
-    selected.sort(key=lambda x: (x[0], x[1]))
-    return [x[2] for x in selected[:NEARBY_MAX_MATCHES]]
+    return result_url, result_codecs, events
 
 
 def classify_probe(events: list[dict[str, Any]], verified: bool) -> str:
@@ -177,7 +355,7 @@ def classify_probe(events: list[dict[str, Any]], verified: bool) -> str:
     statuses: list[int] = []
     errors: list[str] = []
     for event in events:
-        if event.get("request") == "media" or event.get("response") == "media" or "ffprobe" in event:
+        if event.get("request") == "media" or event.get("response") == "media" or "ffprobe" in event or "html_media" in event:
             saw_media = True
         for key in ("status", "browser_status"):
             val = event.get(key)
@@ -199,303 +377,7 @@ def classify_probe(events: list[dict[str, Any]], verified: bool) -> str:
     return "player_no_media"
 
 
-@dataclass
-class Candidate:
-    key: str
-    match_id: str
-    title: str
-    category: str
-    source: str
-    source_id: str
-    stream_no: int
-    language: str
-    hd: bool
-    embed_url: str
-    discovery: str = "live"
-
-
-@dataclass
-class Entry:
-    key: str
-    match_id: str
-    title: str
-    category: str
-    source: str
-    source_id: str
-    stream_no: int
-    language: str
-    hd: bool
-    embed_url: str
-    url: str
-    referer: str
-    user_agent: str
-    verified_at: int
-    codecs: list[str]
-
-
-def candidate_from_row(pair: dict[str, str], row: dict[str, Any]) -> Candidate | None:
-    embed = str(row.get("embedUrl") or row.get("embed_url") or "").strip()
-    if not embed.startswith("http"):
-        return None
-    try:
-        stream_no = int(row.get("streamNo") or row.get("stream_no") or 1)
-    except Exception:
-        stream_no = 1
-    key = f"{pair['match_id']}|{pair['source']}|{pair['source_id']}|{stream_no}"
-    return Candidate(
-        key=key,
-        match_id=pair["match_id"], title=pair["title"], category=pair["category"],
-        source=pair["source"], source_id=pair["source_id"], stream_no=stream_no,
-        language=clean_title(str(row.get("language") or "")), hd=bool(row.get("hd")), embed_url=embed,
-        discovery=str(pair.get("discovery") or "live"),
-    )
-
-
-def browser_launch_kwargs() -> dict[str, Any]:
-    kw: dict[str, Any] = {"headless": True}
-    if BROWSER_CHANNEL and BROWSER_CHANNEL not in {"chromium", "bundled"}:
-        kw["channel"] = BROWSER_CHANNEL
-    return kw
-
-
-def ffprobe_verify(url: str) -> tuple[bool, list[str], str]:
-    exe = shutil.which("ffprobe")
-    if not exe:
-        return False, [], "ffprobe not found"
-    cmd = [
-        exe, "-hide_banner", "-v", "error",
-        "-rw_timeout", "12000000",
-        "-user_agent", UA,
-        "-referer", REFERER,
-        "-probesize", "131072",
-        "-analyzeduration", str(FFPROBE_ANALYZE_US),
-        "-show_entries", "stream=codec_name,codec_type",
-        "-of", "json", url,
-    ]
-    try:
-        cp = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=FFPROBE_TIMEOUT_SECONDS)
-    except subprocess.TimeoutExpired:
-        return False, [], "ffprobe timeout"
-    except Exception as exc:
-        return False, [], f"{type(exc).__name__}: {exc}"
-    if cp.returncode != 0:
-        return False, [], (cp.stderr or "")[-500:]
-    try:
-        obj = json.loads(cp.stdout or "{}")
-        streams = obj.get("streams") if isinstance(obj, dict) else []
-    except Exception:
-        streams = []
-    codecs = [str(x.get("codec_name") or "") for x in streams if isinstance(x, dict) and x.get("codec_name")]
-    types = [str(x.get("codec_type") or "") for x in streams if isinstance(x, dict)]
-    # Require a real A/V stream; ignore PNG cover/thumbnail-only responses.
-    good_video = any(t == "video" and c.lower() not in {"png", "mjpeg", "jpeg"} for t, c in zip(types, codecs))
-    good_audio = any(t == "audio" for t in types)
-    ok = bool(good_video or good_audio)
-    return ok, codecs, "" if ok else "no playable audio/video stream"
-
-
-def capture_m3u8(candidate: Candidate, browser) -> tuple[str | None, dict[str, str], list[str], list[dict[str, Any]]]:
-    events: list[dict[str, Any]] = []
-    # Keep media URLs from REQUEST time, not only successful browser responses.
-    # GitHub runners can emit the secure M3U8 request but never surface a
-    # response event even though ffprobe can fetch the same URL directly.
-    observed: dict[str, dict[str, Any]] = {}
-    page = browser.new_page()
-    main_status: int | None = None
-    result_url: str | None = None
-    result_headers: dict[str, str] = {}
-    result_codecs: list[str] = []
-
-    def on_request(req):
-        u = req.url
-        if "/fetch" in u or MEDIA_RE.search(u):
-            events.append({
-                "request": "fetch" if "/fetch" in u else "media",
-                "method": req.method,
-                "url": redact_url(u),
-                "resource_type": req.resource_type,
-            })
-        if MEDIA_RE.search(u):
-            try:
-                headers = {str(k).lower(): str(v) for k, v in dict(req.headers).items()}
-            except Exception:
-                headers = {}
-            row = observed.setdefault(u, {"headers": {}, "status": None, "request_seen": False, "response_seen": False})
-            row["request_seen"] = True
-            if headers:
-                row["headers"] = headers
-
-    def on_request_failed(req):
-        u = req.url
-        if "/fetch" in u or MEDIA_RE.search(u) or "embed.st" in u or "strmd" in u:
-            try:
-                failure = req.failure
-            except Exception:
-                failure = None
-            events.append({"request_failed": redact_url(u), "failure": str(failure or "")[:300]})
-
-    def on_console(msg):
-        if msg.type in {"error", "warning"}:
-            events.append({"console": msg.type, "text": str(msg.text)[:500]})
-
-    def on_response(resp):
-        url = resp.url
-        status = int(resp.status)
-        if "/fetch" in url:
-            events.append({"response": "fetch", "status": status, "url": redact_url(url)})
-        if not MEDIA_RE.search(url):
-            return
-        try:
-            headers = {str(k).lower(): str(v) for k, v in dict(resp.request.headers).items()}
-        except Exception:
-            headers = {}
-        row = observed.setdefault(url, {"headers": {}, "status": None, "request_seen": False, "response_seen": False})
-        row["status"] = status
-        row["response_seen"] = True
-        if headers:
-            row["headers"] = headers
-        events.append({"response": "media", "status": status, "url": redact_url(url), "referer": headers.get("referer", "")})
-
-    page.on("request", on_request)
-    page.on("requestfailed", on_request_failed)
-    page.on("console", on_console)
-    page.on("response", on_response)
-    try:
-        resp = page.goto(candidate.embed_url, wait_until="domcontentloaded", timeout=BROWSER_TIMEOUT_SECONDS * 1000)
-        if resp is not None:
-            main_status = int(resp.status)
-        deadline = time.time() + BROWSER_WAIT_SECONDS
-        while time.time() < deadline:
-            if any("/secure/" in u for u in observed):
-                # Give the browser request a brief head start, but do not wait
-                # for Playwright to emit a response event.
-                page.wait_for_timeout(750)
-                break
-            page.wait_for_timeout(250)
-        if not any("/secure/" in u for u in observed):
-            for selector in ["video", "button", "[class*=play]", "[aria-label*=play i]"]:
-                try:
-                    loc = page.locator(selector).first
-                    if loc.count() and loc.is_visible():
-                        loc.click(timeout=1200)
-                        page.wait_for_timeout(1800)
-                        events.append({"clicked": selector})
-                        break
-                except Exception:
-                    pass
-        try:
-            title = page.title()
-        except Exception:
-            title = ""
-        try:
-            html = page.content()
-            script_hosts = sorted(set(re.findall(r'https?://([^/"\'<> ]+)', html)))[:20]
-            html_len = len(html)
-        except Exception:
-            script_hosts = []
-            html_len = 0
-        try:
-            sig = page.evaluate("() => ({ua:navigator.userAgent, webdriver:navigator.webdriver, platform:navigator.platform})")
-        except Exception:
-            sig = {}
-        events.append({
-            "page": {
-                "status": main_status,
-                "url": page.url,
-                "title": title[:200],
-                "html_length": html_len,
-                "script_hosts": script_hosts,
-                "browser": sig,
-            }
-        })
-
-        # Verify while the browser context is still alive. The secure URL is
-        # eligible as soon as its REQUEST is observed; a browser response
-        # event is diagnostic only and is no longer a gate.
-        for url, meta in observed.items():
-            if "/secure/" not in url:
-                continue
-            headers = meta.get("headers") if isinstance(meta.get("headers"), dict) else {}
-            status = meta.get("status")
-            ok, codecs, err = ffprobe_verify(url)
-            events.append({
-                "ffprobe": ok,
-                "url": redact_url(url),
-                "codecs": codecs,
-                "error": err[:300],
-                "browser_status": status,
-                "request_seen": bool(meta.get("request_seen")),
-                "response_seen": bool(meta.get("response_seen")),
-                "trigger": "request" if meta.get("request_seen") else "response",
-            })
-            if ok:
-                result_url = url
-                result_headers = headers
-                result_codecs = codecs
-                break
-    except Exception as exc:
-        events.append({"error": f"{type(exc).__name__}: {exc}"})
-    finally:
-        try:
-            page.close()
-        except Exception:
-            pass
-
-    if result_url:
-        return result_url, result_headers, result_codecs, events
-    return None, {}, [], events
-
-def fetch_match_rows(session: requests.Session, endpoint: str) -> tuple[list[dict[str, Any]], bool, str | None]:
-    url = f"{API_BASE}/{endpoint}"
-    try:
-        r = session.get(url, timeout=HTTP_TIMEOUT_SECONDS)
-        r.raise_for_status()
-        return api_rows(r.json()), True, None
-    except Exception as exc:
-        return [], False, f"{endpoint}: {type(exc).__name__}: {exc}"
-
-
-def discover_matches(session: requests.Session) -> tuple[list[dict[str, Any]], bool, list[str]]:
-    rows, ok, err = fetch_match_rows(session, "matches/live")
-    errors = [err] if err else []
-    for row in rows:
-        row.setdefault("_discovery", "live")
-    # Backward-compatible emergency mode: if live endpoint itself fails and the
-    # operator explicitly enabled LIVEXTV_FALLBACK_ALL, use all rows directly.
-    if not ok and FALLBACK_ALL:
-        all_rows, all_ok, all_err = fetch_match_rows(session, "matches/all")
-        if all_err:
-            errors.append(all_err)
-        if all_ok:
-            for row in all_rows:
-                row.setdefault("_discovery", "fallback_all")
-            return all_rows, True, errors
-    return rows, ok, errors
-
-
-def discover_candidates(session: requests.Session, pairs: list[dict[str, str]]) -> tuple[list[Candidate], list[str]]:
-    out: list[Candidate] = []
-    errors: list[str] = []
-    seen: set[str] = set()
-    for pair in pairs:
-        try:
-            r = session.get(build_stream_url(pair["source"], pair["source_id"]), timeout=HTTP_TIMEOUT_SECONDS)
-            r.raise_for_status()
-            rows = api_rows(r.json())
-        except Exception as exc:
-            errors.append(f"stream {pair['source']}/{pair['source_id']}: {type(exc).__name__}: {exc}")
-            continue
-        for row in rows:
-            c = candidate_from_row(pair, row)
-            if c and c.key not in seen:
-                seen.add(c.key)
-                out.append(c)
-                if len(out) >= MAX_EMBEDS:
-                    return out, errors
-    return out, errors
-
-
-def merge_last_good(current: list[Entry], previous_state: dict[str, Any], live_match_ids: set[str], api_ok: bool) -> tuple[list[Entry], int]:
+def merge_last_good(current: list[Entry], previous_state: dict[str, Any], current_keys: set[str], api_ok: bool) -> tuple[list[Entry], int]:
     now = now_ts()
     by_key = {e.key: e for e in current}
     reused = 0
@@ -514,8 +396,7 @@ def merge_last_good(current: list[Entry], previous_state: dict[str, Any], live_m
         age = now - int(e.verified_at)
         if age < 0 or age > LAST_GOOD_TTL_SECONDS:
             continue
-        # If live API succeeded, never resurrect a match that has disappeared from live list.
-        if api_ok and e.match_id not in live_match_ids:
+        if api_ok and e.key not in current_keys:
             continue
         by_key[e.key] = e
         reused += 1
@@ -524,18 +405,14 @@ def merge_last_good(current: list[Entry], previous_state: dict[str, Any], live_m
 
 def entry_name(e: Entry) -> str:
     bits = [e.title]
-    if e.language:
-        bits.append(e.language)
-    if e.hd:
-        bits.append("HD")
-    if e.stream_no > 1:
-        bits.append(f"S{e.stream_no}")
+    if e.quality:
+        bits.append(e.quality)
     return " • ".join(bits)
 
 
 def render_m3u(entries: list[Entry]) -> str:
     lines = ["#EXTM3U"]
-    for e in sorted(entries, key=lambda x: (x.category, x.title.lower(), x.stream_no, x.source)):
+    for e in sorted(entries, key=lambda x: (x.category, x.title.lower(), x.quality, x.key)):
         name = entry_name(e)
         lines.append(f'#EXTINF:-1 group-title="{esc_attr(GROUP_TITLE)}" tvg-name="{esc_attr(name)}",{name}')
         lines.append(f"#EXTVLCOPT:http-referrer={e.referer}")
@@ -553,55 +430,35 @@ def public_entry(e: Entry) -> dict[str, Any]:
 def main() -> int:
     started = time.time()
     session = requests.Session()
-    session.headers.update({"User-Agent": UA, "Accept": "application/json,text/plain,*/*", "Referer": HOME})
-    live_matches, api_ok, errors = discover_matches(session)
-    live_match_ids = {str(m.get("id") or "") for m in live_matches if m.get("id")}
-    probe_matches = list(live_matches)
-    nearby_matches: list[dict[str, Any]] = []
-    live_pairs = source_pairs(live_matches)
-
-    if NEARBY_FALLBACK and api_ok and len(live_pairs) < MIN_SOURCE_PAIRS:
-        all_rows, all_ok, all_err = fetch_match_rows(session, "matches/all")
-        if all_err:
-            errors.append(all_err)
-        if all_ok:
-            nearby_matches = select_nearby_matches(all_rows, live_match_ids)
-            probe_matches.extend(nearby_matches)
-
-    pairs = source_pairs(probe_matches)
-    candidates, stream_errors = discover_candidates(session, pairs)
-    errors.extend(stream_errors)
+    session.headers.update({"User-Agent": UA, "Accept": "application/json,text/plain,*/*"})
+    candidates, live_streams, api_ok, errors = discover_candidates(session)
 
     print(f"LiveXTV GitHub Scanner v{VERSION}")
-    print(
-        f"live_matches={len(live_matches)} nearby={len(nearby_matches)} "
-        f"source_pairs={len(pairs)} embeds={len(candidates)}"
-    )
+    print(f"api_ok={api_ok} live_streams={live_streams} embeds={len(candidates)}")
 
     current: list[Entry] = []
     browser_events: list[dict[str, Any]] = []
-    if candidates:
+    if candidates and not DRY_RUN:
         try:
             from playwright.sync_api import sync_playwright
             with sync_playwright() as p:
                 browser = p.chromium.launch(**browser_launch_kwargs())
                 context = browser.new_context(user_agent=UA, viewport={"width": 1280, "height": 900}, ignore_https_errors=False)
                 for idx, c in enumerate(candidates, 1):
-                    print(f"[{idx}/{len(candidates)}] {c.title} | {c.source} S{c.stream_no}")
-                    url, _headers, codecs, events = capture_m3u8(c, context)
+                    print(f"[{idx}/{len(candidates)}] {c.title} | {c.quality or 'main'}")
+                    url, codecs, events = capture_m3u8(c, context)
                     classification = classify_probe(events, bool(url))
                     browser_events.append({
                         "key": c.key, "title": c.title, "embed": c.embed_url,
-                        "discovery": c.discovery, "classification": classification, "events": events,
+                        "classification": classification, "events": events,
                     })
                     if not url:
                         print(f"  {classification.upper()}")
                         continue
                     current.append(Entry(
-                        key=c.key, match_id=c.match_id, title=c.title, category=c.category,
-                        source=c.source, source_id=c.source_id, stream_no=c.stream_no,
-                        language=c.language, hd=c.hd, embed_url=c.embed_url, url=url,
-                        referer=REFERER, user_agent=UA, verified_at=now_ts(), codecs=codecs,
+                        key=c.key, title=c.title, category=c.category, quality=c.quality,
+                        embed_url=c.embed_url, url=url, referer=referer_for(c.embed_url),
+                        user_agent=UA, verified_at=now_ts(), codecs=codecs,
                     ))
                     print(f"  PASS {','.join(codecs)} {redact_url(url)}")
                 context.close()
@@ -610,7 +467,7 @@ def main() -> int:
             errors.append(f"playwright: {type(exc).__name__}: {exc}")
 
     previous = load_json(STATE_FILE, {})
-    final_entries, reused = merge_last_good(current, previous, live_match_ids, api_ok)
+    final_entries, reused = merge_last_good(current, previous, {c.key for c in candidates}, api_ok)
 
     state = {
         "version": VERSION,
@@ -629,11 +486,7 @@ def main() -> int:
         "started_at": int(started),
         "elapsed_seconds": round(time.time() - started, 2),
         "api_ok": api_ok,
-        "matches": len(probe_matches),
-        "live_matches": len(live_matches),
-        "nearby_fallback_matches": len(nearby_matches),
-        "nearby_fallback_used": bool(nearby_matches),
-        "source_pairs": len(pairs),
+        "live_matches": live_streams,
         "embed_candidates": len(candidates),
         "verified_current": len(current),
         "reused_last_good": reused,
@@ -654,7 +507,6 @@ def main() -> int:
         print(f"warnings/errors={len(errors)}")
         for e in errors[:10]:
             print(" -", e)
-    # Do not fail merely because there are no live matches. Fail only on hard API/browser setup failure with candidates.
     if not api_ok and not final_entries:
         return 2
     return 0

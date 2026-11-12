@@ -1,57 +1,55 @@
-# LiveXTV GitHub Scanner v0.1.3 — bản thử nghiệm
+# LiveXTV GitHub Scanner v0.2.0
 
-## Thay đổi v0.1.3
-
-- Phân loại kết quả media rõ ràng trong `scan_report.json`:
-  - `verified`: `ffprobe` đọc được A/V.
-  - `upstream_dead`: browser/ffprobe nhận 404 hoặc 410.
-  - `client_restricted`: 401/403/429, thường là hạn chế client/header/runner.
-  - `transport_timeout`: timeout khi xác minh.
-  - `media_unverified`: đã thấy M3U8 nhưng chưa xác minh được.
-  - `player_no_media`: player không tạo request media.
-- Nếu `/api/matches/live` có ít hơn `LIVEXTV_MIN_SOURCE_PAIRS` source (mặc định 6), scanner tự lấy thêm một số trận gần thời gian hiện tại từ `/api/matches/all`.
-- Fallback `/matches/all` chỉ dùng các trận có timestamp trong cửa sổ mặc định: 3 giờ trước đến 4 giờ sau thời điểm quét, bỏ các match đã có trong `/matches/live`.
-- Các trận fallback **không được tin mặc định**: chỉ link `ffprobe` PASS mới được ghi vào `livextv.m3u`.
-- `scan_report.json` có thêm `live_matches`, `nearby_fallback_matches`, `nearby_fallback_used` và `classification_counts`.
+Bản viết lại sau khi hạ tầng cũ chết (Render backend suspend, Streamed đóng cửa 27/10/2026).
+Nguồn mới: `https://api.ppv.st/api/streams` (API công khai, không auth).
 
 ## Cơ chế
 
-`/api/matches/live` → nếu source quá ít thì bổ sung `/api/matches/all` gần giờ hiện tại → `/api/stream/{source}/{id}` → `embedUrl` → Chrome/Chromium bắt secure M3U8 request → `ffprobe` trực tiếp với `Referer: https://embed.st/` + User-Agent → chỉ PASS mới ghi M3U.
+`/api/streams` → lọc kênh/streams đang live (`always_live` hoặc đã bắt đầu, chưa kết thúc)
+→ mỗi stream lấy iframe chính + tối đa `LIVEXTV_MAX_SOURCES_PER_MATCH` substreams
+→ Chrome/Chromium headless mở embed, bắt request `.m3u8` (kể cả URL inline trong HTML)
+→ `ffprobe` xác minh với `Referer` = origin của embed + User-Agent
+→ chỉ PASS mới ghi vào `livextv.m3u` (giữ tên file như bản cũ).
 
-M3U xuất thêm:
+M3U xuất kèm:
 
 ```m3u
-#EXTVLCOPT:http-referrer=https://embed.st/
+#EXTVLCOPT:http-referrer=<origin embed>
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 ...
 ```
 
-## Cài vào GitHub
+## Chạy trên GitHub
 
-1. Thay toàn bộ file bản cũ trong repo bằng nội dung thư mục này, giữ `.github/workflows/livextv.yml`.
-2. Vào **Settings → Actions → General → Workflow permissions** và cho workflow quyền ghi repository nếu cần.
-3. Vào **Actions → LiveXTV M3U Refresh → Run workflow**.
-4. Kiểm tra `scan_report.json`, `livextv.m3u`, `state/livextv_last_good.json`.
+1. Thay các file trong repo bằng nội dung thư mục này (workflow tại `.github/workflows/livextv.yml`).
+2. Actions → LiveXTV M3U Refresh → Run workflow.
+3. Xem `scan_report.json`, `livextv.m3u`, `state/livextv_last_good.json` (artifact `livextv-scan-<run>`).
 
-Workflow mặc định chạy khoảng mỗi 5 phút (`2-57/5 * * * *`). GitHub có thể chạy trễ.
+Workflow chạy mỗi 5 phút; runner không bị chặn bởi AV cục bộ nên nhánh browser chạy bình thường.
 
-## Các biến mới
+## Biến môi trường
 
 ```text
-LIVEXTV_NEARBY_FALLBACK=1
-LIVEXTV_MIN_SOURCE_PAIRS=6
-LIVEXTV_NEARBY_MAX_MATCHES=8
-LIVEXTV_NEARBY_WINDOW_BEFORE_SECONDS=10800
-LIVEXTV_NEARBY_WINDOW_AFTER_SECONDS=14400
+LIVEXTV_API_BASE            mặc định https://api.ppv.st/api
+LIVEXTV_MAX_MATCHES         số stream live tối đa (30)
+LIVEXTV_MAX_SOURCES_PER_MATCH  số substreams mỗi stream (2)
+LIVEXTV_MAX_EMBEDS          tổng embed tối đa (45)
+LIVEXTV_BROWSER_WAIT_SECONDS   thời gian chờ request media (7)
+LIVEXTV_LAST_GOOD_TTL_SECONDS  giữ entry cũ tối đa (900)
+LIVEXTV_LIVE_WINDOW_BEFORE_SECONDS  cửa sổ trận đã bắt đầu không có ends_at (10800)
+LIVEXTV_LIVE_GRACE_AFTER_SECONDS    grace sau ends_at (1800)
+LIVEXTV_MEDIA_REFERER       ghi đè referer khi ffprobe (mặc định: origin embed)
+LIVEXTV_DRY_RUN=1           chỉ dò API, không mở browser/ffprobe
 ```
-
-Có thể giảm `LIVEXTV_NEARBY_MAX_MATCHES` nếu muốn giảm số player Chromium phải mở.
 
 ## Last-good
 
-Mặc định giữ entry cũ tối đa 900 giây. Nếu live API chạy thành công và match đã biến mất khỏi danh sách live, entry cũ không được hồi sinh. Entry từ fallback chỉ tồn tại khi lượt hiện tại xác minh lại được, tránh giữ trận ngoài live list quá lâu.
+Giữ entry đã verified tối đa 900s khi API lỗi. Khi API sống, entry không còn trong
+danh sách hiện tại sẽ bị loại (không hồi sinh kênh đã chết).
 
 ## Giới hạn
 
-- Không reverse/bypass `lock.wasm`, DRM hoặc đăng nhập.
-- Secure URL có thể chết nhanh; `upstream_dead` là trạng thái bình thường nếu source LiveXTV đã hết hạn.
+- Không reverse/bypass DRM, wasm lock hay đăng nhập; chỉ quan sát request công khai của player.
+- Embed host của hệ ppv thay đổi thường xuyên và có thể bị AV chặn ở máy cục bộ;
+  nếu player đổi cơ chế phát, nhánh capture cần cập nhật theo.
+- Secure URL có thể chết nhanh; `upstream_dead` là trạng thái bình thường.
 - App IPTV phải hỗ trợ Referer/User-Agent từ `#EXTVLCOPT`.
