@@ -111,4 +111,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh LiveXTV M3U"
+          git pull --rebase
           git push

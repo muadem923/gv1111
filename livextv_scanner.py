@@ -32,9 +32,10 @@ BROWSER_WAIT_SECONDS = float(os.getenv("LIVEXTV_BROWSER_WAIT_SECONDS", "7"))
 BROWSER_CHANNEL = os.getenv("LIVEXTV_BROWSER_CHANNEL", "").strip().lower()
 BROWSER_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_BROWSER_TIMEOUT_SECONDS", "15"))
 HTTP_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_HTTP_TIMEOUT_SECONDS", "15"))
-FFPROBE_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_FFPROBE_TIMEOUT_SECONDS", "18"))
+FFPROBE_TIMEOUT_SECONDS = int(os.getenv("LIVEXTV_FFPROBE_TIMEOUT_SECONDS", "10"))
 FFPROBE_ANALYZE_US = int(os.getenv("LIVEXTV_FFPROBE_ANALYZE_US", "1500000"))
 LAST_GOOD_TTL_SECONDS = int(os.getenv("LIVEXTV_LAST_GOOD_TTL_SECONDS", "900"))
+SCAN_BUDGET_SECONDS = int(os.getenv("LIVEXTV_SCAN_BUDGET_SECONDS", "480"))
 LIVE_WINDOW_BEFORE_SECONDS = int(os.getenv("LIVEXTV_LIVE_WINDOW_BEFORE_SECONDS", "10800"))
 LIVE_GRACE_AFTER_SECONDS = int(os.getenv("LIVEXTV_LIVE_GRACE_AFTER_SECONDS", "1800"))
 REFERER_OVERRIDE = os.getenv("LIVEXTV_MEDIA_REFERER", "").strip()
@@ -191,7 +192,7 @@ def ffprobe_verify(url: str, referer: str, extra_headers: dict[str, str] | None 
         return False, [], "ffprobe not found"
     cmd = [
         exe, "-hide_banner", "-v", "error",
-        "-rw_timeout", "12000000",
+        "-rw_timeout", "6000000",
         "-user_agent", UA,
         "-referer", referer,
         "-probesize", "131072",
@@ -466,6 +467,9 @@ def main() -> int:
                 browser = p.chromium.launch(**browser_launch_kwargs())
                 context = browser.new_context(user_agent=UA, viewport={"width": 1280, "height": 900}, ignore_https_errors=False)
                 for idx, c in enumerate(candidates, 1):
+                    if time.time() - started > SCAN_BUDGET_SECONDS:
+                        errors.append(f"budget: stopped after {idx - 1}/{len(candidates)} embeds")
+                        break
                     print(f"[{idx}/{len(candidates)}] {c.title} | {c.quality or 'main'}")
                     url, codecs, events = capture_m3u8(c, context)
                     classification = classify_probe(events, bool(url))
