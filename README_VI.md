@@ -24,7 +24,9 @@ M3U xuất kèm:
 2. Actions → LiveXTV M3U Refresh → Run workflow.
 3. Xem `scan_report.json`, `livextv.m3u`, `state/livextv_last_good.json` (artifact `livextv-scan-<run>`).
 
-Workflow chạy mỗi 5 phút; runner không bị chặn bởi AV cục bộ nên nhánh browser chạy bình thường.
+Workflow chỉ chạy khi trigger tay (`workflow_dispatch`) — cron tự động của GitHub đã bỏ vì thất thường;
+tự đặt cron bên ngoài gọi API dispatch nếu muốn chạy định kỳ.
+Runner không bị chặn bởi AV cục bộ nên nhánh browser chạy bình thường.
 
 ## Biến môi trường
 
